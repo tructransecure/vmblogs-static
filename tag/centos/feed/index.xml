@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CentOS &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 08:09:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>CentOS &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Bài 8 &#8211; Cài đặt ClamAV antivirus cho Centos</title>
+		<link>./../../../cai-dat-clamav-antivirus-cho-centos/index.html</link>
+					<comments>./../../../cai-dat-clamav-antivirus-cho-centos/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 18 Nov 2014 03:52:50 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[CentOS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=552</guid>
+
+					<description><![CDATA[Cài đặt ClamAV antivirus cho Centos ClamAV antivirus là phần mềm diệt virus mã nguồn mở miễn phí. ClamAV tương đối phổ biến trên các server chạy hệ điều hành Linux. Trích một vài quảng cáo trên trang chủ của hãng ClamAV is an open source antivirus engine for detecting trojans, viruses, malware &#38; other <a class="more-link" href="./../../../cai-dat-clamav-antivirus-cho-centos/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-clamav-antivirus-cho-centos%2F&amp;linkname=B%C3%A0i%208%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20ClamAV%20antivirus%20cho%20Centos" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-clamav-antivirus-cho-centos%2F&amp;linkname=B%C3%A0i%208%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20ClamAV%20antivirus%20cho%20Centos" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-clamav-antivirus-cho-centos%2F&amp;linkname=B%C3%A0i%208%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20ClamAV%20antivirus%20cho%20Centos" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-clamav-antivirus-cho-centos%2F&#038;title=B%C3%A0i%208%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20ClamAV%20antivirus%20cho%20Centos" data-a2a-url="./../../../cai-dat-clamav-antivirus-cho-centos/index.html" data-a2a-title="Bài 8 – Cài đặt ClamAV antivirus cho Centos"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt ClamAV antivirus cho Centos</strong></span></p>
+<p>ClamAV antivirus là phần mềm diệt virus mã nguồn mở miễn phí. ClamAV tương đối phổ biến trên các server chạy hệ điều hành Linux.</p>
+<p>Trích một vài quảng cáo trên trang chủ của hãng</p>
+<blockquote><p>ClamAV is an open source antivirus engine for detecting trojans, viruses, malware &amp; other malicious threats.</p></blockquote>
+<p>&nbsp;</p>
+<blockquote><p>ClamAV is the open source standard for mail gateway scanning software.</p></blockquote>
+<p>&nbsp;</p>
+<blockquote><p>ClamAV includes a multi-threaded scanner daemon, command line utilities for on demand file scanning and automatic signature updates.</p></blockquote>
+<p>&nbsp;</p>
+<blockquote><p>ClamAV supports multiple file formats, file and archive unpacking, and multiple signature languages.</p></blockquote>
+<p>Bài này mình giới thiệu ngắn gọn về cài đặt, cập nhật và quét virus.</p>
+<p>Để cài đặt ClamAV cho CentOS, đơn giản chỉ cần chạy lệnh</p>
+<blockquote><p>yum install clamav</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/1-ClamAV-Installation-1.png" rel="lightbox[552]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-553" src="./../../../wp-content/uploads/2014/11/1-ClamAV-Installation-1-620x352.png" alt="1-ClamAV-Installation-1" width="620" height="352" srcset="./../../../wp-content/uploads/2014/11/1-ClamAV-Installation-1-620x352.png 620w, ./../../../wp-content/uploads/2014/11/1-ClamAV-Installation-1-705x400.png 705w, ./../../../wp-content/uploads/2014/11/1-ClamAV-Installation-1.png 884w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-ClamAV-Installation-2.png" rel="lightbox[552]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-554" src="./../../../wp-content/uploads/2014/11/1-ClamAV-Installation-2-620x230.png" alt="1-ClamAV-Installation-2" width="620" height="230" srcset="./../../../wp-content/uploads/2014/11/1-ClamAV-Installation-2-620x230.png 620w, ./../../../wp-content/uploads/2014/11/1-ClamAV-Installation-2-705x262.png 705w, ./../../../wp-content/uploads/2014/11/1-ClamAV-Installation-2.png 885w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trước khi bắt đầu sử dụng, chúng ta cần cập nhật cơ sở dữ liệu antivirus lên phiên bản mới nhất.</p>
+<p>Gõ lệnh</p>
+<blockquote><p>freshclam</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/2-ClamAV-Update.png" rel="lightbox[552]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-555" src="./../../../wp-content/uploads/2014/11/2-ClamAV-Update-620x164.png" alt="2-ClamAV-Update" width="620" height="164" srcset="./../../../wp-content/uploads/2014/11/2-ClamAV-Update-620x164.png 620w, ./../../../wp-content/uploads/2014/11/2-ClamAV-Update-705x186.png 705w, ./../../../wp-content/uploads/2014/11/2-ClamAV-Update.png 883w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tiếp đến là quét hệ thống.</p>
+<p>Các bạn gõ lệnh</p>
+<blockquote><p>clamscan -r /</p></blockquote>
+<p>trong đó</p>
+<ul>
+<li>-r thực hiện quét bao gồm thư mục</li>
+<li>/ quét toàn hệ thống.</li>
+</ul>
+<p>Ngoài ra có thể quét các thư mục tùy chọn khác như</p>
+<p>/home<br />
+/root<br />
+/media<br />
+/var<br />
+&#8230;</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-ClamAV-Scan.png" rel="lightbox[552]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-556" src="./../../../wp-content/uploads/2014/11/3-ClamAV-Scan-620x113.png" alt="3-ClamAV-Scan" width="620" height="113" srcset="./../../../wp-content/uploads/2014/11/3-ClamAV-Scan-620x113.png 620w, ./../../../wp-content/uploads/2014/11/3-ClamAV-Scan-705x129.png 705w, ./../../../wp-content/uploads/2014/11/3-ClamAV-Scan.png 884w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để tham khảo thêm các tính năng khác, các bạn sử dụng lệnh</p>
+<blockquote><p>man clamscan</p></blockquote>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-clamav-antivirus-cho-centos%2F&amp;linkname=B%C3%A0i%208%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20ClamAV%20antivirus%20cho%20Centos" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-clamav-antivirus-cho-centos%2F&amp;linkname=B%C3%A0i%208%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20ClamAV%20antivirus%20cho%20Centos" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-clamav-antivirus-cho-centos%2F&amp;linkname=B%C3%A0i%208%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20ClamAV%20antivirus%20cho%20Centos" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-clamav-antivirus-cho-centos%2F&#038;title=B%C3%A0i%208%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20ClamAV%20antivirus%20cho%20Centos" data-a2a-url="./../../../cai-dat-clamav-antivirus-cho-centos/index.html" data-a2a-title="Bài 8 – Cài đặt ClamAV antivirus cho Centos"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-clamav-antivirus-cho-centos/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bài 7 – Cài đặt rkhunter, diệt rootkit cho CentOS</title>
+		<link>./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/index.html</link>
+					<comments>./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 18 Nov 2014 03:32:09 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[CentOS]]></category>
+		<category><![CDATA[rkhunter]]></category>
+		<category><![CDATA[rootkit]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=544</guid>
+
+					<description><![CDATA[Bài 7 – Cài đặt rkhunter, diệt rootkit cho CentOS Hệ điều hành Linux tuy an tòan hơn Windows tuy nhiên không phải vì vậy mà quên đi vai trò của các phần mềm diệt virus, malware. Trong bài này mình sẽ giới thiệu rkhunter, một tiện ích nhỏ giúp quét và diệt rootkit cho <a class="more-link" href="./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-rkhunter-diet-rootkit-cho-centos%2F&amp;linkname=B%C3%A0i%207%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20rkhunter%2C%20di%E1%BB%87t%20rootkit%20cho%20CentOS" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-rkhunter-diet-rootkit-cho-centos%2F&amp;linkname=B%C3%A0i%207%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20rkhunter%2C%20di%E1%BB%87t%20rootkit%20cho%20CentOS" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-rkhunter-diet-rootkit-cho-centos%2F&amp;linkname=B%C3%A0i%207%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20rkhunter%2C%20di%E1%BB%87t%20rootkit%20cho%20CentOS" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-rkhunter-diet-rootkit-cho-centos%2F&#038;title=B%C3%A0i%207%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20rkhunter%2C%20di%E1%BB%87t%20rootkit%20cho%20CentOS" data-a2a-url="./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/index.html" data-a2a-title="Bài 7 – Cài đặt rkhunter, diệt rootkit cho CentOS"></a></p><p><span style="color: #0000ff;"><strong>Bài 7 – Cài đặt rkhunter, diệt rootkit cho CentOS</strong></span></p>
+<p>Hệ điều hành Linux tuy an tòan hơn Windows tuy nhiên không phải vì vậy mà quên đi vai trò của các phần mềm diệt virus, malware.</p>
+<p>Trong bài này mình sẽ giới thiệu rkhunter, một tiện ích nhỏ giúp quét và diệt rootkit cho hệ điều hành Linux</p>
+<p>Mình trích một đoạn giới thiệu trang web chính thức của rkhunter</p>
+<blockquote><p>In 2006 the Rootkit Hunter initial developer M. Boelen handed over development. The development team, comprising of two developers, has been releasing Rootkit Hunter since version 1.2.9. The rkhunter [dot] sourceforge [dot] net website is the official home for the Rootkit Hunter project</p></blockquote>
+<p>Vì là tiện ích nhỏ nên cũng không có gì nhiều lắm để nói, chủ yếu mình hướng dẫn cài đặt, cập nhật database cho rkhunter và quét hệ thống.</p>
+<p><strong>Trước tiên là cài đặt</strong></p>
+<blockquote><p>yum install rkhunter</p></blockquote>
+<p>Nếu rkhunter không có sẵn trong repository thì sẽ báo lỗi rkhunter không tồn tại, nếu bạn gặp trường hợp này thì trước tiên làm thao tác sau</p>
+<p>Gõ lệnh</p>
+<blockquote><p>rpm -ivh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm</p></blockquote>
+<p>Và nhấn Enter, màn hình sẽ hiện như hình dưới.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-1.png" rel="lightbox[544]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-545" src="./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-1-620x53.png" alt="1-RKHunter-Installation-1" width="620" height="53" srcset="./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-1-620x53.png 620w, ./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-1-705x60.png 705w, ./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-1.png 884w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đã thực hiện xong bước trên, bạn tiến hành cài đặt bình thường. Gõ lệnh</p>
+<blockquote><p>yum install rkhunter</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-2.png" rel="lightbox[544]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-546" src="./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-2-620x326.png" alt="1-RKHunter-Installation-2" width="620" height="326" srcset="./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-2-620x326.png 620w, ./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-2-705x371.png 705w, ./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-2.png 885w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-3.png" rel="lightbox[544]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-547" src="./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-3-620x219.png" alt="1-RKHunter-Installation-3" width="620" height="219" srcset="./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-3-620x219.png 620w, ./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-3-705x249.png 705w, ./../../../wp-content/uploads/2014/11/1-RKHunter-Installation-3.png 886w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Update database cho rkhunter</strong>.</p>
+<p>Sử dụng lệnh dưới đây để cập nhật database mới nhất cho rkhunter.</p>
+<blockquote><p>rkhunter &#8211;update</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/2-RKHunter-Update.png" rel="lightbox[544]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-548" src="./../../../wp-content/uploads/2014/11/2-RKHunter-Update-620x157.png" alt="2-RKHunter-Update" width="620" height="157" srcset="./../../../wp-content/uploads/2014/11/2-RKHunter-Update-620x157.png 620w, ./../../../wp-content/uploads/2014/11/2-RKHunter-Update-705x178.png 705w, ./../../../wp-content/uploads/2014/11/2-RKHunter-Update.png 884w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Quét hệ thống</p>
+<p>Sử dụng lệnh</p>
+<blockquote><p>rkhunter &#8211;check</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/3-RKHunter-Scan.png" rel="lightbox[544]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-549" src="./../../../wp-content/uploads/2014/11/3-RKHunter-Scan-620x274.png" alt="3-RKHunter-Scan" width="620" height="274" srcset="./../../../wp-content/uploads/2014/11/3-RKHunter-Scan-620x274.png 620w, ./../../../wp-content/uploads/2014/11/3-RKHunter-Scan-705x311.png 705w, ./../../../wp-content/uploads/2014/11/3-RKHunter-Scan.png 886w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Ngoài ra rkhunter còn có nhiều các lệnh khác, các bạn có thể tham khảo bằng cách đánh lệnh</p>
+<blockquote><p>rkhunter</p></blockquote>
+<p>hoặc</p>
+<blockquote><p>man rkhunter</p></blockquote>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-rkhunter-diet-rootkit-cho-centos%2F&amp;linkname=B%C3%A0i%207%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20rkhunter%2C%20di%E1%BB%87t%20rootkit%20cho%20CentOS" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-rkhunter-diet-rootkit-cho-centos%2F&amp;linkname=B%C3%A0i%207%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20rkhunter%2C%20di%E1%BB%87t%20rootkit%20cho%20CentOS" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-rkhunter-diet-rootkit-cho-centos%2F&amp;linkname=B%C3%A0i%207%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20rkhunter%2C%20di%E1%BB%87t%20rootkit%20cho%20CentOS" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-rkhunter-diet-rootkit-cho-centos%2F&#038;title=B%C3%A0i%207%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20rkhunter%2C%20di%E1%BB%87t%20rootkit%20cho%20CentOS" data-a2a-url="./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/index.html" data-a2a-title="Bài 7 – Cài đặt rkhunter, diệt rootkit cho CentOS"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Provisioning Services &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Mon, 29 Jun 2015 07:03:47 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Provisioning Services &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Multi server bootrom Citrix PVS 7.6</title>
+		<link>./../../../multi-server-bootrom-citrix-pvs-7-6/index.html</link>
+					<comments>./../../../multi-server-bootrom-citrix-pvs-7-6/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 29 Jun 2015 07:00:12 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[multi server]]></category>
+		<category><![CDATA[pvs 7.6]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1379</guid>
+
+					<description><![CDATA[Multi server bootrom Citrix PVS 7.6 Trong bài này mình sẽ hướng dẫn cách cấu hình multi server Citrix PVS 7.6 Các bạn sẽ phải cấu hình lại SQL Server và cài đặt thêm các máy chủ PVS. Chúng ta bắt đầu tiến hành với việc cấu hình lại SQL Server 1 &#8211; Cấu hình <a class="more-link" href="./../../../multi-server-bootrom-citrix-pvs-7-6/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&amp;linkname=Multi%20server%20bootrom%20Citrix%20PVS%207.6" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&amp;linkname=Multi%20server%20bootrom%20Citrix%20PVS%207.6" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&amp;linkname=Multi%20server%20bootrom%20Citrix%20PVS%207.6" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&#038;title=Multi%20server%20bootrom%20Citrix%20PVS%207.6" data-a2a-url="./../../../multi-server-bootrom-citrix-pvs-7-6/index.html" data-a2a-title="Multi server bootrom Citrix PVS 7.6"></a></p><p><span style="color: #0000ff;"><strong>Multi server bootrom Citrix PVS 7.6</strong></span></p>
+<p>Trong bài này mình sẽ hướng dẫn cách cấu hình multi server Citrix PVS 7.6</p>
+<p>Các bạn sẽ phải cấu hình lại SQL Server và cài đặt thêm các máy chủ PVS.</p>
+<p>Chúng ta bắt đầu tiến hành với việc cấu hình lại SQL Server</p>
+<p><strong>1 &#8211; Cấu hình SQL Server</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/SQL-Config-1.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1380" src="./../../../wp-content/uploads/2015/06/SQL-Config-1-620x439.png" alt="SQL-Config-1" width="620" height="439" srcset="./../../../wp-content/uploads/2015/06/SQL-Config-1-620x439.png 620w, ./../../../wp-content/uploads/2015/06/SQL-Config-1-920x652.png 920w, ./../../../wp-content/uploads/2015/06/SQL-Config-1.png 961w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trước tiên chúng ta cần cấu hình cho phép các máy chủ khác kết nối SQL Server thông qua địa chỉ IP</p>
+<p>Mở <span style="text-decoration: underline;">SQL Server Configuration Manager</span></p>
+<p>=&gt; <span style="text-decoration: underline;">SQL Server Network Configuration</span><br />
+=&gt;<span style="text-decoration: underline;"> Protocols for SQLEXPRESS</span></p>
+<p>=&gt; <span style="text-decoration: underline;">TCP/IP [Enabled]</span></p>
+<p>Chúng ta cần cấu hình TCP/IP ở trạng thái Enabled để cho phép các máy chủ khác kết nối. Sau khi đã cấu hình chúng ta cần restart lại dịch vụ SQL Server</p>
+<p><span style="text-decoration: underline;">Run =&gt; services.msc =&gt; Restart SQL Server</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/SQL-Config-2.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1381" src="./../../../wp-content/uploads/2015/06/SQL-Config-2-620x330.png" alt="SQL-Config-2" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/SQL-Config-2-620x330.png 620w, ./../../../wp-content/uploads/2015/06/SQL-Config-2-920x489.png 920w, ./../../../wp-content/uploads/2015/06/SQL-Config-2.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để cho phép máy chủ khác join farm (đã được tạo sẵn) chúng ta cần cấu hình database một chút</p>
+<p>Các bạn mở <span style="text-decoration: underline;">SQL Server Management Studio</span>, trỏ đến database đã được cài đặt trước. Ở đây của mình là <span style="text-decoration: underline;">ProvisioningServices</span>.</p>
+<p>Mở database =&gt; <span style="text-decoration: underline;">Tables</span> =&gt; <span style="text-decoration: underline;">dbo.AuthGroup</span> =&gt; Click chuột phải =&gt; Edit first 2000&#8230;.</p>
+<p><a href="./../../../wp-content/uploads/2015/06/SQL-Config-3.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1382" src="./../../../wp-content/uploads/2015/06/SQL-Config-3-620x330.png" alt="SQL-Config-3" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/SQL-Config-3-620x330.png 620w, ./../../../wp-content/uploads/2015/06/SQL-Config-3-920x489.png 920w, ./../../../wp-content/uploads/2015/06/SQL-Config-3.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Copy <span style="text-decoration: underline;">authGroupID</span> từ dòng trên và dán xuống dòng dưới và sửa chữ số cuối cùng (trường hơp của mình sửa số 2 thành số 3 và tương tự cho các server khác nếu có)</p>
+<p>Phần <span style="text-decoration: underline;">authGroupName</span> đánh tên máy tính bạn cần cài đặt thêm máy chủ PVS (trong bài là PVS2/Administrators)</p>
+<p>Phần <span style="text-decoration: underline;">authGroupGuidName</span> nhập tương tự phần <span style="text-decoration: underline;">authGroupName</span></p>
+<p>Phần <span style="text-decoration: underline;">Description</span> mô tả nhập bất kỳ sao cho dễ nhớ</p>
+<p>Sau khi nhập xong các bạn click nút Run SQL (dấu chấm than đỏ) để cập nhật database</p>
+<p><a href="./../../../wp-content/uploads/2015/06/SQL-Config-4.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1383" src="./../../../wp-content/uploads/2015/06/SQL-Config-4-620x330.png" alt="SQL-Config-4" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/SQL-Config-4-620x330.png 620w, ./../../../wp-content/uploads/2015/06/SQL-Config-4-920x489.png 920w, ./../../../wp-content/uploads/2015/06/SQL-Config-4.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tương tự như phần trên, các bạn mở table <span style="text-decoration: underline;">dbo.AuthGroupFarm</span></p>
+<p>Dán <span style="text-decoration: underline;">authGroupID</span> như đã sửa bên trên vào dòng dưới, click nút Run SQL để cập nhật database.</p>
+<p><span style="color: #0000ff;">Lưu ý các bạn phải làm chính xác từng bước, tuy đơn giản nhưng cần thiết phải rất cẩn thận để tránh trục trặc trong quá trình cài đặt thêm máy chủ PVS</span></p>
+<p><strong>2 &#8211; Cài đặt thêm máy chủ PVS</strong></p>
+<p>Sau khi đã cấu hình SQL Server như bên trên, việc cài đặt thêm máy chủ Citrix PVS tương đối đơn giản và nhanh chóng</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-1.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1384" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-1-620x522.png" alt="PVS-Join-Farm-1" width="620" height="522" srcset="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-1-620x522.png 620w, ./../../../wp-content/uploads/2015/06/PVS-Join-Farm-1.png 622w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chạy bộ cài đặt và chọn <span style="text-decoration: underline;">Server Installation</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-2.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1385" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-2.png" alt="PVS-Join-Farm-2" width="505" height="384" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Install</span> để cài đặt các thành phần yêu cầu</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-3.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1386" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-3.png" alt="PVS-Join-Farm-3" width="505" height="384" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Next</span> để bắt đầu</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-4.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1387" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-4.png" alt="PVS-Join-Farm-4" width="505" height="384" /></a></p>
+<p>Đồng ý thỏa thuận sử dụng và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-5.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1388" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-5.png" alt="PVS-Join-Farm-5" width="505" height="384" /></a></p>
+<p>Điền thông tin người sử dụng và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-6.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1389" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-6.png" alt="PVS-Join-Farm-6" width="505" height="384" /></a></p>
+<p>Chọn vị trí cài đặt và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-7.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1390" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-7.png" alt="PVS-Join-Farm-7" width="505" height="384" /></a></p>
+<p>Click <span style="text-decoration: underline;">Install</span> để tiến hành cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-8.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1391" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-8.png" alt="PVS-Join-Farm-8" width="505" height="384" /></a></p>
+<p>Nhấn Finish để hoàn tất</p>
+<p><strong>3 &#8211; Cấu hình máy chủ Citrix PVS</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-9.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1392" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-9.png" alt="PVS-Join-Farm-9" width="504" height="390" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Next</span> để bắt đầu</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-10.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1393" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-10.png" alt="PVS-Join-Farm-10" width="504" height="390" /></a></p>
+<p>Ở phần chọn DHCP, chọn <span style="text-decoration: underline;">The service that runs on another computer</span> =&gt; Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-11.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1394" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-11.png" alt="PVS-Join-Farm-11" width="504" height="390" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">The service that runs on this computer</span> và Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-12.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1395" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-12.png" alt="PVS-Join-Farm-12" width="504" height="390" /></a></p>
+<p>Do chúng ta đã có farm và server sẵn, do đó phần này chúng ta cần chọn <span style="text-decoration: underline;">Join existing farm</span></p>
+<p>Next để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-13.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1396" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-13.png" alt="PVS-Join-Farm-13" width="504" height="390" /></a></p>
+<p>Điền thông tin địa chỉ <span style="text-decoration: underline;">IP</span> và<span style="text-decoration: underline;"> Instance name</span> của SQL Server</p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-14.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1397" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-14.png" alt="PVS-Join-Farm-14" width="504" height="390" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Farm name</span> và Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-15.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1398" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-15.png" alt="PVS-Join-Farm-15" width="504" height="390" /></a></p>
+<p>Chọn Existing Site hoặc tạo mới, do ở đây chúng ta cần tạo ở 1 nơi nên chọn <span style="text-decoration: underline;">Existing site</span></p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-16.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1399" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-16.png" alt="PVS-Join-Farm-16" width="504" height="390" /></a></p>
+<p>Ở đây mình muốn mỗi server có Store riêng nên chọn new store, nếu bạn muốn sử dụng chung với server đã tạo trước có thể chọn tùy chọn trên</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-17.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1400" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-17.png" alt="PVS-Join-Farm-17" width="504" height="390" /></a></p>
+<p>Điền thông tin đăng nhập của tài khoản administrator.</p>
+<p><span style="color: #0000ff;">Lưu ý tài khoản này để khởi động dịch vụ Citrix SOAP, nếu chọn Local system account thì dịch vụ có thể không khởi động được</span>.</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-18.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1401" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-18.png" alt="PVS-Join-Farm-18" width="504" height="390" /></a></p>
+<p>Chọn card mạng cho quản trị và streaming PVS. Do ở đây chúng ta chỉ có 1 card mạng nên Next để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-19.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1402" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-19.png" alt="PVS-Join-Farm-19" width="504" height="390" /></a></p>
+<p>Check<span style="text-decoration: underline;"> Use the Provisioning Services TFTP service</span></p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-20.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1403" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-20.png" alt="PVS-Join-Farm-20" width="504" height="390" /></a></p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-21.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1404" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-21.png" alt="PVS-Join-Farm-21" width="504" height="390" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Finish</span> để hoàn tất.</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Farm.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1405" src="./../../../wp-content/uploads/2015/06/PVS-Farm-620x354.png" alt="PVS-Farm" width="620" height="354" srcset="./../../../wp-content/uploads/2015/06/PVS-Farm-620x354.png 620w, ./../../../wp-content/uploads/2015/06/PVS-Farm-920x525.png 920w, ./../../../wp-content/uploads/2015/06/PVS-Farm.png 975w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nếu quá trình cài đặt và cấu hình diễn ra trôi chảy, khi mở Console bạn sẽ thấy các máy chủ thể hiện như ảnh trên.</p>
+<p>Chúc các bạn thành công</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&amp;linkname=Multi%20server%20bootrom%20Citrix%20PVS%207.6" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&amp;linkname=Multi%20server%20bootrom%20Citrix%20PVS%207.6" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&amp;linkname=Multi%20server%20bootrom%20Citrix%20PVS%207.6" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&#038;title=Multi%20server%20bootrom%20Citrix%20PVS%207.6" data-a2a-url="./../../../multi-server-bootrom-citrix-pvs-7-6/index.html" data-a2a-title="Multi server bootrom Citrix PVS 7.6"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../multi-server-bootrom-citrix-pvs-7-6/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Sử dụng vDisk cho toàn bộ máy con khác</title>
+		<link>./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/index.html</link>
+					<comments>./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2015 06:50:04 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[vDisk]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1289</guid>
+
+					<description><![CDATA[Sử dụng vDisk cho toàn bộ máy con khác Ở phần trước chúng ta đã thực hiện chuyển đổi HDD máy con (Target device) thành vDisk, chỉ còn một vài bước ngắn nữa thôi là hoàn tất 1 &#8211; Cấu hình vDisk &#38; Auto Add vDisk có 2 trạng thái là Private và Standard. Để <a class="more-link" href="./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&amp;linkname=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&amp;linkname=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&amp;linkname=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&#038;title=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" data-a2a-url="./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/index.html" data-a2a-title="Sử dụng vDisk cho toàn bộ máy con khác"></a></p><p><span style="color: #0000ff;"><strong>Sử dụng vDisk cho toàn bộ máy con khác</strong></span></p>
+<p>Ở phần trước chúng ta đã thực hiện chuyển đổi HDD máy con (Target device) thành vDisk, chỉ còn một vài bước ngắn nữa thôi là hoàn tất</p>
+<p><strong>1 &#8211; Cấu hình vDisk &amp; Auto Add</strong></p>
+<p>vDisk có 2 trạng thái là Private và Standard. Để sử dụng vDisk làm đĩa boot cho nhiều máy chúng ta cần chuyển vDisk về Standard và chọn các chế độ Cache phù hợp với yêu cầu. Ở chế dộ Standard, vDisk ở tình trạng Read-only, tức không thể thay đổi. Ở chế độ private, vDisk được gán với một máy client nào đó để tiến hành khởi động và cập nhật hoặc cài đặt phần mềm.</p>
+<p>Auto Add tự động thêm máy con vào Collection nhằm giảm thời gian cần thiết để cấu hình</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-1.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1290" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-1-620x329.png" alt="Configure-vDisk-AutoAdd-Wizard-1" width="620" height="329" srcset="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-1-620x329.png 620w, ./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-1-920x488.png 920w, ./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-1.png 1277w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mở Provisioning Services =&gt; Sites =&gt; Sitename =&gt; vDisk Pool</p>
+<p>Chọn vDisk, chuột phải và chọn <span style="text-decoration: underline;">Properties</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-2.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1291" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-2-620x330.png" alt="Configure-vDisk-AutoAdd-Wizard-2" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-2-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-2-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-2.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Như đã giải thích ở trên, chọn chế độ sử dụng cho vDisk là Standard hoặc Private</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-3.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1292" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-3.png" alt="Configure-vDisk-AutoAdd-Wizard-3" width="422" height="110" /></a></p>
+<p>Phần cache có nhiều tùy chọn</p>
+<p><span style="text-decoration: underline;">Cache on device hard drive:</span> Lưu file caching trên ổ cứng gắn trên máy client, do giảm ghi trên server nên sẽ tối ưu tốt tốc độ sử dụng, tuy nhiên chi phí sẽ tăng</p>
+<p><span style="text-decoration: underline;">Cache on device hard drive persisted:</span> Tương tự như trên tuy nhiên các tập tin caching sẽ không bị mất đi trong các quá trình khởi động máy. Chỉ áp dụng cho Windows 7 trở đi</p>
+<p><span style="text-decoration: underline;">Cache on device RAM:</span> Tốc độ tuyệt vời do RAM có tốc độ nhanh hơn nhiều so với ổ cứng. Tuy nhiên có nhược điểm là nếu RAM bị đầy sẽ gây treo máy hoặc lỗi màn hình xanh</p>
+<p><span style="text-decoration: underline;">Cache on device RAM with overflow on hard disk:</span> Kết hợp giữa giải pháp cache trên RAM và ổ cứng ở trên. Đây là giải pháp mới nhất được giới thiệu từ phiên bản 7.1 với nhiều cải tiến. Nhiều đánh giá được thực hiện so sánh loại cache này thậm chí còn tốt và tốc độ cao hơn nhiều so với cache trên RAM, và đặc biệt là cực kỳ ổn định</p>
+<p><span style="text-decoration: underline;">Cache on server:</span> đây là loại có tốc độ kém nhất trong các loại, thường dùng để test là chủ yếu. Ở Việt Nam các tiệm Net cũng sử dụng loại này, tuy nhiên cache được lưu trên ổ đĩa SSD tốc độ tốt hơn một chút so với lưu trên HDD</p>
+<p><span style="text-decoration: underline;">Cache on server persisted:</span> không bị mất đi trong quá trình khởi động lại máy con</p>
+<p>Các chuyên gia khuyên nên sử dụng loại Cache on device RAM with overflow on hard disk vì tốc độ cũng như sự ổn định</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-4.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1293" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-4.png" alt="Configure-vDisk-AutoAdd-Wizard-4" width="476" height="605" /></a></p>
+<p>Cấu hình tính năng Auto Add</p>
+<p>Chuột phải vào Collection =&gt; <span style="text-decoration: underline;">Auto Add Wizard</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-5.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1294" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-5.png" alt="Configure-vDisk-AutoAdd-Wizard-5" width="515" height="408" /></a></p>
+<p><span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-6.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1295" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-6.png" alt="Configure-vDisk-AutoAdd-Wizard-6" width="515" height="408" /></a></p>
+<p>Check chọn <span style="text-decoration: underline;">Enable Auto-Add</span></p>
+<p><span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-7.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1296" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-7.png" alt="Configure-vDisk-AutoAdd-Wizard-7" width="515" height="408" /></a></p>
+<p>Chọn site =&gt; <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-8.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1297" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-8.png" alt="Configure-vDisk-AutoAdd-Wizard-8" width="515" height="408" /></a></p>
+<p>Chọn Collection =&gt; <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-9.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1298" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-9.png" alt="Configure-vDisk-AutoAdd-Wizard-9" width="515" height="408" /></a></p>
+<p>Chọn template</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-10.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1299" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-10.png" alt="Configure-vDisk-AutoAdd-Wizard-10" width="515" height="408" /></a></p>
+<p>Chọn Auto naming để PVS tự động gán tên máy tính</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-11.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1300" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-11.png" alt="Configure-vDisk-AutoAdd-Wizard-11" width="515" height="408" /></a></p>
+<p>Hoàn tất</p>
+<p><strong>2 &#8211; Khởi động các máy khác từ vDisk</strong></p>
+<p>Khởi động các máy con khác boot từ card mạng, màn hình sẽ báo lỗi không tìm thấy OS boot file</p>
+<p>Chúng ta cần chỉnh một chút trên server</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-1.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1301" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-1-620x320.png" alt="Boot-Other-Computer-1" width="620" height="320" srcset="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-1-620x320.png 620w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-1-920x474.png 920w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-1.png 1269w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trên máy chủ PVS, vào phần collection chúng ta thấy có vài máy đã được tự động thêm vào</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-2.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1302" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-2-620x287.png" alt="Boot-Other-Computer-2" width="620" height="287" srcset="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-2-620x287.png 620w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-2-920x426.png 920w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-2.png 1040w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chuột phải vào từng máy, chọn Properties</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-3.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1303" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-3.png" alt="Boot-Other-Computer-3" width="494" height="434" /></a></p>
+<p>Ở mục boot from chúng ta chọn vDisk</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-4.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1304" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-4.png" alt="Boot-Other-Computer-4" width="494" height="434" /></a></p>
+<p>Ở phần vDisk có thể chọn 1 hoặc nhiều vDisk, nếu có nhiều vDisk sẽ hiển thị lựa chọn lúc khởi động</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-5.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1305" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-5.png" alt="Boot-Other-Computer-5" width="494" height="434" /></a></p>
+<p>Tùy chỉnh yêu cầu nhập username và mật khẩu trước khi khởi động vào vDisk</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-6.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1306" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-6-620x84.png" alt="Boot-Other-Computer-6" width="620" height="84" srcset="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-6-620x84.png 620w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-6-920x125.png 920w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-6.png 1037w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Kiểm tra lại các máy hiển thị vDisk ở phần Disk</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-7.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1307" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-7-620x330.png" alt="Boot-Other-Computer-7" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-7-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-7-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-7.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tiến hành khởi động lại các máy boot từ card mạng, trong ảnh là các máy đang kết nối và sử dụng vDisk, vDisk hiển thị trạng thái khóa với 3 connection</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-8.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1308" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-8-620x330.png" alt="Boot-Other-Computer-8" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-8-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-8-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-8.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Kiểm tra trong phần Collection thì các máy đã khởi động thành công</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-9.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1309" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-9-620x213.png" alt="Boot-Other-Computer-9" width="620" height="213" srcset="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-9-620x213.png 620w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-9-920x316.png 920w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-9.png 1280w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Từ PVS Console có thể tắt máy, khởi động hoặc khởi động lại các máy con. Khởi động máy sử dụng chức năng WOL (Wake on LAN)</p>
+<p>Ngoài ra có thể gửi tin nhắn đến 1 hoặc nhiều máy.</p>
+<p><strong>Đến đây về cơ bản chúng ta đã có một hệ thống bootrom sử dụng Citrix Provisioning Services hoàn chỉnh. Còn một vài tính năng nâng cao khác đang chờ bạn khám phá</strong></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&amp;linkname=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&amp;linkname=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&amp;linkname=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&#038;title=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" data-a2a-url="./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/index.html" data-a2a-title="Sử dụng vDisk cho toàn bộ máy con khác"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt và cấu hình máy client mẫu Target device</title>
+		<link>./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/index.html</link>
+					<comments>./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2015 06:14:08 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[PVS]]></category>
+		<category><![CDATA[Target device]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1265</guid>
+
+					<description><![CDATA[Cài đặt và cấu hình máy client mẫu Target device Ở phần trước chúng ta đã hoàn thành xong phần cài đặt máy chủ Provisioning Services, ở phần này chúng ta tiếp tục tiến hành với client (máy con) Để tiến hành thì trước tiên bạn chọn ra một máy làm mẫu và cài hệ <a class="more-link" href="./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" data-a2a-url="./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/index.html" data-a2a-title="Cài đặt và cấu hình máy client mẫu Target device"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt và cấu hình máy client mẫu Target device</strong></span></p>
+<p>Ở phần trước chúng ta đã hoàn thành xong phần cài đặt máy chủ Provisioning Services, ở phần này chúng ta tiếp tục tiến hành với client (máy con)</p>
+<p>Để tiến hành thì trước tiên bạn chọn ra một máy làm mẫu và cài hệ điều hành</p>
+<p>Windows XP<br />
+Windows 7<br />
+Windows 8/8.1</p>
+<p>Phần này giả định là bạn đã có một máy con được cài đặt hoàn chỉnh (hệ điều hành + driver + phần mềm)</p>
+<p><strong>1 &#8211; Cài đặt PVS Target device</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-1.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1266" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-1-620x522.png" alt="Install-Target-Device-1" width="620" height="522" srcset="./../../../wp-content/uploads/2015/06/Install-Target-Device-1-620x522.png 620w, ./../../../wp-content/uploads/2015/06/Install-Target-Device-1.png 622w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chèn đĩa cài đặt và chọn <span style="text-decoration: underline;">Target Device Installation</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-2.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1267" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-2-620x522.png" alt="Install-Target-Device-2" width="620" height="522" srcset="./../../../wp-content/uploads/2015/06/Install-Target-Device-2-620x522.png 620w, ./../../../wp-content/uploads/2015/06/Install-Target-Device-2.png 622w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tiếp tục chọn <span style="text-decoration: underline;">Target Device Installation</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-3.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1268" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-3.png" alt="Install-Target-Device-3" width="505" height="387" /></a></p>
+<p>Chương trình yêu cầu cài đặt .Net Framework 4.0, click <span style="text-decoration: underline;">Install</span> để tự động cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-4.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1269" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-4.png" alt="Install-Target-Device-4" width="505" height="387" /></a></p>
+<p><span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-5.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1270" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-5.png" alt="Install-Target-Device-5" width="505" height="387" /></a></p>
+<p>Đồng ý thỏa thuận sử dụng =&gt; <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-6.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1271" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-6.png" alt="Install-Target-Device-6" width="505" height="387" /></a></p>
+<p>Đặt tên người sử dụng và tổ chức =&gt; <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-7.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1272" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-7.png" alt="Install-Target-Device-7" width="505" height="387" /></a></p>
+<p>Chọn đường dẫn cài đặt =&gt; <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-8.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1273" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-8.png" alt="Install-Target-Device-8" width="505" height="387" /></a></p>
+<p>Click <span style="text-decoration: underline;">Install</span> để bắt đầu cài</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-9.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1274" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-9.png" alt="Install-Target-Device-9" width="505" height="387" /></a></p>
+<p>Hoàn tất</p>
+<p><strong>2 &#8211; Target Device Imaging Wizard</strong></p>
+<p>Dưới đây là quá trình chuyển đổi hệ điều hành từ ổ cứng của máy con sang vDisk lưu trữ ở máy chủ PVS</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-1.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1275" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-1-620x426.png" alt="Target-Device-Imaging-Wizard-1" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-1-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-1.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mở Provisioning Services Imaging Wizard =&gt; Chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-2.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1276" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-2-620x426.png" alt="Target-Device-Imaging-Wizard-2" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-2-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-2.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhập đầy đủ thông tin như địa chỉ IP (hoặc hostname) của PVS server và điền thông tin đăng nhập</p>
+<p>Chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-3.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1277" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-3-620x426.png" alt="Target-Device-Imaging-Wizard-3" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-3-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-3.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn Create new vDisk</p>
+<p>Để tạo ra vDisk chúng ta có thể tạo trước ở server hoặc tạo ra trong quá trình chuyển đổi, để thuận tiện mình dùng cách tự động tạo ra trong quá trình chuyển đổi</p>
+<p>Click <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-4.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1278" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-4-620x426.png" alt="Target-Device-Imaging-Wizard-4" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-4-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-4.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên cho vDisk, lựa chọn Store lưu trữ</p>
+<p>vDisk type có thể chọn Dynamic hoặc Fixed. Fixed chiếm một dung lượng chính xác từ ban đầu còn Dynamic dung lượng có thể tăng dần trong quá trình sử dụng. Để cho nhanh mình dùng Dynamic và Block size là 2MB</p>
+<p>Chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-5.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1279" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-5-620x426.png" alt="Target-Device-Imaging-Wizard-5" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-5-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-5.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tùy chỉnh kích thước của các phân vùng và chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-6.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1280" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-6-620x426.png" alt="Target-Device-Imaging-Wizard-6" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-6-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-6.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên cho Target device, vì là máy mẫu nên đặt tên sao cho gợi nhớ và dễ quản lý</p>
+<p>Chọn Collection tương ứng cho Target device. (có thể tạo ra nhiều Collection)</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-7.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1281" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-7-620x426.png" alt="Target-Device-Imaging-Wizard-7" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-7-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-7.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Hộp thoại hiển thị các thông tin cho quá trình, nếu chưa đồng ý có thể chọn Back để sửa lại</p>
+<p>Chọn<span style="text-decoration: underline;"> Optimize for Provisioning Services</span>.</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-8.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1282" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-8.png" alt="Target-Device-Imaging-Wizard-8" width="554" height="284" /></a></p>
+<p>Chương trình tự động tối ưu Windows, tắt các dịch vụ không cần thiết</p>
+<p>OK</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-9.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1283" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-9-620x314.png" alt="Target-Device-Imaging-Wizard-9" width="620" height="314" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-9-620x314.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-9.png 670w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Một cửa sổ hiện ra hệ thống đang tự động cấu hình, chờ hoàn tất</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-10.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1284" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-10-620x115.png" alt="Target-Device-Imaging-Wizard-10" width="620" height="115" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-10-620x115.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-10.png 793w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi xong, chương trình yêu cầu khởi động lại hệ thống và boot bằng card mạng</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-11.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1285" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-11-620x349.png" alt="Target-Device-Imaging-Wizard-11" width="620" height="349" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-11-620x349.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-11-920x518.png 920w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-11.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi khởi động lại máy con và boot từ card mạng, chương trình chuyển đổi tự động chạy chuyển HDD máy con thành vDisk lưu trữ trên máy chủ</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-12.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1286" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-12-620x349.png" alt="Target-Device-Imaging-Wizard-12" width="620" height="349" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-12-620x349.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-12-920x518.png 920w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-12.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Quy trình hoàn tất</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-13.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1287" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-13-620x349.png" alt="Target-Device-Imaging-Wizard-13" width="620" height="349" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-13-620x349.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-13-920x518.png 920w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-13.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cửa sổ thể hiện trạng thái vDisk và kết nối máy chủ PVS</p>
+<p>Nếu bị đánh dấu gạch chéo có lẽ có trục trặc trong cài đặt hoặc license của bạn hết hạn hoặc máy chủ PVS không kết nối được license server</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" data-a2a-url="./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/index.html" data-a2a-title="Cài đặt và cấu hình máy client mẫu Target device"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt máy chủ Provisioning Services 7.6</title>
+		<link>./../../../cai-dat-may-chu-provisioning-services-7-6/index.html</link>
+					<comments>./../../../cai-dat-may-chu-provisioning-services-7-6/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2015 05:24:08 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[provisioning services]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1214</guid>
+
+					<description><![CDATA[Cài đặt máy chủ Provisioning Services 7.6 Trong bài này chúng ta sẽ lần lượt cài đặt các thành phần cần thiết cũng như cấu hình máy chủ Provisioning Services (PVS) 7.6 SQL Server 2014 Express with Management Console Citrix Provisioning Services 7.6 Windows Server 2012 R2 1 &#8211; Cài đặt SQL Server Các bạn <a class="more-link" href="./../../../cai-dat-may-chu-provisioning-services-7-6/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-may-chu-provisioning-services-7-6%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20Provisioning%20Services%207.6" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-may-chu-provisioning-services-7-6%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20Provisioning%20Services%207.6" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-may-chu-provisioning-services-7-6%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20Provisioning%20Services%207.6" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-may-chu-provisioning-services-7-6%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20Provisioning%20Services%207.6" data-a2a-url="./../../../cai-dat-may-chu-provisioning-services-7-6/index.html" data-a2a-title="Cài đặt máy chủ Provisioning Services 7.6"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt máy chủ Provisioning Services 7.6</strong></span></p>
+<p>Trong bài này chúng ta sẽ lần lượt cài đặt các thành phần cần thiết cũng như cấu hình máy chủ Provisioning Services (PVS) 7.6</p>
+<ul>
+<li>SQL Server 2014 Express with Management Console</li>
+<li>Citrix Provisioning Services 7.6</li>
+<li>Windows Server 2012 R2</li>
+</ul>
+<p><strong>1 &#8211; Cài đặt SQL Server</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-SQL-Server-1.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1215" src="./../../../wp-content/uploads/2015/06/Install-SQL-Server-1-620x465.png" alt="Install-SQL-Server-1" width="620" height="465" srcset="./../../../wp-content/uploads/2015/06/Install-SQL-Server-1-620x465.png 620w, ./../../../wp-content/uploads/2015/06/Install-SQL-Server-1.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Các bạn tải SQL Server và tiến hành cài đặt, chọn<span style="text-decoration: underline;"> New SQL Server standalone installation</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-SQL-Server-2.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1216" src="./../../../wp-content/uploads/2015/06/Install-SQL-Server-2-620x465.png" alt="Install-SQL-Server-2" width="620" height="465" srcset="./../../../wp-content/uploads/2015/06/Install-SQL-Server-2-620x465.png 620w, ./../../../wp-content/uploads/2015/06/Install-SQL-Server-2.png 821w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đồng ý thỏa thuận bản quyền và chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-SQL-Server-3.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1217" src="./../../../wp-content/uploads/2015/06/Install-SQL-Server-3-620x465.png" alt="Install-SQL-Server-3" width="620" height="465" srcset="./../../../wp-content/uploads/2015/06/Install-SQL-Server-3-620x465.png 620w, ./../../../wp-content/uploads/2015/06/Install-SQL-Server-3.png 821w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Bỏ tự động cập nhật và chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-SQL-Server-4.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1218" src="./../../../wp-content/uploads/2015/06/Install-SQL-Server-4-620x465.png" alt="Install-SQL-Server-4" width="620" height="465" srcset="./../../../wp-content/uploads/2015/06/Install-SQL-Server-4-620x465.png 620w, ./../../../wp-content/uploads/2015/06/Install-SQL-Server-4.png 821w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Check chọn các thành phần của SQL Server sẽ cài đặt, đường dẫn cài đặt và chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-SQL-Server-5.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1219" src="./../../../wp-content/uploads/2015/06/Install-SQL-Server-5-620x465.png" alt="Install-SQL-Server-5" width="620" height="465" srcset="./../../../wp-content/uploads/2015/06/Install-SQL-Server-5-620x465.png 620w, ./../../../wp-content/uploads/2015/06/Install-SQL-Server-5.png 821w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên cho <span style="text-decoration: underline;">SQL Server Instance</span>, có thể để mặc định và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-SQL-Server-6.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1220" src="./../../../wp-content/uploads/2015/06/Install-SQL-Server-6-620x465.png" alt="Install-SQL-Server-6" width="620" height="465" srcset="./../../../wp-content/uploads/2015/06/Install-SQL-Server-6-620x465.png 620w, ./../../../wp-content/uploads/2015/06/Install-SQL-Server-6.png 821w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn tài khoản tương ứng cho SQL Server và cách thức khởi động, để hệ thống SQL Server tự động chạy chúng ta chọn <span style="text-decoration: underline;">NT AUTHORITY\SYSTEM</span> cho SQL Server Database Engine, các mục <span style="text-decoration: underline;">Startup Type</span> chọn <span style="text-decoration: underline;">Automatic</span></p>
+<p>Click <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-SQL-Server-7.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1221" src="./../../../wp-content/uploads/2015/06/Install-SQL-Server-7-620x465.png" alt="Install-SQL-Server-7" width="620" height="465" srcset="./../../../wp-content/uploads/2015/06/Install-SQL-Server-7-620x465.png 620w, ./../../../wp-content/uploads/2015/06/Install-SQL-Server-7.png 821w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt mật khẩu <span style="text-decoration: underline;">sa</span> cho SQL Server và chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-SQL-Server-8.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1222" src="./../../../wp-content/uploads/2015/06/Install-SQL-Server-8-620x465.png" alt="Install-SQL-Server-8" width="620" height="465" srcset="./../../../wp-content/uploads/2015/06/Install-SQL-Server-8-620x465.png 620w, ./../../../wp-content/uploads/2015/06/Install-SQL-Server-8.png 821w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tiến trình cài đặt bắt đầu</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-SQL-Server-9.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1223" src="./../../../wp-content/uploads/2015/06/Install-SQL-Server-9-620x465.png" alt="Install-SQL-Server-9" width="620" height="465" srcset="./../../../wp-content/uploads/2015/06/Install-SQL-Server-9-620x465.png 620w, ./../../../wp-content/uploads/2015/06/Install-SQL-Server-9.png 821w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Hoàn tất, chọn Close để đóng lại</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-SQL-Server-10.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1224" src="./../../../wp-content/uploads/2015/06/Install-SQL-Server-10-620x330.png" alt="Install-SQL-Server-10" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Install-SQL-Server-10-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Install-SQL-Server-10-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Install-SQL-Server-10.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Giao diện SQL Server Management Studio</p>
+<p><strong>2 &#8211; Cài đặt Provisioning Services Console</strong></p>
+<p>Provisioning Services Console là giao diện quản trị của PVS, có thể cài đặt ở máy khác, kết nối đến PVS server hoặc cài đặt chung, trong bài này chúng ta cài chung với PVS Server</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-Console-1.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1225" src="./../../../wp-content/uploads/2015/06/Install-PVS-Console-1-620x522.png" alt="Install-PVS-Console-1" width="620" height="522" srcset="./../../../wp-content/uploads/2015/06/Install-PVS-Console-1-620x522.png 620w, ./../../../wp-content/uploads/2015/06/Install-PVS-Console-1.png 622w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chèn đĩa PVS 7.6 vào ổ DVD, chạy file autorun</p>
+<p>Chọn <span style="text-decoration: underline;">Console Installation</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-Console-2.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1226" src="./../../../wp-content/uploads/2015/06/Install-PVS-Console-2.png" alt="Install-PVS-Console-2" width="505" height="384" /></a></p>
+<p>Phần mềm sẽ yêu cầu cài các thành phần cần thiết, chọn <span style="text-decoration: underline;">Install</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-Console-3.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1227" src="./../../../wp-content/uploads/2015/06/Install-PVS-Console-3.png" alt="Install-PVS-Console-3" width="505" height="384" /></a></p>
+<p>Sau khi đã cài đầy đủ các thành phần cần thiết, chọn <span style="text-decoration: underline;">Next</span> để tiến hành cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-Console-4.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1228" src="./../../../wp-content/uploads/2015/06/Install-PVS-Console-4.png" alt="Install-PVS-Console-4" width="505" height="384" /></a></p>
+<p>Đồng ý thỏa thuận bản quyền và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-Console-5.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1229" src="./../../../wp-content/uploads/2015/06/Install-PVS-Console-5.png" alt="Install-PVS-Console-5" width="505" height="384" /></a></p>
+<p>Chọn tên người sử dụng và tên công ty (tùy chọn) và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-Console-6.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1230" src="./../../../wp-content/uploads/2015/06/Install-PVS-Console-6.png" alt="Install-PVS-Console-6" width="505" height="384" /></a></p>
+<p>Chọn đường dẫn cài đặt chương trình và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-Console-7.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1231" src="./../../../wp-content/uploads/2015/06/Install-PVS-Console-7.png" alt="Install-PVS-Console-7" width="505" height="384" /></a></p>
+<p>Chọn Complete =&gt; <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-Console-8.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1232" src="./../../../wp-content/uploads/2015/06/Install-PVS-Console-8.png" alt="Install-PVS-Console-8" width="505" height="384" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Install</span> để tiến hành cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-Console-9.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1233" src="./../../../wp-content/uploads/2015/06/Install-PVS-Console-9.png" alt="Install-PVS-Console-9" width="505" height="384" /></a></p>
+<p>Cài đặt hoàn tất</p>
+<p><strong>3 &#8211; Cài đặt Provisioning Services</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-11.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1234" src="./../../../wp-content/uploads/2015/06/Install-PVS-11-620x522.png" alt="Install-PVS-1" width="620" height="522" srcset="./../../../wp-content/uploads/2015/06/Install-PVS-11-620x522.png 620w, ./../../../wp-content/uploads/2015/06/Install-PVS-11.png 622w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Server Installation</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-2.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1235" src="./../../../wp-content/uploads/2015/06/Install-PVS-2.png" alt="Install-PVS-2" width="505" height="384" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Next</span> để bắt đầu</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-3.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1236" src="./../../../wp-content/uploads/2015/06/Install-PVS-3.png" alt="Install-PVS-3" width="505" height="384" /></a></p>
+<p>Đồng ý thỏa thuận bản quyền và chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-4.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1237" src="./../../../wp-content/uploads/2015/06/Install-PVS-4.png" alt="Install-PVS-4" width="505" height="384" /></a></p>
+<p>Đặt tên người dùng và tên tổ chức =&gt; chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-5.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1238" src="./../../../wp-content/uploads/2015/06/Install-PVS-5.png" alt="Install-PVS-5" width="505" height="384" /></a></p>
+<p>Chọn đường dẫn cài đặt và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-6.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1239" src="./../../../wp-content/uploads/2015/06/Install-PVS-6.png" alt="Install-PVS-6" width="505" height="384" /></a></p>
+<p>Click <span style="text-decoration: underline;">Install</span> để tiến hành cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-PVS-7.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1240" src="./../../../wp-content/uploads/2015/06/Install-PVS-7.png" alt="Install-PVS-7" width="505" height="384" /></a></p>
+<p>Hoàn tất</p>
+<p><strong>4 &#8211; Cấu hình Provisioning Services</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-1.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1241" src="./../../../wp-content/uploads/2015/06/Configure-PVS-1.png" alt="Configure-PVS-1" width="504" height="390" /></a></p>
+<p>Mở Start menu =&gt; Provisioning Services Configuration Wizard</p>
+<p>Chọn Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-2.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-2.png" alt="Configure-PVS-2" width="504" height="390" /></a></p>
+<p>Ở phần cấu hình DHCP, chúng ta chọn The service that runs on another computer. Tùy chọn này chúng ta đã có sẵn DHCP (chẳng hạn router cấp IP), nếu trong hệ thống chưa có DHCP thì phải cài đặt vì DHCP là dịch vụ cần thiết, PVS không thể chạy khi không có DHCP</p>
+<p>Chọn Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-3.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-3.png" alt="Configure-PVS-3" width="504" height="390" /></a></p>
+<p>Chọn The service that runs on this computer =&gt; Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-4.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-4.png" alt="Configure-PVS-4" width="504" height="390" /></a></p>
+<p>Check chọn Create farm =&gt; Next</p>
+<p>Farm chứa 1 hoặc nhiều máy chủ PVS để cho client kết nối đến</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-5.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-5.png" alt="Configure-PVS-5" width="504" height="390" /></a></p>
+<p>Kết nối đến SQL Server, ở đây chúng ta cài đặt chung SQL Server và PVS, nếu SQL được cài đặt ở máy chủ khác thì cần phải đưa ra tham số đúng để kết nối</p>
+<p>Chọn Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-6.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-6.png" alt="Configure-PVS-6" width="504" height="390" /></a></p>
+<p>Đặt tên cho database, tên farm, tên Site, tên Collection. Sử dụng sao cho dễ gợi nhớ</p>
+<p>Chọn Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-7.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-7.png" alt="Configure-PVS-7" width="504" height="390" /></a></p>
+<p>Đặt tên cho Store và đường dẫn để lưu trữ</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-8.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-8.png" alt="Configure-PVS-8" width="504" height="390" /></a></p>
+<p>Kết nối đến máy chủ license server</p>
+<p>Các phần mềm của Citrix sẽ chạy bình thường trong 1 tháng mà không cần license server, tuy nhiên sau một tháng thì mọi kết nối sẽ bị ngắt, mọi người nên lưu ý điểm này</p>
+<p>Chọn Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-9.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-9.png" alt="Configure-PVS-9" width="504" height="390" /></a></p>
+<p>Phần user account các bạn cần phải điền chính xác tài khoản hệ thống để chạy cho dịch vụ Stream và SOAP<br />
+Không dùng Local system account vì sẽ gây trục trặc trong quá trình khởi động hoặc PVS Console không kết nối được PVS Server</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-10.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-10.png" alt="Configure-PVS-10" width="504" height="390" /></a></p>
+<p>Cấu hình mạng, ở đây mình chỉ có 1 card mạng nên Next, không cấu hình gì thêm</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-11.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-11.png" alt="Configure-PVS-11" width="504" height="390" /></a></p>
+<p>Check chọn Use the Provisioning Service TFTP service</p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-12.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-12.png" alt="Configure-PVS-12" width="504" height="390" /></a></p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-13.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-13.png" alt="Configure-PVS-13" width="504" height="390" /></a></p>
+<p>Check chọn Automatically Start Services</p>
+<p>Chọn Finish</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-14.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-14.png" alt="Configure-PVS-14" width="504" height="390" /></a></p>
+<p>Một cảnh báo hiện lên thông báo chúng ta cần phải mở port cho các dịch vụ tương ứng hoặc tắt chức năng tường lửa của hệ thống</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-15.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-15.png" alt="Configure-PVS-15" width="504" height="390" /></a></p>
+<p>Để dễ dàng mình tắt tường lưởng hệ thống và tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-16.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-16.png" alt="Configure-PVS-16" width="504" height="390" /></a></p>
+<p>Quá trình cấu hình và khởi động các dịch vụ đang tiến hành</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-17.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-17.png" alt="Configure-PVS-17" width="504" height="390" /></a></p>
+<p>Hoàn tất, click chọn Done</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-18.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-18.png" alt="Configure-PVS-18" width="504" height="390" /></a></p>
+<p>Cấu hình dịch vụ Citrix PVS SOAP server =&gt; Automatic (Delayed Start)</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-19.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-19.png" alt="Configure-PVS-19" width="504" height="390" /></a></p>
+<p>Ở phần Recovery chọn Restart the service cho First failure và Second failure</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-20.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-20.png" alt="Configure-PVS-20" width="504" height="390" /></a></p>
+<p>Mở Provisioning Services Console và kết nối đến địa chỉ IP PVS server</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-PVS-21.png" rel="lightbox[1214]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1242" src="./../../../wp-content/uploads/2015/06/Configure-PVS-21.png" alt="Configure-PVS-21" width="504" height="390" /></a></p>
+<p>Hoàn tất</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-may-chu-provisioning-services-7-6%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20Provisioning%20Services%207.6" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-may-chu-provisioning-services-7-6%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20Provisioning%20Services%207.6" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-may-chu-provisioning-services-7-6%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20Provisioning%20Services%207.6" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-may-chu-provisioning-services-7-6%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20Provisioning%20Services%207.6" data-a2a-url="./../../../cai-dat-may-chu-provisioning-services-7-6/index.html" data-a2a-title="Cài đặt máy chủ Provisioning Services 7.6"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-may-chu-provisioning-services-7-6/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt máy chủ bản quyền – Citrix Licensing server</title>
+		<link>./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/index.html</link>
+					<comments>./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2015 03:45:40 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[Citrix Licensing Server]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1200</guid>
+
+					<description><![CDATA[Cài đặt máy chủ bản quyền – Citrix Licensing server Ở phần trước chúng ta đã tiến hành đăng ký tài khoản, tải các phần mềm cần thiết và tải file bản quyền (dùng thử) Ở phần này chúng ta tiến hành bước đầu tiên là cài đặt máy chủ bản quyền Citrix Licensing Server <a class="more-link" href="./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" data-a2a-url="./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/index.html" data-a2a-title="Cài đặt máy chủ bản quyền – Citrix Licensing server"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt máy chủ bản quyền – Citrix Licensing server</strong></span></p>
+<p>Ở phần trước chúng ta đã tiến hành đăng ký tài khoản, tải các phần mềm cần thiết và tải file bản quyền (dùng thử)</p>
+<p>Ở phần này chúng ta tiến hành bước đầu tiên là cài đặt máy chủ bản quyền Citrix Licensing Server</p>
+<p><strong>Cài đặt Citrix Licensing Server</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-License-Server-1.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1201" src="./../../../wp-content/uploads/2015/06/Install-License-Server-1.png" alt="Install-License-Server-1" width="521" height="301" /></a></p>
+<p>Chạy file cài đặt Citrix Licensing Server</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-License-Server-2.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1202" src="./../../../wp-content/uploads/2015/06/Install-License-Server-2-620x470.png" alt="Install-License-Server-2" width="620" height="470" srcset="./../../../wp-content/uploads/2015/06/Install-License-Server-2-620x470.png 620w, ./../../../wp-content/uploads/2015/06/Install-License-Server-2.png 825w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đồng ý thỏa thuận bản quyền và click <span style="text-decoration: underline;">Next</span></p>
+<p><span style="text-decoration: underline;">Ngoài lề một chút:</span> đây có lẽ là một trong những thỏa thuận bản quyền phần mềm ngắn nhất mình từng thấy trong nhiều năm làm ngành IT</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-License-Server-3.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1203" src="./../../../wp-content/uploads/2015/06/Install-License-Server-3-620x470.png" alt="Install-License-Server-3" width="620" height="470" srcset="./../../../wp-content/uploads/2015/06/Install-License-Server-3-620x470.png 620w, ./../../../wp-content/uploads/2015/06/Install-License-Server-3.png 825w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn đường dẫn cài đặt và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-License-Server-4.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1204" src="./../../../wp-content/uploads/2015/06/Install-License-Server-4-620x470.png" alt="Install-License-Server-4" width="620" height="470" srcset="./../../../wp-content/uploads/2015/06/Install-License-Server-4-620x470.png 620w, ./../../../wp-content/uploads/2015/06/Install-License-Server-4.png 825w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cấu hình port cho Citrix Licensing Server, nếu không có yêu cầu gì đặc biệt tốt nhất để mặc định tránh các phiền phức về sau</p>
+<p>Tài khoản admin mặc định của Citrix Licensing Server là tài khoản admin của máy. Sau khi đăng nhập Licensing Server bạn có thể thay đổi sau</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-License-Server-5.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1205" src="./../../../wp-content/uploads/2015/06/Install-License-Server-5-620x470.png" alt="Install-License-Server-5" width="620" height="470" srcset="./../../../wp-content/uploads/2015/06/Install-License-Server-5-620x470.png 620w, ./../../../wp-content/uploads/2015/06/Install-License-Server-5.png 825w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cài đặt hoàn tất, chúng ta tiếp tục tiến hành cấu hình Licensing Server</p>
+<p><strong>Cấu hình Citrix Licensing Server</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-1.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1206" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-1-620x275.png" alt="Configure-License-Server-1" width="620" height="275" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-1-620x275.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-1-920x409.png 920w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-1.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mở Start =&gt; Citrix License Administration Console</p>
+<p>Giao diện <span style="text-decoration: underline;">Dashboard</span> thể hiện trạng thái của License server và hiển thị số lượng bản quyền đang sử dụng</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-2.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1207" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-2-620x275.png" alt="Configure-License-Server-2" width="620" height="275" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-2-620x275.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-2-920x409.png 920w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-2.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Administration</span> và đăng nhập sử dụng tài khoản Admin của hệ thống</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-3.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1208" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-3-620x330.png" alt="Configure-License-Server-3" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-3-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-3-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-3.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Di chuyển đến mục <span style="text-decoration: underline;">Vendor Daemon Configuration</span> và chọn <span style="text-decoration: underline;">Import License</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-4.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1209" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-4-620x330.png" alt="Configure-License-Server-4" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-4-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-4-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-4.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trỏ đường dẫn đến tập tin license và chọn <span style="text-decoration: underline;">Import License</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-5.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1210" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-5-620x330.png" alt="Configure-License-Server-5" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-5-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-5-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-5.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn OK</p>
+<p>Để License server nhận diện và hiển thị bản quyền chúng ta vừa Import, có thể khởi động lại máy hoặc khởi động lại dịch vụ Citrix Licensing Service</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-6.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1211" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-6-620x452.png" alt="Configure-License-Server-6" width="620" height="452" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-6-620x452.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-6.png 820w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Run =&gt; services</p>
+<p>Chọn Citrix Licensing =&gt; Restart</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-7.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1212" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-7-620x275.png" alt="Configure-License-Server-7" width="620" height="275" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-7-620x275.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-7-920x409.png 920w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-7.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Quay trở lại <span style="text-decoration: underline;">Dashboard</span>, các bản quyền (dùng thử) đã được thể hiện</p>
+<p>Trong bài tới chúng ta sẽ tiến hành cài đặt máy chủ Provisioning Services</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" data-a2a-url="./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/index.html" data-a2a-title="Cài đặt máy chủ bản quyền – Citrix Licensing server"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Đăng ký tài khoản Citrix, tải phần mềm và file bản quyền dùng thử</title>
+		<link>./../../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html</link>
+					<comments>./../../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2015 03:22:06 +0000</pubDate>
+				<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[Citrix Licensing]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1182</guid>
+
+					<description><![CDATA[Đăng ký tài khoản Citrix, tải phần mềm và file bản quyền dùng thử Ở bài đầu tiên này chúng ta sẽ tiến hành đăng ký tài khoản Citrix, tải phần mềm cũng như file bản quyền (dùng thử) Đăng ký tài khoản, tải phần mềm Để tiến hành đăng ký tài khoản, các bạn <a class="more-link" href="./../../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fdang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu%2F&amp;linkname=%C4%90%C4%83ng%20k%C3%BD%20t%C3%A0i%20kho%E1%BA%A3n%20Citrix%2C%20t%E1%BA%A3i%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20file%20b%E1%BA%A3n%20quy%E1%BB%81n%20d%C3%B9ng%20th%E1%BB%AD" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fdang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu%2F&amp;linkname=%C4%90%C4%83ng%20k%C3%BD%20t%C3%A0i%20kho%E1%BA%A3n%20Citrix%2C%20t%E1%BA%A3i%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20file%20b%E1%BA%A3n%20quy%E1%BB%81n%20d%C3%B9ng%20th%E1%BB%AD" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fdang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu%2F&amp;linkname=%C4%90%C4%83ng%20k%C3%BD%20t%C3%A0i%20kho%E1%BA%A3n%20Citrix%2C%20t%E1%BA%A3i%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20file%20b%E1%BA%A3n%20quy%E1%BB%81n%20d%C3%B9ng%20th%E1%BB%AD" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fdang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu%2F&#038;title=%C4%90%C4%83ng%20k%C3%BD%20t%C3%A0i%20kho%E1%BA%A3n%20Citrix%2C%20t%E1%BA%A3i%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20file%20b%E1%BA%A3n%20quy%E1%BB%81n%20d%C3%B9ng%20th%E1%BB%AD" data-a2a-url="./../../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html" data-a2a-title="Đăng ký tài khoản Citrix, tải phần mềm và file bản quyền dùng thử"></a></p><p><span style="color: #0000ff;"><strong>Đăng ký tài khoản Citrix, tải phần mềm và file bản quyền dùng thử</strong></span></p>
+<p>Ở bài đầu tiên này chúng ta sẽ tiến hành đăng ký tài khoản Citrix, tải phần mềm cũng như file bản quyền (dùng thử)</p>
+<p><strong>Đăng ký tài khoản, tải phần mềm</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-1.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1183" src="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-1-620x356.png" alt="Register-download-citrix-software-1" width="620" height="356" srcset="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-1-620x356.png 620w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-1-920x528.png 920w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-1.png 1292w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để tiến hành đăng ký tài khoản, các bạn truy cập trang web <a href="https://www.citrix.com/welcome/create-account.html" target="_blank">https://www.citrix.com/welcome/create-account.html</a> và click chọn <span style="text-decoration: underline;">Create Customer Account</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-2.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1184" src="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-2-620x385.png" alt="Register-download-citrix-software-2" width="620" height="385" srcset="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-2-620x385.png 620w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-2-920x572.png 920w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-2.png 1276w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Điền đầy đủ các thông tin yêu cầu và click chọn <span style="text-decoration: underline;">Continue</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-3.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1185" src="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-3-620x402.png" alt="Register-download-citrix-software-3" width="620" height="402" srcset="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-3-620x402.png 620w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-3-920x596.png 920w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-3.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn login ID và mật khẩu và click <span style="text-decoration: underline;">Continue</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-4.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1186" src="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-4-620x402.png" alt="Register-download-citrix-software-4" width="620" height="402" srcset="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-4-620x402.png 620w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-4-920x596.png 920w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-4.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đăng ký thành công bạn sẽ chuyển đến trang Account bao gồm các chức năng quản lý tài khoản, ở đây bạn có thể quản lý các tập tin license, tạo yêu cầu hỗ trợ hoặc tải sản phẩm để sử dụng. Tất nhiên trong trường hợp này là dùng thử</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-5.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1187" src="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-5-620x402.png" alt="Register-download-citrix-software-5" width="620" height="402" srcset="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-5-620x402.png 620w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-5-920x596.png 920w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-5.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trong mục <span style="text-decoration: underline;">Preview/Betas &#8211; License Retrieval</span> có sẵn các mục key bản quyền dùng thử cho các sản phẩm chính của Citrix</p>
+<ul>
+<li>XenDesktop phiên bản đầy đủ chức năng dùng thử 3 tháng cho 99 người</li>
+<li>XenApp Developer (Enterprise) cho lập trình viên hạn dùng 1 năm cho 1 người</li>
+<li>XenApp phiên bản dùng thử 3 tháng cho 99 người</li>
+<li>&#8230;</li>
+</ul>
+<p><a href="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-6.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1188" src="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-6-620x183.png" alt="Register-download-citrix-software-6" width="620" height="183" srcset="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-6-620x183.png 620w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-6-920x272.png 920w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-6.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để tải phần mềm các bạn chọn nút Download ở góc trên và chọn Find Downloads tương ứng cho các sản phẩm cần tải. Trong bài này chúng ta sẽ tải <span style="text-decoration: underline;">License Server</span> và <span style="text-decoration: underline;">Citrix Provisioning Services 7.6</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-7.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1189" src="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-7-620x259.png" alt="Register-download-citrix-software-7" width="620" height="259" srcset="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-7-620x259.png 620w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-7-920x385.png 920w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-7-300x125.png 300w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-7.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-8.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1190" src="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-8-620x402.png" alt="Register-download-citrix-software-8" width="620" height="402" srcset="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-8-620x402.png 620w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-8-920x596.png 920w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-8.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-9.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1191" src="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-9-620x402.png" alt="Register-download-citrix-software-9" width="620" height="402" srcset="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-9-620x402.png 620w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-9-920x596.png 920w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-9.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-10.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1192" src="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-10-620x352.png" alt="Register-download-citrix-software-10" width="620" height="352" srcset="./../../../wp-content/uploads/2015/06/Register-download-citrix-software-10-620x352.png 620w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-10-920x523.png 920w, ./../../../wp-content/uploads/2015/06/Register-download-citrix-software-10.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Các bạn tải các phần mềm trên và lưu vào đĩa cứng</p>
+<p><strong>Tải tập tin bản quyền</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Allocate-License-1.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1193" src="./../../../wp-content/uploads/2015/06/Allocate-License-1-620x402.png" alt="Allocate-License-1" width="620" height="402" srcset="./../../../wp-content/uploads/2015/06/Allocate-License-1-620x402.png 620w, ./../../../wp-content/uploads/2015/06/Allocate-License-1-920x596.png 920w, ./../../../wp-content/uploads/2015/06/Allocate-License-1.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Vì PVS là một sản phẩm nằm trong bộ giải pháp ảo hóa desktop lớn là XenDesktop, do đó chúng ta chọn phần serial number XenDesktop Evaluation</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Allocate-License-2.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1194" src="./../../../wp-content/uploads/2015/06/Allocate-License-2-620x402.png" alt="Allocate-License-2" width="620" height="402" srcset="./../../../wp-content/uploads/2015/06/Allocate-License-2-620x402.png 620w, ./../../../wp-content/uploads/2015/06/Allocate-License-2-920x596.png 920w, ./../../../wp-content/uploads/2015/06/Allocate-License-2.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Một cảnh báo về hostname, nội dung là tên máy chủ bản quyền phải tương đồng với quy trình tạo file bản quyền, phân biệt cả chữ hoa chữ thường.</p>
+<p>Tên máy chủ sẽ được mã hóa trong file bản quyền, do đó nếu sai tên máy chủ thì sẽ không có hiệu lực, các bạn cần lưu ý</p>
+<p>Chọn <span style="text-decoration: underline;">Continue</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Allocate-License-3.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1195" src="./../../../wp-content/uploads/2015/06/Allocate-License-3-620x402.png" alt="Allocate-License-3" width="620" height="402" srcset="./../../../wp-content/uploads/2015/06/Allocate-License-3-620x402.png 620w, ./../../../wp-content/uploads/2015/06/Allocate-License-3-920x596.png 920w, ./../../../wp-content/uploads/2015/06/Allocate-License-3.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhập tên máy chủ bản quyền ở phần Host ID, ở đây mình đặt tên máy chủ bản quyền là <span style="text-decoration: underline;">CTXLICSRV</span></p>
+<p>Chọn <span style="text-decoration: underline;">Continue</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Allocate-License-4.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1196" src="./../../../wp-content/uploads/2015/06/Allocate-License-4-620x266.png" alt="Allocate-License-4" width="620" height="266" srcset="./../../../wp-content/uploads/2015/06/Allocate-License-4-620x266.png 620w, ./../../../wp-content/uploads/2015/06/Allocate-License-4-920x394.png 920w, ./../../../wp-content/uploads/2015/06/Allocate-License-4.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Một bảng hiển thị lại thông tin yêu cầu xác nhận, nếu không có gì sai thì bạn chọn Confirm để xác nhận để hệ thống tạo ra file bản quyền</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Allocate-License-5.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1197" src="./../../../wp-content/uploads/2015/06/Allocate-License-5-620x402.png" alt="Allocate-License-5" width="620" height="402" srcset="./../../../wp-content/uploads/2015/06/Allocate-License-5-620x402.png 620w, ./../../../wp-content/uploads/2015/06/Allocate-License-5-920x596.png 920w, ./../../../wp-content/uploads/2015/06/Allocate-License-5.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>File bản quyền đã được xác nhận và tạo ra, cửa sổ hiện ra hỏi bạn có muốn tải file bản quyền không, chọn OK</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Allocate-License-6.png" rel="lightbox[1182]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1198" src="./../../../wp-content/uploads/2015/06/Allocate-License-6-620x284.png" alt="Allocate-License-6" width="620" height="284" srcset="./../../../wp-content/uploads/2015/06/Allocate-License-6-620x284.png 620w, ./../../../wp-content/uploads/2015/06/Allocate-License-6-920x421.png 920w, ./../../../wp-content/uploads/2015/06/Allocate-License-6.png 1181w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click chọn <span style="text-decoration: underline;">Download</span> để tiến hành tải file bản quyền</p>
+<p>Như vậy là về thủ tục hành chính đã hoàn thành, trong bài tới chúng ta sẽ tiến hành cài đặt máy chủ bản quyền &#8211; Citrix License Server</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fdang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu%2F&amp;linkname=%C4%90%C4%83ng%20k%C3%BD%20t%C3%A0i%20kho%E1%BA%A3n%20Citrix%2C%20t%E1%BA%A3i%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20file%20b%E1%BA%A3n%20quy%E1%BB%81n%20d%C3%B9ng%20th%E1%BB%AD" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fdang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu%2F&amp;linkname=%C4%90%C4%83ng%20k%C3%BD%20t%C3%A0i%20kho%E1%BA%A3n%20Citrix%2C%20t%E1%BA%A3i%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20file%20b%E1%BA%A3n%20quy%E1%BB%81n%20d%C3%B9ng%20th%E1%BB%AD" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fdang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu%2F&amp;linkname=%C4%90%C4%83ng%20k%C3%BD%20t%C3%A0i%20kho%E1%BA%A3n%20Citrix%2C%20t%E1%BA%A3i%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20file%20b%E1%BA%A3n%20quy%E1%BB%81n%20d%C3%B9ng%20th%E1%BB%AD" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fdang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu%2F&#038;title=%C4%90%C4%83ng%20k%C3%BD%20t%C3%A0i%20kho%E1%BA%A3n%20Citrix%2C%20t%E1%BA%A3i%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20file%20b%E1%BA%A3n%20quy%E1%BB%81n%20d%C3%B9ng%20th%E1%BB%AD" data-a2a-url="./../../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html" data-a2a-title="Đăng ký tài khoản Citrix, tải phần mềm và file bản quyền dùng thử"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/feed/index.html</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hướng dẫn toàn tập bootrom Citrix PVS 7.6</title>
+		<link>./../../../huong-dan-toan-tap-bootrom-citrix-pvs-7-6/index.html</link>
+					<comments>./../../../huong-dan-toan-tap-bootrom-citrix-pvs-7-6/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2015 02:46:33 +0000</pubDate>
+				<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[bootrom]]></category>
+		<category><![CDATA[provisioning services]]></category>
+		<category><![CDATA[pvs 7.6]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1178</guid>
+
+					<description><![CDATA[Hướng dẫn toàn tập bootrom Citrix PVS 7.6 Xin chào các bạn, hôm nay mình sẽ post bài hướng dẫn cài đặt và cấu hình bootrom (diskless) sử dụng phần mềm Citrix Provisioning Services (PVS) 7.6 Đây là một phần của bộ sản phẩm giải pháp ảo hóa lớn hơn nhiều đó là Citrix XenDesktop <a class="more-link" href="./../../../huong-dan-toan-tap-bootrom-citrix-pvs-7-6/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&#038;title=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" data-a2a-url="./../../../huong-dan-toan-tap-bootrom-citrix-pvs-7-6/index.html" data-a2a-title="Hướng dẫn toàn tập bootrom Citrix PVS 7.6"></a></p><p><strong><span style="color: #0000ff;">Hướng dẫn toàn tập bootrom Citrix PVS 7.6</span></strong></p>
+<p>Xin chào các bạn, hôm nay mình sẽ post bài hướng dẫn cài đặt và cấu hình bootrom (diskless) sử dụng phần mềm Citrix Provisioning Services (PVS) 7.6</p>
+<p>Đây là một phần của bộ sản phẩm giải pháp ảo hóa lớn hơn nhiều đó là Citrix XenDesktop mà trong thời gian tới mình sẽ có bài viết về bộ giải pháp này</p>
+<p>Quay trở lại bài viết, mình sẽ hướng dẫn chi tiết cách đăng ký tài khoản, tải phần mềm và license dùng thử, cài đặt và cấu hình các thành phần liên quan đến PVS</p>
+<p><strong>Nội dung của bài viết</strong></p>
+<p><span style="text-decoration: underline;"><a href="./../../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html" target="_blank">Phần 1 &#8211; Đăng ký tài khoản Citrix, tải phần mềm và file bản quyền dùng thử</a></span></p>
+<p><span style="text-decoration: underline;"><a href="./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/index.html" target="_blank">Phần 2 &#8211; Cài đặt máy chủ bản quyền &#8211; Citrix Licensing server</a></span></p>
+<ul>
+<li>Cài đặt Citrix Licensing Server</li>
+<li>Cấu hình Citrix Licensing Server</li>
+</ul>
+<p><span style="text-decoration: underline;"><a href="./../../../cai-dat-may-chu-provisioning-services-7-6/index.html" target="_blank">Phần 3 &#8211; Cài đặt máy chủ Provisioning Services 7.6</a></span></p>
+<ul>
+<li>Cài đặt SQL Server</li>
+<li>Cài đặt PVS Console (giao diện quản lý PVS)</li>
+<li>Cài đặt PVS Server</li>
+<li>Cấu hình PVS Server</li>
+</ul>
+<p><span style="text-decoration: underline;"><a href="./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/index.html" target="_blank">Phần 4 &#8211; Cài đặt và cấu hình máy client mẫu Target device</a></span></p>
+<ul>
+<li>Cài đặt Target device</li>
+<li>Target device imaging wizard &#8211; chuyển hệ điều hành máy mẫu thành vDisk</li>
+</ul>
+<p><span style="text-decoration: underline;"><a href="./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/index.html" target="_blank">Phần 5 &#8211; Sử dụng vDisk cho toàn bộ máy con khác</a></span></p>
+<ul>
+<li>Cấu hình vDisk và trình Auto-Add</li>
+<li>Khởi động các máy client khác</li>
+</ul>
+<p><span style="text-decoration: underline;"><a href="./../../../cai-dat-va-cau-hinh-starwind-virtual-san/index.html" target="_blank">Phần 6 &#8211; Cài đặt và cấu hình Starwind Virtual SAN (tùy chọn)</a></span></p>
+<ul>
+<li>Cài đặt Starwind Virtual SAN</li>
+<li>Cài đặt Starwind iSCSI Initiator</li>
+<li>Cấu hình Starwind Virtual SAN</li>
+<li>Kết nối Starwind Virtual SAN</li>
+</ul>
+<p><a href="./../../../multi-server-bootrom-citrix-pvs-7-6/index.html" target="_blank">Phần 7 &#8211; Multi server bootrom Citrix PVS 7.6</a></p>
+<ul>
+<li>Cấu hình SQL Server</li>
+<li>Cài đặt Citrix PVS Server</li>
+<li>Join server vào farm có sẵn</li>
+</ul>
+<p><strong>Yêu cầu hệ thống:</strong></p>
+<ul>
+<li>1 máy chủ Citrix Licensing</li>
+<li>1 (hoặc nhiều) máy chủ PVS</li>
+<li>1 máy mẫu Target device</li>
+<li>1 hoặc nhiều máy con khác</li>
+</ul>
+<p>Tùy theo yêu cầu và độ lớn hệ thống mà có thể sẽ có SQL Server riêng và nhiều PVS server trong farm. Ở góc độ bài viết này mình chỉ sử dụng như nêu trên. Tuy nhiên nếu máy chủ đủ mạnh, bạn có thể kết hợp</p>
+<p>Về góc độ kỹ năng yêu cầu do hệ thống sử dụng Windows tương đối dễ dàng, bạn chỉ cần biết cách cài đặt Windows (Server, client) và cài đặt ứng dụng. Mọi hướng dẫn theo hướng từng bước một</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&#038;title=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" data-a2a-url="./../../../huong-dan-toan-tap-bootrom-citrix-pvs-7-6/index.html" data-a2a-title="Hướng dẫn toàn tập bootrom Citrix PVS 7.6"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../huong-dan-toan-tap-bootrom-citrix-pvs-7-6/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt bootroom Citrix PVS 6.0 &#8211; P3</title>
+		<link>./../../../cai-dat-bootroom-citrix-pvs-6-0-p3/index.html</link>
+					<comments>./../../../cai-dat-bootroom-citrix-pvs-6-0-p3/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 16 Dec 2014 04:35:48 +0000</pubDate>
+				<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[Bootroom]]></category>
+		<category><![CDATA[PVS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=728</guid>
+
+					<description><![CDATA[Cài đặt bootroom Citrix PVS 6.0 &#8211; P3 (Finish)]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" data-a2a-url="./../../../cai-dat-bootroom-citrix-pvs-6-0-p3/index.html" data-a2a-title="Cài đặt bootroom Citrix PVS 6.0 – P3"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt bootroom Citrix PVS 6.0 &#8211; P3 (Finish)</strong></span></p>
+<p><iframe loading="lazy" width="780" height="585" src="https://www.youtube.com/embed/rhG7ENSPIos?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" data-a2a-url="./../../../cai-dat-bootroom-citrix-pvs-6-0-p3/index.html" data-a2a-title="Cài đặt bootroom Citrix PVS 6.0 – P3"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-bootroom-citrix-pvs-6-0-p3/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt bootroom Citrix PVS 6.0 &#8211; P2</title>
+		<link>./../../../cai-dat-bootroom-citrix-pvs-6-0-p2/index.html</link>
+					<comments>./../../../cai-dat-bootroom-citrix-pvs-6-0-p2/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 16 Dec 2014 04:33:29 +0000</pubDate>
+				<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[Bootroom]]></category>
+		<category><![CDATA[PVS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=726</guid>
+
+					<description><![CDATA[Cài đặt bootroom Citrix PVS 6.0 &#8211; P2]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" data-a2a-url="./../../../cai-dat-bootroom-citrix-pvs-6-0-p2/index.html" data-a2a-title="Cài đặt bootroom Citrix PVS 6.0 – P2"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt bootroom Citrix PVS 6.0 &#8211; P2</strong></span></p>
+<p><iframe loading="lazy" width="780" height="585" src="https://www.youtube.com/embed/8OvEkm9a81k?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" data-a2a-url="./../../../cai-dat-bootroom-citrix-pvs-6-0-p2/index.html" data-a2a-title="Cài đặt bootroom Citrix PVS 6.0 – P2"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-bootroom-citrix-pvs-6-0-p2/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt bootroom Citrix PVS 6.0 &#8211; P1</title>
+		<link>./../../../cai-dat-bootroom-citrix-pvs-6-0-p1/index.html</link>
+					<comments>./../../../cai-dat-bootroom-citrix-pvs-6-0-p1/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 16 Dec 2014 04:21:43 +0000</pubDate>
+				<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[Bootroom]]></category>
+		<category><![CDATA[PVS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=722</guid>
+
+					<description><![CDATA[Cài đặt bootroom Citrix PVS 6.0 &#8211; P1]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" data-a2a-url="./../../../cai-dat-bootroom-citrix-pvs-6-0-p1/index.html" data-a2a-title="Cài đặt bootroom Citrix PVS 6.0 – P1"></a></p><p><strong><span style="color: #0000ff;">Cài đặt bootroom Citrix PVS 6.0 &#8211; P1</span></strong></p>
+<p><iframe loading="lazy" width="780" height="585" src="https://www.youtube.com/embed/ZoUdJRRu6BQ?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" data-a2a-url="./../../../cai-dat-bootroom-citrix-pvs-6-0-p1/index.html" data-a2a-title="Cài đặt bootroom Citrix PVS 6.0 – P1"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-bootroom-citrix-pvs-6-0-p1/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

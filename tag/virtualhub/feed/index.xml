@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>VirtualHUB &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Wed, 17 Jun 2015 01:39:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>VirtualHUB &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Cấu hình VirtualHUB</title>
+		<link>./../../../cau-hinh-virtualhub/index.html</link>
+					<comments>./../../../cau-hinh-virtualhub/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2014 09:48:38 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[SoftEther]]></category>
+		<category><![CDATA[VirtualHUB]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=980</guid>
+
+					<description><![CDATA[Cấu hình VirtualHUB Trong bài này chúng ta sẽ tiếp tục phần cấu hình VirtualHUB Group Đầu tiên chúng ta tạo group, việc tạo group là tùy chọn tuy nhiên tạo group và gán tài khoản vào group sẽ dễ quản lý hơn, tất nhiên sử dụng chung thiết lập cho tất cả tài khoản <a class="more-link" href="./../../../cau-hinh-virtualhub/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcau-hinh-virtualhub%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcau-hinh-virtualhub%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcau-hinh-virtualhub%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcau-hinh-virtualhub%2F&#038;title=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" data-a2a-url="./../../../cau-hinh-virtualhub/index.html" data-a2a-title="Cấu hình VirtualHUB"></a></p><p><span style="color: #0000ff;"><strong>Cấu hình VirtualHUB</strong></span></p>
+<p>Trong bài này chúng ta sẽ tiếp tục phần cấu hình VirtualHUB</p>
+<p><strong>Group</strong></p>
+<p>Đầu tiên chúng ta tạo group, việc tạo group là tùy chọn tuy nhiên tạo group và gán tài khoản vào group sẽ dễ quản lý hơn, tất nhiên sử dụng chung thiết lập cho tất cả tài khoản<br />
+<a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-1.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class=" size-full wp-image-983 alignleft" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-1.png" alt="VirtualHUB-Group-1" width="592" height="449" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-2.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class=" size-medium wp-image-984 aligncenter" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-2.png" alt="VirtualHUB-Group-2" width="432" height="473" /></a></p>
+<p>Cấu hình chính sách bảo mật cho group, có rất nhiều tuỳ chọn nhưng mình chỉ bật vài tùy chọn như sau:</p>
+<ul>
+<li>Allow Access: Cho phép nhóm được phép truy cập VPN</li>
+<li>Disallow DHCP Server Operation (IPv4): không cho phép người dùng hoạt động như một DHCP server</li>
+<li>Deny IP Address Duplication: không cho phép trùng địa chỉ IP</li>
+<li>Deny operation as TCP/IP server: tương tự DHCP server trên</li>
+<li>Max TCP connection: cho phép tối đa 32 kết nối cho mỗi user</li>
+<li>Maximum number of multiple Login: cho phép tối đa bao nhiêu thiết bị cho mỗi tài khoản.</li>
+</ul>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-3.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-985" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-3-620x420.png" alt="VirtualHUB-Group-3" width="620" height="420" srcset="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-3-620x420.png 620w, ./../../../wp-content/uploads/2014/12/VirtualHUB-Group-3.png 795w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>User:</strong></p>
+<p>Tạo user</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-User-1.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-986" src="./../../../wp-content/uploads/2014/12/SoftEther-User-1-620x346.png" alt="SoftEther-User-1" width="620" height="346" srcset="./../../../wp-content/uploads/2014/12/SoftEther-User-1-620x346.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-User-1.png 802w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tên truy cập và mật khẩu</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-User-2.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-987" src="./../../../wp-content/uploads/2014/12/SoftEther-User-2-620x428.png" alt="SoftEther-User-2" width="620" height="428" srcset="./../../../wp-content/uploads/2014/12/SoftEther-User-2-620x428.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-User-2.png 803w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cấu hình các chính sách truy cập với Access list:</p>
+<p>Ví dụ cho phép user này truy cập web nhưng không cho phép download torrent&#8230;</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Access-Lists.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-988" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Access-Lists-620x396.png" alt="VirtualHUB-Access-Lists" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/VirtualHUB-Access-Lists-620x396.png 620w, ./../../../wp-content/uploads/2014/12/VirtualHUB-Access-Lists.png 796w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Máy chủ chứng thực, mặc định SoftEther chứng thực user trên database có sẵn, tuy nhiên SoftEther cũng hỗ trợ chứng thực thông qua một máy chủ RADIUS khác.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Authentication-Server.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-989" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Authentication-Server.png" alt="VirtualHUB-Authentication-Server" width="502" height="512" srcset="./../../../wp-content/uploads/2014/12/VirtualHUB-Authentication-Server.png 502w, ./../../../wp-content/uploads/2014/12/VirtualHUB-Authentication-Server-53x53.png 53w" sizes="(max-width: 502px) 100vw, 502px" /></a></p>
+<p>Cấu hình lưu tập tin log. Như ảnh dưới mình cấu hình cho VPN server không lưu log truy cập.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Log.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-990" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Log.png" alt="VirtualHUB-Log" width="495" height="610" /></a></p>
+<p>Cấu hình các tham số của VirtualHUB</p>
+<p>Mật khẩu<br />
+Giới hạn số kết nối VPN<br />
+Cấu hình lời chào<br />
+&#8230;</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Properties.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-991" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Properties-620x429.png" alt="VirtualHUB-Properties" width="620" height="429" srcset="./../../../wp-content/uploads/2014/12/VirtualHUB-Properties-620x429.png 620w, ./../../../wp-content/uploads/2014/12/VirtualHUB-Properties.png 761w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>SecureNAT</strong></p>
+<p>Như đã nói ở phần trước do chúng ta đang sử dụng VPS nên không sử dụng chức năng Local-Bridge được, do đó chúng ta cần dùng SecureNAT</p>
+<p>Enable SecureNAT</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-1.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-992" src="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-1-620x497.png" alt="VirtualHUB-SecureNAT-1" width="620" height="497" srcset="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-1-620x497.png 620w, ./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-1.png 628w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn Yes</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-2.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-993" src="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-2.png" alt="VirtualHUB-SecureNAT-2" width="418" height="400" /></a></p>
+<p>Cấu hình SecureNAT</p>
+<p>Thiết lập các tham số mạng cũng như dải IP VPN Server cấp cho thiết bị kết nối VPN. Để mặc định</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-3.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-994" src="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-3-620x431.png" alt="VirtualHUB-SecureNAT-3" width="620" height="431" srcset="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-3-620x431.png 620w, ./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-3.png 740w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Như vậy là phần cấu hình máy chủ VPN Server đã hoàn tất, công việc còn lại chỉ là thiết lập kết nối VPN từ thiết bị.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcau-hinh-virtualhub%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcau-hinh-virtualhub%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcau-hinh-virtualhub%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcau-hinh-virtualhub%2F&#038;title=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" data-a2a-url="./../../../cau-hinh-virtualhub/index.html" data-a2a-title="Cấu hình VirtualHUB"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cau-hinh-virtualhub/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

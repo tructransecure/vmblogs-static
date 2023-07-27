@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>HDX &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 07:59:50 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>HDX &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>HDX Monitor</title>
+		<link>./../../../hdx-monitor/index.html</link>
+					<comments>./../../../hdx-monitor/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 10 Sep 2014 08:14:21 +0000</pubDate>
+				<category><![CDATA[Tools]]></category>
+		<category><![CDATA[HDX]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=332</guid>
+
+					<description><![CDATA[The HDX Monitor tool is used to validate the operation and configuration of key features of XenDesktop&#8217;s and XenApp&#8217;s HDX stack including the latest HDX virtualization technologies like MediaStream for Flash and HDX RealTime features. Consequently, this tool can also help you diagnose and troubleshoot HDX issues. Its built-in expert system analyzes all captured data <a class="more-link" href="./../../../hdx-monitor/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhdx-monitor%2F&amp;linkname=HDX%20Monitor" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhdx-monitor%2F&amp;linkname=HDX%20Monitor" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhdx-monitor%2F&amp;linkname=HDX%20Monitor" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhdx-monitor%2F&#038;title=HDX%20Monitor" data-a2a-url="./../../../hdx-monitor/index.html" data-a2a-title="HDX Monitor"></a></p><p>The HDX Monitor tool is used to validate the operation and configuration of key features of XenDesktop&#8217;s and XenApp&#8217;s HDX stack including the latest HDX virtualization technologies like MediaStream for Flash and HDX RealTime features. Consequently, this tool can also help you diagnose and troubleshoot HDX issues. Its built-in expert system analyzes all captured data and identifies potential problems in state, configuration, and/or performance. It can also suggest corrective action that can help resolve the problem or improve performance. For example, it detects when multimedia redirection is in use and if your endpoint device supports it. It also can tell you what audio codec you are using and its bitrate.</p>
+<p>Since the release of HDX Monitor 2.x, this tool has had the ability to diagnose XenApp and XenDesktop (VDI) sessions via the WMI diagnostics interface; both locally and remotely from any machine in the domain. Now HDX Monitor 3.x provides better configurability, expanded components, and many more alerts. It also supports the recently released Excalibur Tech Preview and soon to be released next versions of XenApp and XenDesktop.</p>
+<p>The HDX Monitor is provided “as is” without warranty of any kind. Citrix makes no commitment to provide support for this tool.</p>
+<p><img decoding="async" src="https://taas.citrix.com/static/images/hdx/hdx-mon2.png" alt="HDX Monitor" /></p>
+<p>Download <a href="https://taas.citrix.com/hdx/download/" target="_blank">link</a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhdx-monitor%2F&amp;linkname=HDX%20Monitor" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhdx-monitor%2F&amp;linkname=HDX%20Monitor" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhdx-monitor%2F&amp;linkname=HDX%20Monitor" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhdx-monitor%2F&#038;title=HDX%20Monitor" data-a2a-url="./../../../hdx-monitor/index.html" data-a2a-title="HDX Monitor"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../hdx-monitor/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

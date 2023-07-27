@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>active directory &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Wed, 25 May 2016 13:21:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>active directory &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hướng dẫn nâng cấp Active Directory 2003/2008 lên 2012</title>
+		<link>./../../../huong-dan-nang-cap-active-directory-2003-2008-len-2012/index.html</link>
+					<comments>./../../../huong-dan-nang-cap-active-directory-2003-2008-len-2012/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 25 May 2016 13:16:40 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[active directory]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1898</guid>
+
+					<description><![CDATA[Tình huống: Cty VMBlogs VN có 2 domain controller lần lượt là dc01 (server 2003) và dc02 (server 2008 R2). dc01.vmblogs.vn (dc01 giữ tất cả 5 role Active Directory) dc02.vmblogs.vn Theo nhu cầu phát triển, công ty cần nâng cấp hệ điều hành server lên Windows 2012 R2 chạy trên các server mới hoàn toàn <a class="more-link" href="./../../../huong-dan-nang-cap-active-directory-2003-2008-len-2012/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhuong-dan-nang-cap-active-directory-2003-2008-len-2012%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20n%C3%A2ng%20c%E1%BA%A5p%20Active%20Directory%202003%2F2008%20l%C3%AAn%202012" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhuong-dan-nang-cap-active-directory-2003-2008-len-2012%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20n%C3%A2ng%20c%E1%BA%A5p%20Active%20Directory%202003%2F2008%20l%C3%AAn%202012" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhuong-dan-nang-cap-active-directory-2003-2008-len-2012%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20n%C3%A2ng%20c%E1%BA%A5p%20Active%20Directory%202003%2F2008%20l%C3%AAn%202012" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhuong-dan-nang-cap-active-directory-2003-2008-len-2012%2F&#038;title=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20n%C3%A2ng%20c%E1%BA%A5p%20Active%20Directory%202003%2F2008%20l%C3%AAn%202012" data-a2a-url="./../../../huong-dan-nang-cap-active-directory-2003-2008-len-2012/index.html" data-a2a-title="Hướng dẫn nâng cấp Active Directory 2003/2008 lên 2012"></a></p><p><span style="text-decoration: underline;">Tình huống:</span><br />
+Cty VMBlogs VN có 2 domain controller lần lượt là dc01 (server 2003) và dc02 (server 2008 R2).</p>
+<p>dc01.vmblogs.vn (dc01 giữ tất cả 5 role Active Directory)<br />
+dc02.vmblogs.vn</p>
+<p>Theo nhu cầu phát triển, công ty cần nâng cấp hệ điều hành server lên Windows 2012 R2 chạy trên các server mới hoàn toàn tuy nhiên vẫn giữ nguyên cấu trúc Active Directory như cũ.</p>
+<p><span style="text-decoration: underline;">Giải quyết vấn đề:</span><br />
+Với tình huống giả định như trên chúng ta có thể tiến hành theo như bài hướng dẫn bên dưới để nâng cấp hệ thống lên Windows Server 2012.</p>
+<p><strong>Trước khi tiến hành nâng cấp hệ thống lên Windows Server 2012 R2, điều quan trọng đầu tiên cần làm là backup các hệ thống đang vận hành. Điều này giúp chúng ta có một đường lui khi quá trình nâng cấp gặp trục trặc.</strong></p>
+<p><strong>Các bước tiến hành</strong></p>
+<p>Bước 1:</p>
+<p>Transfer toàn bộ role từ dc01 sang dc02<br />
+Gỡ bỏ domain controller dc01<br />
+Bỏ join domain<br />
+Xóa thông tin dc01</p>
+<p>Bước 2:</p>
+<p>Nâng cấp domain functional level, forest functional level<br />
+Nâng cấp schema forestprep, domainprep<br />
+Cài đặt server 2012 R2<br />
+Join domain (dc01 mới)<br />
+Cài đặt DNS và AD Directory Services<br />
+Promote dc01 mới lên thành domain controller<br />
+Transfer roles từ dc02 sang dc01 mới</p>
+<p>Bước 3:</p>
+<p>Gỡ bỏ domain controller dc02<br />
+Bỏ join domain<br />
+Xóa thông tin dc02</p>
+<p>Bước 4:</p>
+<p>Join domain dc02 mới<br />
+Promote dc02 mới thành domain controller.</p>
+<p><strong>Hướng dẫn:</strong></p>
+<p><strong>Bước 1:</strong></p>
+<p>a/ <span style="text-decoration: underline;">Transfer roles từ dc01 sang dc02</span></p>
+<p>Run =&gt; ntdsutil</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.14.53.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1899" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.14.53-620x314.png" alt="Snap 2016-05-25 at 13.14.53" width="620" height="314" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.14.53-620x314.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.14.53.png 670w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>nhập roles để chuyển sang fsmo maintenance:</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.15.05.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1900" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.15.05-620x314.png" alt="Snap 2016-05-25 at 13.15.05" width="620" height="314" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.15.05-620x314.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.15.05.png 670w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhập connections để chuyển sang server connections:</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.15.20.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1901" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.15.20-620x314.png" alt="Snap 2016-05-25 at 13.15.20" width="620" height="314" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.15.20-620x314.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.15.20.png 670w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhập connect to server dc02 (server cần transfer role sang)</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.15.50.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1902" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.15.50-620x314.png" alt="Snap 2016-05-25 at 13.15.50" width="620" height="314" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.15.50-620x314.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.15.50.png 670w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhập q để thoát và quay trở lại mục fsmo maintenance:</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.16.23.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1903" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.16.23-620x314.png" alt="Snap 2016-05-25 at 13.16.23" width="620" height="314" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.16.23-620x314.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.16.23.png 670w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Ở mục fsmo maintenance, chúng ta có thể nhập dấu ? để xem hướng dẫn</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.16.43.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1904" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.16.43-620x314.png" alt="Snap 2016-05-25 at 13.16.43" width="620" height="314" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.16.43-620x314.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.16.43.png 670w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhập transfer domain naming master để tiến hành transfer role sang dc02</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.17.00.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1905" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.17.00-620x314.png" alt="Snap 2016-05-25 at 13.17.00" width="620" height="314" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.17.00-620x314.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.17.00.png 670w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Một hộp thoại sẽ hỏi có chắc chắn chuyển role từ dc01 sang dc02 hay không.</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.19.02.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1906" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.19.02-620x314.png" alt="Snap 2016-05-25 at 13.19.02" width="620" height="314" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.19.02-620x314.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.19.02.png 670w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tương tự thực hiện chuyển các role còn lại sang dc02</p>
+<p>transfer infrastructure master<br />
+transfer pdc<br />
+transfer rid master<br />
+transfer schema master</p>
+<p>b/<span style="text-decoration: underline;"> Gỡ bỏ domain controller dc01</span></p>
+<p>Tại dc01 chạy lệnh dcpromo để tiến hành</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.41.35.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1907" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.41.35.png" alt="Snap 2016-05-25 at 13.41.35" width="504" height="393" /></a></p>
+<p>Một hộp thoại cảnh báo đang tiến hành xóa bỏ Global Catalog, kiểm tra xem Global Catalog đã kích hoạt ở domain controller còn lại trước khi tiến hành gỡ bỏ domain controller dc01</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.41.47.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1908" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.41.47-620x93.png" alt="Snap 2016-05-25 at 13.41.47" width="620" height="93" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.41.47-620x93.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.41.47-768x115.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.41.47.png 846w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click Next để tiếp tục, dấu check This server is the last &#8230;.chỉ sử dụng khi gỡ bỏ hoàn toàn domain.</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.42.11.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1909" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.42.11.png" alt="Snap 2016-05-25 at 13.42.11" width="504" height="393" /></a></p>
+<p>Nhập mật khẩu cho tài khoản Administrator local và click Next để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.42.26.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1910" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.42.26.png" alt="Snap 2016-05-25 at 13.42.26" width="504" height="393" /></a></p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.42.46.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1911" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.42.46.png" alt="Snap 2016-05-25 at 13.42.46" width="504" height="393" /></a></p>
+<p>Quá trình gỡ bỏ đang được tiến hành</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.42.56.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1912" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.42.56.png" alt="Snap 2016-05-25 at 13.42.56" width="438" height="282" /></a></p>
+<p>Hoàn tất</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.47.22.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1913" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.47.22.png" alt="Snap 2016-05-25 at 13.47.22" width="504" height="393" /></a></p>
+<p>Khỏi động lại máy theo yêu cầu</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.47.29.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1914" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.47.29.png" alt="Snap 2016-05-25 at 13.47.29" width="361" height="148" /></a></p>
+<p>Sau khi gỡ bỏ Active directory và domain controller, dc01 hiện trong danh sách Computers thay vì Domain Controllers</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.51.33.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1915" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.51.33-620x376.png" alt="Snap 2016-05-25 at 13.51.33" width="620" height="376" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.51.33-620x376.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.51.33-768x466.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.51.33.png 897w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>c/ <span style="text-decoration: underline;">Bỏ join domain:</span></p>
+<p>Tiến hành bỏ join domain cho dc01</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.52.44.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1916" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.52.44.png" alt="Snap 2016-05-25 at 13.52.44" width="537" height="487" /></a></p>
+<p>Nhập tài khoản domain để xác nhận</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.53.08.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1917" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.53.08.png" alt="Snap 2016-05-25 at 13.53.08" width="327" height="275" /></a></p>
+<p>Hoàn tất</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.53.23.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1918" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.53.23.png" alt="Snap 2016-05-25 at 13.53.23" width="279" height="127" /></a></p>
+<p>Khởi động lại server theo yêu cầu</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.53.38.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1919" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.53.38.png" alt="Snap 2016-05-25 at 13.53.38" width="376" height="127" /></a></p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.53.49.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1920" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.53.49.png" alt="Snap 2016-05-25 at 13.53.49" width="424" height="134" /></a></p>
+<p>Sau khi bỏ join domain biểu tượng máy tính xuất hiện mũi tên đen chi xuống, lúc này chúng ta tiến hành xóa bỏ record dc01 này</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.56.44.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1921" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.56.44-620x306.png" alt="Snap 2016-05-25 at 13.56.44" width="620" height="306" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.56.44-620x306.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.56.44-768x379.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-13.56.44.png 897w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Bước 2:</strong></p>
+<p>a/ <span style="text-decoration: underline;">Nâng cấp domain functional level, forest functional level</span></p>
+<p>Quay trở lại dc02</p>
+<p>Mở Active Directory Users and Computer, click chuột phải vào tên domain và chọn Raise domain functional level</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.01.16.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1922" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.01.16-620x335.png" alt="Snap 2016-05-25 at 14.01.16" width="620" height="335" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.01.16-620x335.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.01.16-768x414.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.01.16.png 897w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn Windows Server 2008 R2 =&gt; click Raise</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.01.44.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1923" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.01.44.png" alt="Snap 2016-05-25 at 14.01.44" width="484" height="335" /></a></p>
+<p>Hộp thoại cảnh báo chú ý sau khi đã nâng cấp domain functional level sẽ không thể quay lại như cũ. Click OK để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.02.03.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1924" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.02.03.png" alt="Snap 2016-05-25 at 14.02.03" width="474" height="172" /></a></p>
+<p>Nâng cấp domain functional level thành công</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.02.18.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1925" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.02.18.png" alt="Snap 2016-05-25 at 14.02.18" width="484" height="200" /></a></p>
+<p>Kiểm tra lại domain functional level</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.02.46.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1926" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.02.46-620x335.png" alt="Snap 2016-05-25 at 14.02.46" width="620" height="335" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.02.46-620x335.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.02.46-768x414.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.02.46.png 897w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để nâng cấp Forest Functional Level chúng ta mở Active Directory Domains and Trusts =&gt; chuột phải menu gốc và chọn Raise Forest Functional Level</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.04.01.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1927" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.04.01-620x344.png" alt="Snap 2016-05-25 at 14.04.01" width="620" height="344" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.04.01-620x344.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.04.01-768x426.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.04.01.png 883w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn Windows Server 2008 R2 và click Raise</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.04.24.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1928" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.04.24.png" alt="Snap 2016-05-25 at 14.04.24" width="484" height="335" /></a></p>
+<p>Hộp thoại cảnh báo nâng cấp functional level cho forest sẽ không thể quay lại như cũ =&gt; click OK để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.04.35.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1929" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.04.35.png" alt="Snap 2016-05-25 at 14.04.35" width="474" height="172" /></a></p>
+<p>Nâng cấp thành công</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.04.48.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1930" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.04.48.png" alt="Snap 2016-05-25 at 14.04.48" width="484" height="200" /></a></p>
+<p>Check lại forest functional level</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.05.04.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1931" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.05.04.png" alt="Snap 2016-05-25 at 14.05.04" width="484" height="257" /></a></p>
+<p>b/ <span style="text-decoration: underline;">Nâng cấp domain schema lên phiên bản mới</span></p>
+<p>Để có thể làm việc với các phiên bản server mới hơn, chúng ta cần nâng cấp domain schema lên phiên bản mới</p>
+<p>Mở thư mục support/adprep trong đĩa cài đặt Windows Server 2012 R2</p>
+<p>Chạy adprep.exe /forestprep</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.07.53.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1943" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.07.53-620x388.png" alt="Snap 2016-05-25 at 14.07.53" width="620" height="388" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.07.53-620x388.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.07.53-768x481.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.07.53.png 914w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.08.36.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1944" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.08.36-620x388.png" alt="Snap 2016-05-25 at 14.08.36" width="620" height="388" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.08.36-620x388.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.08.36-768x481.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.08.36.png 914w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nâng cấp forest schema thành công</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.10.10.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1945" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.10.10-620x314.png" alt="Snap 2016-05-25 at 14.10.10" width="620" height="314" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.10.10-620x314.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.10.10.png 678w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tương tự như trên, chạy adprep.exe /domainprep</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.10.46.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1946" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.10.46-620x314.png" alt="Snap 2016-05-25 at 14.10.46" width="620" height="314" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.10.46-620x314.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.10.46.png 678w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thành công</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.10.56.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1947" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.10.56-620x314.png" alt="Snap 2016-05-25 at 14.10.56" width="620" height="314" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.10.56-620x314.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-14.10.56.png 678w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>c/ <span style="text-decoration: underline;">Cài đặt Windows Server 2012 R2 (dc01 mới)</span></p>
+<p>d/<span style="text-decoration: underline;"> Join domain dc01 mới</span></p>
+<p>e/ <span style="text-decoration: underline;">Cài đặt các service DNS và Active Directory Domain Services</span></p>
+<p>Lưu ý cài DNS trước và sau đó tiến hành cài đặt Active Directory Domain Services</p>
+<p>f/ <span style="text-decoration: underline;">Promote dc01 mới thành domain controller</span></p>
+<p>Click promote this server to a domain controller</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.10.15.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1932" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.10.15-620x440.png" alt="Snap 2016-05-25 at 15.10.15" width="620" height="440" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.10.15-620x440.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.10.15-768x545.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.10.15.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click chọn Add a domain controller to an existing domain, chọn domain và thông tin đăng nhập =&gt; click Next</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.10.55.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1933" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.10.55-620x454.png" alt="Snap 2016-05-25 at 15.10.55" width="620" height="454" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.10.55-620x454.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.10.55-768x562.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.10.55.png 776w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhập mật khẩu cho chế độ Directory Services Restore Mode (DSRM) =&gt; click Next</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.11.56.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1934" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.11.56-620x454.png" alt="Snap 2016-05-25 at 15.11.56" width="620" height="454" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.11.56-620x454.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.11.56-768x562.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.11.56.png 776w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Một cảnh báo thông báo về DNS, tiếp tục click Next để tiếp tục, sau khi hoàn thành các zone của DNS sẽ tự động được replicate từ dc02</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.07.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1935" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.07-620x454.png" alt="Snap 2016-05-25 at 15.12.07" width="620" height="454" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.07-620x454.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.07-768x562.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.07.png 776w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn Replicate from dc02 và click Next để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.22.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1936" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.22-620x454.png" alt="Snap 2016-05-25 at 15.12.22" width="620" height="454" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.22-620x454.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.22-768x562.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.22.png 776w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Vị trí lưu trữ database, log và SYSVOL, có thể thay đổi hoặc để mặc định =&gt; click Next</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.31.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1937" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.31-620x454.png" alt="Snap 2016-05-25 at 15.12.31" width="620" height="454" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.31-620x454.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.31-768x562.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.31.png 776w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click next</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.44.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1938" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.44-620x454.png" alt="Snap 2016-05-25 at 15.12.44" width="620" height="454" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.44-620x454.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.44-768x562.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.12.44.png 776w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Install</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.13.15.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1939" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.13.15-620x454.png" alt="Snap 2016-05-25 at 15.13.15" width="620" height="454" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.13.15-620x454.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.13.15-768x562.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.13.15.png 776w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.14.24.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1940" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.14.24-620x454.png" alt="Snap 2016-05-25 at 15.14.24" width="620" height="454" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.14.24-620x454.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.14.24-768x562.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.14.24.png 776w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi cài đặt xong, server sẽ tự động khởi động lại, check thông tin dc01 (mới) đã nằm trong danh sách Domain Controllers và chạy Windows Server 2012 R2</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.19.11.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1941" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.19.11-620x331.png" alt="Snap 2016-05-25 at 15.19.11" width="620" height="331" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.19.11-620x331.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.19.11-768x410.png 768w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.19.11-920x491.png 920w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.19.11.png 1008w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>g/ <span style="text-decoration: underline;">Transfer role từ dc02 sang dc01 mới</span></p>
+<p>Thực hiện các bước transfer role tương tự như trên để tiến hành transfer các role sang dc01 mới</p>
+<p>Kiểm tra các role hiện hành đang nằm ở server nào với lệnh</p>
+<p>netdom query fsmo</p>
+<p><a href="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.26.36.png" rel="lightbox[1898]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1942" src="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.26.36-620x315.png" alt="Snap 2016-05-25 at 15.26.36" width="620" height="315" srcset="./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.26.36-620x315.png 620w, ./../../../wp-content/uploads/2016/05/Snap-2016-05-25-at-15.26.36.png 678w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Bước 3:</strong></p>
+<p>Ở bước này chúng ta tiến hành chạy dcpromo và làm theo hướng dẫn để gỡ bỏ Active Directory và domain controller dc02</p>
+<p>Bỏ join domain cho server dc02</p>
+<p>Xóa bỏ thông tin dc02 khỏi hệ thống</p>
+<p><strong>Bước 4:</strong></p>
+<p>Cài đặt Windows Server 2012 R2 lên dc02 =&gt; dc02 mới<br />
+Join dc02 mới vào domain<br />
+Cài đặt role DNS và Active Directory Domain Services<br />
+Promote dc02 mới thành domain controller</p>
+<p>Hy vọng bài viết giúp ích cho các bạn, giúp trang bị kỹ năng cần thiết để có thể nâng cấp hệ thống lên phiên bản mới một cách tự tin nhất có thể.</p>
+<p>Chúc các bạn thành công.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhuong-dan-nang-cap-active-directory-2003-2008-len-2012%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20n%C3%A2ng%20c%E1%BA%A5p%20Active%20Directory%202003%2F2008%20l%C3%AAn%202012" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhuong-dan-nang-cap-active-directory-2003-2008-len-2012%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20n%C3%A2ng%20c%E1%BA%A5p%20Active%20Directory%202003%2F2008%20l%C3%AAn%202012" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhuong-dan-nang-cap-active-directory-2003-2008-len-2012%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20n%C3%A2ng%20c%E1%BA%A5p%20Active%20Directory%202003%2F2008%20l%C3%AAn%202012" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhuong-dan-nang-cap-active-directory-2003-2008-len-2012%2F&#038;title=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20n%C3%A2ng%20c%E1%BA%A5p%20Active%20Directory%202003%2F2008%20l%C3%AAn%202012" data-a2a-url="./../../../huong-dan-nang-cap-active-directory-2003-2008-len-2012/index.html" data-a2a-title="Hướng dẫn nâng cấp Active Directory 2003/2008 lên 2012"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../huong-dan-nang-cap-active-directory-2003-2008-len-2012/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

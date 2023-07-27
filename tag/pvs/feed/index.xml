@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>PVS &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Fri, 12 Jun 2015 06:14:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>PVS &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Cài đặt và cấu hình máy client mẫu Target device</title>
+		<link>./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/index.html</link>
+					<comments>./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2015 06:14:08 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[PVS]]></category>
+		<category><![CDATA[Target device]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1265</guid>
+
+					<description><![CDATA[Cài đặt và cấu hình máy client mẫu Target device Ở phần trước chúng ta đã hoàn thành xong phần cài đặt máy chủ Provisioning Services, ở phần này chúng ta tiếp tục tiến hành với client (máy con) Để tiến hành thì trước tiên bạn chọn ra một máy làm mẫu và cài hệ <a class="more-link" href="./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" data-a2a-url="./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/index.html" data-a2a-title="Cài đặt và cấu hình máy client mẫu Target device"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt và cấu hình máy client mẫu Target device</strong></span></p>
+<p>Ở phần trước chúng ta đã hoàn thành xong phần cài đặt máy chủ Provisioning Services, ở phần này chúng ta tiếp tục tiến hành với client (máy con)</p>
+<p>Để tiến hành thì trước tiên bạn chọn ra một máy làm mẫu và cài hệ điều hành</p>
+<p>Windows XP<br />
+Windows 7<br />
+Windows 8/8.1</p>
+<p>Phần này giả định là bạn đã có một máy con được cài đặt hoàn chỉnh (hệ điều hành + driver + phần mềm)</p>
+<p><strong>1 &#8211; Cài đặt PVS Target device</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-1.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1266" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-1-620x522.png" alt="Install-Target-Device-1" width="620" height="522" srcset="./../../../wp-content/uploads/2015/06/Install-Target-Device-1-620x522.png 620w, ./../../../wp-content/uploads/2015/06/Install-Target-Device-1.png 622w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chèn đĩa cài đặt và chọn <span style="text-decoration: underline;">Target Device Installation</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-2.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1267" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-2-620x522.png" alt="Install-Target-Device-2" width="620" height="522" srcset="./../../../wp-content/uploads/2015/06/Install-Target-Device-2-620x522.png 620w, ./../../../wp-content/uploads/2015/06/Install-Target-Device-2.png 622w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tiếp tục chọn <span style="text-decoration: underline;">Target Device Installation</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-3.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1268" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-3.png" alt="Install-Target-Device-3" width="505" height="387" /></a></p>
+<p>Chương trình yêu cầu cài đặt .Net Framework 4.0, click <span style="text-decoration: underline;">Install</span> để tự động cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-4.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1269" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-4.png" alt="Install-Target-Device-4" width="505" height="387" /></a></p>
+<p><span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-5.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1270" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-5.png" alt="Install-Target-Device-5" width="505" height="387" /></a></p>
+<p>Đồng ý thỏa thuận sử dụng =&gt; <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-6.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1271" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-6.png" alt="Install-Target-Device-6" width="505" height="387" /></a></p>
+<p>Đặt tên người sử dụng và tổ chức =&gt; <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-7.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1272" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-7.png" alt="Install-Target-Device-7" width="505" height="387" /></a></p>
+<p>Chọn đường dẫn cài đặt =&gt; <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-8.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1273" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-8.png" alt="Install-Target-Device-8" width="505" height="387" /></a></p>
+<p>Click <span style="text-decoration: underline;">Install</span> để bắt đầu cài</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-Target-Device-9.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1274" src="./../../../wp-content/uploads/2015/06/Install-Target-Device-9.png" alt="Install-Target-Device-9" width="505" height="387" /></a></p>
+<p>Hoàn tất</p>
+<p><strong>2 &#8211; Target Device Imaging Wizard</strong></p>
+<p>Dưới đây là quá trình chuyển đổi hệ điều hành từ ổ cứng của máy con sang vDisk lưu trữ ở máy chủ PVS</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-1.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1275" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-1-620x426.png" alt="Target-Device-Imaging-Wizard-1" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-1-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-1.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mở Provisioning Services Imaging Wizard =&gt; Chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-2.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1276" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-2-620x426.png" alt="Target-Device-Imaging-Wizard-2" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-2-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-2.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhập đầy đủ thông tin như địa chỉ IP (hoặc hostname) của PVS server và điền thông tin đăng nhập</p>
+<p>Chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-3.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1277" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-3-620x426.png" alt="Target-Device-Imaging-Wizard-3" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-3-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-3.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn Create new vDisk</p>
+<p>Để tạo ra vDisk chúng ta có thể tạo trước ở server hoặc tạo ra trong quá trình chuyển đổi, để thuận tiện mình dùng cách tự động tạo ra trong quá trình chuyển đổi</p>
+<p>Click <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-4.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1278" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-4-620x426.png" alt="Target-Device-Imaging-Wizard-4" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-4-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-4.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên cho vDisk, lựa chọn Store lưu trữ</p>
+<p>vDisk type có thể chọn Dynamic hoặc Fixed. Fixed chiếm một dung lượng chính xác từ ban đầu còn Dynamic dung lượng có thể tăng dần trong quá trình sử dụng. Để cho nhanh mình dùng Dynamic và Block size là 2MB</p>
+<p>Chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-5.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1279" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-5-620x426.png" alt="Target-Device-Imaging-Wizard-5" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-5-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-5.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tùy chỉnh kích thước của các phân vùng và chọn <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-6.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1280" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-6-620x426.png" alt="Target-Device-Imaging-Wizard-6" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-6-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-6.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên cho Target device, vì là máy mẫu nên đặt tên sao cho gợi nhớ và dễ quản lý</p>
+<p>Chọn Collection tương ứng cho Target device. (có thể tạo ra nhiều Collection)</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-7.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1281" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-7-620x426.png" alt="Target-Device-Imaging-Wizard-7" width="620" height="426" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-7-620x426.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-7.png 659w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Hộp thoại hiển thị các thông tin cho quá trình, nếu chưa đồng ý có thể chọn Back để sửa lại</p>
+<p>Chọn<span style="text-decoration: underline;"> Optimize for Provisioning Services</span>.</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-8.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1282" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-8.png" alt="Target-Device-Imaging-Wizard-8" width="554" height="284" /></a></p>
+<p>Chương trình tự động tối ưu Windows, tắt các dịch vụ không cần thiết</p>
+<p>OK</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-9.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1283" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-9-620x314.png" alt="Target-Device-Imaging-Wizard-9" width="620" height="314" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-9-620x314.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-9.png 670w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Một cửa sổ hiện ra hệ thống đang tự động cấu hình, chờ hoàn tất</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-10.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1284" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-10-620x115.png" alt="Target-Device-Imaging-Wizard-10" width="620" height="115" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-10-620x115.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-10.png 793w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi xong, chương trình yêu cầu khởi động lại hệ thống và boot bằng card mạng</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-11.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1285" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-11-620x349.png" alt="Target-Device-Imaging-Wizard-11" width="620" height="349" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-11-620x349.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-11-920x518.png 920w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-11.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi khởi động lại máy con và boot từ card mạng, chương trình chuyển đổi tự động chạy chuyển HDD máy con thành vDisk lưu trữ trên máy chủ</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-12.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1286" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-12-620x349.png" alt="Target-Device-Imaging-Wizard-12" width="620" height="349" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-12-620x349.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-12-920x518.png 920w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-12.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Quy trình hoàn tất</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-13.png" rel="lightbox[1265]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1287" src="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-13-620x349.png" alt="Target-Device-Imaging-Wizard-13" width="620" height="349" srcset="./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-13-620x349.png 620w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-13-920x518.png 920w, ./../../../wp-content/uploads/2015/06/Target-Device-Imaging-Wizard-13.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cửa sổ thể hiện trạng thái vDisk và kết nối máy chủ PVS</p>
+<p>Nếu bị đánh dấu gạch chéo có lẽ có trục trặc trong cài đặt hoặc license của bạn hết hạn hoặc máy chủ PVS không kết nối được license server</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-va-cau-hinh-may-client-mau-target-device%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20m%C3%A1y%20client%20m%E1%BA%ABu%20Target%20device" data-a2a-url="./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/index.html" data-a2a-title="Cài đặt và cấu hình máy client mẫu Target device"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt bootroom Citrix PVS 6.0 &#8211; P3</title>
+		<link>./../../../cai-dat-bootroom-citrix-pvs-6-0-p3/index.html</link>
+					<comments>./../../../cai-dat-bootroom-citrix-pvs-6-0-p3/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 16 Dec 2014 04:35:48 +0000</pubDate>
+				<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[Bootroom]]></category>
+		<category><![CDATA[PVS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=728</guid>
+
+					<description><![CDATA[Cài đặt bootroom Citrix PVS 6.0 &#8211; P3 (Finish)]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" data-a2a-url="./../../../cai-dat-bootroom-citrix-pvs-6-0-p3/index.html" data-a2a-title="Cài đặt bootroom Citrix PVS 6.0 – P3"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt bootroom Citrix PVS 6.0 &#8211; P3 (Finish)</strong></span></p>
+<p><iframe loading="lazy" width="780" height="585" src="https://www.youtube.com/embed/rhG7ENSPIos?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p3%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P3" data-a2a-url="./../../../cai-dat-bootroom-citrix-pvs-6-0-p3/index.html" data-a2a-title="Cài đặt bootroom Citrix PVS 6.0 – P3"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-bootroom-citrix-pvs-6-0-p3/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt bootroom Citrix PVS 6.0 &#8211; P2</title>
+		<link>./../../../cai-dat-bootroom-citrix-pvs-6-0-p2/index.html</link>
+					<comments>./../../../cai-dat-bootroom-citrix-pvs-6-0-p2/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 16 Dec 2014 04:33:29 +0000</pubDate>
+				<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[Bootroom]]></category>
+		<category><![CDATA[PVS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=726</guid>
+
+					<description><![CDATA[Cài đặt bootroom Citrix PVS 6.0 &#8211; P2]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" data-a2a-url="./../../../cai-dat-bootroom-citrix-pvs-6-0-p2/index.html" data-a2a-title="Cài đặt bootroom Citrix PVS 6.0 – P2"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt bootroom Citrix PVS 6.0 &#8211; P2</strong></span></p>
+<p><iframe loading="lazy" width="780" height="585" src="https://www.youtube.com/embed/8OvEkm9a81k?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p2%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P2" data-a2a-url="./../../../cai-dat-bootroom-citrix-pvs-6-0-p2/index.html" data-a2a-title="Cài đặt bootroom Citrix PVS 6.0 – P2"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-bootroom-citrix-pvs-6-0-p2/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt bootroom Citrix PVS 6.0 &#8211; P1</title>
+		<link>./../../../cai-dat-bootroom-citrix-pvs-6-0-p1/index.html</link>
+					<comments>./../../../cai-dat-bootroom-citrix-pvs-6-0-p1/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 16 Dec 2014 04:21:43 +0000</pubDate>
+				<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[Bootroom]]></category>
+		<category><![CDATA[PVS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=722</guid>
+
+					<description><![CDATA[Cài đặt bootroom Citrix PVS 6.0 &#8211; P1]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" data-a2a-url="./../../../cai-dat-bootroom-citrix-pvs-6-0-p1/index.html" data-a2a-title="Cài đặt bootroom Citrix PVS 6.0 – P1"></a></p><p><strong><span style="color: #0000ff;">Cài đặt bootroom Citrix PVS 6.0 &#8211; P1</span></strong></p>
+<p><iframe loading="lazy" width="780" height="585" src="https://www.youtube.com/embed/ZoUdJRRu6BQ?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-bootroom-citrix-pvs-6-0-p1%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20bootroom%20Citrix%20PVS%206.0%20%E2%80%93%20P1" data-a2a-url="./../../../cai-dat-bootroom-citrix-pvs-6-0-p1/index.html" data-a2a-title="Cài đặt bootroom Citrix PVS 6.0 – P1"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-bootroom-citrix-pvs-6-0-p1/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

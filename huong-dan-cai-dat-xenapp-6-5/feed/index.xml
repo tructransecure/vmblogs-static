@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Hướng dẫn cài đặt XenApp 6.5	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Mon, 28 Sep 2015 00:59:53 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<item>
+		<title>
+		By: Trung Truc Tran		</title>
+		<link>./../index.html#comment-54</link>
+
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 28 Sep 2015 00:59:53 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=168#comment-54</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../index.html#comment-52&quot;&gt;Trần Đình Vinh&lt;/a&gt;.
+
+Hi bạn,
+
+Dạo này lu bu nhiều cái mới nên 2 món đó tạm thời gác lại, thực ra nó cũng chỉ là tính năng + thêm chứ phần chính hầu như đã viết hết rồi.
+Để bữa nào rảnh mình sẽ bổ sung lại]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../index.html#comment-52">Trần Đình Vinh</a>.</p>
+<p>Hi bạn,</p>
+<p>Dạo này lu bu nhiều cái mới nên 2 món đó tạm thời gác lại, thực ra nó cũng chỉ là tính năng + thêm chứ phần chính hầu như đã viết hết rồi.<br />
+Để bữa nào rảnh mình sẽ bổ sung lại</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Trần Đình Vinh		</title>
+		<link>./../index.html#comment-52</link>
+
+		<dc:creator><![CDATA[Trần Đình Vinh]]></dc:creator>
+		<pubDate>Sat, 26 Sep 2015 02:58:45 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=168#comment-52</guid>
+
+					<description><![CDATA[Bài này bị bác chủ bỏ bẵng lâu quá, ko hoàn thiện đc nốt 2 phần cuối rồi :(]]></description>
+			<content:encoded><![CDATA[<p>Bài này bị bác chủ bỏ bẵng lâu quá, ko hoàn thiện đc nốt 2 phần cuối rồi 🙁</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

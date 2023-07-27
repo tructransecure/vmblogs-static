@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Bài 5 &#8211; Cài đặt Parallels Plesk 12	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Mon, 12 Jan 2015 01:40:50 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<item>
+		<title>
+		By: Trung Truc Tran		</title>
+		<link>./../index.html#comment-32</link>
+
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 12 Jan 2015 01:40:50 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=503#comment-32</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../index.html#comment-30&quot;&gt;nguyễn anh tỷ&lt;/a&gt;.
+
+Web hosting control panel có rất nhiều. Trong bài mình Demo với Plesk, tuy nhiên các bạn có thể chọn các Control panel khác nếu muốn. Tất nhiên là phải đọc tài liệu hướng dẫn kèm theo của hãng rồi.
+
+cPanel
+Zpanel
+Sentora
+VestaCP
+...]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../index.html#comment-30">nguyễn anh tỷ</a>.</p>
+<p>Web hosting control panel có rất nhiều. Trong bài mình Demo với Plesk, tuy nhiên các bạn có thể chọn các Control panel khác nếu muốn. Tất nhiên là phải đọc tài liệu hướng dẫn kèm theo của hãng rồi.</p>
+<p>cPanel<br />
+Zpanel<br />
+Sentora<br />
+VestaCP<br />
+&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: nguyễn anh tỷ		</title>
+		<link>./../index.html#comment-30</link>
+
+		<dc:creator><![CDATA[nguyễn anh tỷ]]></dc:creator>
+		<pubDate>Fri, 02 Jan 2015 18:51:05 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=503#comment-30</guid>
+
+					<description><![CDATA[cho mình hỏi nếu muốn cài Kloxo trên google cloud thì phải như thế nào hả bác, plesk này nó tính phí bác ak, sài được 15 ngày, thế bác có bản rack của nó không :D share em với]]></description>
+			<content:encoded><![CDATA[<p>cho mình hỏi nếu muốn cài Kloxo trên google cloud thì phải như thế nào hả bác, plesk này nó tính phí bác ak, sài được 15 ngày, thế bác có bản rack của nó không 😀 share em với</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

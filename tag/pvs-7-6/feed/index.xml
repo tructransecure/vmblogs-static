@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>pvs 7.6 &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Mon, 29 Jun 2015 07:03:47 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>pvs 7.6 &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Multi server bootrom Citrix PVS 7.6</title>
+		<link>./../../../multi-server-bootrom-citrix-pvs-7-6/index.html</link>
+					<comments>./../../../multi-server-bootrom-citrix-pvs-7-6/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 29 Jun 2015 07:00:12 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[multi server]]></category>
+		<category><![CDATA[pvs 7.6]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1379</guid>
+
+					<description><![CDATA[Multi server bootrom Citrix PVS 7.6 Trong bài này mình sẽ hướng dẫn cách cấu hình multi server Citrix PVS 7.6 Các bạn sẽ phải cấu hình lại SQL Server và cài đặt thêm các máy chủ PVS. Chúng ta bắt đầu tiến hành với việc cấu hình lại SQL Server 1 &#8211; Cấu hình <a class="more-link" href="./../../../multi-server-bootrom-citrix-pvs-7-6/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&amp;linkname=Multi%20server%20bootrom%20Citrix%20PVS%207.6" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&amp;linkname=Multi%20server%20bootrom%20Citrix%20PVS%207.6" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&amp;linkname=Multi%20server%20bootrom%20Citrix%20PVS%207.6" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&#038;title=Multi%20server%20bootrom%20Citrix%20PVS%207.6" data-a2a-url="./../../../multi-server-bootrom-citrix-pvs-7-6/index.html" data-a2a-title="Multi server bootrom Citrix PVS 7.6"></a></p><p><span style="color: #0000ff;"><strong>Multi server bootrom Citrix PVS 7.6</strong></span></p>
+<p>Trong bài này mình sẽ hướng dẫn cách cấu hình multi server Citrix PVS 7.6</p>
+<p>Các bạn sẽ phải cấu hình lại SQL Server và cài đặt thêm các máy chủ PVS.</p>
+<p>Chúng ta bắt đầu tiến hành với việc cấu hình lại SQL Server</p>
+<p><strong>1 &#8211; Cấu hình SQL Server</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/SQL-Config-1.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1380" src="./../../../wp-content/uploads/2015/06/SQL-Config-1-620x439.png" alt="SQL-Config-1" width="620" height="439" srcset="./../../../wp-content/uploads/2015/06/SQL-Config-1-620x439.png 620w, ./../../../wp-content/uploads/2015/06/SQL-Config-1-920x652.png 920w, ./../../../wp-content/uploads/2015/06/SQL-Config-1.png 961w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trước tiên chúng ta cần cấu hình cho phép các máy chủ khác kết nối SQL Server thông qua địa chỉ IP</p>
+<p>Mở <span style="text-decoration: underline;">SQL Server Configuration Manager</span></p>
+<p>=&gt; <span style="text-decoration: underline;">SQL Server Network Configuration</span><br />
+=&gt;<span style="text-decoration: underline;"> Protocols for SQLEXPRESS</span></p>
+<p>=&gt; <span style="text-decoration: underline;">TCP/IP [Enabled]</span></p>
+<p>Chúng ta cần cấu hình TCP/IP ở trạng thái Enabled để cho phép các máy chủ khác kết nối. Sau khi đã cấu hình chúng ta cần restart lại dịch vụ SQL Server</p>
+<p><span style="text-decoration: underline;">Run =&gt; services.msc =&gt; Restart SQL Server</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/SQL-Config-2.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1381" src="./../../../wp-content/uploads/2015/06/SQL-Config-2-620x330.png" alt="SQL-Config-2" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/SQL-Config-2-620x330.png 620w, ./../../../wp-content/uploads/2015/06/SQL-Config-2-920x489.png 920w, ./../../../wp-content/uploads/2015/06/SQL-Config-2.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để cho phép máy chủ khác join farm (đã được tạo sẵn) chúng ta cần cấu hình database một chút</p>
+<p>Các bạn mở <span style="text-decoration: underline;">SQL Server Management Studio</span>, trỏ đến database đã được cài đặt trước. Ở đây của mình là <span style="text-decoration: underline;">ProvisioningServices</span>.</p>
+<p>Mở database =&gt; <span style="text-decoration: underline;">Tables</span> =&gt; <span style="text-decoration: underline;">dbo.AuthGroup</span> =&gt; Click chuột phải =&gt; Edit first 2000&#8230;.</p>
+<p><a href="./../../../wp-content/uploads/2015/06/SQL-Config-3.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1382" src="./../../../wp-content/uploads/2015/06/SQL-Config-3-620x330.png" alt="SQL-Config-3" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/SQL-Config-3-620x330.png 620w, ./../../../wp-content/uploads/2015/06/SQL-Config-3-920x489.png 920w, ./../../../wp-content/uploads/2015/06/SQL-Config-3.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Copy <span style="text-decoration: underline;">authGroupID</span> từ dòng trên và dán xuống dòng dưới và sửa chữ số cuối cùng (trường hơp của mình sửa số 2 thành số 3 và tương tự cho các server khác nếu có)</p>
+<p>Phần <span style="text-decoration: underline;">authGroupName</span> đánh tên máy tính bạn cần cài đặt thêm máy chủ PVS (trong bài là PVS2/Administrators)</p>
+<p>Phần <span style="text-decoration: underline;">authGroupGuidName</span> nhập tương tự phần <span style="text-decoration: underline;">authGroupName</span></p>
+<p>Phần <span style="text-decoration: underline;">Description</span> mô tả nhập bất kỳ sao cho dễ nhớ</p>
+<p>Sau khi nhập xong các bạn click nút Run SQL (dấu chấm than đỏ) để cập nhật database</p>
+<p><a href="./../../../wp-content/uploads/2015/06/SQL-Config-4.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1383" src="./../../../wp-content/uploads/2015/06/SQL-Config-4-620x330.png" alt="SQL-Config-4" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/SQL-Config-4-620x330.png 620w, ./../../../wp-content/uploads/2015/06/SQL-Config-4-920x489.png 920w, ./../../../wp-content/uploads/2015/06/SQL-Config-4.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tương tự như phần trên, các bạn mở table <span style="text-decoration: underline;">dbo.AuthGroupFarm</span></p>
+<p>Dán <span style="text-decoration: underline;">authGroupID</span> như đã sửa bên trên vào dòng dưới, click nút Run SQL để cập nhật database.</p>
+<p><span style="color: #0000ff;">Lưu ý các bạn phải làm chính xác từng bước, tuy đơn giản nhưng cần thiết phải rất cẩn thận để tránh trục trặc trong quá trình cài đặt thêm máy chủ PVS</span></p>
+<p><strong>2 &#8211; Cài đặt thêm máy chủ PVS</strong></p>
+<p>Sau khi đã cấu hình SQL Server như bên trên, việc cài đặt thêm máy chủ Citrix PVS tương đối đơn giản và nhanh chóng</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-1.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1384" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-1-620x522.png" alt="PVS-Join-Farm-1" width="620" height="522" srcset="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-1-620x522.png 620w, ./../../../wp-content/uploads/2015/06/PVS-Join-Farm-1.png 622w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chạy bộ cài đặt và chọn <span style="text-decoration: underline;">Server Installation</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-2.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1385" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-2.png" alt="PVS-Join-Farm-2" width="505" height="384" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Install</span> để cài đặt các thành phần yêu cầu</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-3.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1386" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-3.png" alt="PVS-Join-Farm-3" width="505" height="384" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Next</span> để bắt đầu</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-4.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1387" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-4.png" alt="PVS-Join-Farm-4" width="505" height="384" /></a></p>
+<p>Đồng ý thỏa thuận sử dụng và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-5.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1388" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-5.png" alt="PVS-Join-Farm-5" width="505" height="384" /></a></p>
+<p>Điền thông tin người sử dụng và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-6.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1389" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-6.png" alt="PVS-Join-Farm-6" width="505" height="384" /></a></p>
+<p>Chọn vị trí cài đặt và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-7.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1390" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-7.png" alt="PVS-Join-Farm-7" width="505" height="384" /></a></p>
+<p>Click <span style="text-decoration: underline;">Install</span> để tiến hành cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-8.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1391" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-8.png" alt="PVS-Join-Farm-8" width="505" height="384" /></a></p>
+<p>Nhấn Finish để hoàn tất</p>
+<p><strong>3 &#8211; Cấu hình máy chủ Citrix PVS</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-9.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1392" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-9.png" alt="PVS-Join-Farm-9" width="504" height="390" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Next</span> để bắt đầu</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-10.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1393" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-10.png" alt="PVS-Join-Farm-10" width="504" height="390" /></a></p>
+<p>Ở phần chọn DHCP, chọn <span style="text-decoration: underline;">The service that runs on another computer</span> =&gt; Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-11.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1394" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-11.png" alt="PVS-Join-Farm-11" width="504" height="390" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">The service that runs on this computer</span> và Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-12.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1395" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-12.png" alt="PVS-Join-Farm-12" width="504" height="390" /></a></p>
+<p>Do chúng ta đã có farm và server sẵn, do đó phần này chúng ta cần chọn <span style="text-decoration: underline;">Join existing farm</span></p>
+<p>Next để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-13.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1396" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-13.png" alt="PVS-Join-Farm-13" width="504" height="390" /></a></p>
+<p>Điền thông tin địa chỉ <span style="text-decoration: underline;">IP</span> và<span style="text-decoration: underline;"> Instance name</span> của SQL Server</p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-14.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1397" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-14.png" alt="PVS-Join-Farm-14" width="504" height="390" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Farm name</span> và Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-15.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1398" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-15.png" alt="PVS-Join-Farm-15" width="504" height="390" /></a></p>
+<p>Chọn Existing Site hoặc tạo mới, do ở đây chúng ta cần tạo ở 1 nơi nên chọn <span style="text-decoration: underline;">Existing site</span></p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-16.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1399" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-16.png" alt="PVS-Join-Farm-16" width="504" height="390" /></a></p>
+<p>Ở đây mình muốn mỗi server có Store riêng nên chọn new store, nếu bạn muốn sử dụng chung với server đã tạo trước có thể chọn tùy chọn trên</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-17.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1400" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-17.png" alt="PVS-Join-Farm-17" width="504" height="390" /></a></p>
+<p>Điền thông tin đăng nhập của tài khoản administrator.</p>
+<p><span style="color: #0000ff;">Lưu ý tài khoản này để khởi động dịch vụ Citrix SOAP, nếu chọn Local system account thì dịch vụ có thể không khởi động được</span>.</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-18.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1401" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-18.png" alt="PVS-Join-Farm-18" width="504" height="390" /></a></p>
+<p>Chọn card mạng cho quản trị và streaming PVS. Do ở đây chúng ta chỉ có 1 card mạng nên Next để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-19.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1402" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-19.png" alt="PVS-Join-Farm-19" width="504" height="390" /></a></p>
+<p>Check<span style="text-decoration: underline;"> Use the Provisioning Services TFTP service</span></p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-20.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1403" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-20.png" alt="PVS-Join-Farm-20" width="504" height="390" /></a></p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-21.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1404" src="./../../../wp-content/uploads/2015/06/PVS-Join-Farm-21.png" alt="PVS-Join-Farm-21" width="504" height="390" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Finish</span> để hoàn tất.</p>
+<p><a href="./../../../wp-content/uploads/2015/06/PVS-Farm.png" rel="lightbox[1379]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1405" src="./../../../wp-content/uploads/2015/06/PVS-Farm-620x354.png" alt="PVS-Farm" width="620" height="354" srcset="./../../../wp-content/uploads/2015/06/PVS-Farm-620x354.png 620w, ./../../../wp-content/uploads/2015/06/PVS-Farm-920x525.png 920w, ./../../../wp-content/uploads/2015/06/PVS-Farm.png 975w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nếu quá trình cài đặt và cấu hình diễn ra trôi chảy, khi mở Console bạn sẽ thấy các máy chủ thể hiện như ảnh trên.</p>
+<p>Chúc các bạn thành công</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&amp;linkname=Multi%20server%20bootrom%20Citrix%20PVS%207.6" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&amp;linkname=Multi%20server%20bootrom%20Citrix%20PVS%207.6" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&amp;linkname=Multi%20server%20bootrom%20Citrix%20PVS%207.6" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fmulti-server-bootrom-citrix-pvs-7-6%2F&#038;title=Multi%20server%20bootrom%20Citrix%20PVS%207.6" data-a2a-url="./../../../multi-server-bootrom-citrix-pvs-7-6/index.html" data-a2a-title="Multi server bootrom Citrix PVS 7.6"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../multi-server-bootrom-citrix-pvs-7-6/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hướng dẫn toàn tập bootrom Citrix PVS 7.6</title>
+		<link>./../../../huong-dan-toan-tap-bootrom-citrix-pvs-7-6/index.html</link>
+					<comments>./../../../huong-dan-toan-tap-bootrom-citrix-pvs-7-6/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2015 02:46:33 +0000</pubDate>
+				<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[bootrom]]></category>
+		<category><![CDATA[provisioning services]]></category>
+		<category><![CDATA[pvs 7.6]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1178</guid>
+
+					<description><![CDATA[Hướng dẫn toàn tập bootrom Citrix PVS 7.6 Xin chào các bạn, hôm nay mình sẽ post bài hướng dẫn cài đặt và cấu hình bootrom (diskless) sử dụng phần mềm Citrix Provisioning Services (PVS) 7.6 Đây là một phần của bộ sản phẩm giải pháp ảo hóa lớn hơn nhiều đó là Citrix XenDesktop <a class="more-link" href="./../../../huong-dan-toan-tap-bootrom-citrix-pvs-7-6/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&#038;title=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" data-a2a-url="./../../../huong-dan-toan-tap-bootrom-citrix-pvs-7-6/index.html" data-a2a-title="Hướng dẫn toàn tập bootrom Citrix PVS 7.6"></a></p><p><strong><span style="color: #0000ff;">Hướng dẫn toàn tập bootrom Citrix PVS 7.6</span></strong></p>
+<p>Xin chào các bạn, hôm nay mình sẽ post bài hướng dẫn cài đặt và cấu hình bootrom (diskless) sử dụng phần mềm Citrix Provisioning Services (PVS) 7.6</p>
+<p>Đây là một phần của bộ sản phẩm giải pháp ảo hóa lớn hơn nhiều đó là Citrix XenDesktop mà trong thời gian tới mình sẽ có bài viết về bộ giải pháp này</p>
+<p>Quay trở lại bài viết, mình sẽ hướng dẫn chi tiết cách đăng ký tài khoản, tải phần mềm và license dùng thử, cài đặt và cấu hình các thành phần liên quan đến PVS</p>
+<p><strong>Nội dung của bài viết</strong></p>
+<p><span style="text-decoration: underline;"><a href="./../../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html" target="_blank">Phần 1 &#8211; Đăng ký tài khoản Citrix, tải phần mềm và file bản quyền dùng thử</a></span></p>
+<p><span style="text-decoration: underline;"><a href="./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/index.html" target="_blank">Phần 2 &#8211; Cài đặt máy chủ bản quyền &#8211; Citrix Licensing server</a></span></p>
+<ul>
+<li>Cài đặt Citrix Licensing Server</li>
+<li>Cấu hình Citrix Licensing Server</li>
+</ul>
+<p><span style="text-decoration: underline;"><a href="./../../../cai-dat-may-chu-provisioning-services-7-6/index.html" target="_blank">Phần 3 &#8211; Cài đặt máy chủ Provisioning Services 7.6</a></span></p>
+<ul>
+<li>Cài đặt SQL Server</li>
+<li>Cài đặt PVS Console (giao diện quản lý PVS)</li>
+<li>Cài đặt PVS Server</li>
+<li>Cấu hình PVS Server</li>
+</ul>
+<p><span style="text-decoration: underline;"><a href="./../../../cai-dat-va-cau-hinh-may-client-mau-target-device/index.html" target="_blank">Phần 4 &#8211; Cài đặt và cấu hình máy client mẫu Target device</a></span></p>
+<ul>
+<li>Cài đặt Target device</li>
+<li>Target device imaging wizard &#8211; chuyển hệ điều hành máy mẫu thành vDisk</li>
+</ul>
+<p><span style="text-decoration: underline;"><a href="./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/index.html" target="_blank">Phần 5 &#8211; Sử dụng vDisk cho toàn bộ máy con khác</a></span></p>
+<ul>
+<li>Cấu hình vDisk và trình Auto-Add</li>
+<li>Khởi động các máy client khác</li>
+</ul>
+<p><span style="text-decoration: underline;"><a href="./../../../cai-dat-va-cau-hinh-starwind-virtual-san/index.html" target="_blank">Phần 6 &#8211; Cài đặt và cấu hình Starwind Virtual SAN (tùy chọn)</a></span></p>
+<ul>
+<li>Cài đặt Starwind Virtual SAN</li>
+<li>Cài đặt Starwind iSCSI Initiator</li>
+<li>Cấu hình Starwind Virtual SAN</li>
+<li>Kết nối Starwind Virtual SAN</li>
+</ul>
+<p><a href="./../../../multi-server-bootrom-citrix-pvs-7-6/index.html" target="_blank">Phần 7 &#8211; Multi server bootrom Citrix PVS 7.6</a></p>
+<ul>
+<li>Cấu hình SQL Server</li>
+<li>Cài đặt Citrix PVS Server</li>
+<li>Join server vào farm có sẵn</li>
+</ul>
+<p><strong>Yêu cầu hệ thống:</strong></p>
+<ul>
+<li>1 máy chủ Citrix Licensing</li>
+<li>1 (hoặc nhiều) máy chủ PVS</li>
+<li>1 máy mẫu Target device</li>
+<li>1 hoặc nhiều máy con khác</li>
+</ul>
+<p>Tùy theo yêu cầu và độ lớn hệ thống mà có thể sẽ có SQL Server riêng và nhiều PVS server trong farm. Ở góc độ bài viết này mình chỉ sử dụng như nêu trên. Tuy nhiên nếu máy chủ đủ mạnh, bạn có thể kết hợp</p>
+<p>Về góc độ kỹ năng yêu cầu do hệ thống sử dụng Windows tương đối dễ dàng, bạn chỉ cần biết cách cài đặt Windows (Server, client) và cài đặt ứng dụng. Mọi hướng dẫn theo hướng từng bước một</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhuong-dan-toan-tap-bootrom-citrix-pvs-7-6%2F&#038;title=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20to%C3%A0n%20t%E1%BA%ADp%20bootrom%20Citrix%20PVS%207.6" data-a2a-url="./../../../huong-dan-toan-tap-bootrom-citrix-pvs-7-6/index.html" data-a2a-title="Hướng dẫn toàn tập bootrom Citrix PVS 7.6"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../huong-dan-toan-tap-bootrom-citrix-pvs-7-6/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

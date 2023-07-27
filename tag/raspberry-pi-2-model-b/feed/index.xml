@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Raspberry Pi 2 Model B &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Mon, 09 Mar 2015 08:31:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Raspberry Pi 2 Model B &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Raspberry Pi 2 Model B &#8211; NAS OpenMediaVault</title>
+		<link>./../../../raspberry-pi-2-model-b-nas-openmediavault/index.html</link>
+					<comments>./../../../raspberry-pi-2-model-b-nas-openmediavault/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 09 Mar 2015 08:28:35 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[OpenMediaVault]]></category>
+		<category><![CDATA[Raspberry Pi 2 Model B]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1115</guid>
+
+					<description><![CDATA[Raspberry Pi 2 Model B &#8211; NAS OpenMediaVault Về làm NAS thì các hệ điều hành NAS thực sự rất đa dạng từ cùi bắp tới sang chảnh nhưng chủ yếu là cho phần cứng x86, với ARM có rất ít các distro chuyên để làm NAS (Pi là một ví dụ). Để làm hầu <a class="more-link" href="./../../../raspberry-pi-2-model-b-nas-openmediavault/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-model-b-nas-openmediavault%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20NAS%20OpenMediaVault" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-model-b-nas-openmediavault%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20NAS%20OpenMediaVault" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-model-b-nas-openmediavault%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20NAS%20OpenMediaVault" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-model-b-nas-openmediavault%2F&#038;title=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20NAS%20OpenMediaVault" data-a2a-url="./../../../raspberry-pi-2-model-b-nas-openmediavault/index.html" data-a2a-title="Raspberry Pi 2 Model B – NAS OpenMediaVault"></a></p><p><span style="color: #0000ff;"><strong>Raspberry Pi 2 Model B &#8211; NAS OpenMediaVault</strong></span></p>
+<p>Về làm NAS thì các hệ điều hành NAS thực sự rất đa dạng từ cùi bắp tới sang chảnh nhưng chủ yếu là cho phần cứng x86, với ARM có rất ít các distro chuyên để làm NAS (Pi là một ví dụ).</p>
+<p>Để làm hầu hết mọi người phải thao tác với Samba và dòng lệnh đòi hỏi phải có đủ kiến thức để làm việc với Linux. Dù sao làm việc với giao diện web cũng dễ dàng với mọi người hơn so với dòng lệnh SSH</p>
+<p>Nay mình giới thiệu 1 distro tương đối tốt cho Pi2 đó là OpenMediaVault.</p>
+<p>Để tham khảo thông tin các bạn có thể truy cập trang chủ</p>
+<p><a title="OpenMediaVault" href="http://www.openmediavault.org/" target="_blank">http://www.openmediavault.org/</a></p>
+<p>Và download cho Pi2 của mình tại đường dẫn dưới</p>
+<p><a title="OpenMediaVault download" href="http://sourceforge.net/projects/openmediavault/files/" target="_blank">http://sourceforge.net/projects/openmediavault/files/</a></p>
+<p>Hiện tại thì OpenMediaVault chỉ có bản sử dụng cho Raspberry Pi, Odroid C1 và phần cứng x86-64. Và do bài này nói đến Pi2 nên các bạn chọn file sử dụng cho Pi2 để tải về sử dụng.</p>
+<p>Sau khi tải về thì chỉ việc ghi file img ra thẻ MicroSD là đã sẵn sàng sử dụng.</p>
+<p>Dưới đây mình post ảnh một số mục chính của OpenMediaVault, còn rất nhiều các mục khác các bạn có thể tự khám phá nhé</p>
+<p>Dưới đây mình post ảnh một số mục chính của OpenMediaVault, còn rất nhiều các mục khác các bạn có thể tự khám phá nhé</p>
+<p>Sau khi đã khởi động xong, các bạn từ máy khác đánh địa chỉ IP của Pi2 (đang chạy OpenMediaVault) vào trình duyệt và tiến hành đăng nhập</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="px4Uq9s"><p><a href="http://imgur.com/px4Uq9s">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Thông tin chung</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="XDgx2t2"><p><a href="http://imgur.com/XDgx2t2">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Các thông tin hỗ trợ khác</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="IFv2r5w"><p><a href="http://imgur.com/IFv2r5w">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>OpenMediaVault cũng xây dựng sẵn khá nhiều plugin hỗ trợ thêm tính năng, ai thích dùng thêm plugin nào thì tick vào và cài đặt, công việc tương đối dễ dàng</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="eKbTD19"><p><a href="http://imgur.com/eKbTD19">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="zbozJfD"><p><a href="http://imgur.com/zbozJfD">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Ảnh dưới thể hiện các thông tin ổ đĩa đang kết nối</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="YyDsRcY"><p><a href="http://imgur.com/YyDsRcY">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="ufVe87p"><p><a href="http://imgur.com/ufVe87p">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Và các mục để tạo user, tạo thư mục share ứng với ổ đĩa. Mọi việc tương đối đơn giản</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="OWhjhib"><p><a href="http://imgur.com/OWhjhib">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="cFqH5BY"><p><a href="http://imgur.com/cFqH5BY">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="br9pDU2"><p><a href="http://imgur.com/br9pDU2">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>&nbsp;</p>
+<p>Phần thiết lập đã xong và mình tiến hành benchmark nhanh. Công việc cũng đơn giản là mình copy 1 file video từ máy lên NAS (Rpi2) và ngược lại.</p>
+<p>Do cổng mạng của Rpi2 chỉ là 100Mbps nên mọi thứ đều có giới hạn, các bạn có thể xem 2 ảnh dưới.</p>
+<p>Đầu tiên là copy video từ máy tính lên NAS Rpi2</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="sMDhhMr"><p><a href="http://imgur.com/sMDhhMr">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Và ngược lại, copy video từ NAS Rpi2 về máy tính.</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="l8KJ5qp"><p><a href="http://imgur.com/l8KJ5qp">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Với tốc độ đạt như vậy thì NAS này đủ sức stream video cho khoảng 3 4 thiết bị xem phim 720p hoặc 1080p với bitrate vừa phải. Khá tốt</p>
+<p><span style="text-decoration: underline;">Kết luận phần này</span>: Rpi2 làm tốt công việc của NAS đặc biệt với kích thước cực kỳ nhỏ gọn và rất ít tốn điện, mình nghĩ đây cũng là một giải pháp tốt cho ai muốn sử dụng làm NAS.</p>
+<p><span style="color: #ff0000;">Lưu ý là khi kết nối HDD các bạn nên chú ý đến vấn đề điện đóm. Tốt nhất là cắm qua 1 hub có nguồn rời vì sợ Rpi2 không cung cấp đủ điện chạy cho HDD Portable.</span></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-model-b-nas-openmediavault%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20NAS%20OpenMediaVault" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-model-b-nas-openmediavault%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20NAS%20OpenMediaVault" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-model-b-nas-openmediavault%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20NAS%20OpenMediaVault" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-model-b-nas-openmediavault%2F&#038;title=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20NAS%20OpenMediaVault" data-a2a-url="./../../../raspberry-pi-2-model-b-nas-openmediavault/index.html" data-a2a-title="Raspberry Pi 2 Model B – NAS OpenMediaVault"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../raspberry-pi-2-model-b-nas-openmediavault/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Raspberry Pi 2 Mode B &#8211; Cài đặt NoIP</title>
+		<link>./../../../raspberry-pi-2-mode-b-cai-dat-noip/index.html</link>
+					<comments>./../../../raspberry-pi-2-mode-b-cai-dat-noip/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 03 Mar 2015 02:22:15 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[NoIP]]></category>
+		<category><![CDATA[Raspberry Pi 2 Model B]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1108</guid>
+
+					<description><![CDATA[Raspberry Pi 2 Mode B &#8211; Cài đặt NoIP Trong bài mình cài đặt NO-IP cho hệ điều hành Fedora, bạn nào có nhu cầu cài NO-IP trên hệ điều hành khác thì vào trang chủ tải về và cài đặt nhé. Login Rpi2 với tài khoản root Chạy lệnh yum install noip Sau khi <a class="more-link" href="./../../../raspberry-pi-2-mode-b-cai-dat-noip/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-mode-b-cai-dat-noip%2F&amp;linkname=Raspberry%20Pi%202%20Mode%20B%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20NoIP" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-mode-b-cai-dat-noip%2F&amp;linkname=Raspberry%20Pi%202%20Mode%20B%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20NoIP" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-mode-b-cai-dat-noip%2F&amp;linkname=Raspberry%20Pi%202%20Mode%20B%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20NoIP" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-mode-b-cai-dat-noip%2F&#038;title=Raspberry%20Pi%202%20Mode%20B%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20NoIP" data-a2a-url="./../../../raspberry-pi-2-mode-b-cai-dat-noip/index.html" data-a2a-title="Raspberry Pi 2 Mode B – Cài đặt NoIP"></a></p><p><span style="color: #0000ff;"><strong>Raspberry Pi 2 Mode B &#8211; Cài đặt NoIP</strong></span></p>
+<p>Trong bài mình cài đặt NO-IP cho hệ điều hành Fedora, bạn nào có nhu cầu cài NO-IP trên hệ điều hành khác thì vào trang chủ tải về và cài đặt nhé.</p>
+<p>Login Rpi2 với tài khoản root</p>
+<p>Chạy lệnh</p>
+<blockquote><p>yum install noip</p></blockquote>
+<p>Sau khi cài đặt xong tiếp tục chạy lệnh</p>
+<blockquote><p>noip2 -C</p></blockquote>
+<p>Cửa sổ hiện ra thế này</p>
+<blockquote><p>Please enter the login/email string for no-ip.com xxxxx@xxxx.com<br />
+Please enter the password for user &#8216;xxxx@xxxx.com&#8217; *******</p></blockquote>
+<p>Tiếp theo là chọn tên miền thích hợp mà bạn đã tạo ở tài khoản No-ip.</p>
+<p>Enter cái nữa là xong</p>
+<p>Các bạn nhập email và mật khẩu của tài khoản Np-ip vào là được. Nếu ai chưa có thì đăng ký lấy 1 cái mà dùng nhé.<br />
+Cho phép NO-IP chạy khi khởi động</p>
+<blockquote><p>systemctl status noip.service</p></blockquote>
+<p>hoặc</p>
+<blockquote><p>chkconfig noip on</p></blockquote>
+<p>Hoàn tất.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-mode-b-cai-dat-noip%2F&amp;linkname=Raspberry%20Pi%202%20Mode%20B%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20NoIP" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-mode-b-cai-dat-noip%2F&amp;linkname=Raspberry%20Pi%202%20Mode%20B%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20NoIP" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-mode-b-cai-dat-noip%2F&amp;linkname=Raspberry%20Pi%202%20Mode%20B%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20NoIP" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-mode-b-cai-dat-noip%2F&#038;title=Raspberry%20Pi%202%20Mode%20B%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20NoIP" data-a2a-url="./../../../raspberry-pi-2-mode-b-cai-dat-noip/index.html" data-a2a-title="Raspberry Pi 2 Mode B – Cài đặt NoIP"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../raspberry-pi-2-mode-b-cai-dat-noip/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Raspberry Pi 2 Model B &#8211; SoftEther VPN Server</title>
+		<link>./../../../raspberry-pi-2-model-b-softether-vpn-server/index.html</link>
+					<comments>./../../../raspberry-pi-2-model-b-softether-vpn-server/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 03 Mar 2015 02:13:06 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Raspberry Pi 2 Model B]]></category>
+		<category><![CDATA[SoftEther VPN]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1106</guid>
+
+					<description><![CDATA[Raspberry Pi 2 Model B &#8211; SoftEther VPN Server Cài đặt Pi2 làm VPN server, mình vẫn sử dụng hệ điều hành Fedora như trên. Nhìn chung mình thích làm việc với nền tảng Redhat based hơn đám Debian based. Phần mềm mình sử dụng SoftEther VPN Server. http://www.softether-download.com/en.aspx Lúc download các bạn chọn platform <a class="more-link" href="./../../../raspberry-pi-2-model-b-softether-vpn-server/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&#038;title=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" data-a2a-url="./../../../raspberry-pi-2-model-b-softether-vpn-server/index.html" data-a2a-title="Raspberry Pi 2 Model B – SoftEther VPN Server"></a></p><p><strong>Raspberry Pi 2 Model B &#8211; SoftEther VPN Server</strong></p>
+<p>Cài đặt Pi2 làm VPN server, mình vẫn sử dụng hệ điều hành Fedora như trên. Nhìn chung mình thích làm việc với nền tảng Redhat based hơn đám Debian based.</p>
+<p>Phần mềm mình sử dụng SoftEther VPN Server.</p>
+<p>http://www.softether-download.com/en.aspx</p>
+<p>Lúc download các bạn chọn platform là Linux và CPU là ARM EABI (32bit) nhé.</p>
+<p>Về phần cài đặt các bạn có thể tham khảo tại trang này của blog mình, mục 3, 4 và 5</p>
+<p>./../../../vpn-server-gia-re-voi-digital-ocean/index.html</p>
+<p>Mình chỉ mới test kết nối VPN với 1 client thành công với cả L2TP và SoftEther VPN. CPU load rất thấp, rất là triển vọng :byebye:</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="WX2hIIo"><p><a href="http://imgur.com/WX2hIIo">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br />
+Lưu ý mở port cho phù hợp nhé các bạn, tất nhiên là cả trên modem và cả tường lửa trong linux</p>
+<p>Fedora 21 dùng systemctl và firewall-d nên mình note một vài rule như dưới các bạn có thể tham khảo</p>
+<blockquote><p>firewall-cmd &#8211;zone=public &#8211;add-port=443/tcp</p>
+<p>firewall-cmd &#8211;zone=public &#8211;add-port=500/udp</p>
+<p>firewall-cmd &#8211;zone=public &#8211;add-port=1701/udp</p>
+<p>firewall-cmd &#8211;zone=public &#8211;add-port=4500/udp</p></blockquote>
+<p>Port 443 cho SoftEtherVPN và các port còn lại cho L2TP</p>
+<p>NAT các port tương ứng trong modem.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&#038;title=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" data-a2a-url="./../../../raspberry-pi-2-model-b-softether-vpn-server/index.html" data-a2a-title="Raspberry Pi 2 Model B – SoftEther VPN Server"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../raspberry-pi-2-model-b-softether-vpn-server/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Raspberry Pi 2 Model B &#8211; Web Server</title>
+		<link>./../../../raspberry-pi-2-model-b-web-server/index.html</link>
+					<comments>./../../../raspberry-pi-2-model-b-web-server/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 03 Mar 2015 02:09:20 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Raspberry Pi 2 Model B]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1104</guid>
+
+					<description><![CDATA[Raspberry Pi 2 Model B &#8211; Web Server Ở post này mình sẽ setup Pi2 làm webserver và test load thể đo khả năng của em nó thế nào. Hệ điều hành mình sử dụng Fedora và cài đặt Apache server (httpd), php và mysql. Về web thử nghiệm mình dùng một trang tĩnh html <a class="more-link" href="./../../../raspberry-pi-2-model-b-web-server/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-model-b-web-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Web%20Server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-model-b-web-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Web%20Server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-model-b-web-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Web%20Server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-model-b-web-server%2F&#038;title=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Web%20Server" data-a2a-url="./../../../raspberry-pi-2-model-b-web-server/index.html" data-a2a-title="Raspberry Pi 2 Model B – Web Server"></a></p><p><span style="color: #0000ff;"><strong>Raspberry Pi 2 Model B &#8211; Web Server</strong></span></p>
+<p>Ở post này mình sẽ setup Pi2 làm webserver và test load thể đo khả năng của em nó thế nào.</p>
+<p>Hệ điều hành mình sử dụng Fedora và cài đặt Apache server (httpd), php và mysql.</p>
+<p>Về web thử nghiệm mình dùng một trang tĩnh html để test load RPi2</p>
+<p>Mình cho thử nghiệm test load tăng dần đến 50 user trong 5 phút, kết quả như bên dưới.</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="ccpkq3t"><p><a href="http://imgur.com/ccpkq3t">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="5d2bu9S"><p><a href="http://imgur.com/5d2bu9S">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="Z2XX1aJ"><p><a href="http://imgur.com/Z2XX1aJ">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="jhW5Dkt"><p><a href="http://imgur.com/jhW5Dkt">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="e0AcETa"><p><a href="http://imgur.com/e0AcETa">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Kết quả này tương đối khả quan nhất là server được vận hành mặc định, chưa hề tối ưu cũng như áp dụng các biện pháp caching. Nếu áp dụng sẽ có được kết quả khả quan hơn nữa.</p>
+<p>Đối với các nền tảng web động (php chẳng hạn) có thể sẽ hơi đuối cho số lượng lớn người dùng, do đó chắc chắn phải áp dụng các biên pháp caching và tối ưu mới đáp ứng được nhu cầu.</p>
+<p>Kết luận: Rpi2 làm web server phục vụ môi trường nhỏ quá hợp lý, đặc biệt gọn nhẹ, ít tốn điện và ít tốn chỗ.</p>
+<p>&nbsp;</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-model-b-web-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Web%20Server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-model-b-web-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Web%20Server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-model-b-web-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Web%20Server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-model-b-web-server%2F&#038;title=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Web%20Server" data-a2a-url="./../../../raspberry-pi-2-model-b-web-server/index.html" data-a2a-title="Raspberry Pi 2 Model B – Web Server"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../raspberry-pi-2-model-b-web-server/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Raspberry Pi 2 Model B &#8211; Thin client</title>
+		<link>./../../../raspberry-pi-2-model-b-thin-client/index.html</link>
+					<comments>./../../../raspberry-pi-2-model-b-thin-client/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 03 Mar 2015 02:01:43 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Raspberry Pi 2 Model B]]></category>
+		<category><![CDATA[Thin client]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1102</guid>
+
+					<description><![CDATA[Raspberry Pi 2 Model B &#8211; Thin client Về cách thức sử dụng như thinclient mình quay phim để các bạn dễ hình dung. Nhìn chung hiệu năng hiển thị tốt kể cả trong tình huống remote desktop và sử dụng Citrix Receiver kết nối đến XenApp farm. Muốn tìm hiểu XenApp các bạn có <a class="more-link" href="./../../../raspberry-pi-2-model-b-thin-client/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-model-b-thin-client%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Thin%20client" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-model-b-thin-client%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Thin%20client" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-model-b-thin-client%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Thin%20client" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-model-b-thin-client%2F&#038;title=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Thin%20client" data-a2a-url="./../../../raspberry-pi-2-model-b-thin-client/index.html" data-a2a-title="Raspberry Pi 2 Model B – Thin client"></a></p><p><span style="color: #0000ff;"><strong>Raspberry Pi 2 Model B &#8211; Thin client</strong></span></p>
+<p>Về cách thức sử dụng như thinclient mình quay phim để các bạn dễ hình dung. Nhìn chung hiệu năng hiển thị tốt kể cả trong tình huống remote desktop và sử dụng Citrix Receiver kết nối đến XenApp farm. Muốn tìm hiểu XenApp các bạn có thể tham khảo chữ ký của mình</p>
+<p><span style="text-decoration: underline;">Remote desktop</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/wVt0Z73cOYM?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>Remote Desktop chạy tốt tuy nhiên có phần xem video không được mượt và khung hình không đồng bộ. Đây là điểm chung của Remote desktop không thể tránh khỏi. Ngoài ra remote desktop chỉ làm việc với các ứng dụng dựng hình bằng DirectX, do đó các ứng dụng dựng hình OpenGL sẽ không chạy được.</p>
+<p><span style="text-decoration: underline;">Citrix Receiver client</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/ky8DNoJRZVU?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>Về Citrix Receiver kết nối đến XenApp server, cách thức hoạt động tương tự Remote desktop tuy nhiên vận hành tốt hơn rất nhiều so với remote desktop. Công nghệ Citrix HDX cho phép xử lý khung ảnh tốt hơn và chế độ nén cao hơn do đó xem video rất mượt, không có hiện tượng trôi khung hình.</p>
+<p>Ngoài ra thì Citrix HDX hỗ trợ các ứng dụng đồ họa OpenGL, một điểm vượt trội so với Remote Desktop. Trong video mình cũng demo một vài ứng dụng đồ họa sử dụng OpenGL</p>
+<p>Kết luận của phần này nhìn chung mình đánh giá cao khả năng hoạt động của Pi2, so sánh với con Rockchip RK3188 quad-core 1.5GHz của mình thì có thể nói ko hề thua kém.</p>
+<p>Bài viết sử dụng RPiTC (Raspberry Thin client) được phát triển bởi rpitc.blogspot.com</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-model-b-thin-client%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Thin%20client" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-model-b-thin-client%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Thin%20client" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-model-b-thin-client%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Thin%20client" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-model-b-thin-client%2F&#038;title=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Thin%20client" data-a2a-url="./../../../raspberry-pi-2-model-b-thin-client/index.html" data-a2a-title="Raspberry Pi 2 Model B – Thin client"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../raspberry-pi-2-model-b-thin-client/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Raspberry Pi 2 Model B &#8211; Media Center</title>
+		<link>./../../../raspberry-pi-2-model-b-media-center/index.html</link>
+					<comments>./../../../raspberry-pi-2-model-b-media-center/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 03 Mar 2015 01:56:47 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Media Center]]></category>
+		<category><![CDATA[Raspberry Pi 2 Model B]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1100</guid>
+
+					<description><![CDATA[Raspberry Pi 2 Model B &#8211; Media Center Post này thuần giải trí, dùng Pi chỉ để nghe nhạc xem phim bằng các nền tảng dựa trên Kodi như Xbian hoặc OSMC (RaspBMC) Vì thuần giải trí nên nhìn chung là phát nhạc và phim tốt, không có gì phải bàn cãi. Pi đời đầu <a class="more-link" href="./../../../raspberry-pi-2-model-b-media-center/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-model-b-media-center%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Media%20Center" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-model-b-media-center%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Media%20Center" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-model-b-media-center%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Media%20Center" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-model-b-media-center%2F&#038;title=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Media%20Center" data-a2a-url="./../../../raspberry-pi-2-model-b-media-center/index.html" data-a2a-title="Raspberry Pi 2 Model B – Media Center"></a></p><p><span style="color: #0000ff;"><strong>Raspberry Pi 2 Model B &#8211; Media Center</strong></span></p>
+<p>Post này thuần giải trí, dùng Pi chỉ để nghe nhạc xem phim bằng các nền tảng dựa trên Kodi như Xbian hoặc OSMC (RaspBMC)</p>
+<p>Vì thuần giải trí nên nhìn chung là phát nhạc và phim tốt, không có gì phải bàn cãi. Pi đời đầu chạy ngon thì đương nhiên Pi2 chạy ngon hơn nhiều, mình post vài tấm tham khảo thôi, không có gì nhiều để nói.</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="6lFCHta"><p><a href="http://imgur.com/6lFCHta">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="e4cxIpw"><p><a href="http://imgur.com/e4cxIpw">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="HtIzRK1"><p><a href="http://imgur.com/HtIzRK1">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="N3LAGHz"><p><a href="http://imgur.com/N3LAGHz">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="tcOVNNV"><p><a href="http://imgur.com/tcOVNNV">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="BKopWtG"><p><a href="http://imgur.com/BKopWtG">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="6kA1eFK"><p><a href="http://imgur.com/6kA1eFK">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="B1AZkKn"><p><a href="http://imgur.com/B1AZkKn">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>XBian cũng cho phép chúng ta cài thêm nhiều add-on và ứng dụng khác, tùy theo yêu cầu mà các bạn cài cho phù hợp, cái này mình không đề cập nhiều.</p>
+<p>Với mức giá 35$, Raspberry Pi 2 Model pi thực sự rất phù hợp làm Media Center phát nội dung đa phương tiện</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-model-b-media-center%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Media%20Center" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-model-b-media-center%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Media%20Center" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-model-b-media-center%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Media%20Center" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-model-b-media-center%2F&#038;title=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Media%20Center" data-a2a-url="./../../../raspberry-pi-2-model-b-media-center/index.html" data-a2a-title="Raspberry Pi 2 Model B – Media Center"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../raspberry-pi-2-model-b-media-center/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Review Raspberry Pi 2 Model B &#8211; Sử dụng chung</title>
+		<link>./../../../review-raspberry-pi-2-model-b-su-dung-chung/index.html</link>
+					<comments>./../../../review-raspberry-pi-2-model-b-su-dung-chung/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 03 Mar 2015 01:48:50 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Raspberry Pi 2 Model B]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1098</guid>
+
+					<description><![CDATA[Review Raspberry Pi 2 Model B &#8211; Sử dụng chung Ở post này mình xin post các ứng dụng chung như lướt web, nghe nhạc, xem phim, ứng dụng văn phòng. Có nhiều distro cho Pi2 nhưng mình chọn Fedora vì trước giờ làm việc với nền tảng RedHat based nhiều hơn so với debian-based. <a class="more-link" href="./../../../review-raspberry-pi-2-model-b-su-dung-chung/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-su-dung-chung%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20S%E1%BB%AD%20d%E1%BB%A5ng%20chung" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-su-dung-chung%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20S%E1%BB%AD%20d%E1%BB%A5ng%20chung" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-su-dung-chung%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20S%E1%BB%AD%20d%E1%BB%A5ng%20chung" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Freview-raspberry-pi-2-model-b-su-dung-chung%2F&#038;title=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20S%E1%BB%AD%20d%E1%BB%A5ng%20chung" data-a2a-url="./../../../review-raspberry-pi-2-model-b-su-dung-chung/index.html" data-a2a-title="Review Raspberry Pi 2 Model B – Sử dụng chung"></a></p><p><strong>Review Raspberry Pi 2 Model B &#8211; Sử dụng chung</strong><br />
+Ở post này mình xin post các ứng dụng chung như lướt web, nghe nhạc, xem phim, ứng dụng văn phòng.</p>
+<p>Có nhiều distro cho Pi2 nhưng mình chọn Fedora vì trước giờ làm việc với nền tảng RedHat based nhiều hơn so với debian-based. Mặc dù lạptop cũng đang xài Ubuntu.</p>
+<p>Với Fedora mình có cài thêm firefox, vlc, gstreamer và libreoffice</p>
+<p>Lệnh cài đặt</p>
+<blockquote><p>yum install firefox</p>
+<p>yum install vlc</p>
+<p>yum install gstreamer</p>
+<p>yum install libreoffice</p></blockquote>
+<div>
+<div class="smallfont"></div>
+</div>
+<p>Password root bạn sẽ set lúc thiết lập sau khi boot Pi2 từ thẻ Fedora.</p>
+<p>Ấn tượng ban đầu là Pi làm việc khá là nhanh mặc dù có đôi lúc lag lag một chút (Lag này là do nghẽn tại thẻ nhớ chứ không phải CPU không đủ mạnh để xử lý nha các bạn)</p>
+<p>Mình có chụp screenshot một vài ứng dụng cho các bạn tham khảo.</p>
+<p>Phiên bản hệ điều hành Fedora Remix 21</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="vzLmzmj"><p><a href="http://imgur.com/vzLmzmj">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Download file từ trên mạng</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="e03bybB"><p><a href="http://imgur.com/e03bybB">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Test Javascript trình duyệt với Peacekeeper và Sunspider</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="hzKQfNF"><p><a href="http://imgur.com/hzKQfNF">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="psBG2OF"><p><a href="http://imgur.com/psBG2OF">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="gVXyph5"><p><a href="http://imgur.com/gVXyph5">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Nghe nhạc</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="KeZBj83"><p><a href="http://imgur.com/KeZBj83">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Sử dụng các ứng dụng văn phòng, trong ảnh mình mở một loạt các ứng dụng trong bộ LibreOffice tuy nhiên tài nguyên hệ thống sử dụng tương đối ít. Việc xử lý khá là nhanh</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="CawX4XA"><p><a href="http://imgur.com/CawX4XA">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Download torrent, ai tín đồ của món này thì quá hợp rồi, chỉ cần cắm thêm HDD portable hoặc USB dung lượng lớn vào là có cái máy torrent tuyệt vời, vừa mát mẻ, gọn gàng lại ít tốn điện (công suất có vài W thôi )</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="HxD2smW"><p><a href="http://imgur.com/HxD2smW">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Xem clip 1080p với VLC, hoàn toàn không xem được khi truy cập bộ nhớ liên tục và CPU load toàn bộ 4 core 100%. Điều này có thể dễ lý giải vì chưa được xử lý giải mã = GPU nên CPU nó lê lết.</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="waRkQQO"><p><a href="http://imgur.com/waRkQQO">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Lướt web khá là nhẹ nhàng với Pi2, mình mở 5 trang (tuoitre, thanhnien, vnexpress, dantri và vozforum) hoàn toàn không sử dụng adblock để chạy quảng cáo. CPU load khoảng chừng 40% đổ lại. Cuộn trong trang web tương đối mượt mà, không hoặc ít có hiên tượng giật cục.</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="BHTPL0x"><p><a href="http://imgur.com/BHTPL0x">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Youtube HD720p, giật lắc như say thuốc :adore:, nhìn chung là không coi được. CPU load 100%</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="kdu7gcE"><p><a href="http://imgur.com/kdu7gcE">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Cũng Youtube nhưng chỉ xem ở chế độ 360p, CPU load ~ 50%, xem khá mượt, có lẽ xem 480p là hợp lý</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="VMQkbQM"><p><a href="http://imgur.com/VMQkbQM">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p><span style="text-decoration: underline;">Kết luận cho phần này:</span> Nhìn chung Pi2 đáp ứng tốt nhu cầu sử dụng chung ngoại trừ chưa chơi được với em video, hy vọng sẽ có fix sau này để giúp cho e nó xử lý tốt video</p>
+<p><span style="color: #ff0000;">Một lưu ý nho nhỏ là các bạn nên sử dụng thẻ nhớ Class 10 nhé, đừng ham rẻ xúc mấy em class 4 về ngồi nhìn nó tức đập máy đó</span></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-su-dung-chung%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20S%E1%BB%AD%20d%E1%BB%A5ng%20chung" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-su-dung-chung%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20S%E1%BB%AD%20d%E1%BB%A5ng%20chung" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-su-dung-chung%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20S%E1%BB%AD%20d%E1%BB%A5ng%20chung" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Freview-raspberry-pi-2-model-b-su-dung-chung%2F&#038;title=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20S%E1%BB%AD%20d%E1%BB%A5ng%20chung" data-a2a-url="./../../../review-raspberry-pi-2-model-b-su-dung-chung/index.html" data-a2a-title="Review Raspberry Pi 2 Model B – Sử dụng chung"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../review-raspberry-pi-2-model-b-su-dung-chung/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Review Raspberry Pi 2 Model B &#8211; Nhỏ con đa tài</title>
+		<link>./../../../review-raspberry-pi-2-model-b-nho-con-da-tai/index.html</link>
+					<comments>./../../../review-raspberry-pi-2-model-b-nho-con-da-tai/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 03 Mar 2015 01:31:13 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Raspberry Pi 2 Model B]]></category>
+		<category><![CDATA[Review]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1093</guid>
+
+					<description><![CDATA[Review Raspberry Pi 2 Model B &#8211; Nhỏ con đa tài Xin chào các bạn, lâu lắm rồi không review món gì nên tay chân hơi bị ngứa ngáy. Nhân dịp Raspberry Pi 2 Model B ra đời và cũng đang có nhu cầu vọc nên mình mua 1 em về vọc tiện thể review <a class="more-link" href="./../../../review-raspberry-pi-2-model-b-nho-con-da-tai/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&#038;title=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" data-a2a-url="./../../../review-raspberry-pi-2-model-b-nho-con-da-tai/index.html" data-a2a-title="Review Raspberry Pi 2 Model B – Nhỏ con đa tài"></a></p><p><span style="color: #0000ff;"><strong>Review Raspberry Pi 2 Model B &#8211; Nhỏ con đa tài</strong></span></p>
+<p>Xin chào các bạn, lâu lắm rồi không review món gì nên tay chân hơi bị ngứa ngáy. Nhân dịp Raspberry Pi 2 Model B ra đời và cũng đang có nhu cầu vọc nên mình mua 1 em về vọc tiện thể review cho anh em.</p>
+<p>Sở dĩ mình nói nhỏ con đa tài là mặc dù nhỏ nhắn xinh xinh nhưng Raspberry Pi nó vẫn là một máy tính thực thụ và được sử dụng trong rất nhiều mục đích khác nhau. Trong bài này mình chỉ dùng nó làm một vài thứ mà mình thích, còn các thứ khác các bạn có thể tìm hiểu trên Wiki và Forum của Raspberry nhé.</p>
+<p><b>Giới thiệu một chút về Raspberry Pi 2 Model B</b></p>
+<p><img decoding="async" src="http://i.telegraph.co.uk/multimedia/archive/03184/pi2modb_angle1_web_3184559b.jpg" alt="" border="0" /></p>
+<p>Dưới đây mình sẽ gọi Pi và Pi2 cho gọn nhé.</p>
+<p>Ra đời năm 2012 và cho đến giờ Pi đã có được 5 mẫu (4 mẫu với thế hệ 1 và 1 mẫu thế hệ 2) và từ khi ra đời Pi đã bán được khoảng 5 triệu cái, một con số khá là ấn tượng.</p>
+<p>Thế hệ 2 ra đời được kỳ vọng là một cú hích lớn khi chuyển nền tảng hệ thống sang ARMv7 thay vì ARMv6 như thế hệ đầu tiên. ARMv7 tương thích tốt hơn với các hệ điều hành so với ARMv6.</p>
+<p><span style="text-decoration: underline;">Phần cứng Pi 2</span></p>
+<ul>
+<li>SoC Broadcom BCM2836 quad-core 900MHz</li>
+<li>1GB RAM</li>
+<li>4 USB ports</li>
+<li>40 GPIO pins</li>
+<li>Full HDMI port</li>
+<li>Ethernet port</li>
+<li>Combined 3.5mm audio jack and composite video</li>
+<li>Camera interface (CSI)</li>
+<li>Display interface (DSI)</li>
+<li>Micro SD card slot</li>
+<li>VideoCore IV 3D graphics core</li>
+</ul>
+<p>Chính phần cứng mới làm cho mình hứng thú về con Pi 2 này, mặc dù nhà đang dùng con Rockchip RK3188 (quadcore Cortex A9 1.5GHz)</p>
+<p>Về việc chuẩn bị tương đối dễ, chỉ việc chọn một hệ điều hành mình thích và ghi ra thẻ MicroSD và cắm điện xài. Điều này làm cho Pi được yêu thích vì sự linh hoạt thay vì có sao xài vậy như các Android box.</p>
+<p>Mình có upload sẵn một vài OS, bạn nào có nhu cầu thì tải về dùng đỡ kiếm mệt.</p>
+<p>Fedora for Pi2<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FKYWEX7Z359IL" target="_blank">https://www.fshare.vn/file/KYWEX7Z359IL</a></p>
+<p>Ubuntu Linaro for Pi2<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FWDSOSK72DENQ" target="_blank">https://www.fshare.vn/file/WDSOSK72DENQ</a></p>
+<p>OSMC for Pi2 (RaspBMC)<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FY7QUTAM39PI5" target="_blank">https://www.fshare.vn/file/Y7QUTAM39PI5</a></p>
+<p>Raspbian for Pi2<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FZU2DH2KF3X4J" target="_blank">https://www.fshare.vn/file/ZU2DH2KF3X4J</a></p>
+<p>Rpi Thin client for Pi2<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FK6TE8NA96TD1" target="_blank">https://www.fshare.vn/file/K6TE8NA96TD1</a></p>
+<p>Snappy Ubuntu for Pi2<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FEAWJPNU4MJL1" target="_blank">https://www.fshare.vn/file/EAWJPNU4MJL1</a></p>
+<p>XBian Media Center for Pi2<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FDP8POW85SBTW" target="_blank">https://www.fshare.vn/file/DP8POW85SBTW</a></p>
+<p>Để ghi các file img bạn cần tải phần mềm <a href="http://vozforums.com/redirect/index.php?link=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fwin32diskimager%2F" target="_blank">Win32 Disk Imager</a> để ghi ra thẻ MicroSD</p>
+<p>Vì là dài kỳ nên mình xin dành 5-6 post để post dần dần, các bạn có review khác thì mình cũng xin post link lên post 1 cho mọi người dễ tham khảo nhé.</p>
+<p><strong>Các mục review</strong></p>
+<p><span style="color: #0000ff;"><strong>1 &#8211; <a title="Rpi2 - Su dung chung" href="./../../../review-raspberry-pi-2-model-b-su-dung-chung/index.html" target="_blank">Review Raspberry Pi 2 Model B – Sử dụng chung</a></strong></span></p>
+<p><span style="color: #0000ff;"><strong>2 &#8211; <a title="Rpi2 - Media Center" href="./../../../raspberry-pi-2-model-b-media-center/index.html" target="_blank">Raspberry Pi 2 Model B – Media Center</a></strong></span></p>
+<p><span style="color: #0000ff;"><strong>3 &#8211; <a title="Rpi2 Thin client" href="./../../../raspberry-pi-2-model-b-thin-client/index.html" target="_blank">Raspberry Pi 2 Model B – Thin client</a></strong></span></p>
+<p><span style="color: #0000ff;"><strong>4 &#8211; <a title="Rpi2 - Web Server" href="./../../../raspberry-pi-2-model-b-web-server/index.html" target="_blank">Raspberry Pi 2 Model B – Web Server</a></strong></span></p>
+<p><span style="color: #0000ff;"><strong>5 &#8211; <a title="SoftEther VPN Server" href="./../../../raspberry-pi-2-model-b-softether-vpn-server/index.html" target="_blank">Raspberry Pi 2 Model B – SoftEther VPN Server</a></strong></span></p>
+<p><span style="color: #0000ff;"><strong>6 &#8211; <a title="Cai dat No-IP" href="./../../../raspberry-pi-2-mode-b-cai-dat-noip/index.html" target="_blank">Raspberry Pi 2 Mode B – Cài đặt NoIP</a></strong></span></p>
+<p><a title="Raspberry Pi 2 with OpenMediaVault" href="./../../../raspberry-pi-2-model-b-nas-openmediavault/index.html" target="_blank"><strong><span style="color: #3366ff;">7 &#8211; Raspberry Pi 2 Model B – NAS OpenMediaVault</span></strong></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&#038;title=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" data-a2a-url="./../../../review-raspberry-pi-2-model-b-nho-con-da-tai/index.html" data-a2a-title="Review Raspberry Pi 2 Model B – Nhỏ con đa tài"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../review-raspberry-pi-2-model-b-nho-con-da-tai/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

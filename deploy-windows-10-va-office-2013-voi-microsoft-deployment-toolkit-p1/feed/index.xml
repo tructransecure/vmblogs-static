@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Deploy Windows 10 và Office 2013 với Microsoft Deployment Toolkit P1	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Wed, 27 Apr 2016 01:06:15 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<item>
+		<title>
+		By: Trung Truc Tran		</title>
+		<link>./../index.html#comment-84</link>
+
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 27 Apr 2016 01:06:15 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1702#comment-84</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../index.html#comment-83&quot;&gt;phamthong&lt;/a&gt;.
+
+Hi bạn,
+
+Deploy software trong hệ thống Windows có rất nhiều cách, mình nêu một vài từ khóa bạn có thể tìm hiểu và nghiên cứu nhé.
+
+Domain GPO software deploy (msi)
+Microsoft Deployment Toolkit cũng có thể deploy software nếu biết viết một số script
+Deploy software bằng system center
+Ảo hóa ứng dụng với Citrix XenApp, RemoteApp, AppV, VMware ThinApp...
+
+Nhìn chung nếu tìm hiểu thì trong quá trình tìm kiếm sẽ ra được nhiều thứ hay ho liên quan.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../index.html#comment-83">phamthong</a>.</p>
+<p>Hi bạn,</p>
+<p>Deploy software trong hệ thống Windows có rất nhiều cách, mình nêu một vài từ khóa bạn có thể tìm hiểu và nghiên cứu nhé.</p>
+<p>Domain GPO software deploy (msi)<br />
+Microsoft Deployment Toolkit cũng có thể deploy software nếu biết viết một số script<br />
+Deploy software bằng system center<br />
+Ảo hóa ứng dụng với Citrix XenApp, RemoteApp, AppV, VMware ThinApp&#8230;</p>
+<p>Nhìn chung nếu tìm hiểu thì trong quá trình tìm kiếm sẽ ra được nhiều thứ hay ho liên quan.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: phamthong		</title>
+		<link>./../index.html#comment-83</link>
+
+		<dc:creator><![CDATA[phamthong]]></dc:creator>
+		<pubDate>Mon, 25 Apr 2016 06:29:30 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1702#comment-83</guid>
+
+					<description><![CDATA[Mấy bài viết của bạn hay thật, mình đang học về MCSA bạn cho mình xin tài liệu về phần Deploy Software từ Server xuống Client dc ko. Server 2012 ấy.
+Cảm ơn bạn nhiều
+e-mail: phamthongdno@hotmail.com]]></description>
+			<content:encoded><![CDATA[<p>Mấy bài viết của bạn hay thật, mình đang học về MCSA bạn cho mình xin tài liệu về phần Deploy Software từ Server xuống Client dc ko. Server 2012 ấy.<br />
+Cảm ơn bạn nhiều<br />
+e-mail: <a href="mailto:phamthongdno@hotmail.com">phamthongdno@hotmail.com</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

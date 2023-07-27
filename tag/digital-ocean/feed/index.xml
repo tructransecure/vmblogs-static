@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Digital Ocean &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 08:12:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Digital Ocean &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Đăng ký Digital Ocean và tạo máy chủ ảo</title>
+		<link>./../../../dang-ky-digital-ocean-va-tao-may-chu-ao/index.html</link>
+					<comments>./../../../dang-ky-digital-ocean-va-tao-may-chu-ao/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2014 05:55:54 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Digital Ocean]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=934</guid>
+
+					<description><![CDATA[Đăng ký Digital Ocean và tạo máy chủ ảo Việc đăng ký sử dụng Digital Ocean tương đối nhanh và đơn giản. Tuy nhiên bạn phải có sẵn thẻ tín dụng (VISA/Mastercard) hoặc tài khoản paypal còn hiệu lực và tất nhiên là có tiền. Các bạn có thể đăng ký tài khoản thông qua <a class="more-link" href="./../../../dang-ky-digital-ocean-va-tao-may-chu-ao/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fdang-ky-digital-ocean-va-tao-may-chu-ao%2F&amp;linkname=%C4%90%C4%83ng%20k%C3%BD%20Digital%20Ocean%20v%C3%A0%20t%E1%BA%A1o%20m%C3%A1y%20ch%E1%BB%A7%20%E1%BA%A3o" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fdang-ky-digital-ocean-va-tao-may-chu-ao%2F&amp;linkname=%C4%90%C4%83ng%20k%C3%BD%20Digital%20Ocean%20v%C3%A0%20t%E1%BA%A1o%20m%C3%A1y%20ch%E1%BB%A7%20%E1%BA%A3o" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fdang-ky-digital-ocean-va-tao-may-chu-ao%2F&amp;linkname=%C4%90%C4%83ng%20k%C3%BD%20Digital%20Ocean%20v%C3%A0%20t%E1%BA%A1o%20m%C3%A1y%20ch%E1%BB%A7%20%E1%BA%A3o" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fdang-ky-digital-ocean-va-tao-may-chu-ao%2F&#038;title=%C4%90%C4%83ng%20k%C3%BD%20Digital%20Ocean%20v%C3%A0%20t%E1%BA%A1o%20m%C3%A1y%20ch%E1%BB%A7%20%E1%BA%A3o" data-a2a-url="./../../../dang-ky-digital-ocean-va-tao-may-chu-ao/index.html" data-a2a-title="Đăng ký Digital Ocean và tạo máy chủ ảo"></a></p><p><span style="color: #0000ff;"><strong>Đăng ký Digital Ocean và tạo máy chủ ảo</strong></span></p>
+<p>Việc đăng ký sử dụng Digital Ocean tương đối nhanh và đơn giản. Tuy nhiên bạn phải có sẵn thẻ tín dụng (VISA/Mastercard) hoặc tài khoản paypal còn hiệu lực và tất nhiên là có tiền.</p>
+<blockquote><p>Các bạn có thể đăng ký tài khoản thông qua <a title="Referral Digital Ocean" href="https://www.digitalocean.com/?refcode=7d03ea09c316" target="_blank">link Referral</a> của mình nếu muốn support mình. Tất nhiên là các bạn không bị thiệt hại gì cả vì giá dịch vụ không thay đổi. Ngoài ra các bạn còn được tặng tín dụng để sử dụng dịch vụ.</p></blockquote>
+<p>* Đăng ký tài khoản với email + mật khẩu<br />
+* Check mail để kích hoạt tài khoản<br />
+* Cập nhật thông tin thanh toán (thẻ tín dụng hoặc Paypal)<br />
+* Tạo máy ảo</p>
+<p>Việc tạo tài khoản tương đối đơn giản tuy nhiên bạn cần phải cung cấp đầy đủ thông tin tránh tài khoản bị locked.</p>
+<p>Khi mọi thứ đã hoàn tất chúng ta bắt đầu tạo máy chủ ảo. Trong hướng dẫn này mình sử dụng CentOS 6.5 x64 để làm hệ điều hành chính</p>
+<p>Đầu tiên click chọn Create Droplet để bắt đầu tạo máy chủ ảo. Máy chủ ảo ở Digital được gọi là Droplet, chỗ khác có thể gọi là Gear, Node&#8230;</p>
+<p><a href="./../../../wp-content/uploads/2014/12/DO-Droplet-1.png" rel="lightbox[934]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-939" src="./../../../wp-content/uploads/2014/12/DO-Droplet-1-620x348.png" alt="DO-Droplet-1" width="620" height="348" srcset="./../../../wp-content/uploads/2014/12/DO-Droplet-1-620x348.png 620w, ./../../../wp-content/uploads/2014/12/DO-Droplet-1-920x517.png 920w, ./../../../wp-content/uploads/2014/12/DO-Droplet-1.png 1204w" sizes="(max-width: 620px) 100vw, 620px" /></a><br />
+Đặt tên gọi cho Droplet, có thể bạn sẽ dùng nhiều droplet nên đặt tên sao cho gợi nhớ.</p>
+<p>Trong bài hướng dẫn này mình sử dụng gói 5$/tháng.</p>
+<p>Region ở đây mình chọn Singapore tức gần Việt Nam nhất, bạn có thể chọn Region sao cho phù hợp với nơi ở của bạn. Lưu ý là chưa chắc gần nhất sẽ có tốc độ tốt nhất. Nhưng hầu hết là vậy.</p>
+<p>Hệ điều hành chọn CentOS 6.5 x64</p>
+<p>Click Create Droplet để bắt đầu tạo máy chủ ảo<br />
+<a href="./../../../wp-content/uploads/2014/12/DO-Droplet-2.png" rel="lightbox[934]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-940" src="./../../../wp-content/uploads/2014/12/DO-Droplet-2-620x1094.png" alt="DO-Droplet-2" width="620" height="1094" srcset="./../../../wp-content/uploads/2014/12/DO-Droplet-2-620x1094.png 620w, ./../../../wp-content/uploads/2014/12/DO-Droplet-2-920x1624.png 920w, ./../../../wp-content/uploads/2014/12/DO-Droplet-2.png 1192w" sizes="(max-width: 620px) 100vw, 620px" /></a><br />
+Quá trình tạo tương đối nhanh, khoảng 1 phút. Sau khi tạo xong bạn sẽ thấy giao diện tương tự như hình dưới.</p>
+<p>Ngoài ra Digital Ocean cũng gởi thông tin tới địa chỉ email của bạn đã đăng ký</p>
+<p>Thông tin gồm: Tên Droplet, địa chỉ IP, Username và mật khẩu của máy chủ ảo.</p>
+<p>Khi đã có các thông tin cần thiết bạn click chọn Console Access để bắt đầu cuộc hành trình.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/DO-Droplet-3.png" rel="lightbox[934]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-941" src="./../../../wp-content/uploads/2014/12/DO-Droplet-3-620x489.png" alt="DO-Droplet-3" width="620" height="489" srcset="./../../../wp-content/uploads/2014/12/DO-Droplet-3-620x489.png 620w, ./../../../wp-content/uploads/2014/12/DO-Droplet-3-920x726.png 920w, ./../../../wp-content/uploads/2014/12/DO-Droplet-3.png 1192w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để bắt đầu trước tiên bạn cần phải cập nhật máy chủ ảo, thay đổi các thiết lập cần thiết và cấu hình bảo mật.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fdang-ky-digital-ocean-va-tao-may-chu-ao%2F&amp;linkname=%C4%90%C4%83ng%20k%C3%BD%20Digital%20Ocean%20v%C3%A0%20t%E1%BA%A1o%20m%C3%A1y%20ch%E1%BB%A7%20%E1%BA%A3o" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fdang-ky-digital-ocean-va-tao-may-chu-ao%2F&amp;linkname=%C4%90%C4%83ng%20k%C3%BD%20Digital%20Ocean%20v%C3%A0%20t%E1%BA%A1o%20m%C3%A1y%20ch%E1%BB%A7%20%E1%BA%A3o" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fdang-ky-digital-ocean-va-tao-may-chu-ao%2F&amp;linkname=%C4%90%C4%83ng%20k%C3%BD%20Digital%20Ocean%20v%C3%A0%20t%E1%BA%A1o%20m%C3%A1y%20ch%E1%BB%A7%20%E1%BA%A3o" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fdang-ky-digital-ocean-va-tao-may-chu-ao%2F&#038;title=%C4%90%C4%83ng%20k%C3%BD%20Digital%20Ocean%20v%C3%A0%20t%E1%BA%A1o%20m%C3%A1y%20ch%E1%BB%A7%20%E1%BA%A3o" data-a2a-url="./../../../dang-ky-digital-ocean-va-tao-may-chu-ao/index.html" data-a2a-title="Đăng ký Digital Ocean và tạo máy chủ ảo"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../dang-ky-digital-ocean-va-tao-may-chu-ao/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>VPN Server giá rẻ với Digital Ocean</title>
+		<link>./../../../vpn-server-gia-re-voi-digital-ocean/index.html</link>
+					<comments>./../../../vpn-server-gia-re-voi-digital-ocean/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2014 04:33:15 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Digital Ocean]]></category>
+		<category><![CDATA[SoftEther]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=923</guid>
+
+					<description><![CDATA[Hướng dẫn xây dựng VPN Server giá rẻ với Digital Ocean Giới thiệu về VPN: VPN là chữ viết tắt của Virtual Private Network, là một dạng kết nối mạng bảo mật thông qua đường truyền Internet, sử dụng VPN, mọi dữ liệu gởi nhận đều được mã hóa giúp bạn sử dụng mạng một <a class="more-link" href="./../../../vpn-server-gia-re-voi-digital-ocean/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&amp;linkname=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&amp;linkname=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&amp;linkname=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&#038;title=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" data-a2a-url="./../../../vpn-server-gia-re-voi-digital-ocean/index.html" data-a2a-title="VPN Server giá rẻ với Digital Ocean"></a></p><p><span style="color: #0000ff;"><strong>Hướng dẫn xây dựng VPN Server giá rẻ với Digital Ocean</strong></span></p>
+<p><span style="color: #800080;">Giới thiệu về VPN:</span></p>
+<p>VPN là chữ viết tắt của Virtual Private Network, là một dạng kết nối mạng bảo mật thông qua đường truyền Internet, sử dụng VPN, mọi dữ liệu gởi nhận đều được mã hóa giúp bạn sử dụng mạng một cách an toàn, tránh nguy cơ rò rỉ, thất thoát hoặc bị sửa đổi dữ liệu.</p>
+<p><span style="color: #800080;">Lợi ích của việc sử dụng VPN:</span></p>
+<p>Các dịch vụ VPN ngày nay cung cấp rất nhiều các tính năng khác ngoài việc mã hóa dữ liệu trên đường truyền, sử dụng dịch vụ VPN bạn sẽ nhận được:</p>
+<ul>
+<li>Truy cập nội dung bị khóa: Một số dịch vụ khóa nội dung theo vùng địa lý, sử dụng VPN giúp bạn có thể dễ dàng truy cập các nội dung như vậy</li>
+<li>Giảm nguy cơ bị tấn công bởi hacker: Với việc mã hóa đường truyền, VPN hạn chế các thông tin tài khoản, ngân hàng, thông tin cá nhân&#8230;bị hacker đánh cắp</li>
+<li>Lướt web riêng tư: Với việc ẩn đi vùng địa lý và địa chỉ IP, bạn hạn chế được việc bị theo dõi sử dụng thông tin cá nhân tối đa.</li>
+<li>Sử dụng Wifi công cộng an toàn: Wifi công cộng thường không an toàn, VPN giúp truy cập mạng an toàn ở những nơi như vậy</li>
+<li>&#8230;</li>
+</ul>
+<p>Ngày nay nhiều dịch vụ cung cấp VPN cho người sử dụng với giá cả dao động từ miễn phí đến hàng chục $ một tháng.</p>
+<p>Tuy nhiên thông thường bạn sẽ bị giới hạn như lưu lượng, băng thông, hoặc số phiên sử dụng cùng lúc. Thường các dịch vụ sẽ giới hạn chỉ cho phép sử dụng 2 hoặc 3 thiết bị cùng lúc.</p>
+<p>Tham khảo thêm thông tin <a title="BestVPN" href="https://www.bestvpn.com/" target="_blank">tại đây</a></p>
+<p><span style="color: #800080;">Giới thiệu Digital Ocean:</span></p>
+<p>Digital Ocean cung cấp dịch vụ cloud server với chất lượng tương đối tốt và giá thành rẻ. Mình cũng có trải nghiệm sử dụng tương đối tốt khi chọn Digital Ocean.</p>
+<p>Thông tin tham khảo tại <a title="Digital Ocean" href="https://www.digitalocean.com/" target="_blank">https://www.digitalocean.com/</a></p>
+<p>Trong bài này mình sẽ hướng dẫn chi tiết cách xây dựng VPN server với Digital Ocean cho gói rẻ nhất 5$/tháng</p>
+<p>Vậy tại sao không dùng dịch vụ của các nhà cung cấp?</p>
+<p>Bạn tự xây dựng dịch vụ cho riêng bạn, tự quản lý và tất nhiên là bạn có thể chia sẻ cho nhiều người dùng. Với 5$/tháng mình nghĩ một VPN server cho 10-15 người dùng tương đối tốt. Và tất nhiên không có bất kỳ giới hạn nào nếu so sánh với dịch vụ.</p>
+<p><span style="color: #3366ff;">1/ <a style="color: #3366ff;" title="Đăng ký Digital Ocean" href="./../../../dang-ky-digital-ocean-va-tao-may-chu-ao/index.html" target="_blank">Đăng ký Digital Ocean và tạo máy chủ ảo</a></span></p>
+<p><span style="color: #3366ff;">2/ <a style="color: #3366ff;" title="Bảo mật VPS Linux" href="./../../../bao-mat-vps-linux/index.html" target="_blank">Bảo mật máy chủ ảo CentOS</a></span></p>
+<ul>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Bảo mật SSH" href="./../../../bao-mat-ssh/index.html" target="_blank">Bảo mật SSH</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Bảo mật tường lửa với Advanced Policy Firewall" href="./../../../bao-mat-tuong-lua-voi-apf/index.html" target="_blank">Bảo mật tường lửa với APF (Advanced Policy Firewall)</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Block brute-force attach with BFD" href="./../../../chong-tan-cong-brute-force-voi-bfd/index.html" target="_blank">Chống tấn công brute-force với BFD (Brute Force Detection)</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Block virus with ClamAV" href="./../../../cai-dat-clamav-antivirus-cho-centos/index.html" target="_blank">Phòng ngừa virus với ClamAV</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Block rootkit with RKHunter" href="./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/index.html" target="_blank">Phòng ngừa rootkit với RKHunter</a></span></li>
+</ul>
+<p><span style="color: #3366ff;">3/ <a style="color: #3366ff;" title="Cài đặt SoftEther VPN Server" href="./../../../cai-dat-softether-vpn-server/index.html" target="_blank">Cài đặt SoftEther VPN Server</a></span></p>
+<p><span style="color: #3366ff;">4/ Cấu hình SoftEther VPN Server</span></p>
+<ul>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Cấu hình SoftEther VPN Server" href="./../../../cau-hinh-softether-vpn-server/index.html" target="_blank">Cấu hình SoftEther VPN Server</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Cấu hình VirtualHUB" href="./../../../cau-hinh-virtualhub/index.html" target="_blank">Cấu hình VirtualHUB</a></span></li>
+</ul>
+<p><span style="color: #3366ff;">5/ Cấu hình kết nối VPN cho thiết bị</span></p>
+<ul>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Setup SSTP VPN cho Windows" href="./../../../setup-sstp-vpn-cho-windows/index.html" rel="bookmark">Setup SSTP VPN cho Windows</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Permalink to Setup L2TP/IPSec VPN cho Windows" href="./../../../setup-l2tp-ipsec-vpn-cho-windows/index.html" rel="bookmark">Setup L2TP/IPSec VPN cho Windows</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Permalink to Setup L2TP/IPSec VPN cho Mac" href="./../../../setup-l2tp-ipsec-vpn-cho-mac/index.html" rel="bookmark">Setup L2TP/IPSec VPN cho Mac</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Setup SoftEther VPN Client" href="./../../../setup-softether-vpn-client/index.html" target="_blank">Setup SoftEther VPN Client</a></span></li>
+<li><span style="color: #3366ff;">Hướng dẫn thiết lập VPN cho thiết bị di động <a style="color: #3366ff;" title="VPN WP 8.1" href="http://www.windowsphone.com/en-us/how-to/wp8/connectivity/use-a-vpn-connection" target="_blank">Windows Phone</a>, <a style="color: #3366ff;" title="VPN Android" href="http://www.vpngate.net/en/howto_l2tp.aspx#android" target="_blank">Android</a>, <a style="color: #3366ff;" title="Apple IOS" href="http://www.vpngate.net/en/howto_l2tp.aspx#ios" target="_blank">Apple IOS</a></span></li>
+</ul>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&amp;linkname=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&amp;linkname=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&amp;linkname=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&#038;title=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" data-a2a-url="./../../../vpn-server-gia-re-voi-digital-ocean/index.html" data-a2a-title="VPN Server giá rẻ với Digital Ocean"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../vpn-server-gia-re-voi-digital-ocean/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

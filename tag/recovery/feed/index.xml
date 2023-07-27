@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>recovery &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Thu, 28 May 2015 01:43:02 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>recovery &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Tặng sách &#8220;Sao lưu &#038; phục hồi dữ liệu&#8221;</title>
+		<link>./../../../tang-sach-sao-luu-phuc-hoi-du-lieu/index.html</link>
+					<comments>./../../../tang-sach-sao-luu-phuc-hoi-du-lieu/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 28 May 2015 01:43:02 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[backup]]></category>
+		<category><![CDATA[recovery]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1173</guid>
+
+					<description><![CDATA[Chào các bạn, Có lẽ đã vào blog này thì trình độ của các bạn cũng đã nằm ngoài phạm vi hướng tới của sách này. Tuy nhiên các bạn cũng có thể chia sẻ cho bạn bè hoặc người thân Sách hướng đến người dùng không chuyên IT, hướng dẫn cơ bản từng bước <a class="more-link" href="./../../../tang-sach-sao-luu-phuc-hoi-du-lieu/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Ftang-sach-sao-luu-phuc-hoi-du-lieu%2F&amp;linkname=T%E1%BA%B7ng%20s%C3%A1ch%20%E2%80%9CSao%20l%C6%B0u%20%26%20ph%E1%BB%A5c%20h%E1%BB%93i%20d%E1%BB%AF%20li%E1%BB%87u%E2%80%9D" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Ftang-sach-sao-luu-phuc-hoi-du-lieu%2F&amp;linkname=T%E1%BA%B7ng%20s%C3%A1ch%20%E2%80%9CSao%20l%C6%B0u%20%26%20ph%E1%BB%A5c%20h%E1%BB%93i%20d%E1%BB%AF%20li%E1%BB%87u%E2%80%9D" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Ftang-sach-sao-luu-phuc-hoi-du-lieu%2F&amp;linkname=T%E1%BA%B7ng%20s%C3%A1ch%20%E2%80%9CSao%20l%C6%B0u%20%26%20ph%E1%BB%A5c%20h%E1%BB%93i%20d%E1%BB%AF%20li%E1%BB%87u%E2%80%9D" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Ftang-sach-sao-luu-phuc-hoi-du-lieu%2F&#038;title=T%E1%BA%B7ng%20s%C3%A1ch%20%E2%80%9CSao%20l%C6%B0u%20%26%20ph%E1%BB%A5c%20h%E1%BB%93i%20d%E1%BB%AF%20li%E1%BB%87u%E2%80%9D" data-a2a-url="./../../../tang-sach-sao-luu-phuc-hoi-du-lieu/index.html" data-a2a-title="Tặng sách “Sao lưu &amp; phục hồi dữ liệu”"></a></p><p>Chào các bạn,</p>
+<p>Có lẽ đã vào blog này thì trình độ của các bạn cũng đã nằm ngoài phạm vi hướng tới của sách này. Tuy nhiên các bạn cũng có thể chia sẻ cho bạn bè hoặc người thân</p>
+<p>Sách hướng đến người dùng không chuyên IT, hướng dẫn cơ bản từng bước cách thức sao lưu và phục hồi hệ thống cũng như dữ liệu</p>
+<p><a href="./../../../wp-content/uploads/2015/05/SaoLuu-PhucHoi-DuLieu.jpg" rel="lightbox[1173]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1174" src="./../../../wp-content/uploads/2015/05/SaoLuu-PhucHoi-DuLieu-620x935.jpg" alt="SaoLuu-PhucHoi-DuLieu" width="620" height="935" srcset="./../../../wp-content/uploads/2015/05/SaoLuu-PhucHoi-DuLieu-620x935.jpg 620w, ./../../../wp-content/uploads/2015/05/SaoLuu-PhucHoi-DuLieu-920x1388.jpg 920w, ./../../../wp-content/uploads/2015/05/SaoLuu-PhucHoi-DuLieu.jpg 1596w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sách có thể xem online HTML bằng đường link dưới</p>
+<p><a href="./../../../backup-recovery/index.html" target="_blank">./../../../backup-recovery/index.html</a></p>
+<p>Hoặc các bạn có thể tải PDF về để đọc nếu muốn</p>
+<p><a href="./../../../backup-recovery.pdf" target="_blank">./../../../backup-recovery.pdf</a></p>
+<p>&nbsp;</p>
+<p>Ngoài ra nếu các bạn chưa nắm rõ vấn đề, có thể tham khảo thêm video mình đã quay sẵn tại địa chỉ Youtube bên dưới</p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/videoseries?list=PL5eefwk8xDiBl2QBc0GcXb-EwZkBT8y9P" frameborder="0" allowfullscreen></iframe></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Ftang-sach-sao-luu-phuc-hoi-du-lieu%2F&amp;linkname=T%E1%BA%B7ng%20s%C3%A1ch%20%E2%80%9CSao%20l%C6%B0u%20%26%20ph%E1%BB%A5c%20h%E1%BB%93i%20d%E1%BB%AF%20li%E1%BB%87u%E2%80%9D" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Ftang-sach-sao-luu-phuc-hoi-du-lieu%2F&amp;linkname=T%E1%BA%B7ng%20s%C3%A1ch%20%E2%80%9CSao%20l%C6%B0u%20%26%20ph%E1%BB%A5c%20h%E1%BB%93i%20d%E1%BB%AF%20li%E1%BB%87u%E2%80%9D" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Ftang-sach-sao-luu-phuc-hoi-du-lieu%2F&amp;linkname=T%E1%BA%B7ng%20s%C3%A1ch%20%E2%80%9CSao%20l%C6%B0u%20%26%20ph%E1%BB%A5c%20h%E1%BB%93i%20d%E1%BB%AF%20li%E1%BB%87u%E2%80%9D" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Ftang-sach-sao-luu-phuc-hoi-du-lieu%2F&#038;title=T%E1%BA%B7ng%20s%C3%A1ch%20%E2%80%9CSao%20l%C6%B0u%20%26%20ph%E1%BB%A5c%20h%E1%BB%93i%20d%E1%BB%AF%20li%E1%BB%87u%E2%80%9D" data-a2a-url="./../../../tang-sach-sao-luu-phuc-hoi-du-lieu/index.html" data-a2a-title="Tặng sách “Sao lưu &amp; phục hồi dữ liệu”"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../tang-sach-sao-luu-phuc-hoi-du-lieu/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

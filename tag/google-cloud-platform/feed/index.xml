@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Google Cloud Platform &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 08:08:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Google Cloud Platform &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Bài 4 &#8211; Truy cập máy ảo và các cài đặt đầu tiên</title>
+		<link>./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/index.html</link>
+					<comments>./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 17 Nov 2014 14:57:22 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Google Cloud Platform]]></category>
+		<category><![CDATA[VPS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=487</guid>
+
+					<description><![CDATA[Bài 4 &#8211; Truy cập máy ảo và các cài đặt đầu tiên Máy ảo đã được tạo ra và hoạt động, tuy nhiên cần phải cấu hình để phục vụ mục đích của chúng ta. Làm việc với hệ điều hành linux, đặc biệt là cho hosting thì việc quản trị server bắt buộc <a class="more-link" href="./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&amp;linkname=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&amp;linkname=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&amp;linkname=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&#038;title=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" data-a2a-url="./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/index.html" data-a2a-title="Bài 4 – Truy cập máy ảo và các cài đặt đầu tiên"></a></p><p><span style="color: #0000ff;"><strong>Bài 4 &#8211; Truy cập máy ảo và các cài đặt đầu tiên</strong></span></p>
+<p>Máy ảo đã được tạo ra và hoạt động, tuy nhiên cần phải cấu hình để phục vụ mục đích của chúng ta.</p>
+<p>Làm việc với hệ điều hành linux, đặc biệt là cho hosting thì việc quản trị server bắt buộc qua SSH và command line. Do đó để quản trị server, việc đầu tiên là kết nối server bằng SSH.</p>
+<p>Google Cloud Platform đã cung cấp sẵn công cụ SSH thông qua nền tảng web giúp việc tiếp cận đơn giản hơn so với thông thường.</p>
+<p>Tại giao diện quản lý máy ảo, click vào nút &#8230; và chọn Open in browser window.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-0.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-488" src="./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-0-620x467.png" alt="0-Open SSH Session 0" width="620" height="467" srcset="./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-0-620x467.png 620w, ./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-0-920x694.png 920w, ./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-0-705x531.png 705w, ./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-0.png 1030w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cửa sổ popup SSH chạy trên nền web hiện ra, tới đây thì chúng t bắt đầu các bước cài đặt với vps, mà cụ thể là server CentOS</p>
+<p>Các bạn có thể áp dụng cho các VPS chạy linux khác, mọi thứ đều tương tự.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-1.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-489" src="./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-1-620x414.png" alt="0-Open SSH Session 1" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-1-620x414.png 620w, ./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-1-705x471.png 705w, ./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-1.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Đổi mật khẩu root</strong></p>
+<p>Công việc đầu tiên là đổi mật khẩu tài khoản root</p>
+<p>Nhập lệnh</p>
+<blockquote><p>sudo passwd root</p></blockquote>
+<p>để bắt đầu đổi mật khẩu root</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Change-root-password.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-490" src="./../../../wp-content/uploads/2014/11/1-Change-root-password.png" alt="1-Change root password" width="487" height="115" /></a></p>
+<p>Sau khi đổi mật khẩu root, chúng ta đăng nhập vào tài khoản root để tiến hành các bước tiếp theo.</p>
+<blockquote><p>su &#8211;</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Login-root.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-491" src="./../../../wp-content/uploads/2014/11/2-Login-root.png" alt="2-Login root" width="421" height="47" /></a></p>
+<p><strong>Đổi tên máy</strong></p>
+<p>Tiếp theo là đổi tên của máy chủ, công việc tương đối đơn giản, chỉ việc thực thi lệnh</p>
+<blockquote><p>hostname + tên máy</p></blockquote>
+<p>để thay đổi tên.</p>
+<p>Lệnh</p>
+<blockquote><p>hostname</p></blockquote>
+<p>để hiển thị tên hiện tại của máy</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Change-hostname.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-492" src="./../../../wp-content/uploads/2014/11/3-Change-hostname.png" alt="3-Change hostname" width="424" height="97" /></a></p>
+<p><strong>Cập nhật hệ điều hành</strong></p>
+<p>Sau khi đã đổi tên, chúng ta tiếp tục cập nhật hệ điều hành. Để hệ điều hành hoạt động ổn định và tránh các lỗi bảo mật chúng ta nên thường xuyên cập nhật.</p>
+<p>Để cập nhật, chúng ta gõ lệnh</p>
+<blockquote><p>yum update</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/4-Update-1.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-493" src="./../../../wp-content/uploads/2014/11/4-Update-1-620x159.png" alt="4-Update 1" width="620" height="159" srcset="./../../../wp-content/uploads/2014/11/4-Update-1-620x159.png 620w, ./../../../wp-content/uploads/2014/11/4-Update-1-705x181.png 705w, ./../../../wp-content/uploads/2014/11/4-Update-1.png 866w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn Yes để tiếp tục cập nhật, tuỳ theo mạng nhanh hay chậm mà thời gian cập nhật ít hay nhiều tương ứng</p>
+<p><a href="./../../../wp-content/uploads/2014/11/4-Update-2.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-494" src="./../../../wp-content/uploads/2014/11/4-Update-2-620x74.png" alt="4-Update 2" width="620" height="74" srcset="./../../../wp-content/uploads/2014/11/4-Update-2-620x74.png 620w, ./../../../wp-content/uploads/2014/11/4-Update-2-705x84.png 705w, ./../../../wp-content/uploads/2014/11/4-Update-2.png 888w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Thêm ổ đĩa cho CentOS</strong></p>
+<p>Ổ đĩa hệ điều hành mặc định của Google Cloud Platform chỉ có 10GB, do đó để tăng dung lượng chúng ta cần phải thêm HDD để sử dụng.</p>
+<p>Để thêm HDD chúng ta làm các bước như sau:</p>
+<p>Trong phần cài đặt của máy ảo, chúng ta chọn <strong>Attach</strong> để thêm mới HDD</p>
+<p><a href="./../../../wp-content/uploads/2014/11/5-Attach-Disk-1.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-496" src="./../../../wp-content/uploads/2014/11/5-Attach-Disk-1-620x447.png" alt="5-Attach Disk 1" width="620" height="447" srcset="./../../../wp-content/uploads/2014/11/5-Attach-Disk-1-620x447.png 620w, ./../../../wp-content/uploads/2014/11/5-Attach-Disk-1-920x663.png 920w, ./../../../wp-content/uploads/2014/11/5-Attach-Disk-1-705x508.png 705w, ./../../../wp-content/uploads/2014/11/5-Attach-Disk-1.png 1029w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn các thông số tuỳ theo nhu cầu</p>
+<p><a href="./../../../wp-content/uploads/2014/11/5-Attach-Disk-2.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-497" src="./../../../wp-content/uploads/2014/11/5-Attach-Disk-2.png" alt="5-Attach Disk 2" width="475" height="723" /></a></p>
+<p>Để tiếp tục các bước tiếp theo sau khi đã add HDD, các bạn có thể tham khảo hướng dẫn step by step theo link sau:</p>
+<blockquote><p>http://www.techotopia.com/index.php/Adding_a_New_Disk_Drive_to_a_CentOS_6_System</p></blockquote>
+<p><strong>Tạo snapshot &#8211; Điểm sao lưu hệ điều hành</strong></p>
+<p>Sau khi đã thực hiện xong các bước cơ bản trên, bạn nên tiến hành tạo một điểm sao lưu hệ điều hành gọi là snapshot. Việc này giúp cho bạn có thể quay trở về điểm sao lưu nếu lỡ sau này có trục trặc gì trong máy. Nếu không có phải làm lại từ đầu sẽ mất nhiều thời gian.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/6-Take-Snapshot-1.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-498" src="./../../../wp-content/uploads/2014/11/6-Take-Snapshot-1-620x446.png" alt="6-Take Snapshot 1" width="620" height="446" srcset="./../../../wp-content/uploads/2014/11/6-Take-Snapshot-1-620x446.png 620w, ./../../../wp-content/uploads/2014/11/6-Take-Snapshot-1-920x662.png 920w, ./../../../wp-content/uploads/2014/11/6-Take-Snapshot-1-705x507.png 705w, ./../../../wp-content/uploads/2014/11/6-Take-Snapshot-1.png 1027w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên và mô tả snapshot, nên đặt tên và mô tả sao cho dễ nhớ vì có thể sau bạn sẽ tạo rất nhiều snapshot.</p>
+<p><span style="text-decoration: underline;"><span style="color: #ff0000; text-decoration: underline;">Lưu ý:</span></span></p>
+<blockquote><p>Snapshot chiếm dung lượng ổ cứng, do đó dùng nhiều thì bạn sẽ phải trả nhiều tiền cho Google, hay bất cứ nhà cung cấp nào cũng vậy, do đó cần cân nhắc kỹ.</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/6-Take-Snapshot-2.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-499" src="./../../../wp-content/uploads/2014/11/6-Take-Snapshot-2-620x446.png" alt="6-Take Snapshot 2" width="620" height="446" srcset="./../../../wp-content/uploads/2014/11/6-Take-Snapshot-2-620x446.png 620w, ./../../../wp-content/uploads/2014/11/6-Take-Snapshot-2-920x663.png 920w, ./../../../wp-content/uploads/2014/11/6-Take-Snapshot-2-705x508.png 705w, ./../../../wp-content/uploads/2014/11/6-Take-Snapshot-2.png 1028w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Hoàn tất bài 4, trong bài tiếp theo chúng ta sẽ bắt đầu cài đặt Parallels Plesk 12</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&amp;linkname=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&amp;linkname=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&amp;linkname=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&#038;title=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" data-a2a-url="./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/index.html" data-a2a-title="Bài 4 – Truy cập máy ảo và các cài đặt đầu tiên"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bài 3 &#8211; Tạo mới một instance (máy ảo VPS)</title>
+		<link>./../../../tao-moi-mot-instance-may-ao-vps/index.html</link>
+					<comments>./../../../tao-moi-mot-instance-may-ao-vps/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 17 Nov 2014 13:58:59 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Google Cloud Platform]]></category>
+		<category><![CDATA[VPS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=475</guid>
+
+					<description><![CDATA[Bài 3 &#8211; Tạo mới một instance (máy ảo VPS) Sau khi đã giới thiệu sơ qua về Google Developers Console, trong bài này chúng ta bắt đầu tạo ra một đơn vị xử lý. Thông thường gọi là VPS cho dễ hiểu nhưng trong thế giới cloud người ta thường sinh ra nhiều từ <a class="more-link" href="./../../../tao-moi-mot-instance-may-ao-vps/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&amp;linkname=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&amp;linkname=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&amp;linkname=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&#038;title=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" data-a2a-url="./../../../tao-moi-mot-instance-may-ao-vps/index.html" data-a2a-title="Bài 3 – Tạo mới một instance (máy ảo VPS)"></a></p><p><span style="color: #0000ff;"><strong>Bài 3 &#8211; Tạo mới một instance (máy ảo VPS)</strong></span></p>
+<p>Sau khi đã giới thiệu sơ qua về Google Developers Console, trong bài này chúng ta bắt đầu tạo ra một đơn vị xử lý. Thông thường gọi là VPS cho dễ hiểu nhưng trong thế giới cloud người ta thường sinh ra nhiều từ khác gọi cho nó khác khác mà theo mình nghĩ mang tính quảng bá là chính.</p>
+<p>Trước khi có thể tạo ra được 1 VPS, chúng ta phải tạo 1 Project &#8211; dự án trước</p>
+<p>Click vào nut <strong>New Project</strong> để tạo mới một project, đặt tên tuỳ ý. Tuy nhiên bạn nên đặt tên sao cho nó phù hợp với cái mình đang làm tránh nhầm lẫn.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/0-Create-Project-1.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-476" src="./../../../wp-content/uploads/2014/11/0-Create-Project-1-620x384.png" alt="0-Create Project 1" width="620" height="384" srcset="./../../../wp-content/uploads/2014/11/0-Create-Project-1-620x384.png 620w, ./../../../wp-content/uploads/2014/11/0-Create-Project-1-920x570.png 920w, ./../../../wp-content/uploads/2014/11/0-Create-Project-1-705x437.png 705w, ./../../../wp-content/uploads/2014/11/0-Create-Project-1.png 1029w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi một project được tạo sẽ tự động chuyển đến <strong>Project Dashboard</strong>, nơi hiển thị thông tin chung về project đó.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/0-Create-Project-2.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-477" src="./../../../wp-content/uploads/2014/11/0-Create-Project-2-620x384.png" alt="0-Create Project 2" width="620" height="384" srcset="./../../../wp-content/uploads/2014/11/0-Create-Project-2-620x384.png 620w, ./../../../wp-content/uploads/2014/11/0-Create-Project-2-920x570.png 920w, ./../../../wp-content/uploads/2014/11/0-Create-Project-2-705x437.png 705w, ./../../../wp-content/uploads/2014/11/0-Create-Project-2.png 1029w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click nút <strong>Create instance</strong> để bắt đầu tạo VPS theo yêu cầu</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-1.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-478" src="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-1-620x385.png" alt="1-Create VM Instance 1" width="620" height="385" srcset="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-1-620x385.png 620w, ./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-1-920x571.png 920w, ./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-1-705x438.png 705w, ./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-1.png 1028w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Ở màn hình tiếp theo các bạn tuỳ chọn các tham số như địa điểm đặt datacenter (châu Á, châu Mỹ&#8230;), cấu hình máy, loại hệ điều hành&#8230;Một điểm lưu ý là với tài khoản dùng thử bạn không có tuỳ chọn sử dụng Windows, chỉ Linux mà thôi.</p>
+<p>Sau khi đã chọn các tham số như ý muốn, nhấn nút Create để bắt đầu tạo máy ảo VPS.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-2.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-479" src="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-2.png" alt="1-Create VM Instance 2" width="542" height="775" /></a></p>
+<p>Sau khi tạo xong thì máy ảo cũng đã bắt đầu chạy. Máy ảo đã sẵn sàng để sử dụng.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-3.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-480" src="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-3-620x468.png" alt="1-Create VM Instance 3" width="620" height="468" srcset="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-3-620x468.png 620w, ./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-3-920x695.png 920w, ./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-3-705x533.png 705w, ./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-3.png 1029w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Các tham số tham khảo khi tạo máy ảo VPS</p>
+<p>Vị trí datacenter, tuỳ thuộc vào nơi ở của bạn mà chọn vị trí datacenter cho phù hợp</p>
+<p><a href="./../../../wp-content/uploads/2014/11/Ref-Datacenter-Location.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-481" src="./../../../wp-content/uploads/2014/11/Ref-Datacenter-Location.png" alt="Ref-Datacenter Location" width="441" height="211" /></a></p>
+<p>Chọn loại hệ điều hành cho VPS</p>
+<p><a href="./../../../wp-content/uploads/2014/11/Ref-Image-Type.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-482" src="./../../../wp-content/uploads/2014/11/Ref-Image-Type.png" alt="Ref-Image Type" width="439" height="619" /></a></p>
+<p>Chọn cấu hình máy ảo (CPU, RAM)</p>
+<p><a href="./../../../wp-content/uploads/2014/11/Ref-Machine-Type.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-483" src="./../../../wp-content/uploads/2014/11/Ref-Machine-Type.png" alt="Ref-Machine Type" width="439" height="404" /></a></p>
+<p>Và chọn loại mạng phù hợp, do chúng ta tạo máy ảo để phục vụ truy cập từ Internet do đó chọn mạng kiểu <strong>Ephemeral</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/Ref-Network.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-484" src="./../../../wp-content/uploads/2014/11/Ref-Network.png" alt="Ref-Network" width="440" height="78" /></a></p>
+<p>Trong bài tới chúng ta sẽ tiến hành truy cập vào máy ảo và thiết lập các thông số đầu tiên.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&amp;linkname=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&amp;linkname=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&amp;linkname=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&#038;title=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" data-a2a-url="./../../../tao-moi-mot-instance-may-ao-vps/index.html" data-a2a-title="Bài 3 – Tạo mới một instance (máy ảo VPS)"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../tao-moi-mot-instance-may-ao-vps/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bài 2 &#8211; Bắt đầu với Google Cloud Platform</title>
+		<link>./../../../bat-dau-voi-google-cloud-platform/index.html</link>
+					<comments>./../../../bat-dau-voi-google-cloud-platform/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 17 Nov 2014 13:41:24 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Google Cloud Platform]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=468</guid>
+
+					<description><![CDATA[Bài 2 &#8211; Bắt đầu với Google Cloud Platform Sau khi đã đăng ký thành công Google Cloud Platform, tiếp theo chúng ta sẽ tiếp tục tìm hiểu các bước bắt đầu và tiến hành cài đặt. Đây là giao diện khi chúng ta đăng nhập Google Developers Console. Sở dĩ có tên Google Developers <a class="more-link" href="./../../../bat-dau-voi-google-cloud-platform/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbat-dau-voi-google-cloud-platform%2F&amp;linkname=B%C3%A0i%202%20%E2%80%93%20B%E1%BA%AFt%20%C4%91%E1%BA%A7u%20v%E1%BB%9Bi%20Google%20Cloud%20Platform" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbat-dau-voi-google-cloud-platform%2F&amp;linkname=B%C3%A0i%202%20%E2%80%93%20B%E1%BA%AFt%20%C4%91%E1%BA%A7u%20v%E1%BB%9Bi%20Google%20Cloud%20Platform" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbat-dau-voi-google-cloud-platform%2F&amp;linkname=B%C3%A0i%202%20%E2%80%93%20B%E1%BA%AFt%20%C4%91%E1%BA%A7u%20v%E1%BB%9Bi%20Google%20Cloud%20Platform" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbat-dau-voi-google-cloud-platform%2F&#038;title=B%C3%A0i%202%20%E2%80%93%20B%E1%BA%AFt%20%C4%91%E1%BA%A7u%20v%E1%BB%9Bi%20Google%20Cloud%20Platform" data-a2a-url="./../../../bat-dau-voi-google-cloud-platform/index.html" data-a2a-title="Bài 2 – Bắt đầu với Google Cloud Platform"></a></p><p><span style="color: #0000ff;"><strong>Bài 2 &#8211; Bắt đầu với Google Cloud Platform</strong></span></p>
+<p>Sau khi đã đăng ký thành công Google Cloud Platform, tiếp theo chúng ta sẽ tiếp tục tìm hiểu các bước bắt đầu và tiến hành cài đặt.</p>
+<p>Đây là giao diện khi chúng ta đăng nhập Google Developers Console. Sở dĩ có tên Google Developers Console là do trong nền tảng Cloud của Google có rất nhiều công cụ phát triển, không chỉ đơn thuần module xử lý mà chúng làm việc trong bài này.</p>
+<p>Một Project &#8211; dự án chứa rất nhiều thành phần hỗ trợ, một trong số đó là module xử lý mà chúng ta gọi ngắn gọn là VPS. Trong điện toán đám mây nó có thuật ngữ là compute unit.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/0-Project.png" rel="lightbox[468]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-469" src="./../../../wp-content/uploads/2014/11/0-Project-620x362.png" alt="0-Project" width="620" height="362" srcset="./../../../wp-content/uploads/2014/11/0-Project-620x362.png 620w, ./../../../wp-content/uploads/2014/11/0-Project-920x537.png 920w, ./../../../wp-content/uploads/2014/11/0-Project-705x412.png 705w, ./../../../wp-content/uploads/2014/11/0-Project.png 1030w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mục Billing có thể nói ngắn gọn là mục tính tiền sử dụng, chúng ta có thể xem là đã sử dụng những gì và tốn bao nhiêu. Tuy nhiên chỉ sử dụng thành phần xử lý compute unit nên thiết nghĩ khó mà sừ dụng hết được mức tín dụng mà Google đã cung cấp.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Billing.png" rel="lightbox[468]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-470" src="./../../../wp-content/uploads/2014/11/1-Billing-620x381.png" alt="1-Billing" width="620" height="381" srcset="./../../../wp-content/uploads/2014/11/1-Billing-620x381.png 620w, ./../../../wp-content/uploads/2014/11/1-Billing-920x566.png 920w, ./../../../wp-content/uploads/2014/11/1-Billing-705x434.png 705w, ./../../../wp-content/uploads/2014/11/1-Billing.png 1028w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Một vài thiết lập tài khoản</p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-AccountSettings.png" rel="lightbox[468]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-471" src="./../../../wp-content/uploads/2014/11/2-AccountSettings-620x382.png" alt="2-AccountSettings" width="620" height="382" srcset="./../../../wp-content/uploads/2014/11/2-AccountSettings-620x382.png 620w, ./../../../wp-content/uploads/2014/11/2-AccountSettings-920x568.png 920w, ./../../../wp-content/uploads/2014/11/2-AccountSettings-705x435.png 705w, ./../../../wp-content/uploads/2014/11/2-AccountSettings.png 1030w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>và một vài thông tin hướng dẫn sử dụng dịch vụ Google Cloud Platform</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Helps.png" rel="lightbox[468]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-472" src="./../../../wp-content/uploads/2014/11/3-Helps-620x383.png" alt="3-Helps" width="620" height="383" srcset="./../../../wp-content/uploads/2014/11/3-Helps-620x383.png 620w, ./../../../wp-content/uploads/2014/11/3-Helps-920x568.png 920w, ./../../../wp-content/uploads/2014/11/3-Helps-705x435.png 705w, ./../../../wp-content/uploads/2014/11/3-Helps.png 1026w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trong bài tới chúng ta sẽ bắt đầu tạo máy ảo và sử dụng</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbat-dau-voi-google-cloud-platform%2F&amp;linkname=B%C3%A0i%202%20%E2%80%93%20B%E1%BA%AFt%20%C4%91%E1%BA%A7u%20v%E1%BB%9Bi%20Google%20Cloud%20Platform" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbat-dau-voi-google-cloud-platform%2F&amp;linkname=B%C3%A0i%202%20%E2%80%93%20B%E1%BA%AFt%20%C4%91%E1%BA%A7u%20v%E1%BB%9Bi%20Google%20Cloud%20Platform" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbat-dau-voi-google-cloud-platform%2F&amp;linkname=B%C3%A0i%202%20%E2%80%93%20B%E1%BA%AFt%20%C4%91%E1%BA%A7u%20v%E1%BB%9Bi%20Google%20Cloud%20Platform" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbat-dau-voi-google-cloud-platform%2F&#038;title=B%C3%A0i%202%20%E2%80%93%20B%E1%BA%AFt%20%C4%91%E1%BA%A7u%20v%E1%BB%9Bi%20Google%20Cloud%20Platform" data-a2a-url="./../../../bat-dau-voi-google-cloud-platform/index.html" data-a2a-title="Bài 2 – Bắt đầu với Google Cloud Platform"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../bat-dau-voi-google-cloud-platform/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bài 1 – Đăng ký dùng thử Google Cloud Platform</title>
+		<link>./../../../dang-ky-dung-thu-google-cloud-platform/index.html</link>
+					<comments>./../../../dang-ky-dung-thu-google-cloud-platform/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 17 Nov 2014 13:28:54 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Google Cloud Platform]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=462</guid>
+
+					<description><![CDATA[Bài 1 – Đăng ký dùng thử Google Cloud Platform Trong bài đầu tiên này chúng ta sẽ tiến hành đăng ký Google Cloud Platform. Google, cái tên quá lớn trong thế giới công nghệ. Các dịch vụ hầu như đều miễn phí tuy nhiên Cloud thì lại không. Tuy nhiên hãng cho dùng thử <a class="more-link" href="./../../../dang-ky-dung-thu-google-cloud-platform/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fdang-ky-dung-thu-google-cloud-platform%2F&amp;linkname=B%C3%A0i%201%20%E2%80%93%20%C4%90%C4%83ng%20k%C3%BD%20d%C3%B9ng%20th%E1%BB%AD%20Google%20Cloud%20Platform" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fdang-ky-dung-thu-google-cloud-platform%2F&amp;linkname=B%C3%A0i%201%20%E2%80%93%20%C4%90%C4%83ng%20k%C3%BD%20d%C3%B9ng%20th%E1%BB%AD%20Google%20Cloud%20Platform" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fdang-ky-dung-thu-google-cloud-platform%2F&amp;linkname=B%C3%A0i%201%20%E2%80%93%20%C4%90%C4%83ng%20k%C3%BD%20d%C3%B9ng%20th%E1%BB%AD%20Google%20Cloud%20Platform" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fdang-ky-dung-thu-google-cloud-platform%2F&#038;title=B%C3%A0i%201%20%E2%80%93%20%C4%90%C4%83ng%20k%C3%BD%20d%C3%B9ng%20th%E1%BB%AD%20Google%20Cloud%20Platform" data-a2a-url="./../../../dang-ky-dung-thu-google-cloud-platform/index.html" data-a2a-title="Bài 1 – Đăng ký dùng thử Google Cloud Platform"></a></p><p><span style="color: #0000ff;"><strong>Bài 1 – Đăng ký dùng thử Google Cloud Platform</strong></span></p>
+<p>Trong bài đầu tiên này chúng ta sẽ tiến hành đăng ký <a title="Google Cloud Platform" href="https://cloud.google.com/" target="_blank">Google Cloud Platform</a>.</p>
+<p>Google, cái tên quá lớn trong thế giới công nghệ. Các dịch vụ hầu như đều miễn phí tuy nhiên Cloud thì lại không. Tuy nhiên hãng cho dùng thử 2 tháng mà không có bất cứ ràng buộc nào.</p>
+<p><a title="Amazon Web Services" href="http://aws.amazon.com/" target="_blank">Amazon Web Services AWS</a> cũng miễn phí 1 năm tuy nhiên đăng ký rườm rà và quá nhiều các điều kiện rắc rối. Nói chung nếu thích thì các bạn cũng có thể đăng ký, tuy nhiên cần đọc kỹ các điều khoản của họ tránh mắc bẫy.</p>
+<p><a title="MS Azure" href="http://azure.microsoft.com/en-us/" target="_blank">Microsoft Azure </a>cho miễn phí 1 tháng tuy nhiên yêu cầu phải có thẻ tín dụng mới có thể đăng ký. Tuy nhiên theo nhiều người thì mặc dù có thẻ tín dụng nhưng chưa chắc đã đăng ký thành công.</p>
+<p><a title="HP Helion Cloud" href="http://www.hpcloud.com/cloud-credit" target="_blank">HP Cloud</a> cũng cho dùng thử miễn phí nhưng họ cũng yêu cầu thẻ tín dụng tương tự như Microsoft Azure.</p>
+<p>Ngoài ra còn có rất nhiều hãng khác cung cấp các dịch vụ điện toán đám mây, các bạn có thể tham khảo qua Google</p>
+<p>Giờ thì bắt đầu khoản đăng ký Google Cloud Platform thôi.</p>
+<p>Trước tiên bạn cần phải có một tài khoản Google, cái này quá dễ rồi và hầu như ai cũng có.</p>
+<p>Banner quảng cáo các thông tin cho gói dùng thử miễn phí 2 tháng trị giá 300$ của Google</p>
+<p><a href="./../../../wp-content/uploads/2014/11/GCP-0-Ad.png" rel="lightbox[462]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-463" src="./../../../wp-content/uploads/2014/11/GCP-0-Ad-620x190.png" alt="GCP-0-Ad" width="620" height="190" srcset="./../../../wp-content/uploads/2014/11/GCP-0-Ad-620x190.png 620w, ./../../../wp-content/uploads/2014/11/GCP-0-Ad-920x283.png 920w, ./../../../wp-content/uploads/2014/11/GCP-0-Ad-705x216.png 705w, ./../../../wp-content/uploads/2014/11/GCP-0-Ad.png 1066w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đã đăng nhập Google, nhấn nút Start free trial để bắt đầu đăng ký, việc đăng ký đơn giản và chỉ cần điền thông tin đầy đủ theo mẫu.</p>
+<p>Google cũng yêu cầu nhập tài khoản thẻ tín dụng để xác nhân tài khoản. Mình sử dụng thẻ prepaid đăng ký tốt. Ai chưa có có thể ra ACB làm một cái nhanh gọn lẹ, nộp vào đó ít tiền là sử dụng được rồi.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/GCP-1-Register.png" rel="lightbox[462]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-464" src="./../../../wp-content/uploads/2014/11/GCP-1-Register-620x580.png" alt="GCP-1-Register" width="620" height="580" srcset="./../../../wp-content/uploads/2014/11/GCP-1-Register-620x580.png 620w, ./../../../wp-content/uploads/2014/11/GCP-1-Register-705x659.png 705w, ./../../../wp-content/uploads/2014/11/GCP-1-Register.png 825w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đăng ký thành công thì Google sẽ gởi cho bạn 1 email thông báo như bên dưới.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/GCP-2-DK-Thanh-Cong.png" rel="lightbox[462]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-465" src="./../../../wp-content/uploads/2014/11/GCP-2-DK-Thanh-Cong.png" alt="GCP-2-DK Thanh Cong" width="551" height="715" /></a></p>
+<p>Như vậy là đã hoàn tất quá trình đăng ký. Trong bài tới chúng ta sẽ bắt đầu với Google Cloud Platform</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fdang-ky-dung-thu-google-cloud-platform%2F&amp;linkname=B%C3%A0i%201%20%E2%80%93%20%C4%90%C4%83ng%20k%C3%BD%20d%C3%B9ng%20th%E1%BB%AD%20Google%20Cloud%20Platform" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fdang-ky-dung-thu-google-cloud-platform%2F&amp;linkname=B%C3%A0i%201%20%E2%80%93%20%C4%90%C4%83ng%20k%C3%BD%20d%C3%B9ng%20th%E1%BB%AD%20Google%20Cloud%20Platform" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fdang-ky-dung-thu-google-cloud-platform%2F&amp;linkname=B%C3%A0i%201%20%E2%80%93%20%C4%90%C4%83ng%20k%C3%BD%20d%C3%B9ng%20th%E1%BB%AD%20Google%20Cloud%20Platform" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fdang-ky-dung-thu-google-cloud-platform%2F&#038;title=B%C3%A0i%201%20%E2%80%93%20%C4%90%C4%83ng%20k%C3%BD%20d%C3%B9ng%20th%E1%BB%AD%20Google%20Cloud%20Platform" data-a2a-url="./../../../dang-ky-dung-thu-google-cloud-platform/index.html" data-a2a-title="Bài 1 – Đăng ký dùng thử Google Cloud Platform"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../dang-ky-dung-thu-google-cloud-platform/feed/index.html</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hướng dẫn xây dựng hosting với Parallels Plesk và Google Cloud Platform</title>
+		<link>./../../../huong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform/index.html</link>
+					<comments>./../../../huong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 17 Nov 2014 12:55:20 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Google Cloud Platform]]></category>
+		<category><![CDATA[Parallels Plesk]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=457</guid>
+
+					<description><![CDATA[Hướng dẫn xây dựng hosting với Parallels Plesk và Google Cloud Platform Xin chào các bạn. Chắc hẳn ở đây cũng đã có nhiều bạn sử dụng hosting để lưu trữ website, dĩ nhiên là ở góc độ người dùng cuối. Hôm nay mình xin giới thiệu một chút về hosting và làm việc ở <a class="more-link" href="./../../../huong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&#038;title=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" data-a2a-url="./../../../huong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform/index.html" data-a2a-title="Hướng dẫn xây dựng hosting với Parallels Plesk và Google Cloud Platform"></a></p><p><span style="color: #0000ff;"><strong>Hướng dẫn xây dựng hosting với Parallels Plesk và Google Cloud Platform</strong></span></p>
+<p>Xin chào các bạn. Chắc hẳn ở đây cũng đã có nhiều bạn sử dụng hosting để lưu trữ website, dĩ nhiên là ở góc độ người dùng cuối.</p>
+<p>Hôm nay mình xin giới thiệu một chút về hosting và làm việc ở góc độ một người quản trị.</p>
+<p>Để xây dựng dựng hosting người ta có thể sử dụng rất nhiều nền tảng khác nhau, tuy nhiên gói gọn trong chuỗi bài này mình sẽ không thể đề cập được hết.</p>
+<p>Nền tảng mình chọn để viết bài này là <strong>Parallels Plesk</strong> và <strong>Google Cloud Platform.</strong></p>
+<p>Cả 2 sản phẩm đều cho dùng thử miễn phí, giúp cho các bạn có thể xây dựng nền tảng cho riêng mình để học hỏi, nắm bắt kinh nghiệm và xử lý tình huống thực tiễn. Tất nhiên là không tốn tiền, tuy nhiên nếu bạn muốn tiếp tục thì đơn giản chỉ việc trả tiền, phí dịch vụ cũng vừa phải, không quá đắt.</p>
+<p>Nội dung trong chuỗi bài này bao gồm các bài</p>
+<p><a title="Đăng ký dùng thử Google Cloud Platform" href="./../../../dang-ky-dung-thu-google-cloud-platform/index.html" target="_blank">Bài 1 &#8211; Đăng ký dùng thử Google Cloud Platform</a><br />
+<a title="Bắt đầu với Google Cloud Platform" href="./../../../bat-dau-voi-google-cloud-platform/index.html" target="_blank">Bài 2 &#8211; Bắt đầu với Google Cloud Platform</a><br />
+<a title="Tạo máy ảo VPS" href="./../../../tao-moi-mot-instance-may-ao-vps/index.html" target="_blank">Bài 3 &#8211; Tạo máy ảo (VPS)</a><br />
+<a title="Truy cập máy ảo và các cài đặt đầu tiên" href="./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/index.html" target="_blank">Bài 4 &#8211; Truy cập máy ảo và các cài đặt đầu tiên</a><br />
+<a title="Cài đặt Paralells Plesk 12" href="./../../../cai-dat-parallels-plesk-12/index.html" target="_blank">Bài 5 &#8211; Cài đặt Parallels Plesk 12</a><br />
+<a title="Mở port và cài đặt tên miền" href="./../../../mo-port-va-cai-dat-ten-mien/index.html" target="_blank">Bài 6 &#8211; Mở port và cài đặt tên miền</a><br />
+<a title="Cài đặt rkhunter diệt rootkit" href="./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/index.html" target="_blank">Bài 7 &#8211; Cài đặt rkhunter, diệt rootkit cho CentOS</a><br />
+<a title="Cài đặt ClamAV antivirus cho CentOS" href="./../../../cai-dat-clamav-antivirus-cho-centos/index.html" target="_blank">Bài 8 &#8211; Cài đặt ClamAV antivirus cho Centos</a><br />
+<a title="Cài đặt APF và BFD" href="./../../../cai-dat-advanced-policy-firewall-brute-force-detection/index.html" target="_blank">Bài 9 &#8211; Cài đặt Advanced Policy Firewall &amp; Brute Force Detection</a><br />
+Bài 10 &#8211; Bảo mật SSH với 2 step verification</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&#038;title=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" data-a2a-url="./../../../huong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform/index.html" data-a2a-title="Hướng dẫn xây dựng hosting với Parallels Plesk và Google Cloud Platform"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../huong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

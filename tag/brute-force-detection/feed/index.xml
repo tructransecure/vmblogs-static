@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Brute Force Detection &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Thu, 18 Dec 2014 06:50:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Brute Force Detection &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Chống tấn công brute-force với BFD</title>
+		<link>./../../../chong-tan-cong-brute-force-voi-bfd/index.html</link>
+					<comments>./../../../chong-tan-cong-brute-force-voi-bfd/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 18 Dec 2014 06:36:02 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[BFD]]></category>
+		<category><![CDATA[Brute Force Detection]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=816</guid>
+
+					<description><![CDATA[Chống tấn công brute-force với BFD (Brute Force Detection) BFD (Brute Force Detection) là công cụ ngăn chặn các cuộc tấn công dò mật khẩu (brute-force). BFD làm việc và tương tác chặt chẽ với APF để ngăn ngừa các cuộc tấn công brute-force như đã nêu. Để tìm hiểu thêm về BFD các bạn <a class="more-link" href="./../../../chong-tan-cong-brute-force-voi-bfd/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fchong-tan-cong-brute-force-voi-bfd%2F&amp;linkname=Ch%E1%BB%91ng%20t%E1%BA%A5n%20c%C3%B4ng%20brute-force%20v%E1%BB%9Bi%20BFD" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fchong-tan-cong-brute-force-voi-bfd%2F&amp;linkname=Ch%E1%BB%91ng%20t%E1%BA%A5n%20c%C3%B4ng%20brute-force%20v%E1%BB%9Bi%20BFD" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fchong-tan-cong-brute-force-voi-bfd%2F&amp;linkname=Ch%E1%BB%91ng%20t%E1%BA%A5n%20c%C3%B4ng%20brute-force%20v%E1%BB%9Bi%20BFD" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fchong-tan-cong-brute-force-voi-bfd%2F&#038;title=Ch%E1%BB%91ng%20t%E1%BA%A5n%20c%C3%B4ng%20brute-force%20v%E1%BB%9Bi%20BFD" data-a2a-url="./../../../chong-tan-cong-brute-force-voi-bfd/index.html" data-a2a-title="Chống tấn công brute-force với BFD"></a></p><p><span style="color: #0000ff;"><strong>Chống tấn công brute-force với BFD (Brute Force Detection)</strong></span></p>
+<p>BFD (Brute Force Detection) là công cụ ngăn chặn các cuộc tấn công dò mật khẩu (brute-force). BFD làm việc và tương tác chặt chẽ với APF để ngăn ngừa các cuộc tấn công brute-force như đã nêu.</p>
+<p>Để tìm hiểu thêm về BFD các bạn có thể truy cập website <a title="RFXN" href="http://www.rfxn.com/" target="_blank">http://www.rfxn.com/</a></p>
+<p><strong>Dưới đây là hướng dẫn cài đặt và cấu hình BFD</strong>.</p>
+<p>Trước khi cài đặt, chúng ta cần tải BDF về máy. Gõ lệnh</p>
+<p style="padding-left: 30px;"><em>wget http://www.rfxn.com/downloads/bfd-current.tar.gz</em></p>
+<p><a href="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-1.png" rel="lightbox[816]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-819" src="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-1-620x396.png" alt="7-Secure-CentOS-VPS-BFD-1" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-1-620x396.png 620w, ./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-1.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tiến hành giải nén và chuyển vào thư mục chứa tập tin cài đặt BFD</p>
+<p><a href="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-2.png" rel="lightbox[816]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-820" src="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-2-620x396.png" alt="7-Secure-CentOS-VPS-BFD-2" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-2-620x396.png 620w, ./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-2.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Gõ lệnh</p>
+<p style="padding-left: 30px;"><em>./install.sh</em></p>
+<p>để tiến hành cài đặt BFD</p>
+<p><a href="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-3.png" rel="lightbox[816]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-821" src="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-3-620x396.png" alt="7-Secure-CentOS-VPS-BFD-3" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-3-620x396.png 620w, ./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-3.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi cài đặt hoàn tất chúng ta tiến hành cấu hình thiết lập BFD. Gõ lệnh</p>
+<p style="padding-left: 30px;"><em>nano /usr/local/bfd/conf.bfd</em></p>
+<p>Thay đổi giá trị</p>
+<p><span style="text-decoration: underline;">TRIG=&#8221;15&#8243; </span></p>
+<p>thành số bạn muốn, đây là số lần đăng nhập sai trước khi BFD chặn địa chỉ IP</p>
+<p><a href="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-4.png" rel="lightbox[816]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-822" src="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-4-620x396.png" alt="7-Secure-CentOS-VPS-BFD-4" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-4-620x396.png 620w, ./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-4.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thiết lập email cảnh báo, nếu bạn muốn nhận email cảnh báo thì thay đổi tham số</p>
+<p><span style="text-decoration: underline;">EMAIL_ALERTS=&#8221;1&#8243;</span></p>
+<p><a href="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-5.png" rel="lightbox[816]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-823" src="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-5-620x396.png" alt="7-Secure-CentOS-VPS-BFD-5" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-5-620x396.png 620w, ./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-5.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Và địa chỉ nhận email</p>
+<p><span style="text-decoration: underline;">EMAIL_ADDRESS=&#8221;diachi@tenmien.xyz&#8221;</span></p>
+<p>Sau khi cấu hình xong chọn Ctrl + X để thoát và chọn Y (Yes) để lưu tập tin.</p>
+<p>BFD tự động cập nhật theo cấu hình mới.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-6.png" rel="lightbox[816]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-824" src="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-6-620x396.png" alt="7-Secure-CentOS-VPS-BFD-6" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-6-620x396.png 620w, ./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-6.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Công cụ này đơn giản không có gì nhiều để cấu hình.</p>
+<p>Để xem thông tin các địa chỉ bị BFD chặn, gõ lệnh</p>
+<p style="padding-left: 30px;"><em>bfd -a</em></p>
+<p><a href="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-7.png" rel="lightbox[816]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-825" src="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-7-620x396.png" alt="7-Secure-CentOS-VPS-BFD-7" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-7-620x396.png 620w, ./../../../wp-content/uploads/2014/12/7-Secure-CentOS-VPS-BFD-7.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Ngoài BFD thì cũng còn nhiều công cụ khác có chức năng tương tự. Bạn có thể tham khảo fail2ban tại đây.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fchong-tan-cong-brute-force-voi-bfd%2F&amp;linkname=Ch%E1%BB%91ng%20t%E1%BA%A5n%20c%C3%B4ng%20brute-force%20v%E1%BB%9Bi%20BFD" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fchong-tan-cong-brute-force-voi-bfd%2F&amp;linkname=Ch%E1%BB%91ng%20t%E1%BA%A5n%20c%C3%B4ng%20brute-force%20v%E1%BB%9Bi%20BFD" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fchong-tan-cong-brute-force-voi-bfd%2F&amp;linkname=Ch%E1%BB%91ng%20t%E1%BA%A5n%20c%C3%B4ng%20brute-force%20v%E1%BB%9Bi%20BFD" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fchong-tan-cong-brute-force-voi-bfd%2F&#038;title=Ch%E1%BB%91ng%20t%E1%BA%A5n%20c%C3%B4ng%20brute-force%20v%E1%BB%9Bi%20BFD" data-a2a-url="./../../../chong-tan-cong-brute-force-voi-bfd/index.html" data-a2a-title="Chống tấn công brute-force với BFD"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../chong-tan-cong-brute-force-voi-bfd/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bài 9 &#8211; Cài đặt Advanced Policy Firewall &#038; Brute Force Detection</title>
+		<link>./../../../cai-dat-advanced-policy-firewall-brute-force-detection/index.html</link>
+					<comments>./../../../cai-dat-advanced-policy-firewall-brute-force-detection/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 18 Nov 2014 04:40:01 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Advanced Policy Firewall]]></category>
+		<category><![CDATA[APF]]></category>
+		<category><![CDATA[BFD]]></category>
+		<category><![CDATA[Brute Force Detection]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=559</guid>
+
+					<description><![CDATA[Cài đặt Advanced Policy Firewall &#38; Brute Force Detection Bộ đôi Advanced Policy Firewall và Brute Force Detection được rất nhiều hosting chọn sử dụng để bảo vệ server tránh khỏi các cuộc tấn công mạng. Advanced Policy Firewall (APF) Một ít thông tin giới thiệu từ trang chủ Advanced Policy Firewall (APF) is an <a class="more-link" href="./../../../cai-dat-advanced-policy-firewall-brute-force-detection/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-advanced-policy-firewall-brute-force-detection%2F&amp;linkname=B%C3%A0i%209%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Advanced%20Policy%20Firewall%20%26%20Brute%20Force%20Detection" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-advanced-policy-firewall-brute-force-detection%2F&amp;linkname=B%C3%A0i%209%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Advanced%20Policy%20Firewall%20%26%20Brute%20Force%20Detection" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-advanced-policy-firewall-brute-force-detection%2F&amp;linkname=B%C3%A0i%209%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Advanced%20Policy%20Firewall%20%26%20Brute%20Force%20Detection" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-advanced-policy-firewall-brute-force-detection%2F&#038;title=B%C3%A0i%209%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Advanced%20Policy%20Firewall%20%26%20Brute%20Force%20Detection" data-a2a-url="./../../../cai-dat-advanced-policy-firewall-brute-force-detection/index.html" data-a2a-title="Bài 9 – Cài đặt Advanced Policy Firewall &amp; Brute Force Detection"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt Advanced Policy Firewall &amp; Brute Force Detection</strong></span></p>
+<p>Bộ đôi Advanced Policy Firewall và Brute Force Detection được rất nhiều hosting chọn sử dụng để bảo vệ server tránh khỏi các cuộc tấn công mạng.</p>
+<p><strong>Advanced Policy Firewall (APF)</strong></p>
+<p>Một ít thông tin giới thiệu từ trang chủ</p>
+<blockquote><p>Advanced Policy Firewall (APF) is an iptables(netfilter) based firewall system designed around the essential needs of today’s Internet deployed servers and the unique needs of custom deployed Linux installations. The configuration of APF is designed to be very informative and present the user with an easy to follow process, from top to bottom of the configuration file</p></blockquote>
+<p>Để nắm được thông tin chi tiết hơn về Advanced Policy Firewall, các bạn có thể truy cập <a title="APF" href="https://www.rfxn.com/projects/advanced-policy-firewall/" target="_blank">trang web </a></p>
+<p>Dưới đây mình sẽ hướng dẫn cách cài đặt, cấu hình cơ bản cho APF</p>
+<p><strong>Trước tiên là phần cài đặt</strong></p>
+<p>Các bạn tải script cài đặt APF về theo lệnh sau</p>
+<blockquote><p>wget http://www.rfxn.com/downloads/apf-current.tar.gz</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/1-APF-Installation-1.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-560" src="./../../../wp-content/uploads/2014/11/1-APF-Installation-1-620x121.png" alt="1-APF-Installation-1" width="620" height="121" srcset="./../../../wp-content/uploads/2014/11/1-APF-Installation-1-620x121.png 620w, ./../../../wp-content/uploads/2014/11/1-APF-Installation-1-705x138.png 705w, ./../../../wp-content/uploads/2014/11/1-APF-Installation-1.png 886w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Giải nén</p>
+<blockquote><p>tar -xvf apf-current.tar.gz</p></blockquote>
+<p>chuyển đến thư mục vừa giải nén</p>
+<blockquote><p>cd apf-x.x.x</p></blockquote>
+<p>với x.x.x là phiên bản apf hiện hành.</p>
+<p>Và tiến hành cài đặt</p>
+<blockquote><p>./install.sh</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/1-APF-Installation-2.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-561" src="./../../../wp-content/uploads/2014/11/1-APF-Installation-2-620x136.png" alt="1-APF-Installation-2" width="620" height="136" srcset="./../../../wp-content/uploads/2014/11/1-APF-Installation-2-620x136.png 620w, ./../../../wp-content/uploads/2014/11/1-APF-Installation-2-705x155.png 705w, ./../../../wp-content/uploads/2014/11/1-APF-Installation-2.png 882w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đã cài đặt xong, chúng ta tiến hành cấu hình APF.</p>
+<p>File cấu hình lưu tại đường dẫn</p>
+<blockquote><p>/etc/apf/conf.apf</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/2-APF-Config-1.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-562" src="./../../../wp-content/uploads/2014/11/2-APF-Config-1-620x24.png" alt="2-APF-Config-1" width="620" height="24" srcset="./../../../wp-content/uploads/2014/11/2-APF-Config-1-620x24.png 620w, ./../../../wp-content/uploads/2014/11/2-APF-Config-1-705x27.png 705w, ./../../../wp-content/uploads/2014/11/2-APF-Config-1.png 884w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Dưới đây mình sẽ hướng dẫn một số mục cơ bản cấu hình APF</p>
+<p>Trước tiên là <span style="color: #ff0000;">DEVEL-MODE=&#8221;1&#8243;</span></p>
+<p>Mặc định <span style="color: #ff0000;">DEVEL-MODE=1</span>, điều này có nghĩa APF sẽ tự khởi động lại và xóa rule firewall trong 5 phút, nghĩa là nếu bạn có làm sai thì vẫn còn cơ hội vào để thao tác lại.</p>
+<p>Chỉ chuyển DEVEL-MODE sang 0 khi bạn chắc chắn mọi thứ đều OK.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-APF-Config-2.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-563" src="./../../../wp-content/uploads/2014/11/2-APF-Config-2-620x83.png" alt="2-APF-Config-2" width="620" height="83" srcset="./../../../wp-content/uploads/2014/11/2-APF-Config-2-620x83.png 620w, ./../../../wp-content/uploads/2014/11/2-APF-Config-2-705x94.png 705w, ./../../../wp-content/uploads/2014/11/2-APF-Config-2.png 886w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Xác định thời gian chặn cho APF, mặc định là 0 tức là chặn vĩnh viễn, có thể thay đổi các thông số sao cho hợp lý, đơn vị tính theo giây (s)</p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-APF-Config-3.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-564" src="./../../../wp-content/uploads/2014/11/2-APF-Config-3-620x57.png" alt="2-APF-Config-3" width="620" height="57" srcset="./../../../wp-content/uploads/2014/11/2-APF-Config-3-620x57.png 620w, ./../../../wp-content/uploads/2014/11/2-APF-Config-3-705x65.png 705w, ./../../../wp-content/uploads/2014/11/2-APF-Config-3.png 884w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mặc định APF giới hạn 150 dòng trong host.deny. Tức là khóa chặn tối đa 150 máy. Để cho phép chặn không giới hạn, có thể thay đổi giá trị này về 0</p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-APF-Config-4.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-565" src="./../../../wp-content/uploads/2014/11/2-APF-Config-4-620x56.png" alt="2-APF-Config-4" width="620" height="56" srcset="./../../../wp-content/uploads/2014/11/2-APF-Config-4-620x56.png 620w, ./../../../wp-content/uploads/2014/11/2-APF-Config-4-705x64.png 705w, ./../../../wp-content/uploads/2014/11/2-APF-Config-4.png 885w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Phần này sẽ cho phép các port inbounce, tức cho phép port nào để client có thể truy cập, các bạn cần add các port theo danh sách cần mở của Plesk như đã đăng ở các bài trước.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-APF-Config-5.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-566" src="./../../../wp-content/uploads/2014/11/2-APF-Config-5-620x209.png" alt="2-APF-Config-5" width="620" height="209" srcset="./../../../wp-content/uploads/2014/11/2-APF-Config-5-620x209.png 620w, ./../../../wp-content/uploads/2014/11/2-APF-Config-5-705x238.png 705w, ./../../../wp-content/uploads/2014/11/2-APF-Config-5.png 884w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tương tự cho outbounce, tức cho phép hệ thống truy cập ra ngoài.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-APF-Config-6.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-567" src="./../../../wp-content/uploads/2014/11/2-APF-Config-6-620x239.png" alt="2-APF-Config-6" width="620" height="239" srcset="./../../../wp-content/uploads/2014/11/2-APF-Config-6-620x239.png 620w, ./../../../wp-content/uploads/2014/11/2-APF-Config-6-705x272.png 705w, ./../../../wp-content/uploads/2014/11/2-APF-Config-6.png 886w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đã thay đổi các giá trị phù hợp với yêu cầu, chúng ta set <span style="color: #ff0000;">DEVEL-MODE=0</span> để APF chạy liên tục, không bị ngắt quãng 5 phút khởi động lại.</p>
+<p>Và nhấn lệnh</p>
+<blockquote><p>apf -s</p></blockquote>
+<p>để bắt đầu chạy APF</p>
+<p>Để kích hoạt APF chạy lúc hệ thống khởi động cần chạy các lệnh dưới</p>
+<blockquote><p>chkconfig &#8211;add apf</p></blockquote>
+<blockquote><p>chkconfig apf on</p></blockquote>
+<p>Ngoài ra APF còn có các lệnh khác, tham khảo ảnh dưới.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-APF-Use.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-568" src="./../../../wp-content/uploads/2014/11/3-APF-Use-620x221.png" alt="3-APF-Use" width="620" height="221" srcset="./../../../wp-content/uploads/2014/11/3-APF-Use-620x221.png 620w, ./../../../wp-content/uploads/2014/11/3-APF-Use-705x251.png 705w, ./../../../wp-content/uploads/2014/11/3-APF-Use.png 886w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Brute Force Detection (BFD)</strong></p>
+<p>Brute Force Detection giúp ngăn chặn các đăng nhập trái phép liên tục, đoán mật khẩu nhằm tìm cách truy cập hệ thống.</p>
+<blockquote><p>BFD is a modular shell script for parsing application logs and checking for authentication failures. It does this using a rules system where application specific options are stored including regular expressions for each unique auth format. The regular expressions are parsed against logs using the ‘sed’ tool (stream editor) which allows for excellent performance in all environments. In addition to the benefits of parsing logs in a single stream with sed, BFD also uses a log tracking system so logs are only parsed from the point which they were last read. This greatly assists in extending the performance of BFD even further as we are not constantly reading the same log data. The log tracking system is compatible with syslog/logrotate style log rotations which allows it to detect when rotations have happened and grab log tails from both the new log file and the rotated log file</p></blockquote>
+<p>Các bạn có thể tham khảo BDF <a title="BFD" href="https://www.rfxn.com/projects/brute-force-detection/" target="_blank">tại đây</a></p>
+<p>Chúng ta tiến hành tải và cài đặt.</p>
+<p>Tương tự với APF, việc tải và cài đặt BFD cực kỳ dễ dàng.</p>
+<p>Download BFD</p>
+<blockquote><p>wget http://www.rfxn.com/downloads/bfd-current.tar.gz</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/1-BFD-Installation-1.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-572" src="./../../../wp-content/uploads/2014/11/1-BFD-Installation-1-620x126.png" alt="1-BFD-Installation-1" width="620" height="126" srcset="./../../../wp-content/uploads/2014/11/1-BFD-Installation-1-620x126.png 620w, ./../../../wp-content/uploads/2014/11/1-BFD-Installation-1-705x143.png 705w, ./../../../wp-content/uploads/2014/11/1-BFD-Installation-1.png 883w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Và tiến hành cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-BFD-Installation-2.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-573" src="./../../../wp-content/uploads/2014/11/1-BFD-Installation-2-620x74.png" alt="1-BFD-Installation-2" width="620" height="74" srcset="./../../../wp-content/uploads/2014/11/1-BFD-Installation-2-620x74.png 620w, ./../../../wp-content/uploads/2014/11/1-BFD-Installation-2-705x84.png 705w, ./../../../wp-content/uploads/2014/11/1-BFD-Installation-2.png 885w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Về cấu hình, file cấu hình của BFD lưu tại</p>
+<blockquote><p>/usr/local/bfd/conf.bfd</p></blockquote>
+<p>Và chúng ta chỉ cần sửa tham số</p>
+<p><span style="color: #ff0000;">TRIG=&#8221;5&#8243;</span></p>
+<p>Mặc định TRIG=&#8221;15&#8243; tức cho phép 15 lần đăng nhập sai, chúng ta không cần nhiều đến vậy, do đó 5 lần là phù hợp.</p>
+<p>Ngoài ra có thể cấu hình địa chỉ mail để tự động nhận mail thông báo khi có tấn công, tuy nhiên mình nghĩ ko nên nếu không muốn nhận email quá nhiều.<br />
+<a href="./../../../wp-content/uploads/2014/11/2-BFD-Config-1.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-574" src="./../../../wp-content/uploads/2014/11/2-BFD-Config-1-620x46.png" alt="2-BFD-Config-1" width="620" height="46" srcset="./../../../wp-content/uploads/2014/11/2-BFD-Config-1-620x46.png 620w, ./../../../wp-content/uploads/2014/11/2-BFD-Config-1-705x53.png 705w, ./../../../wp-content/uploads/2014/11/2-BFD-Config-1.png 886w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-BFD-Use-1.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-575" src="./../../../wp-content/uploads/2014/11/3-BFD-Use-1-620x105.png" alt="3-BFD-Use-1" width="620" height="105" srcset="./../../../wp-content/uploads/2014/11/3-BFD-Use-1-620x105.png 620w, ./../../../wp-content/uploads/2014/11/3-BFD-Use-1-705x120.png 705w, ./../../../wp-content/uploads/2014/11/3-BFD-Use-1.png 886w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Việc sử dụng tương đối đơn giản với chỉ vài lệnh</p>
+<blockquote><p>bfd -a</p></blockquote>
+<p>để hiển thị danh sách tấn công và bị khóa.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-BFD-Use-2.png" rel="lightbox[559]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-576" src="./../../../wp-content/uploads/2014/11/3-BFD-Use-2-620x137.png" alt="3-BFD-Use-2" width="620" height="137" srcset="./../../../wp-content/uploads/2014/11/3-BFD-Use-2-620x137.png 620w, ./../../../wp-content/uploads/2014/11/3-BFD-Use-2-705x156.png 705w, ./../../../wp-content/uploads/2014/11/3-BFD-Use-2.png 885w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-advanced-policy-firewall-brute-force-detection%2F&amp;linkname=B%C3%A0i%209%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Advanced%20Policy%20Firewall%20%26%20Brute%20Force%20Detection" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-advanced-policy-firewall-brute-force-detection%2F&amp;linkname=B%C3%A0i%209%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Advanced%20Policy%20Firewall%20%26%20Brute%20Force%20Detection" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-advanced-policy-firewall-brute-force-detection%2F&amp;linkname=B%C3%A0i%209%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Advanced%20Policy%20Firewall%20%26%20Brute%20Force%20Detection" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-advanced-policy-firewall-brute-force-detection%2F&#038;title=B%C3%A0i%209%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Advanced%20Policy%20Firewall%20%26%20Brute%20Force%20Detection" data-a2a-url="./../../../cai-dat-advanced-policy-firewall-brute-force-detection/index.html" data-a2a-title="Bài 9 – Cài đặt Advanced Policy Firewall &amp; Brute Force Detection"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-advanced-policy-firewall-brute-force-detection/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

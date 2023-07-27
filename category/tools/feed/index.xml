@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Tools &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 08:03:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Tools &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Quest vWorkSpace Desktop Optimizer</title>
+		<link>./../../../quest-vworkspace-desktop-optimizer/index.html</link>
+					<comments>./../../../quest-vworkspace-desktop-optimizer/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 23 Sep 2014 05:56:55 +0000</pubDate>
+				<category><![CDATA[Tools]]></category>
+		<category><![CDATA[vWorkspace]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=371</guid>
+
+					<description><![CDATA[Quest has released a new tool called the vWorkspace Desktop Optimizer. The tool contains Quests knowledge on how to optimize a Virtual Desktop, and although it is especially written for vWorkspace its also applicable to Citrix XenDesktop and VMware View. The tool contains a list of 40 optimization settings stored in an XML which can <a class="more-link" href="./../../../quest-vworkspace-desktop-optimizer/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&amp;linkname=Quest%20vWorkSpace%20Desktop%20Optimizer" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&amp;linkname=Quest%20vWorkSpace%20Desktop%20Optimizer" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&amp;linkname=Quest%20vWorkSpace%20Desktop%20Optimizer" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&#038;title=Quest%20vWorkSpace%20Desktop%20Optimizer" data-a2a-url="./../../../quest-vworkspace-desktop-optimizer/index.html" data-a2a-title="Quest vWorkSpace Desktop Optimizer"></a></p><p>Quest has released a new tool called the vWorkspace Desktop Optimizer. The tool contains Quests knowledge on how to optimize a Virtual Desktop, and although it is especially written for vWorkspace its also applicable to Citrix XenDesktop and VMware View.</p>
+<p>The tool contains a list of 40 optimization settings stored in an XML which can be enabled or disabled using either a GUI interface or using the command line.</p>
+<p>Quests own tests using the tools showed a 90% IOPS optimization, 43% less disk space used and RAM savings up to 10% compared to a out of the box Windows 7 Enterprise installation.</p>
+<p><img decoding="async" src="http://virtualization.info/en/files/2011/09/clip_image0017.png" alt="Quest OS Optimization Tool" /></p>
+<p><a title="Download" href="http://bit.ly/VDIopt" target="_blank"><strong>Download</strong></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&amp;linkname=Quest%20vWorkSpace%20Desktop%20Optimizer" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&amp;linkname=Quest%20vWorkSpace%20Desktop%20Optimizer" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&amp;linkname=Quest%20vWorkSpace%20Desktop%20Optimizer" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&#038;title=Quest%20vWorkSpace%20Desktop%20Optimizer" data-a2a-url="./../../../quest-vworkspace-desktop-optimizer/index.html" data-a2a-title="Quest vWorkSpace Desktop Optimizer"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../quest-vworkspace-desktop-optimizer/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>VMware OS Optimization Tool</title>
+		<link>./../../../vmware-os-optimization-tool/index.html</link>
+					<comments>./../../../vmware-os-optimization-tool/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 23 Sep 2014 05:48:05 +0000</pubDate>
+				<category><![CDATA[Tools]]></category>
+		<category><![CDATA[VMWare]]></category>
+		<category><![CDATA[OS Optimization]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=369</guid>
+
+					<description><![CDATA[Summary The VMware OS Optimization Tool helps optimize Windows 7/8/2008/2012 systems for use with VMware Horizon View. The optimization tool includes customizable templates to enable or disable Windows system services and features, per VMware recommendations and best practices, across multiple systems. Since most Windows system services are enabled by default, the optimization tool can be <a class="more-link" href="./../../../vmware-os-optimization-tool/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fvmware-os-optimization-tool%2F&amp;linkname=VMware%20OS%20Optimization%20Tool" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fvmware-os-optimization-tool%2F&amp;linkname=VMware%20OS%20Optimization%20Tool" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fvmware-os-optimization-tool%2F&amp;linkname=VMware%20OS%20Optimization%20Tool" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fvmware-os-optimization-tool%2F&#038;title=VMware%20OS%20Optimization%20Tool" data-a2a-url="./../../../vmware-os-optimization-tool/index.html" data-a2a-title="VMware OS Optimization Tool"></a></p><h3>Summary</h3>
+<p>The VMware OS Optimization Tool helps optimize Windows 7/8/2008/2012 systems for use with VMware Horizon View. The optimization tool includes customizable templates to enable or disable Windows system services and features, per VMware recommendations and best practices, across multiple systems. Since most Windows system services are enabled by default, the optimization tool can be used to easily disable unnecessary services and features to improve performance.</p>
+<p>You can perform the following actions using the VMware OS Optimization Tool:</p>
+<ul>
+<li>Local Analyze/Optimize</li>
+<li>Rempte Analyze/Optimize</li>
+<li>Optimization History</li>
+<li>Managing Templates</li>
+</ul>
+<p><strong>New for version 2014!</strong></p>
+<ul>
+<li>Updated templates for Windows 7/8 – based on VMware’s OS Optimization Guide</li>
+<li>New templates for Windows 2008/2012 RDSH servers for use as a desktop</li>
+<li>Single portal EXE design for ease of deployment and distribution</li>
+<li>Combination of Remote and Local tools into one tool</li>
+<li>Better template management, with built in and user-definable templates</li>
+<li>Results report export feature.</li>
+</ul>
+<p>Various bug fixes, usability enhancements, and GUI layout updates.</p>
+<p>&nbsp;</p>
+<p><img decoding="async" src="http://labs.vmware.com/wp-content/uploads/2013/07/screenshot-1Mediu.png" alt="VMWare OS Optimization Tool 2014" /></p>
+<p><a title="Download" href="http://download3.vmware.com/software/vmw-tools/osoptimization/OSOptimizationTool2014.zip" target="_blank"><strong>Download</strong></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fvmware-os-optimization-tool%2F&amp;linkname=VMware%20OS%20Optimization%20Tool" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fvmware-os-optimization-tool%2F&amp;linkname=VMware%20OS%20Optimization%20Tool" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fvmware-os-optimization-tool%2F&amp;linkname=VMware%20OS%20Optimization%20Tool" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fvmware-os-optimization-tool%2F&#038;title=VMware%20OS%20Optimization%20Tool" data-a2a-url="./../../../vmware-os-optimization-tool/index.html" data-a2a-title="VMware OS Optimization Tool"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../vmware-os-optimization-tool/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>HDX Monitor</title>
+		<link>./../../../hdx-monitor/index.html</link>
+					<comments>./../../../hdx-monitor/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 10 Sep 2014 08:14:21 +0000</pubDate>
+				<category><![CDATA[Tools]]></category>
+		<category><![CDATA[HDX]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=332</guid>
+
+					<description><![CDATA[The HDX Monitor tool is used to validate the operation and configuration of key features of XenDesktop&#8217;s and XenApp&#8217;s HDX stack including the latest HDX virtualization technologies like MediaStream for Flash and HDX RealTime features. Consequently, this tool can also help you diagnose and troubleshoot HDX issues. Its built-in expert system analyzes all captured data <a class="more-link" href="./../../../hdx-monitor/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhdx-monitor%2F&amp;linkname=HDX%20Monitor" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhdx-monitor%2F&amp;linkname=HDX%20Monitor" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhdx-monitor%2F&amp;linkname=HDX%20Monitor" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhdx-monitor%2F&#038;title=HDX%20Monitor" data-a2a-url="./../../../hdx-monitor/index.html" data-a2a-title="HDX Monitor"></a></p><p>The HDX Monitor tool is used to validate the operation and configuration of key features of XenDesktop&#8217;s and XenApp&#8217;s HDX stack including the latest HDX virtualization technologies like MediaStream for Flash and HDX RealTime features. Consequently, this tool can also help you diagnose and troubleshoot HDX issues. Its built-in expert system analyzes all captured data and identifies potential problems in state, configuration, and/or performance. It can also suggest corrective action that can help resolve the problem or improve performance. For example, it detects when multimedia redirection is in use and if your endpoint device supports it. It also can tell you what audio codec you are using and its bitrate.</p>
+<p>Since the release of HDX Monitor 2.x, this tool has had the ability to diagnose XenApp and XenDesktop (VDI) sessions via the WMI diagnostics interface; both locally and remotely from any machine in the domain. Now HDX Monitor 3.x provides better configurability, expanded components, and many more alerts. It also supports the recently released Excalibur Tech Preview and soon to be released next versions of XenApp and XenDesktop.</p>
+<p>The HDX Monitor is provided “as is” without warranty of any kind. Citrix makes no commitment to provide support for this tool.</p>
+<p><img decoding="async" src="https://taas.citrix.com/static/images/hdx/hdx-mon2.png" alt="HDX Monitor" /></p>
+<p>Download <a href="https://taas.citrix.com/hdx/download/" target="_blank">link</a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhdx-monitor%2F&amp;linkname=HDX%20Monitor" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhdx-monitor%2F&amp;linkname=HDX%20Monitor" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhdx-monitor%2F&amp;linkname=HDX%20Monitor" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhdx-monitor%2F&#038;title=HDX%20Monitor" data-a2a-url="./../../../hdx-monitor/index.html" data-a2a-title="HDX Monitor"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../hdx-monitor/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

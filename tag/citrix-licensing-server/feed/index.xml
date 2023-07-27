@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Citrix Licensing Server &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Fri, 12 Jun 2015 03:45:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Citrix Licensing Server &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Cài đặt máy chủ bản quyền – Citrix Licensing server</title>
+		<link>./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/index.html</link>
+					<comments>./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2015 03:45:40 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[Citrix Licensing Server]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1200</guid>
+
+					<description><![CDATA[Cài đặt máy chủ bản quyền – Citrix Licensing server Ở phần trước chúng ta đã tiến hành đăng ký tài khoản, tải các phần mềm cần thiết và tải file bản quyền (dùng thử) Ở phần này chúng ta tiến hành bước đầu tiên là cài đặt máy chủ bản quyền Citrix Licensing Server <a class="more-link" href="./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" data-a2a-url="./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/index.html" data-a2a-title="Cài đặt máy chủ bản quyền – Citrix Licensing server"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt máy chủ bản quyền – Citrix Licensing server</strong></span></p>
+<p>Ở phần trước chúng ta đã tiến hành đăng ký tài khoản, tải các phần mềm cần thiết và tải file bản quyền (dùng thử)</p>
+<p>Ở phần này chúng ta tiến hành bước đầu tiên là cài đặt máy chủ bản quyền Citrix Licensing Server</p>
+<p><strong>Cài đặt Citrix Licensing Server</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-License-Server-1.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-1201" src="./../../../wp-content/uploads/2015/06/Install-License-Server-1.png" alt="Install-License-Server-1" width="521" height="301" /></a></p>
+<p>Chạy file cài đặt Citrix Licensing Server</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-License-Server-2.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1202" src="./../../../wp-content/uploads/2015/06/Install-License-Server-2-620x470.png" alt="Install-License-Server-2" width="620" height="470" srcset="./../../../wp-content/uploads/2015/06/Install-License-Server-2-620x470.png 620w, ./../../../wp-content/uploads/2015/06/Install-License-Server-2.png 825w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đồng ý thỏa thuận bản quyền và click <span style="text-decoration: underline;">Next</span></p>
+<p><span style="text-decoration: underline;">Ngoài lề một chút:</span> đây có lẽ là một trong những thỏa thuận bản quyền phần mềm ngắn nhất mình từng thấy trong nhiều năm làm ngành IT</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-License-Server-3.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1203" src="./../../../wp-content/uploads/2015/06/Install-License-Server-3-620x470.png" alt="Install-License-Server-3" width="620" height="470" srcset="./../../../wp-content/uploads/2015/06/Install-License-Server-3-620x470.png 620w, ./../../../wp-content/uploads/2015/06/Install-License-Server-3.png 825w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn đường dẫn cài đặt và <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-License-Server-4.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1204" src="./../../../wp-content/uploads/2015/06/Install-License-Server-4-620x470.png" alt="Install-License-Server-4" width="620" height="470" srcset="./../../../wp-content/uploads/2015/06/Install-License-Server-4-620x470.png 620w, ./../../../wp-content/uploads/2015/06/Install-License-Server-4.png 825w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cấu hình port cho Citrix Licensing Server, nếu không có yêu cầu gì đặc biệt tốt nhất để mặc định tránh các phiền phức về sau</p>
+<p>Tài khoản admin mặc định của Citrix Licensing Server là tài khoản admin của máy. Sau khi đăng nhập Licensing Server bạn có thể thay đổi sau</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Install-License-Server-5.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1205" src="./../../../wp-content/uploads/2015/06/Install-License-Server-5-620x470.png" alt="Install-License-Server-5" width="620" height="470" srcset="./../../../wp-content/uploads/2015/06/Install-License-Server-5-620x470.png 620w, ./../../../wp-content/uploads/2015/06/Install-License-Server-5.png 825w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cài đặt hoàn tất, chúng ta tiếp tục tiến hành cấu hình Licensing Server</p>
+<p><strong>Cấu hình Citrix Licensing Server</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-1.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1206" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-1-620x275.png" alt="Configure-License-Server-1" width="620" height="275" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-1-620x275.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-1-920x409.png 920w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-1.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mở Start =&gt; Citrix License Administration Console</p>
+<p>Giao diện <span style="text-decoration: underline;">Dashboard</span> thể hiện trạng thái của License server và hiển thị số lượng bản quyền đang sử dụng</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-2.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1207" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-2-620x275.png" alt="Configure-License-Server-2" width="620" height="275" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-2-620x275.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-2-920x409.png 920w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-2.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn <span style="text-decoration: underline;">Administration</span> và đăng nhập sử dụng tài khoản Admin của hệ thống</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-3.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1208" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-3-620x330.png" alt="Configure-License-Server-3" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-3-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-3-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-3.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Di chuyển đến mục <span style="text-decoration: underline;">Vendor Daemon Configuration</span> và chọn <span style="text-decoration: underline;">Import License</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-4.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1209" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-4-620x330.png" alt="Configure-License-Server-4" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-4-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-4-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-4.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trỏ đường dẫn đến tập tin license và chọn <span style="text-decoration: underline;">Import License</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-5.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1210" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-5-620x330.png" alt="Configure-License-Server-5" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-5-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-5-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-5.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn OK</p>
+<p>Để License server nhận diện và hiển thị bản quyền chúng ta vừa Import, có thể khởi động lại máy hoặc khởi động lại dịch vụ Citrix Licensing Service</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-6.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1211" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-6-620x452.png" alt="Configure-License-Server-6" width="620" height="452" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-6-620x452.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-6.png 820w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Run =&gt; services</p>
+<p>Chọn Citrix Licensing =&gt; Restart</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-License-Server-7.png" rel="lightbox[1200]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1212" src="./../../../wp-content/uploads/2015/06/Configure-License-Server-7-620x275.png" alt="Configure-License-Server-7" width="620" height="275" srcset="./../../../wp-content/uploads/2015/06/Configure-License-Server-7-620x275.png 620w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-7-920x409.png 920w, ./../../../wp-content/uploads/2015/06/Configure-License-Server-7.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Quay trở lại <span style="text-decoration: underline;">Dashboard</span>, các bản quyền (dùng thử) đã được thể hiện</p>
+<p>Trong bài tới chúng ta sẽ tiến hành cài đặt máy chủ Provisioning Services</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-may-chu-ban-quyen-citrix-licensing-server%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20m%C3%A1y%20ch%E1%BB%A7%20b%E1%BA%A3n%20quy%E1%BB%81n%20%E2%80%93%20Citrix%20Licensing%20server" data-a2a-url="./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/index.html" data-a2a-title="Cài đặt máy chủ bản quyền – Citrix Licensing server"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-may-chu-ban-quyen-citrix-licensing-server/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

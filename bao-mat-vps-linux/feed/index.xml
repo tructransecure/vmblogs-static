@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Bảo mật VPS Linux	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Fri, 06 Mar 2015 04:47:37 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<item>
+		<title>
+		By: VPS việt nam		</title>
+		<link>./../index.html#comment-42</link>
+
+		<dc:creator><![CDATA[VPS việt nam]]></dc:creator>
+		<pubDate>Fri, 06 Mar 2015 04:47:37 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=774#comment-42</guid>
+
+					<description><![CDATA[Đối với vps (máy chủ ảo) thì các phần bảo mật mình thấy setup hạn chế hơn là server. Vì với 1 lượng tài nguyên giới hạn người dùng muốn tiết kiệm chi phí thì không thể cài các dịch vụ tường lửa bộ lọc nhiều như trên server được.]]></description>
+			<content:encoded><![CDATA[<p>Đối với vps (máy chủ ảo) thì các phần bảo mật mình thấy setup hạn chế hơn là server. Vì với 1 lượng tài nguyên giới hạn người dùng muốn tiết kiệm chi phí thì không thể cài các dịch vụ tường lửa bộ lọc nhiều như trên server được.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

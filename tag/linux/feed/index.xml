@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Linux &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 08:13:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Linux &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Bảo mật VPS Linux</title>
+		<link>./../../../bao-mat-vps-linux/index.html</link>
+					<comments>./../../../bao-mat-vps-linux/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 18 Dec 2014 04:54:46 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[bảo mật]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[VPS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=774</guid>
+
+					<description><![CDATA[Bảo mật VPS Linux Chào các bạn, hiện nay rất nhiều công ty cung cấp cloud server giá thành rất rẻ như Linode, Digital Ocean, Rackspace&#8230;tuy nhiên có một trở ngại với mọi người là hầu hết các vps này đều chạy Linux (CentOS là chính). Theo nhiều đánh giá thì VPS chạy tốt và <a class="more-link" href="./../../../bao-mat-vps-linux/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-vps-linux%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" data-a2a-url="./../../../bao-mat-vps-linux/index.html" data-a2a-title="Bảo mật VPS Linux"></a></p><p>Bảo mật VPS Linux</p>
+<p>Chào các bạn, hiện nay rất nhiều công ty cung cấp cloud server giá thành rất rẻ như Linode, Digital Ocean, Rackspace&#8230;tuy nhiên có một trở ngại với mọi người là hầu hết các vps này đều chạy Linux (CentOS là chính).</p>
+<p>Theo nhiều đánh giá thì VPS chạy tốt và ổn định hơn so với sử dụng host share khi một server được chạy cho rất, rất nhiều website. Tất nhiên là website của bạn chạy 1 mình sẽ tốt hơn là chung chạ với nhiều người khác.</p>
+<p>Để làm việc với VPS Linux thì tất nhiên bạn phải tự trang bị cho mình một số kiến thức nhất định để có thể làm chủ được những gì mình mua. Việc cấu hình vps linux hiện có rất nhiều hướng dẫn trên mạng, chỉ cần Google 1 chút là ra rất nhiều hướng dẫn nên mình cũng không nói thêm. Trong bài post này mình chủ yếu tập trung đến vấn đề mà mọi người cực kỳ quan tâm &#8211; bảo mật.</p>
+<p>Nói về bảo mật là nói về một chủ đề rộng lớn, những gì được post ở đây cũng chỉ là nhỏ nhoi. Tuy nhiên nó cũng phần nào giúp bạn giảm bớt được nguy cơ tấn công. Mình quan niệm thế này, server của bạn chưa bị hack chỉ có thể do bạn may mắn chưa bị hacker nhòm ngó mà thôi, tuy nhiên không vì vậy mà không cần quan tâm đến bảo mật.</p>
+<ul>
+<li><a title="Bảo mật SSH" href="./../../../bao-mat-ssh/index.html" target="_blank">Bảo mật SSH</a></li>
+<li><a title="Bảo mật tường lửa với Advanced Policy Firewall" href="./../../../bao-mat-tuong-lua-voi-apf/index.html" target="_blank">Bảo mật tường lửa với APF (Advanced Policy Firewall)</a></li>
+<li><a title="Block brute-force attach with BFD" href="./../../../chong-tan-cong-brute-force-voi-bfd/index.html" target="_blank">Chống tấn công brute-force với BFD (Brute Force Detection)</a></li>
+<li><a title="Block virus with ClamAV" href="./../../../cai-dat-clamav-antivirus-cho-centos/index.html" target="_blank">Phòng ngừa virus với ClamAV</a></li>
+<li><a title="Block rootkit with RKHunter" href="./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/index.html" target="_blank">Phòng ngừa rootkit với RKHunter</a></li>
+<li>Phòng ngừa tấn công với Snort</li>
+</ul>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-vps-linux%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" data-a2a-url="./../../../bao-mat-vps-linux/index.html" data-a2a-title="Bảo mật VPS Linux"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../bao-mat-vps-linux/feed/index.html</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

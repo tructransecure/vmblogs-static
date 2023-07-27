@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SSTP &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 08:06:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>SSTP &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Setup SSTP VPN cho Windows</title>
+		<link>./../../../setup-sstp-vpn-cho-windows/index.html</link>
+					<comments>./../../../setup-sstp-vpn-cho-windows/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 05 Nov 2014 14:42:52 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[SSTP]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=453</guid>
+
+					<description><![CDATA[Setup SSTP VPN cho Windows Trong bài post này mình sẽ hướng dẫn cách cài đặt kết nối VPN SSTP cho WIndows Đầu tiên, mở Network and Sharing Center =&#62; chọn Setup a new connection or network Chọn Connect to a workplace Chọn Use my Internet connection (VPN) Điền các thông tin cần thiết Internet address (hostname <a class="more-link" href="./../../../setup-sstp-vpn-cho-windows/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fsetup-sstp-vpn-cho-windows%2F&amp;linkname=Setup%20SSTP%20VPN%20cho%20Windows" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fsetup-sstp-vpn-cho-windows%2F&amp;linkname=Setup%20SSTP%20VPN%20cho%20Windows" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fsetup-sstp-vpn-cho-windows%2F&amp;linkname=Setup%20SSTP%20VPN%20cho%20Windows" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fsetup-sstp-vpn-cho-windows%2F&#038;title=Setup%20SSTP%20VPN%20cho%20Windows" data-a2a-url="./../../../setup-sstp-vpn-cho-windows/index.html" data-a2a-title="Setup SSTP VPN cho Windows"></a></p><p><span style="color: #0000ff;"><strong>Setup SSTP VPN cho Windows</strong></span></p>
+<p>Trong bài post này mình sẽ hướng dẫn cách cài đặt kết nối VPN SSTP cho WIndows</p>
+<p>Đầu tiên, mở <strong>Network and Sharing Center</strong> =&gt; chọn <strong>Setup a new connection or network</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-1.png" rel="lightbox[453]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-431" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-1-620x413.png" alt="VPN L2TP 1" width="620" height="413" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-1-620x413.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-1-705x470.png 705w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-1.png 901w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn <strong>Connect to a workplace</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-2.png" rel="lightbox[453]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-432" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-2-620x453.png" alt="VPN L2TP 2" width="620" height="453" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-2-620x453.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-2.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn <strong>Use my Internet connection (VPN)</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-3.png" rel="lightbox[453]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-433" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-3-620x453.png" alt="VPN L2TP 3" width="620" height="453" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-3-620x453.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-3.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Điền các thông tin cần thiết</p>
+<p><strong>Internet address</strong> (hostname hoặc địa chỉ IP) và thông tin mô tả</p>
+<p>Lựa chọn các option theo yêu cầu và click <strong>Create</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-4.png" rel="lightbox[453]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-434" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-4-620x453.png" alt="VPN L2TP 4" width="620" height="453" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-4-620x453.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-4.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Quay trở lại cửa sổ <strong>Network and Sharing Center</strong> =&gt; chọn <strong>Change adapter settings</strong></p>
+<p>hoặc có thể vào run =&gt; gõ ncpa.cpl</p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-5.png" rel="lightbox[453]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-435" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-5-620x413.png" alt="VPN L2TP 5" width="620" height="413" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-5-620x413.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-5-705x470.png 705w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-5.png 901w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click chuột phải vào kết nối VPN và chọn <strong>Properties</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-6.png" rel="lightbox[453]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-436" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-6-620x415.png" alt="VPN L2TP 6" width="620" height="415" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-6-620x415.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-6-705x472.png 705w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-6.png 901w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Di chuyển đến tab <strong>Security</strong></p>
+<p>Type of VPN =&gt; Chọn SSTP</p>
+<p>Data encryption =&gt; Chọn maximum</p>
+<p>Authentication =&gt; Chọn Allow these protocol =&gt; MS Chap version 2</p>
+<p>OK<br />
+<a href="./../../../wp-content/uploads/2014/11/VPN-SSTP.png" rel="lightbox[453]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-454" src="./../../../wp-content/uploads/2014/11/VPN-SSTP-620x413.png" alt="VPN SSTP" width="620" height="413" srcset="./../../../wp-content/uploads/2014/11/VPN-SSTP-620x413.png 620w, ./../../../wp-content/uploads/2014/11/VPN-SSTP-705x470.png 705w, ./../../../wp-content/uploads/2014/11/VPN-SSTP.png 901w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Di chuyển đến tab <strong>Networking</strong></p>
+<p>Bỏ chọn IPv6</p>
+<p>Chọn IPv4 =&gt; Properties =&gt; Cấu hình địa chỉ DNS Server như ý thích, trong bài này mình sử dụng địa chỉ DNS server của Google và OpenDNS</p>
+<p>Chắc chắn rằng chọn vào ô Use default gateway on remote network. Tùy chọn này có nghĩa là khi đã thiết lập kết nối VPN thành công, mọi dữ liệu mạng sẽ đến và đi từ máy chủ VPN</p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-8.png" rel="lightbox[453]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-438" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-8-620x425.png" alt="VPN L2TP 8" width="620" height="425" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-8-620x425.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-8-920x631.png 920w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-8-705x484.png 705w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-8.png 942w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Hoàn tất.</p>
+<p>Như hình test bên dưới, mọi kết nối từ máy mình đã thông qua địa chỉ VPN đặt tại Singapore</p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-9.png" rel="lightbox[453]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-439" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-9-620x342.png" alt="VPN L2TP 9" width="620" height="342" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-9-620x342.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-9-920x508.png 920w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-9-705x389.png 705w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-9.png 1189w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fsetup-sstp-vpn-cho-windows%2F&amp;linkname=Setup%20SSTP%20VPN%20cho%20Windows" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fsetup-sstp-vpn-cho-windows%2F&amp;linkname=Setup%20SSTP%20VPN%20cho%20Windows" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fsetup-sstp-vpn-cho-windows%2F&amp;linkname=Setup%20SSTP%20VPN%20cho%20Windows" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fsetup-sstp-vpn-cho-windows%2F&#038;title=Setup%20SSTP%20VPN%20cho%20Windows" data-a2a-url="./../../../setup-sstp-vpn-cho-windows/index.html" data-a2a-title="Setup SSTP VPN cho Windows"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../setup-sstp-vpn-cho-windows/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

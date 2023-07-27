@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>XenServer &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Thu, 13 Aug 2015 02:11:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>XenServer &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Video guide &#8211; Citrix XenServer High Availability</title>
+		<link>./../../../video-guide-citrix-xenserver-high-availability/index.html</link>
+					<comments>./../../../video-guide-citrix-xenserver-high-availability/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Fri, 31 Jul 2015 01:05:18 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[High Availability]]></category>
+		<category><![CDATA[XenServer]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1450</guid>
+
+					<description><![CDATA[Video guide &#8211; Citrix XenServer High Availability Để vận hành hệ thống Citrix XenServer High Availability, chúng ta cần xây dựng 1 LAB bao gồm Active Directory server Shared storage (iSCSI Target server, CIFS hoặc NFS) 2+ XenServer Dưới đây là các video hướng dẫn Cài đặt XenServer Cài đặt XenCenter Làm việc với XenServer <a class="more-link" href="./../../../video-guide-citrix-xenserver-high-availability/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&amp;linkname=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&amp;linkname=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&amp;linkname=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&#038;title=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" data-a2a-url="./../../../video-guide-citrix-xenserver-high-availability/index.html" data-a2a-title="Video guide – Citrix XenServer High Availability"></a></p><p><span style="color: #0000ff;"><strong>Video guide &#8211; Citrix XenServer High Availability</strong></span></p>
+<p>Để vận hành hệ thống Citrix XenServer High Availability, chúng ta cần xây dựng 1 LAB bao gồm</p>
+<ul>
+<li>Active Directory server</li>
+<li>Shared storage (iSCSI Target server, CIFS hoặc NFS)</li>
+<li>2+ XenServer</li>
+</ul>
+<p><strong>Dưới đây là các video hướng dẫn</strong></p>
+<p><span style="text-decoration: underline;">Cài đặt XenServer</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/cjvy2jmmah8?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">Cài đặt XenCenter</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/xCLLd6or8b0?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">Làm việc với XenServer Pool</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/bgrEGh5znk0?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">XenServer High Availability phần 1</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/ycc6YCjjNno?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">XenServer High Availability phần 2</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/b7_GASFsv2A?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">Cài đặt Microsoft iSCSI Target server</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/zRkXIekAFhc?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">Cài đặt CentOS vào XenServer</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/ygWVm2Z4Wl8?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">Cài đặt Windows 7 vào XenServer</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/jJfDXsGwjRQ?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">Phân quyền XenServer tích hợp với Active Directory</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/jnK4xvYPwCI?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&amp;linkname=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&amp;linkname=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&amp;linkname=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&#038;title=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" data-a2a-url="./../../../video-guide-citrix-xenserver-high-availability/index.html" data-a2a-title="Video guide – Citrix XenServer High Availability"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../video-guide-citrix-xenserver-high-availability/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt XenServer 6 cho máy chủ không hỗ trợ GPT</title>
+		<link>./../../../cai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt/index.html</link>
+					<comments>./../../../cai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 04 Sep 2014 06:38:15 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[XenServer]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=158</guid>
+
+					<description><![CDATA[Cài đặt XenServer 6 cho máy chủ không hỗ trợ GPT Xenserver từ phiên bản 6 mặc định sẽ cài đặt theo chuẩn phân vùng GPT, điều này làm cho các máy chủ đời cũ không hỗ trợ GPT không boot được. Hướng dẫn bên dưới giúp bạn cài đặt XenServer theo dạng phân vùng <a class="more-link" href="./../../../cai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%206%20cho%20m%C3%A1y%20ch%E1%BB%A7%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%206%20cho%20m%C3%A1y%20ch%E1%BB%A7%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%206%20cho%20m%C3%A1y%20ch%E1%BB%A7%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%206%20cho%20m%C3%A1y%20ch%E1%BB%A7%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" data-a2a-url="./../../../cai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt/index.html" data-a2a-title="Cài đặt XenServer 6 cho máy chủ không hỗ trợ GPT"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt XenServer 6 cho máy chủ không hỗ trợ GPT</strong></span></p>
+<p>Xenserver từ phiên bản 6 mặc định sẽ cài đặt theo chuẩn phân vùng GPT, điều này làm cho các máy chủ đời cũ không hỗ trợ GPT không boot được. Hướng dẫn bên dưới giúp bạn cài đặt XenServer theo dạng phân vùng MBR cho các máy chủ không hỗ trợ định dạng GPT.</p>
+<p>Boot vào đĩa cài đặt XenServer 6</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer-1.png" rel="lightbox[158]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-159" src="./../../../wp-content/uploads/2014/09/XenServer-1-620x465.png" alt="XenServer-1" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/XenServer-1-620x465.png 620w, ./../../../wp-content/uploads/2014/09/XenServer-1.png 640w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhấn <strong>F2</strong> để kích hoạt tùy chọn cài đặt nâng cao [Advanced]</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer-2.png" rel="lightbox[158]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-160" src="./../../../wp-content/uploads/2014/09/XenServer-2-620x465.png" alt="XenServer-2" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/XenServer-2-620x465.png 620w, ./../../../wp-content/uploads/2014/09/XenServer-2.png 640w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đánh chữ <strong>shell </strong>và nhấn Enter để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer-3.png" rel="lightbox[158]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-161" src="./../../../wp-content/uploads/2014/09/XenServer-3-620x344.png" alt="XenServer-3" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer-3-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer-3.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Gõ <strong>vi /opt/xensource/installer/constants.py</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer-4.png" rel="lightbox[158]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-162" src="./../../../wp-content/uploads/2014/09/XenServer-4-620x344.png" alt="XenServer-4" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer-4-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer-4.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thay đổi giá trị <strong>GPT_SUPPORT<em> = True</em></strong> thành <strong><em>GPT_SUPPORT = FALSE</em></strong></p>
+<p>Thay đổi kích thước phân vùng cài đặt theo ý muốn</p>
+<p><strong><em>root_size = 4096</em></strong> (4GB)</p>
+<p>Lưu các tham số đã chỉnh sửa và thoát chương trình vim editor</p>
+<p>Gõ <strong>exit</strong> để thoát ra và tiếp tục cài đặt với các tham số mới</p>
+<p>Chúc bạn thành công</p>
+<p>&nbsp;</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%206%20cho%20m%C3%A1y%20ch%E1%BB%A7%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%206%20cho%20m%C3%A1y%20ch%E1%BB%A7%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%206%20cho%20m%C3%A1y%20ch%E1%BB%A7%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%206%20cho%20m%C3%A1y%20ch%E1%BB%A7%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" data-a2a-url="./../../../cai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt/index.html" data-a2a-title="Cài đặt XenServer 6 cho máy chủ không hỗ trợ GPT"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-xenserver-6-cho-may-chu-khong-ho-tro-gpt/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

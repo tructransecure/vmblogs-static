@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SSH &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Thu, 18 Dec 2014 06:05:36 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>SSH &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Bảo mật SSH</title>
+		<link>./../../../bao-mat-ssh/index.html</link>
+					<comments>./../../../bao-mat-ssh/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 18 Dec 2014 05:31:40 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[bảo mật]]></category>
+		<category><![CDATA[SSH]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=780</guid>
+
+					<description><![CDATA[Bảo mật SSH Làm việc với server linux lẽ dĩ nhiên bạn phải thao tác qua dòng lệnh thông qua SSH (Secure shell). Cái tên nó đã bao gồm chữ secure &#8211; bảo mật tuy nhiên để có được bảo mật bạn phải cấu hình, tùy chỉnh lại, mặc định thì không bảo mật tí <a class="more-link" href="./../../../bao-mat-ssh/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-ssh%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-ssh%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-ssh%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-ssh%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" data-a2a-url="./../../../bao-mat-ssh/index.html" data-a2a-title="Bảo mật SSH"></a></p><p><span style="color: #0000ff;"><strong>Bảo mật SSH</strong></span></p>
+<p>Làm việc với server linux lẽ dĩ nhiên bạn phải thao tác qua dòng lệnh thông qua SSH (Secure shell). Cái tên nó đã bao gồm chữ secure &#8211; bảo mật tuy nhiên để có được bảo mật bạn phải cấu hình, tùy chỉnh lại, mặc định thì không bảo mật tí nào.</p>
+<p>Trước khi đến với phần tùy chỉnh SSH mình sẽ hướng dẫn trước các bước thủ tục.</p>
+<p><strong>Đổi mật khẩu root:</strong></p>
+<p>Khi các bạn mua VPS thì các hãng sẽ gởi email chứa tài khoản đăng nhập cho VPS, thường là root và một mật khẩu được tạo sẵn. Tốt nhất là bạn nên đổi mật khẩu lại sao cho vừa đảm bảo dễ nhớ và mức độ an toàn cao so với dãy ký tự chẳng có ý nghĩa gì.</p>
+<p>Một mật khẩu an toàn chứa nhiều (tốt nhất là dài hơn 10) ký tự bao gồm chữ in hoa, chữ thường, số và ký tự đặc biệt.</p>
+<p><a title="Tạo mật khẩu an toàn" href="https://www.google.com.vn/search?q=t%E1%BA%A1o+m%E1%BA%ADt+kh%E1%BA%A9u+an+to%C3%A0n&amp;oq=t%E1%BA%A1o+m%E1%BA%ADt+kh%E1%BA%A9u+an+to%C3%A0n&amp;aqs=chrome..69i57j0l5.6118j0j7&amp;sourceid=chrome&amp;es_sm=122&amp;ie=UTF-8" target="_blank">Tạo mật khẩu an toàn</a></p>
+<p>Để đổi mật khẩu root bạn cần đăng nhập ssh vào vps với tài khoản và mật khẩu được cấp</p>
+<p>Chạy lệnh</p>
+<p style="padding-left: 30px;"><em>passwd</em></p>
+<p>để tiến hành đổi mật khẩu tài khoản root</p>
+<p><a href="./../../../wp-content/uploads/2014/12/0-Secure-CentOS-VPS-Change-root-password.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-783" src="./../../../wp-content/uploads/2014/12/0-Secure-CentOS-VPS-Change-root-password-620x396.png" alt="0-Secure-CentOS-VPS-Change-root-password" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/0-Secure-CentOS-VPS-Change-root-password-620x396.png 620w, ./../../../wp-content/uploads/2014/12/0-Secure-CentOS-VPS-Change-root-password.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>VPS mới cài nên cũng chưa có công cụ gì, mình cài thêm 2 công cụ thường dùng là nano và wget</p>
+<p>nano giúp chỉnh sửa tập tin, chức năng tương tự vi/vim có sẵn nhưng sử dụng dễ dàng hơn</p>
+<p>wget giúp tải tập tin từ Internet về máy.</p>
+<p>Gõ lệnh</p>
+<p style="padding-left: 30px;"><em>yum install nano wget</em></p>
+<p>để tiến hành cài đặt. Ảnh dưới do mình đã cài đặt sẵn nên máy báo đã cài.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/1-Secure-CentOS-VPS-Install-Nano-WGET.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-784" src="./../../../wp-content/uploads/2014/12/1-Secure-CentOS-VPS-Install-Nano-WGET-620x396.png" alt="1-Secure-CentOS-VPS-Install-Nano-WGET" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/1-Secure-CentOS-VPS-Install-Nano-WGET-620x396.png 620w, ./../../../wp-content/uploads/2014/12/1-Secure-CentOS-VPS-Install-Nano-WGET.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để server vận hành ổn định nhất thì chúng ta phải luôn luôn cập nhật các gói tin mới nhất.</p>
+<p>Gõ lệnh</p>
+<p style="padding-left: 30px;"><em>yum update</em></p>
+<p>để tiến hành cập nhật server</p>
+<p><a href="./../../../wp-content/uploads/2014/12/2-Secure-CentOS-VPS-Yum-Update.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-785" src="./../../../wp-content/uploads/2014/12/2-Secure-CentOS-VPS-Yum-Update-620x396.png" alt="2-Secure-CentOS-VPS-Yum-Update" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/2-Secure-CentOS-VPS-Yum-Update-620x396.png 620w, ./../../../wp-content/uploads/2014/12/2-Secure-CentOS-VPS-Yum-Update.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Tạo user:</strong></p>
+<p>Sau khi đã cập nhật xong chúng ta tiến hành tạo 1 tài khoản, tài khoản này đóng vai trò trung gian để kết nối SSH tới VPS linux trước khi sử dụng tài khoản root.</p>
+<p>Để tạo tài khoản gõ lệnh</p>
+<p style="padding-left: 30px;"><em>useradd taikhoanmuontao</em></p>
+<p>trong bài mình tạo tài khoản monitor</p>
+<p>và đổi mật khẩu cho tài khoản vừa tạo, gõ lệnh</p>
+<p style="padding-left: 30px;"><em>passwd taikhoandatao</em></p>
+<p><a href="./../../../wp-content/uploads/2014/12/3-Secure-CentOS-VPS-Add-new-user.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-786" src="./../../../wp-content/uploads/2014/12/3-Secure-CentOS-VPS-Add-new-user-620x396.png" alt="3-Secure-CentOS-VPS-Add new user" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/3-Secure-CentOS-VPS-Add-new-user-620x396.png 620w, ./../../../wp-content/uploads/2014/12/3-Secure-CentOS-VPS-Add-new-user.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Bảo mật SSH:</strong></p>
+<p>Sau khi hoàn tất các bước trên chúng ta tiến hành thiết lập bảo mật cho SSH</p>
+<p>Gõ lệnh</p>
+<p style="padding-left: 30px;"><em>nano /etc/ssh/sshd_config</em></p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-1.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-787" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-1-620x396.png" alt="4-Secure-CentOS-VPS-SSH-1" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-1-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-1.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Đổi port SSH</span></p>
+<p>Port mặc định của SSH là 22, do là mặc định nên hacker sẽ quét dựa theo cổng này để tấn công brute-force, tất nhiên là họ có công cụ làm tự động, do vậy đổi port giúp giảm nguy cơ bị tấn công rất nhiều.</p>
+<p>Trong ảnh dưới mình bỏ chọn dấu # và sửa port mặc định 22 thành port 2200</p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-2.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-788" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-2-620x396.png" alt="4-Secure-CentOS-VPS-SSH-2" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-2-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-2.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">ListenAddress</span>: Nếu bạn muốn chỉ cho phép truy cập SSH từ một địa chỉ IP cố định nào đó thì có thể thay đổi giá trị này.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-3.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-789" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-3-620x396.png" alt="4-Secure-CentOS-VPS-SSH-3" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-3-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-3.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thay đổi tham số SSH</p>
+<p>MaxAuthTries: cho phép tối đa bao nhiêu lần đăng nhập không thành công.<br />
+MaxSession: cho phép tối đa bao nhiêu phiên (session) truy nhập SSH</p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-4.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-790" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-4-620x396.png" alt="4-Secure-CentOS-VPS-SSH-4" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-4-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-4.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Không cho phép tài khoản root trực tiếp đăng nhập ssh</p>
+<p>Bỏ chọn dấu # đầu dòng và sửa giá trị <span style="text-decoration: underline;">PermitRootLogin</span> thành no</p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-5.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-791" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-5-620x396.png" alt="4-Secure-CentOS-VPS-SSH-5" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-5-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-5.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Bạn thêm tham số <span style="text-decoration: underline;">AllowUsers</span> để cho phép tài khoản nào có thể truy cập SSH</p>
+<p>Như ảnh dưới là cho phép tài khoản monitor (đã tạo ở bước trên) đăng nhập ssh</p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-6.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-792" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-6-620x396.png" alt="4-Secure-CentOS-VPS-SSH-6" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-6-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-6.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đã hoàn tất cấu hình các tham số SSH, chạy lệnh dưới để tải các tham số</p>
+<p style="padding-left: 30px;"><em>service sshd reload</em></p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-7.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-793" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-7-620x396.png" alt="4-Secure-CentOS-VPS-SSH-7" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-7-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-7.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mặc định tường lửa (IPTABLES) cho phép ssh theo port 22, tuy nhiên do chúng ta đã đổi port 22 thành port khác, do đó cần cấu hình tường lửa để cho phép SSH theo port mới.</p>
+<p>Các bạn có thể truy cập đến thư mục /etc/sysconfig</p>
+<p>Và chỉnh sửa file iptables</p>
+<p style="padding-left: 30px;"><em>nano /etc/sysconfig/iptables</em></p>
+<p><a href="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-1.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-794" src="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-1-620x396.png" alt="5-Secure-CentOS-VPS-ConfigFirewall-1" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-1-620x396.png 620w, ./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-1.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sửa port 22 thành port đã đổi</p>
+<p>Ctrl + X để thoát và chọn Y (Yes) để lưu file</p>
+<p><a href="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-2.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-795" src="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-2-620x396.png" alt="5-Secure-CentOS-VPS-ConfigFirewall-2" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-2-620x396.png 620w, ./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-2.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chạy lệnh</p>
+<p style="padding-left: 30px;"><em>service iptables reload</em></p>
+<p>để tải lại các tham số mới</p>
+<p>và lệnh</p>
+<p style="padding-left: 30px;"><em>service iptables status</em></p>
+<p>để xem trạng thái hoạt động của firewall, các bạn có thể thấy port 2200 như mình đã cấu hình</p>
+<p><a href="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-3.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-796" src="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-3-620x396.png" alt="5-Secure-CentOS-VPS-ConfigFirewall-3" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-3-620x396.png 620w, ./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-3.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-ssh%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-ssh%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-ssh%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-ssh%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" data-a2a-url="./../../../bao-mat-ssh/index.html" data-a2a-title="Bảo mật SSH"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../bao-mat-ssh/feed/index.html</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

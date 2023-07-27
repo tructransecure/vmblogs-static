@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>VPS &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Wed, 17 Jun 2015 02:54:47 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>VPS &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Install Synology DSM 5.0 on VPS</title>
+		<link>./../../../install-synology-dsm-5-0-on-vps/index.html</link>
+					<comments>./../../../install-synology-dsm-5-0-on-vps/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2015 02:17:11 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Synology]]></category>
+		<category><![CDATA[VPS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1370</guid>
+
+					<description><![CDATA[Install Synology DSM 5.0 on VPS Hi everyone, in this post i&#8217;m going to show you how to install Synology DSM 5.0 on your VPS. Please have a look at tutorial below to install DSM 5.0 on VPS. I use DigitalOcean droplet to make this tutorial How To Install Virtualbox Headless on CentOS 6.6 Goal <a class="more-link" href="./../../../install-synology-dsm-5-0-on-vps/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Finstall-synology-dsm-5-0-on-vps%2F&amp;linkname=Install%20Synology%20DSM%205.0%20on%20VPS" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Finstall-synology-dsm-5-0-on-vps%2F&amp;linkname=Install%20Synology%20DSM%205.0%20on%20VPS" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Finstall-synology-dsm-5-0-on-vps%2F&amp;linkname=Install%20Synology%20DSM%205.0%20on%20VPS" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Finstall-synology-dsm-5-0-on-vps%2F&#038;title=Install%20Synology%20DSM%205.0%20on%20VPS" data-a2a-url="./../../../install-synology-dsm-5-0-on-vps/index.html" data-a2a-title="Install Synology DSM 5.0 on VPS"></a></p><p><span style="color: #0000ff;"><strong>Install Synology DSM 5.0 on VPS</strong></span></p>
+<p>Hi everyone, in this post i&#8217;m going to show you how to install Synology DSM 5.0 on your VPS.</p>
+<p>Please have a look at tutorial below to install DSM 5.0 on VPS. I use DigitalOcean droplet to make this tutorial</p>
+<h1>How To Install Virtualbox Headless on CentOS 6.6</h1>
+<h3>Goal</h3>
+<p>After this tutorial, we are going to have fully functional headless VirtualBox server</p>
+<h3>Requirements</h3>
+<ul>
+<li>1 CentOS 6.6 droplet (1GB RAM)</li>
+<li>VirtualBox 4.3.28 (Linux version)</li>
+<li>Extension pack</li>
+<li>phpVirtualBox</li>
+<li>Nanoboot 5.0 32bit (link provided at the end of this post)</li>
+<li>DSM 5.0 from Synology</li>
+<li>You know how to use Virtualbox</li>
+</ul>
+<h2>Prepare droplet</h2>
+<p>Oracle VirtualBox can not work with CentOS latest kernel 2.6.32.504. We have to switch back to older version 2.6.32.431</p>
+<p>You can easily switch your kernel version by change kernel in your account Dashboard</p>
+<p><img decoding="async" src="http://i.imgur.com/OZcwfHo.png" alt="Change droplet kernel" /></p>
+<p>Start and get access to your droplet</p>
+<ul>
+<li>Install neccesary package (epel-release, wget, nano)</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>yum install -y epel-release nano wget</code></span></p>
+<ul>
+<li>Verify your kernel version</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>uname -r</code></span></p>
+<ul>
+<li>Download additional kernel packages</li>
+</ul>
+<p style="padding-left: 60px;">Go to any directory (Eg. /opt)</p>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>cd /opt</code></span></p>
+<ul>
+<li>Download kernel-devel and kernel-headers</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>wget ./../../../package/kernel-devel-2.6.32-431.1.2.0.1.el6.x86_64.rpm</code></span></p>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>wget ./../../../package/kernel-headers-2.6.32-431.1.2.0.1.el6.x86_64.rpm</code></span></p>
+<ul>
+<li>Install kernel-devel and kernel-headers</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>yum localinstall kernel-headers-2.6.32-431.1.2.0.1.el6.x86_64.rpm</code></span></p>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>yum localinstall kernel-devel-2.6.32-431.1.2.0.1.el6.x86_64.rpm</code></span></p>
+<ul>
+<li>Exclude kernel packages from updating</li>
+</ul>
+<p style="padding-left: 60px;">Edit the file/etc/yum.conf</p>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>exclude=kernel*</code></span></p>
+<ul>
+<li>Update system</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>yum update -y</code></span></p>
+<h2>Install Development Tools</h2>
+<p>In order for VirtualBox to compile correctly, we have to install necessary tools</p>
+<p><span style="text-decoration: underline;"><code>yum groupinstall "Development Tools" -y</code></span></p>
+<h2>Download and install Virtualbox</h2>
+<p>Download VirtualBox and other packages Go to<strong> <code>/opt</code></strong></p>
+<ul>
+<li>Download latest stable version of VirtualBox</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>wget http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-Linux_amd64.run</code></span></p>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>wget http://download.virtualbox.org/virtualbox/4.3.28/Oracle_VM_VirtualBox_Extension_Pack-4.3.28-100309.vbox-extpack</code></span></p>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>wget http://dlc-cdn.sun.com/virtualbox/4.3.28/VBoxGuestAdditions_4.3.28.iso</code></span></p>
+<p>Setup VirtualBox</p>
+<ul>
+<li>Allow VirtualBox to run</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>chmod +x VirtualBox-4.3.28-100309-Linux_amd64.run</code></span></p>
+<ul>
+<li>Setup VirtualBox</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>./VirtualBox-4.3.28-100309-Linux_amd64.run</code></span></p>
+<ul>
+<li>Install Extension package</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-4.3.28-100309.vbox-extpack</code></span></p>
+<p>Verify Extensions Package</p>
+<p><span style="text-decoration: underline;"><code>VBoxManage list extpacks</code></span></p>
+<p>Compile VirtualBox driver</p>
+<p><span style="text-decoration: underline;"><code>service vboxdrv setup</code></span></p>
+<p>Start and stop VirtualBox web service</p>
+<ul>
+<li>To start web service</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>vboxwebsrv</code></span></p>
+<ul>
+<li>To stop web service</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>Ctrl + C</code></span></p>
+<p>You may want to use <span style="color: #0000ff;"><code>screen</code> </span>with <span style="color: #0000ff;"><code>vboxwebsrv</code></span></p>
+<h2>Download and configure phpVirtualBox</h2>
+<p><strong>Setup httpd server</strong></p>
+<p><span style="text-decoration: underline;"><code>yum install httpd php php-common php-soap</code></span></p>
+<p><strong>Download phpVirtualBox</strong></p>
+<ul>
+<li>Download phpVirtualBox</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>wget http://sourceforge.net/projects/phpvirtualbox/files/phpvirtualbox-4.3-3.zip/download</code></span></p>
+<ul>
+<li>Rename download file</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>mv download phpVirtualbox.zip</code></span></p>
+<ul>
+<li>Extract download file</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>unzip phpVirtualbox.zip</code></span></p>
+<ul>
+<li>Rename extracted folder</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>mv phpVirtualbox-4.3-3 phpvirtualbox</code></span></p>
+<ul>
+<li>Move to web folder</li>
+</ul>
+<p style="padding-left: 60px;"><span style="text-decoration: underline;"><code>mv phpvirtualbox /var/www/html</code></span></p>
+<p><strong>Config phpVirtualBox</strong></p>
+<p>Go to phpVirtualbox directory</p>
+<p><span style="text-decoration: underline;"><code>cd /var/www/html/phpvirtualbox</code></span></p>
+<p>Rename config.php-sample</p>
+<p><span style="text-decoration: underline;"><code>mv config.php-sample config.php</code></span></p>
+<p>Edit <strong>config.php</strong></p>
+<p><code>nano config.php</code></p>
+<blockquote><p>var $username = &#8216;your_root_account&#8217;;</p>
+<p>var $password = &#8216;your_root_password&#8217;;</p>
+<p>var $location = &#8216;http://127.0.0.1:18083/&#8217;; do not modify this</p></blockquote>
+<p><strong>Create new setting file</strong></p>
+<p><span style="text-decoration: underline;"><code>touch /etc/defaults/virtualbox</code></span></p>
+<p>and edit <code>/etc/defaults/virtualbox</code> with options below</p>
+<blockquote><p>VBOXWEB_USER=vbox</p>
+<p>VBOXWEB_HOST=127.0.0.1</p></blockquote>
+<p>Disable SELinux <code>/etc/selinux/config</code></p>
+<blockquote><p>SELINUX=disabled</p></blockquote>
+<p>Add firewall rule to allow web access</p>
+<p><span style="text-decoration: underline;"><code>iptables -A INPUT -p tcp --dport 80 -j ACCEPT</code></span></p>
+<p>Now start httpd server and access phpVirtuaBox</p>
+<p><span style="text-decoration: underline;"><code>service httpd start</code></span></p>
+<p><span style="text-decoration: underline;"><code>chkconfig httpd on</code></span></p>
+<p><span style="color: #0000ff;">http://your-ip-address/phpvirtualbox</span></p>
+<p>Default phpVirtualBox login</p>
+<blockquote><p>Username: admin</p>
+<p>Password: admin</p></blockquote>
+<h3></h3>
+<h3>Troubleshooting</h3>
+<p>phpVirtualBox can not login</p>
+<p>Run this command to fix login problem</p>
+<p><span style="text-decoration: underline;"><code>VBoxManage setproperty websrvauthlibrary null</code></span></p>
+<h3>Notes</h3>
+<ul>
+<li>Although Virtualbox display 64bit at OS selection, you just can not use or your VMs will stop with Stuck error</li>
+<li>The performance is really low. I managed to install a XPenology (Synology opensource), it took about 15 minutes to boot up and login successfully</li>
+<li>Set CPU CAP at 70-80% for your VMs</li>
+<li>For better performance, you are advised to make swap file on your droplet. <a href="https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6">Check this link on DO</a></li>
+</ul>
+<h3>XPenology</h3>
+<ul>
+<li>After get access to phpVirtualBox, you can create new VirtualBox VM for XPenology</li>
+<li>1core CPU</li>
+<li>512MB RAM</li>
+<li>HDD depend on your VPS</li>
+<li>CD with Nanoboot ISO mount at first boot</li>
+<li>No USB</li>
+<li>NAT network with port 5000 forward to VM (default VM IP is 10.0.2.15). You also need to open port in iptables to allow access from outside (5000)</li>
+</ul>
+<p><strong>Download links</strong></p>
+<p><a href="https://drive.google.com/file/d/0BwJlgrW616foVnc5WUtuUlF3SzQ/view?usp=sharing">Nanoboot x86 ISO</a></p>
+<p><a href="https://drive.google.com/file/d/0BwJlgrW616focUhlUzkyQlJHYkU/view?usp=sharing">DMS 5.0</a></p>
+<p><a href="https://drive.google.com/file/d/0BwJlgrW616fodVZPampPVVlxdjA/view?usp=sharing">Pre-configured VM &#8211; ready to import</a></p>
+<p><strong>Username and password for pre-configured VM</strong></p>
+<p>Username: admin<br />
+Password: Aa123456*</p>
+<p><img decoding="async" src="http://i.imgur.com/XrIbu6s.png" alt="Demo-XPenology" /></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Finstall-synology-dsm-5-0-on-vps%2F&amp;linkname=Install%20Synology%20DSM%205.0%20on%20VPS" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Finstall-synology-dsm-5-0-on-vps%2F&amp;linkname=Install%20Synology%20DSM%205.0%20on%20VPS" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Finstall-synology-dsm-5-0-on-vps%2F&amp;linkname=Install%20Synology%20DSM%205.0%20on%20VPS" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Finstall-synology-dsm-5-0-on-vps%2F&#038;title=Install%20Synology%20DSM%205.0%20on%20VPS" data-a2a-url="./../../../install-synology-dsm-5-0-on-vps/index.html" data-a2a-title="Install Synology DSM 5.0 on VPS"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../install-synology-dsm-5-0-on-vps/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bảo mật VPS với Dome9 Lite Cloud</title>
+		<link>./../../../bao-mat-vps-voi-dome9-lite-cloud/index.html</link>
+					<comments>./../../../bao-mat-vps-voi-dome9-lite-cloud/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 18 Dec 2014 08:26:25 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[bảo mật]]></category>
+		<category><![CDATA[Dome9 Lite Cloud]]></category>
+		<category><![CDATA[VPS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=828</guid>
+
+					<description><![CDATA[Bảo mật VPS với Dome9 Lite Cloud Bảo mật server luôn là một vấn đề đau đầu với các quản trị viên và quản lý tường lửa, truy cập là một trong số đó. Ngày càng nhiều công cụ ra đời để đơn giản hóa việc quản trị tường lửa và Dome9 là một trong <a class="more-link" href="./../../../bao-mat-vps-voi-dome9-lite-cloud/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" data-a2a-url="./../../../bao-mat-vps-voi-dome9-lite-cloud/index.html" data-a2a-title="Bảo mật VPS với Dome9 Lite Cloud"></a></p><p><span style="color: #0000ff;"><strong>Bảo mật VPS với Dome9 Lite Cloud</strong></span></p>
+<p>Bảo mật server luôn là một vấn đề đau đầu với các quản trị viên và quản lý tường lửa, truy cập là một trong số đó.</p>
+<p>Ngày càng nhiều công cụ ra đời để đơn giản hóa việc quản trị tường lửa và Dome9 là một trong số đó. Với việc sử dụng Dome9, bạn có thể dễ dàng quản lý, thiết lập bảo mật cho server của mình từ trình duyệt web trực quan.</p>
+<p>Để tìm hiểu thêm có thể truy cập tại địa chỉ <a title="Dome9" href="www.dome9.com" target="_blank">www.dome9.com</a></p>
+<p>Trong bài viết này mình hướng dẫn sử dụng dịch vụ miễn phí của hãng để bảo mật server, tất nhiên tính năng sẽ bị giới hạn so với dịch vụ trả tiền.</p>
+<p><strong>Dome9 Lite Cloud</strong></p>
+<ul>
+<li>Hỗ trợ đến 5 máy chủ (ảo/vật lý)</li>
+<li>Hỗ trợ cả Windows và Linux</li>
+<li>1 quản trị viên</li>
+<li>Lưu log 1 ngày</li>
+<li>Các tính năng cơ bản.</li>
+</ul>
+<p>Việc đăng ký Dome9 tương đối dễ dàng, bạn có thể <a title="Register Dome9 Lite Cloud" href="https://secure.dome9.com/Account/Register?code=litecloud" target="_blank">click vào đây</a> để truy cập trang đăng ký.</p>
+<p>Sau khi đăng ký thành công và đăng nhập thì Dome9 sẽ chuyển đến cửa sổ giao diện như hình dưới, tương đối trực quan.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-1.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-833" src="./../../../wp-content/uploads/2014/12/Dome9-Security-1-620x369.png" alt="Dome9-Security-1" width="620" height="369" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-1-620x369.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-1-920x548.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-1.png 1223w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Add AWS (Amazon Web Service)</span> account các bạn có thể add tài khoản AWS của mình, mình ko có account này nên thôi.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-2.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-834" src="./../../../wp-content/uploads/2014/12/Dome9-Security-2-620x357.png" alt="Dome9-Security-2" width="620" height="357" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-2-620x357.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-2-920x530.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-2.png 1223w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Install new agent</span></p>
+<p>Giúp cài đặt Agent cho server Windows hoặc Linux. Chọn vào hình tương ứng</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-3.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-835" src="./../../../wp-content/uploads/2014/12/Dome9-Security-3-620x353.png" alt="Dome9-Security-3" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-3-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-3-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-3.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">AWS Account</span></p>
+<p>Quản lý tài khoản AWS và các nhóm bảo mật tương ứng.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-4.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-836" src="./../../../wp-content/uploads/2014/12/Dome9-Security-4-620x353.png" alt="Dome9-Security-4" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-4-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-4-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-4.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Servers:</span></p>
+<p>Thể hiện các server đã cài đặt Dome9 Agent.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-5.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-837" src="./../../../wp-content/uploads/2014/12/Dome9-Security-5-620x353.png" alt="Dome9-Security-5" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-5-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-5-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-5.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Security Group:</span></p>
+<p>Tại đây bạn có thể thiết lập các dịch vụ được phép truy cập trên server (cả inbound và outbound) cũng như thiết lập logging.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-6.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-838" src="./../../../wp-content/uploads/2014/12/Dome9-Security-6-620x353.png" alt="Dome9-Security-6" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-6-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-6-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-6.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Users and Roles</span></p>
+<p>Cho phéo tạo người dùng tương ứng với các nhiệm vụ định sẵn. Do tài khoản Dome9 miễn phí chỉ cho dùng 1 tài khoản nên cũng chẳng có gì nhiều để nói ở đây.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-7.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-839" src="./../../../wp-content/uploads/2014/12/Dome9-Security-7-620x353.png" alt="Dome9-Security-7" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-7-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-7-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-7.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Emergency Policy:</span></p>
+<p>Thiết lập các chính sách khẩn cấp</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-8.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-840" src="./../../../wp-content/uploads/2014/12/Dome9-Security-8-620x357.png" alt="Dome9-Security-8" width="620" height="357" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-8-620x357.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-8-920x530.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-8.png 1223w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">IP Lists</span></p>
+<p>Cho phép tạo ra các danh sách IP định trước để cấu hình port trong mục Security Group</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-9.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-841" src="./../../../wp-content/uploads/2014/12/Dome9-Security-9-620x353.png" alt="Dome9-Security-9" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-9-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-9-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-9.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Blacklist:</span></p>
+<p>Danh sách các IP bị chặn</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-10.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-842" src="./../../../wp-content/uploads/2014/12/Dome9-Security-10-620x353.png" alt="Dome9-Security-10" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-10-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-10-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-10.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Audit Trail</span></p>
+<p>Thể hiện các mốc thời gian đăng nhập vào Dome9 Daskboard</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-11.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-843" src="./../../../wp-content/uploads/2014/12/Dome9-Security-11-620x353.png" alt="Dome9-Security-11" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-11-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-11-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-11.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Dynamic Access</span></p>
+<p>Cấu hình truy cập cho các dịch vụ tại server theo yêu cầu. VD ảnh dưới cho phép truy cập web toàn thời gian, SSH port 2200 theo yêu cầu từ các IP cố định đã thiết lập trước.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-12.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-844" src="./../../../wp-content/uploads/2014/12/Dome9-Security-12-620x353.png" alt="Dome9-Security-12" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-12-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-12-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-12.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Cài đặt Agent.</strong></p>
+<p>Agent có chức năng kết nối đến máy chủ Dome9 để tải các thiết lập tường lửa và áp dụng cho server. Việc cài đặt tương đối dễ dàng, chỉ chọn vào icon tương ứng (Windows hoặc Linux) sẽ có hướng dẫn cụ thể.</p>
+<p>VD ảnh dưới mình click chọn Linux, chọn Security Group và đặt tên cho server, Dome9 sẽ tạo 1 đường link cài đặt và mình sẽ dùng link đó để cài đặt trên server CentOS</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-1.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-845" src="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-1-620x357.png" alt="Dome9-Security-Agent-1" width="620" height="357" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-1-620x357.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-1-920x530.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-1.png 1223w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cài đặt hoàn tất sẽ hiện ra như ảnh dưới</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-2.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-846" src="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-2-620x357.png" alt="Dome9-Security-Agent-2" width="620" height="357" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-2-620x357.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-2-920x530.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-2.png 1223w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi click Access server bạn sẽ được chuyển về giao diện Dynamic Access</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-3.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-847" src="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-3-620x353.png" alt="Dome9-Security-Agent-3" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-3-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-3-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-3.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" data-a2a-url="./../../../bao-mat-vps-voi-dome9-lite-cloud/index.html" data-a2a-title="Bảo mật VPS với Dome9 Lite Cloud"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../bao-mat-vps-voi-dome9-lite-cloud/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bảo mật VPS Linux</title>
+		<link>./../../../bao-mat-vps-linux/index.html</link>
+					<comments>./../../../bao-mat-vps-linux/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 18 Dec 2014 04:54:46 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[bảo mật]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[VPS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=774</guid>
+
+					<description><![CDATA[Bảo mật VPS Linux Chào các bạn, hiện nay rất nhiều công ty cung cấp cloud server giá thành rất rẻ như Linode, Digital Ocean, Rackspace&#8230;tuy nhiên có một trở ngại với mọi người là hầu hết các vps này đều chạy Linux (CentOS là chính). Theo nhiều đánh giá thì VPS chạy tốt và <a class="more-link" href="./../../../bao-mat-vps-linux/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-vps-linux%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" data-a2a-url="./../../../bao-mat-vps-linux/index.html" data-a2a-title="Bảo mật VPS Linux"></a></p><p>Bảo mật VPS Linux</p>
+<p>Chào các bạn, hiện nay rất nhiều công ty cung cấp cloud server giá thành rất rẻ như Linode, Digital Ocean, Rackspace&#8230;tuy nhiên có một trở ngại với mọi người là hầu hết các vps này đều chạy Linux (CentOS là chính).</p>
+<p>Theo nhiều đánh giá thì VPS chạy tốt và ổn định hơn so với sử dụng host share khi một server được chạy cho rất, rất nhiều website. Tất nhiên là website của bạn chạy 1 mình sẽ tốt hơn là chung chạ với nhiều người khác.</p>
+<p>Để làm việc với VPS Linux thì tất nhiên bạn phải tự trang bị cho mình một số kiến thức nhất định để có thể làm chủ được những gì mình mua. Việc cấu hình vps linux hiện có rất nhiều hướng dẫn trên mạng, chỉ cần Google 1 chút là ra rất nhiều hướng dẫn nên mình cũng không nói thêm. Trong bài post này mình chủ yếu tập trung đến vấn đề mà mọi người cực kỳ quan tâm &#8211; bảo mật.</p>
+<p>Nói về bảo mật là nói về một chủ đề rộng lớn, những gì được post ở đây cũng chỉ là nhỏ nhoi. Tuy nhiên nó cũng phần nào giúp bạn giảm bớt được nguy cơ tấn công. Mình quan niệm thế này, server của bạn chưa bị hack chỉ có thể do bạn may mắn chưa bị hacker nhòm ngó mà thôi, tuy nhiên không vì vậy mà không cần quan tâm đến bảo mật.</p>
+<ul>
+<li><a title="Bảo mật SSH" href="./../../../bao-mat-ssh/index.html" target="_blank">Bảo mật SSH</a></li>
+<li><a title="Bảo mật tường lửa với Advanced Policy Firewall" href="./../../../bao-mat-tuong-lua-voi-apf/index.html" target="_blank">Bảo mật tường lửa với APF (Advanced Policy Firewall)</a></li>
+<li><a title="Block brute-force attach with BFD" href="./../../../chong-tan-cong-brute-force-voi-bfd/index.html" target="_blank">Chống tấn công brute-force với BFD (Brute Force Detection)</a></li>
+<li><a title="Block virus with ClamAV" href="./../../../cai-dat-clamav-antivirus-cho-centos/index.html" target="_blank">Phòng ngừa virus với ClamAV</a></li>
+<li><a title="Block rootkit with RKHunter" href="./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/index.html" target="_blank">Phòng ngừa rootkit với RKHunter</a></li>
+<li>Phòng ngừa tấn công với Snort</li>
+</ul>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-vps-linux%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" data-a2a-url="./../../../bao-mat-vps-linux/index.html" data-a2a-title="Bảo mật VPS Linux"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../bao-mat-vps-linux/feed/index.html</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bài 4 &#8211; Truy cập máy ảo và các cài đặt đầu tiên</title>
+		<link>./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/index.html</link>
+					<comments>./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 17 Nov 2014 14:57:22 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Google Cloud Platform]]></category>
+		<category><![CDATA[VPS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=487</guid>
+
+					<description><![CDATA[Bài 4 &#8211; Truy cập máy ảo và các cài đặt đầu tiên Máy ảo đã được tạo ra và hoạt động, tuy nhiên cần phải cấu hình để phục vụ mục đích của chúng ta. Làm việc với hệ điều hành linux, đặc biệt là cho hosting thì việc quản trị server bắt buộc <a class="more-link" href="./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&amp;linkname=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&amp;linkname=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&amp;linkname=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&#038;title=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" data-a2a-url="./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/index.html" data-a2a-title="Bài 4 – Truy cập máy ảo và các cài đặt đầu tiên"></a></p><p><span style="color: #0000ff;"><strong>Bài 4 &#8211; Truy cập máy ảo và các cài đặt đầu tiên</strong></span></p>
+<p>Máy ảo đã được tạo ra và hoạt động, tuy nhiên cần phải cấu hình để phục vụ mục đích của chúng ta.</p>
+<p>Làm việc với hệ điều hành linux, đặc biệt là cho hosting thì việc quản trị server bắt buộc qua SSH và command line. Do đó để quản trị server, việc đầu tiên là kết nối server bằng SSH.</p>
+<p>Google Cloud Platform đã cung cấp sẵn công cụ SSH thông qua nền tảng web giúp việc tiếp cận đơn giản hơn so với thông thường.</p>
+<p>Tại giao diện quản lý máy ảo, click vào nút &#8230; và chọn Open in browser window.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-0.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-488" src="./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-0-620x467.png" alt="0-Open SSH Session 0" width="620" height="467" srcset="./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-0-620x467.png 620w, ./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-0-920x694.png 920w, ./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-0-705x531.png 705w, ./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-0.png 1030w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cửa sổ popup SSH chạy trên nền web hiện ra, tới đây thì chúng t bắt đầu các bước cài đặt với vps, mà cụ thể là server CentOS</p>
+<p>Các bạn có thể áp dụng cho các VPS chạy linux khác, mọi thứ đều tương tự.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-1.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-489" src="./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-1-620x414.png" alt="0-Open SSH Session 1" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-1-620x414.png 620w, ./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-1-705x471.png 705w, ./../../../wp-content/uploads/2014/11/0-Open-SSH-Session-1.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Đổi mật khẩu root</strong></p>
+<p>Công việc đầu tiên là đổi mật khẩu tài khoản root</p>
+<p>Nhập lệnh</p>
+<blockquote><p>sudo passwd root</p></blockquote>
+<p>để bắt đầu đổi mật khẩu root</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Change-root-password.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-490" src="./../../../wp-content/uploads/2014/11/1-Change-root-password.png" alt="1-Change root password" width="487" height="115" /></a></p>
+<p>Sau khi đổi mật khẩu root, chúng ta đăng nhập vào tài khoản root để tiến hành các bước tiếp theo.</p>
+<blockquote><p>su &#8211;</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Login-root.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-491" src="./../../../wp-content/uploads/2014/11/2-Login-root.png" alt="2-Login root" width="421" height="47" /></a></p>
+<p><strong>Đổi tên máy</strong></p>
+<p>Tiếp theo là đổi tên của máy chủ, công việc tương đối đơn giản, chỉ việc thực thi lệnh</p>
+<blockquote><p>hostname + tên máy</p></blockquote>
+<p>để thay đổi tên.</p>
+<p>Lệnh</p>
+<blockquote><p>hostname</p></blockquote>
+<p>để hiển thị tên hiện tại của máy</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Change-hostname.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-492" src="./../../../wp-content/uploads/2014/11/3-Change-hostname.png" alt="3-Change hostname" width="424" height="97" /></a></p>
+<p><strong>Cập nhật hệ điều hành</strong></p>
+<p>Sau khi đã đổi tên, chúng ta tiếp tục cập nhật hệ điều hành. Để hệ điều hành hoạt động ổn định và tránh các lỗi bảo mật chúng ta nên thường xuyên cập nhật.</p>
+<p>Để cập nhật, chúng ta gõ lệnh</p>
+<blockquote><p>yum update</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/4-Update-1.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-493" src="./../../../wp-content/uploads/2014/11/4-Update-1-620x159.png" alt="4-Update 1" width="620" height="159" srcset="./../../../wp-content/uploads/2014/11/4-Update-1-620x159.png 620w, ./../../../wp-content/uploads/2014/11/4-Update-1-705x181.png 705w, ./../../../wp-content/uploads/2014/11/4-Update-1.png 866w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn Yes để tiếp tục cập nhật, tuỳ theo mạng nhanh hay chậm mà thời gian cập nhật ít hay nhiều tương ứng</p>
+<p><a href="./../../../wp-content/uploads/2014/11/4-Update-2.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-494" src="./../../../wp-content/uploads/2014/11/4-Update-2-620x74.png" alt="4-Update 2" width="620" height="74" srcset="./../../../wp-content/uploads/2014/11/4-Update-2-620x74.png 620w, ./../../../wp-content/uploads/2014/11/4-Update-2-705x84.png 705w, ./../../../wp-content/uploads/2014/11/4-Update-2.png 888w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Thêm ổ đĩa cho CentOS</strong></p>
+<p>Ổ đĩa hệ điều hành mặc định của Google Cloud Platform chỉ có 10GB, do đó để tăng dung lượng chúng ta cần phải thêm HDD để sử dụng.</p>
+<p>Để thêm HDD chúng ta làm các bước như sau:</p>
+<p>Trong phần cài đặt của máy ảo, chúng ta chọn <strong>Attach</strong> để thêm mới HDD</p>
+<p><a href="./../../../wp-content/uploads/2014/11/5-Attach-Disk-1.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-496" src="./../../../wp-content/uploads/2014/11/5-Attach-Disk-1-620x447.png" alt="5-Attach Disk 1" width="620" height="447" srcset="./../../../wp-content/uploads/2014/11/5-Attach-Disk-1-620x447.png 620w, ./../../../wp-content/uploads/2014/11/5-Attach-Disk-1-920x663.png 920w, ./../../../wp-content/uploads/2014/11/5-Attach-Disk-1-705x508.png 705w, ./../../../wp-content/uploads/2014/11/5-Attach-Disk-1.png 1029w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn các thông số tuỳ theo nhu cầu</p>
+<p><a href="./../../../wp-content/uploads/2014/11/5-Attach-Disk-2.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-497" src="./../../../wp-content/uploads/2014/11/5-Attach-Disk-2.png" alt="5-Attach Disk 2" width="475" height="723" /></a></p>
+<p>Để tiếp tục các bước tiếp theo sau khi đã add HDD, các bạn có thể tham khảo hướng dẫn step by step theo link sau:</p>
+<blockquote><p>http://www.techotopia.com/index.php/Adding_a_New_Disk_Drive_to_a_CentOS_6_System</p></blockquote>
+<p><strong>Tạo snapshot &#8211; Điểm sao lưu hệ điều hành</strong></p>
+<p>Sau khi đã thực hiện xong các bước cơ bản trên, bạn nên tiến hành tạo một điểm sao lưu hệ điều hành gọi là snapshot. Việc này giúp cho bạn có thể quay trở về điểm sao lưu nếu lỡ sau này có trục trặc gì trong máy. Nếu không có phải làm lại từ đầu sẽ mất nhiều thời gian.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/6-Take-Snapshot-1.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-498" src="./../../../wp-content/uploads/2014/11/6-Take-Snapshot-1-620x446.png" alt="6-Take Snapshot 1" width="620" height="446" srcset="./../../../wp-content/uploads/2014/11/6-Take-Snapshot-1-620x446.png 620w, ./../../../wp-content/uploads/2014/11/6-Take-Snapshot-1-920x662.png 920w, ./../../../wp-content/uploads/2014/11/6-Take-Snapshot-1-705x507.png 705w, ./../../../wp-content/uploads/2014/11/6-Take-Snapshot-1.png 1027w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên và mô tả snapshot, nên đặt tên và mô tả sao cho dễ nhớ vì có thể sau bạn sẽ tạo rất nhiều snapshot.</p>
+<p><span style="text-decoration: underline;"><span style="color: #ff0000; text-decoration: underline;">Lưu ý:</span></span></p>
+<blockquote><p>Snapshot chiếm dung lượng ổ cứng, do đó dùng nhiều thì bạn sẽ phải trả nhiều tiền cho Google, hay bất cứ nhà cung cấp nào cũng vậy, do đó cần cân nhắc kỹ.</p></blockquote>
+<p><a href="./../../../wp-content/uploads/2014/11/6-Take-Snapshot-2.png" rel="lightbox[487]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-499" src="./../../../wp-content/uploads/2014/11/6-Take-Snapshot-2-620x446.png" alt="6-Take Snapshot 2" width="620" height="446" srcset="./../../../wp-content/uploads/2014/11/6-Take-Snapshot-2-620x446.png 620w, ./../../../wp-content/uploads/2014/11/6-Take-Snapshot-2-920x663.png 920w, ./../../../wp-content/uploads/2014/11/6-Take-Snapshot-2-705x508.png 705w, ./../../../wp-content/uploads/2014/11/6-Take-Snapshot-2.png 1028w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Hoàn tất bài 4, trong bài tiếp theo chúng ta sẽ bắt đầu cài đặt Parallels Plesk 12</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&amp;linkname=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&amp;linkname=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&amp;linkname=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Ftruy-cap-may-ao-va-cac-cai-dat-dau-tien%2F&#038;title=B%C3%A0i%204%20%E2%80%93%20Truy%20c%E1%BA%ADp%20m%C3%A1y%20%E1%BA%A3o%20v%C3%A0%20c%C3%A1c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20%C4%91%E1%BA%A7u%20ti%C3%AAn" data-a2a-url="./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/index.html" data-a2a-title="Bài 4 – Truy cập máy ảo và các cài đặt đầu tiên"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bài 3 &#8211; Tạo mới một instance (máy ảo VPS)</title>
+		<link>./../../../tao-moi-mot-instance-may-ao-vps/index.html</link>
+					<comments>./../../../tao-moi-mot-instance-may-ao-vps/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 17 Nov 2014 13:58:59 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Google Cloud Platform]]></category>
+		<category><![CDATA[VPS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=475</guid>
+
+					<description><![CDATA[Bài 3 &#8211; Tạo mới một instance (máy ảo VPS) Sau khi đã giới thiệu sơ qua về Google Developers Console, trong bài này chúng ta bắt đầu tạo ra một đơn vị xử lý. Thông thường gọi là VPS cho dễ hiểu nhưng trong thế giới cloud người ta thường sinh ra nhiều từ <a class="more-link" href="./../../../tao-moi-mot-instance-may-ao-vps/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&amp;linkname=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&amp;linkname=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&amp;linkname=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&#038;title=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" data-a2a-url="./../../../tao-moi-mot-instance-may-ao-vps/index.html" data-a2a-title="Bài 3 – Tạo mới một instance (máy ảo VPS)"></a></p><p><span style="color: #0000ff;"><strong>Bài 3 &#8211; Tạo mới một instance (máy ảo VPS)</strong></span></p>
+<p>Sau khi đã giới thiệu sơ qua về Google Developers Console, trong bài này chúng ta bắt đầu tạo ra một đơn vị xử lý. Thông thường gọi là VPS cho dễ hiểu nhưng trong thế giới cloud người ta thường sinh ra nhiều từ khác gọi cho nó khác khác mà theo mình nghĩ mang tính quảng bá là chính.</p>
+<p>Trước khi có thể tạo ra được 1 VPS, chúng ta phải tạo 1 Project &#8211; dự án trước</p>
+<p>Click vào nut <strong>New Project</strong> để tạo mới một project, đặt tên tuỳ ý. Tuy nhiên bạn nên đặt tên sao cho nó phù hợp với cái mình đang làm tránh nhầm lẫn.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/0-Create-Project-1.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-476" src="./../../../wp-content/uploads/2014/11/0-Create-Project-1-620x384.png" alt="0-Create Project 1" width="620" height="384" srcset="./../../../wp-content/uploads/2014/11/0-Create-Project-1-620x384.png 620w, ./../../../wp-content/uploads/2014/11/0-Create-Project-1-920x570.png 920w, ./../../../wp-content/uploads/2014/11/0-Create-Project-1-705x437.png 705w, ./../../../wp-content/uploads/2014/11/0-Create-Project-1.png 1029w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi một project được tạo sẽ tự động chuyển đến <strong>Project Dashboard</strong>, nơi hiển thị thông tin chung về project đó.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/0-Create-Project-2.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-477" src="./../../../wp-content/uploads/2014/11/0-Create-Project-2-620x384.png" alt="0-Create Project 2" width="620" height="384" srcset="./../../../wp-content/uploads/2014/11/0-Create-Project-2-620x384.png 620w, ./../../../wp-content/uploads/2014/11/0-Create-Project-2-920x570.png 920w, ./../../../wp-content/uploads/2014/11/0-Create-Project-2-705x437.png 705w, ./../../../wp-content/uploads/2014/11/0-Create-Project-2.png 1029w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click nút <strong>Create instance</strong> để bắt đầu tạo VPS theo yêu cầu</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-1.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-478" src="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-1-620x385.png" alt="1-Create VM Instance 1" width="620" height="385" srcset="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-1-620x385.png 620w, ./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-1-920x571.png 920w, ./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-1-705x438.png 705w, ./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-1.png 1028w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Ở màn hình tiếp theo các bạn tuỳ chọn các tham số như địa điểm đặt datacenter (châu Á, châu Mỹ&#8230;), cấu hình máy, loại hệ điều hành&#8230;Một điểm lưu ý là với tài khoản dùng thử bạn không có tuỳ chọn sử dụng Windows, chỉ Linux mà thôi.</p>
+<p>Sau khi đã chọn các tham số như ý muốn, nhấn nút Create để bắt đầu tạo máy ảo VPS.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-2.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-479" src="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-2.png" alt="1-Create VM Instance 2" width="542" height="775" /></a></p>
+<p>Sau khi tạo xong thì máy ảo cũng đã bắt đầu chạy. Máy ảo đã sẵn sàng để sử dụng.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-3.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-480" src="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-3-620x468.png" alt="1-Create VM Instance 3" width="620" height="468" srcset="./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-3-620x468.png 620w, ./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-3-920x695.png 920w, ./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-3-705x533.png 705w, ./../../../wp-content/uploads/2014/11/1-Create-VM-Instance-3.png 1029w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Các tham số tham khảo khi tạo máy ảo VPS</p>
+<p>Vị trí datacenter, tuỳ thuộc vào nơi ở của bạn mà chọn vị trí datacenter cho phù hợp</p>
+<p><a href="./../../../wp-content/uploads/2014/11/Ref-Datacenter-Location.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-481" src="./../../../wp-content/uploads/2014/11/Ref-Datacenter-Location.png" alt="Ref-Datacenter Location" width="441" height="211" /></a></p>
+<p>Chọn loại hệ điều hành cho VPS</p>
+<p><a href="./../../../wp-content/uploads/2014/11/Ref-Image-Type.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-482" src="./../../../wp-content/uploads/2014/11/Ref-Image-Type.png" alt="Ref-Image Type" width="439" height="619" /></a></p>
+<p>Chọn cấu hình máy ảo (CPU, RAM)</p>
+<p><a href="./../../../wp-content/uploads/2014/11/Ref-Machine-Type.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-483" src="./../../../wp-content/uploads/2014/11/Ref-Machine-Type.png" alt="Ref-Machine Type" width="439" height="404" /></a></p>
+<p>Và chọn loại mạng phù hợp, do chúng ta tạo máy ảo để phục vụ truy cập từ Internet do đó chọn mạng kiểu <strong>Ephemeral</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/Ref-Network.png" rel="lightbox[475]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-484" src="./../../../wp-content/uploads/2014/11/Ref-Network.png" alt="Ref-Network" width="440" height="78" /></a></p>
+<p>Trong bài tới chúng ta sẽ tiến hành truy cập vào máy ảo và thiết lập các thông số đầu tiên.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&amp;linkname=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&amp;linkname=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&amp;linkname=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Ftao-moi-mot-instance-may-ao-vps%2F&#038;title=B%C3%A0i%203%20%E2%80%93%20T%E1%BA%A1o%20m%E1%BB%9Bi%20m%E1%BB%99t%20instance%20%28m%C3%A1y%20%E1%BA%A3o%20VPS%29" data-a2a-url="./../../../tao-moi-mot-instance-may-ao-vps/index.html" data-a2a-title="Bài 3 – Tạo mới một instance (máy ảo VPS)"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../tao-moi-mot-instance-may-ao-vps/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

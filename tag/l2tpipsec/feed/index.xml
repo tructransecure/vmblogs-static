@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>L2TP/IPSec &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 08:05:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>L2TP/IPSec &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Setup L2TP/IPSec VPN cho Mac</title>
+		<link>./../../../setup-l2tp-ipsec-vpn-cho-mac/index.html</link>
+					<comments>./../../../setup-l2tp-ipsec-vpn-cho-mac/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 05 Nov 2014 14:36:25 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[L2TP/IPSec]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=441</guid>
+
+					<description><![CDATA[Setup L2TP/IPSec VPN cho Mac Trong bài post này mình sẽ hướng dẫn cấu hình VPN L2TP/IPSec cho máy MAC OSX Đầu tiên mở System Preferences =&#62; chọn Network Chọn dấu + để tạo một kết nối mới Một hộp thoại mới xuất hiện Interface =&#62; VPN VPN Type =&#62; L2TP over IPSec Service name =&#62; đặt tên <a class="more-link" href="./../../../setup-l2tp-ipsec-vpn-cho-mac/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-mac%2F&amp;linkname=Setup%20L2TP%2FIPSec%20VPN%20cho%20Mac" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-mac%2F&amp;linkname=Setup%20L2TP%2FIPSec%20VPN%20cho%20Mac" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-mac%2F&amp;linkname=Setup%20L2TP%2FIPSec%20VPN%20cho%20Mac" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-mac%2F&#038;title=Setup%20L2TP%2FIPSec%20VPN%20cho%20Mac" data-a2a-url="./../../../setup-l2tp-ipsec-vpn-cho-mac/index.html" data-a2a-title="Setup L2TP/IPSec VPN cho Mac"></a></p><p><span style="color: #0000ff;"><strong>Setup L2TP/IPSec VPN cho Mac</strong></span></p>
+<p>Trong bài post này mình sẽ hướng dẫn cấu hình VPN L2TP/IPSec cho máy MAC OSX</p>
+<p>Đầu tiên mở <strong>System Preferences </strong>=&gt; chọn <strong>Network</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/L2TP-Mac-1.png" rel="lightbox[441]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-442" src="./../../../wp-content/uploads/2014/11/L2TP-Mac-1-620x570.png" alt="L2TP Mac 1" width="620" height="570" srcset="./../../../wp-content/uploads/2014/11/L2TP-Mac-1-620x570.png 620w, ./../../../wp-content/uploads/2014/11/L2TP-Mac-1.png 668w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn dấu + để tạo một kết nối mới</p>
+<p><a href="./../../../wp-content/uploads/2014/11/L2TP-Mac-2.png" rel="lightbox[441]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-443" src="./../../../wp-content/uploads/2014/11/L2TP-Mac-2-620x538.png" alt="L2TP Mac 2" width="620" height="538" srcset="./../../../wp-content/uploads/2014/11/L2TP-Mac-2-620x538.png 620w, ./../../../wp-content/uploads/2014/11/L2TP-Mac-2.png 668w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Một hộp thoại mới xuất hiện</p>
+<p>Interface =&gt; VPN</p>
+<p>VPN Type =&gt; L2TP over IPSec</p>
+<p>Service name =&gt; đặt tên tùy ý thích</p>
+<p>Sau đó click <strong>Create</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/L2TP-Mac-3.png" rel="lightbox[441]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-444" src="./../../../wp-content/uploads/2014/11/L2TP-Mac-3.png" alt="L2TP Mac 3" width="412" height="194" /></a></p>
+<p>Quay trở lại khu vực cấu hình mạng</p>
+<p><strong>Server address</strong> : IP or hostname của máy chủ VPN</p>
+<p><strong>Account name</strong>: tài khoản VPN được cung cấp</p>
+<p><a href="./../../../wp-content/uploads/2014/11/L2TP-Mac-4.png" rel="lightbox[441]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-445" src="./../../../wp-content/uploads/2014/11/L2TP-Mac-4-620x538.png" alt="L2TP Mac 4" width="620" height="538" srcset="./../../../wp-content/uploads/2014/11/L2TP-Mac-4-620x538.png 620w, ./../../../wp-content/uploads/2014/11/L2TP-Mac-4.png 668w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Authentication Settings</strong></p>
+<p><strong>User authentication</strong> =&gt; Chọn Password và nhập mật khẩu của bạn</p>
+<p><strong>Machine authentication</strong> =&gt; Chọn Share secret =&gt; nhập <strong>Preshared key</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/L2TP-Mac-5-Authentication.png" rel="lightbox[441]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-446" src="./../../../wp-content/uploads/2014/11/L2TP-Mac-5-Authentication.png" alt="L2TP Mac 5 - Authentication" width="367" height="372" srcset="./../../../wp-content/uploads/2014/11/L2TP-Mac-5-Authentication.png 367w, ./../../../wp-content/uploads/2014/11/L2TP-Mac-5-Authentication-53x53.png 53w" sizes="(max-width: 367px) 100vw, 367px" /></a></p>
+<p>Click <strong>Advanced</strong></p>
+<p>Tại tab <strong>Options</strong> =&gt; Chọn <strong>Send all traffic over VPN connection</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-1.png" rel="lightbox[441]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-447" src="./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-1-620x538.png" alt="L2TP Mac 6 - Advanced 1" width="620" height="538" srcset="./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-1-620x538.png 620w, ./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-1.png 668w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tại tab TCP/IP =&gt; chọn Using PPP và IPv6 Off</p>
+<p><a href="./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-2.png" rel="lightbox[441]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-448" src="./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-2-620x538.png" alt="L2TP Mac 6 - Advanced 2" width="620" height="538" srcset="./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-2-620x538.png 620w, ./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-2.png 668w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tại tab DNS =&gt; tùy chọn DNS theo ý muốn</p>
+<p><a href="./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-3.png" rel="lightbox[441]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-449" src="./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-3-620x538.png" alt="L2TP Mac 6 - Advanced 3" width="620" height="538" srcset="./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-3-620x538.png 620w, ./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-3.png 668w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tab Proxies =&gt; tùy chọn theo ý muốn</p>
+<p><a href="./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-4.png" rel="lightbox[441]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-450" src="./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-4-620x538.png" alt="L2TP Mac 6 - Advanced 4" width="620" height="538" srcset="./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-4-620x538.png 620w, ./../../../wp-content/uploads/2014/11/L2TP-Mac-6-Advanced-4.png 668w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Hoàn tất, thử kết nối đến VPN server thành công</p>
+<p><a href="./../../../wp-content/uploads/2014/11/L2TP-Mac-7-Finish.png" rel="lightbox[441]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-451" src="./../../../wp-content/uploads/2014/11/L2TP-Mac-7-Finish-620x538.png" alt="L2TP Mac 7 - Finish" width="620" height="538" srcset="./../../../wp-content/uploads/2014/11/L2TP-Mac-7-Finish-620x538.png 620w, ./../../../wp-content/uploads/2014/11/L2TP-Mac-7-Finish.png 668w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-mac%2F&amp;linkname=Setup%20L2TP%2FIPSec%20VPN%20cho%20Mac" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-mac%2F&amp;linkname=Setup%20L2TP%2FIPSec%20VPN%20cho%20Mac" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-mac%2F&amp;linkname=Setup%20L2TP%2FIPSec%20VPN%20cho%20Mac" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-mac%2F&#038;title=Setup%20L2TP%2FIPSec%20VPN%20cho%20Mac" data-a2a-url="./../../../setup-l2tp-ipsec-vpn-cho-mac/index.html" data-a2a-title="Setup L2TP/IPSec VPN cho Mac"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../setup-l2tp-ipsec-vpn-cho-mac/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Setup L2TP/IPSec VPN cho Windows</title>
+		<link>./../../../setup-l2tp-ipsec-vpn-cho-windows/index.html</link>
+					<comments>./../../../setup-l2tp-ipsec-vpn-cho-windows/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 05 Nov 2014 14:17:57 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[L2TP/IPSec]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=430</guid>
+
+					<description><![CDATA[Setup L2TP/IPSec VPN cho Windows Trong bài post này mình sẽ hướng dẫn thiết lập kết nối VPN L2TP/IPSec cho Windows Đầu tiên, mở Network and Sharing Center =&#62; chọn Setup a new connection or network Chọn Connect to a workplace Chọn Use my Internet connection (VPN) Điền đầy đủ các thông tin cần thiết Internet address (tên máy chủ <a class="more-link" href="./../../../setup-l2tp-ipsec-vpn-cho-windows/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-windows%2F&amp;linkname=Setup%20L2TP%2FIPSec%20VPN%20cho%20Windows" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-windows%2F&amp;linkname=Setup%20L2TP%2FIPSec%20VPN%20cho%20Windows" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-windows%2F&amp;linkname=Setup%20L2TP%2FIPSec%20VPN%20cho%20Windows" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-windows%2F&#038;title=Setup%20L2TP%2FIPSec%20VPN%20cho%20Windows" data-a2a-url="./../../../setup-l2tp-ipsec-vpn-cho-windows/index.html" data-a2a-title="Setup L2TP/IPSec VPN cho Windows"></a></p><p><span style="color: #0000ff;"><strong>Setup L2TP/IPSec VPN cho Windows</strong></span></p>
+<p>Trong bài post này mình sẽ hướng dẫn thiết lập kết nối VPN L2TP/IPSec cho Windows</p>
+<p>Đầu tiên, mở <strong>Network and Sharing Center </strong>=&gt; chọn <strong>Setup a new connection or network</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-1.png" rel="lightbox[430]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-431" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-1-620x413.png" alt="VPN L2TP 1" width="620" height="413" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-1-620x413.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-1-705x470.png 705w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-1.png 901w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn <strong>Connect to a workplace</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-2.png" rel="lightbox[430]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-432" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-2-620x453.png" alt="VPN L2TP 2" width="620" height="453" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-2-620x453.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-2.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn <strong>Use my Internet connection (VPN)</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-3.png" rel="lightbox[430]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-433" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-3-620x453.png" alt="VPN L2TP 3" width="620" height="453" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-3-620x453.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-3.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Điền đầy đủ các thông tin cần thiết</p>
+<p><strong>Internet address</strong> (tên máy chủ hoặc địa chỉ IP) và thông tin mô tả</p>
+<p>Chọn các option theo ý muốn =&gt; <strong>Create</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-4.png" rel="lightbox[430]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-434" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-4-620x453.png" alt="VPN L2TP 4" width="620" height="453" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-4-620x453.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-4.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Quay trở lại cửa sổ <strong>Network and Sharing Center </strong>Chọn <strong>Change adapter settings</strong></p>
+<p>Hoặc Run =&gt; ncpa.cpl</p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-5.png" rel="lightbox[430]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-435" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-5-620x413.png" alt="VPN L2TP 5" width="620" height="413" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-5-620x413.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-5-705x470.png 705w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-5.png 901w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click chuột phải vào kết nối VPN và chọn <strong>Properties</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-6.png" rel="lightbox[430]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-436" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-6-620x415.png" alt="VPN L2TP 6" width="620" height="415" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-6-620x415.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-6-705x472.png 705w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-6.png 901w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Di chuyển đến tab <strong>Security</strong></p>
+<p>Type of VPN =&gt; Chọn L2TP/IPSec</p>
+<p>Advanced Settings =&gt; Nhập preshared key</p>
+<p>Data encryption =&gt; Chọn maximum</p>
+<p>Authentication =&gt; Chọn Allow these protocol =&gt; MS Chap version 2</p>
+<p><strong>OK</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-7.png" rel="lightbox[430]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-437" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-7-620x413.png" alt="VPN L2TP 7" width="620" height="413" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-7-620x413.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-7-705x470.png 705w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-7.png 901w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Di chuyển đến tab <strong>Networking</strong></p>
+<p>Bỏ chọn IPv6</p>
+<p>Chọn IPv4 =&gt; Properties =&gt; Cấu hình DNS theo ý muốn</p>
+<p>Nhớ chọn ô <strong>Use default gateway on remote network</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-8.png" rel="lightbox[430]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-438" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-8-620x425.png" alt="VPN L2TP 8" width="620" height="425" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-8-620x425.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-8-920x631.png 920w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-8-705x484.png 705w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-8.png 942w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Hoàn tất. Test thử với speedtest.net. Mọi kết nối đã thông qua máy chủ VPN đặt tại Singapore</p>
+<p><a href="./../../../wp-content/uploads/2014/11/VPN-L2TP-9.png" rel="lightbox[430]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-439" src="./../../../wp-content/uploads/2014/11/VPN-L2TP-9-620x342.png" alt="VPN L2TP 9" width="620" height="342" srcset="./../../../wp-content/uploads/2014/11/VPN-L2TP-9-620x342.png 620w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-9-920x508.png 920w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-9-705x389.png 705w, ./../../../wp-content/uploads/2014/11/VPN-L2TP-9.png 1189w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-windows%2F&amp;linkname=Setup%20L2TP%2FIPSec%20VPN%20cho%20Windows" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-windows%2F&amp;linkname=Setup%20L2TP%2FIPSec%20VPN%20cho%20Windows" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-windows%2F&amp;linkname=Setup%20L2TP%2FIPSec%20VPN%20cho%20Windows" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fsetup-l2tp-ipsec-vpn-cho-windows%2F&#038;title=Setup%20L2TP%2FIPSec%20VPN%20cho%20Windows" data-a2a-url="./../../../setup-l2tp-ipsec-vpn-cho-windows/index.html" data-a2a-title="Setup L2TP/IPSec VPN cho Windows"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../setup-l2tp-ipsec-vpn-cho-windows/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>DSM 5.0 &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 08:00:36 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>DSM 5.0 &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Install Synology DSM 5.0 on PC</title>
+		<link>./../../../install-synology-dsm-5-0-pc/index.html</link>
+					<comments>./../../../install-synology-dsm-5-0-pc/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 17 Sep 2014 13:36:40 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[DSM 5.0]]></category>
+		<category><![CDATA[Synology]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=342</guid>
+
+					<description><![CDATA[Install Synology DSM 5.0 on PC This topic will guide you all how to install &#8220;custom&#8221; Synology DSM 5.0 on PC Please download all necessary components below Nanoboot to help boot system and emulator PC as Synology hardware. Download 1 &#8211; Boot Images X64 ISO Nanoboot-5.0.3.2 DSM 5.0-4493 X64 Nanoboot-5.0.3.1 DSM 5.0-4493 X64 X86 ISO <a class="more-link" href="./../../../install-synology-dsm-5-0-pc/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Finstall-synology-dsm-5-0-pc%2F&amp;linkname=Install%20Synology%20DSM%205.0%20on%20PC" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Finstall-synology-dsm-5-0-pc%2F&amp;linkname=Install%20Synology%20DSM%205.0%20on%20PC" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Finstall-synology-dsm-5-0-pc%2F&amp;linkname=Install%20Synology%20DSM%205.0%20on%20PC" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Finstall-synology-dsm-5-0-pc%2F&#038;title=Install%20Synology%20DSM%205.0%20on%20PC" data-a2a-url="./../../../install-synology-dsm-5-0-pc/index.html" data-a2a-title="Install Synology DSM 5.0 on PC"></a></p><p>Install Synology DSM 5.0 on PC</p>
+<p>This topic will guide you all how to install &#8220;custom&#8221; Synology DSM 5.0 on PC</p>
+<p>Please download all necessary components below</p>
+<p>Nanoboot to help boot system and emulator PC as Synology hardware.</p>
+<p><span style="color: #ff0000;"><strong>Download</strong></span></p>
+<p><strong><span style="text-decoration: underline;">1 &#8211; Boot Images</span></strong></p>
+<p>X64 ISO</p>
+<ul>
+<li><a title="Nanoboot-5.0.3.2 DSM 5.0-4493 X64" href="https://drive.google.com/file/d/0B8bHHUWAxe2kTmhYOXhnVHNBaFE/edit?usp=sharing" target="_blank">Nanoboot-5.0.3.2 <strong>DSM 5.0-4493</strong> X64</a></li>
+<li><a title="Nanoboot-5.0.3.1 DSM 5.0-4493 X64" href="https://drive.google.com/file/d/0B8bHHUWAxe2kV08xVHptZzFBblU/edit?usp=sharing" target="_blank">Nanoboot-5.0.3.1 <strong>DSM 5.0-4493</strong> X64</a></li>
+</ul>
+<p>X86 ISO</p>
+<ul>
+<li><a title="Nanoboot-5.0.2.4 DSM 5.0-4493 X86" href="https://drive.google.com/file/d/0B8bHHUWAxe2kTFItM3o1M09GdUk/edit?usp=sharing" target="_blank">Nanoboot-5.0.2.4 <strong>DSM 5.0-4493</strong> X86</a></li>
+<li><a title="Nanoboot-5.0.2.4 DSM 5.0-4482 X86" href="https://drive.google.com/file/d/0B8bHHUWAxe2kMjlmTDZkVTZ5VXM/edit?usp=sharing" target="_blank">Nanoboot-5.0.2.4 <strong>DSM 5.0-4482</strong> X86</a></li>
+</ul>
+<p>X64 IMG</p>
+<ul>
+<li><a title="Nanoboot-5.0.3.2 DSM 5.0-4493 X64" href="https://drive.google.com/file/d/0B8bHHUWAxe2kNllJS2lBd0lkS1E/edit?usp=sharing" target="_blank">Nanoboot-5.0.3.2 <strong>DSM 5.0-4493</strong> X64</a></li>
+<li><a title="Nanoboot-5.0.3.1DSM 5.0-4493 X64" href="https://drive.google.com/file/d/0B8bHHUWAxe2kZkVDbnFEU0VlV0U/edit?usp=sharing" target="_blank">Nanoboot-5.0.3.1 <strong>DSM 5.0-4493</strong> X64</a></li>
+</ul>
+<p>X86 IMG</p>
+<ul>
+<li><a title="Nanoboot-5.0.2.4 DSM 5.0-4493 X86" href="https://drive.google.com/file/d/0B8bHHUWAxe2kVmFlNW5kckNaODA/edit?usp=sharing" target="_blank">Nanoboot-5.0.2.4 <strong>DSM</strong> <strong>5.0-4493</strong> X86</a></li>
+<li><a title="Nanoboot-5.0.2.4 DSM 5.0-4482 X86" href="https://drive.google.com/file/d/0B8bHHUWAxe2kUjYzVzJhVVJILVE/edit?usp=sharing" target="_blank">Nanoboot-5.0.2.4 <strong>DSM 5.0-4482</strong> X86</a></li>
+</ul>
+<p><a title="Win32 Disk Imager" href="http://sourceforge.net/projects/win32diskimager/" target="_blank">WIn32 Disk Imager </a>to write IMG to USB drive</p>
+<p><strong>2 &#8211; Synology DSM 5.0 from Synology</strong></p>
+<p>X64 (DS3612xs)</p>
+<ul>
+<li><a title="DSM 5.0-4493 (DS3612xs)" href="http://ukdl.synology.com/download/DSM/5.0/4493/DSM_DS3612xs_4493.pat" target="_blank">DSM 5.0-4493</a> (Main install)</li>
+</ul>
+<p>X86 (DS214play)</p>
+<ul>
+<li><a title="DSM 5.0-4493 (DS214play)" href="http://ukdl.synology.com/download/DSM/5.0/4493/DSM_DS214play_4493.pat" target="_blank">DSM 5.0-4493</a> (Main install)</li>
+<li><a title="Synology DSM 5.0-4482 (DS214play)" href="http://ukdl.synology.com/download/DSM/5.0/4482/DSM_DS214play_4482.pat" target="_blank">DSM 5.0.4482</a> (Main install)</li>
+</ul>
+<p><strong>3- <a title="Synology Assistant" href="http://global.download.synology.com/download/Tools/SynologyAssistant/4448/Windows/SynologyAssistantSetup-5.0-4448.exe" target="_blank">Synology Assistant</a> from Synology</strong>.</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-1.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-343" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-1-620x344.png" alt="Synology DSM 5 - 1" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-1-620x344.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-1-705x391.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-1.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>First, boot up target PC (Fake Synology NAS) with Nano Boot ISO file or transfer to USB device.</p>
+<p><strong><span style="color: #ff0000;">Remember that you can&#8217;t remove this CD or USB cause this helps boot process and emulate Synology hardware</span></strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-2.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-344" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-2-620x465.png" alt="Synology DSM 5 - 2" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-2-620x465.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-2-920x690.png 920w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-2-705x528.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-2.png 1024w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Boot from ISO/USB image and wait ultil DiskStation Login appears<br />
+<span id="more-342"></span></p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-3.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-345" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-3-620x536.png" alt="Synology DSM 5 - 3" width="620" height="536" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-3-620x536.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-3-705x609.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-3.png 710w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Open Synology Assistant then search for Synology device on network</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-4.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-346" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-4-620x380.png" alt="Synology DSM 5 - 4" width="620" height="380" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-4-620x380.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-4-705x432.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-4.png 797w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Right click on detected Synology device and click <strong>Install</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-5.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-347" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-5-620x427.png" alt="Synology DSM 5 - 5" width="620" height="427" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-5-620x427.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-5-705x486.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-5.png 754w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Browse to DSM 5.0 instllation file on harddrive then <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-6.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-348" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-6-620x425.png" alt="Synology DSM 5 - 6" width="620" height="425" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-6-620x425.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-6-705x484.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-6.png 757w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Input admin password and server name then click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-7.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-349" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-7.png" alt="Synology DSM 5 - 7" width="507" height="129" /></a></p>
+<p>A warning dialog appears to warn about destroying all data. Click <strong>OK </strong>to go to next step</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-8.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-350" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-8-620x425.png" alt="Synology DSM 5 - 8" width="620" height="425" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-8-620x425.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-8-705x484.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-8.png 757w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Setup network information for NAS device</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-9.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-351" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-9-620x485.png" alt="Synology DSM 5 - 9" width="620" height="485" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-9-620x485.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-9-705x552.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-9.png 817w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Installation process, the fake NAS will reboot once</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-10.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-352" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-10-620x485.png" alt="Synology DSM 5 - 10" width="620" height="485" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-10-620x485.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-10-705x552.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-10.png 817w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Installation completed</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-11.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-353" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-11-620x348.png" alt="Synology DSM 5 - 11" width="620" height="348" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-11-620x348.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-11-920x517.png 920w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-11-705x396.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-11.png 1441w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Open up Internet browser and type IP of fake Synology device</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-12.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-354" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-12-620x341.png" alt="Synology DSM 5 - 12" width="620" height="341" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-12-620x341.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-12-920x506.png 920w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-12-705x387.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-12.png 1441w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Next </strong>at Welcome Screen</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-13.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-355" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-13-620x341.png" alt="Synology DSM 5 - 13" width="620" height="341" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-13-620x341.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-13-920x506.png 920w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-13-705x387.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-13.png 1441w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Setup Quick Connect, just optional so I skip and click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-14.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-356" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-14.png" alt="Synology DSM 5 - 14" width="579" height="148" /></a></p>
+<p>A dialog appears again, just click <strong>OK</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-15.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-357" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-15-620x341.png" alt="Synology DSM 5 - 15" width="620" height="341" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-15-620x341.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-15-920x506.png 920w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-15-705x387.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-15.png 1441w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Every is OK now. Click Go and start using your fake Synology NAS</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Synology-DSM-5-16.png" rel="lightbox[342]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-358" src="./../../../wp-content/uploads/2014/09/Synology-DSM-5-16-620x341.png" alt="Synology DSM 5 - 16" width="620" height="341" srcset="./../../../wp-content/uploads/2014/09/Synology-DSM-5-16-620x341.png 620w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-16-920x506.png 920w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-16-705x387.png 705w, ./../../../wp-content/uploads/2014/09/Synology-DSM-5-16.png 1441w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Interface, much better prior versions. Cheer!!!</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Finstall-synology-dsm-5-0-pc%2F&amp;linkname=Install%20Synology%20DSM%205.0%20on%20PC" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Finstall-synology-dsm-5-0-pc%2F&amp;linkname=Install%20Synology%20DSM%205.0%20on%20PC" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Finstall-synology-dsm-5-0-pc%2F&amp;linkname=Install%20Synology%20DSM%205.0%20on%20PC" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Finstall-synology-dsm-5-0-pc%2F&#038;title=Install%20Synology%20DSM%205.0%20on%20PC" data-a2a-url="./../../../install-synology-dsm-5-0-pc/index.html" data-a2a-title="Install Synology DSM 5.0 on PC"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../install-synology-dsm-5-0-pc/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SoftEther VPN &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 03 Mar 2015 02:13:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>SoftEther VPN &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Raspberry Pi 2 Model B &#8211; SoftEther VPN Server</title>
+		<link>./../../../raspberry-pi-2-model-b-softether-vpn-server/index.html</link>
+					<comments>./../../../raspberry-pi-2-model-b-softether-vpn-server/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 03 Mar 2015 02:13:06 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Raspberry Pi 2 Model B]]></category>
+		<category><![CDATA[SoftEther VPN]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1106</guid>
+
+					<description><![CDATA[Raspberry Pi 2 Model B &#8211; SoftEther VPN Server Cài đặt Pi2 làm VPN server, mình vẫn sử dụng hệ điều hành Fedora như trên. Nhìn chung mình thích làm việc với nền tảng Redhat based hơn đám Debian based. Phần mềm mình sử dụng SoftEther VPN Server. http://www.softether-download.com/en.aspx Lúc download các bạn chọn platform <a class="more-link" href="./../../../raspberry-pi-2-model-b-softether-vpn-server/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&#038;title=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" data-a2a-url="./../../../raspberry-pi-2-model-b-softether-vpn-server/index.html" data-a2a-title="Raspberry Pi 2 Model B – SoftEther VPN Server"></a></p><p><strong>Raspberry Pi 2 Model B &#8211; SoftEther VPN Server</strong></p>
+<p>Cài đặt Pi2 làm VPN server, mình vẫn sử dụng hệ điều hành Fedora như trên. Nhìn chung mình thích làm việc với nền tảng Redhat based hơn đám Debian based.</p>
+<p>Phần mềm mình sử dụng SoftEther VPN Server.</p>
+<p>http://www.softether-download.com/en.aspx</p>
+<p>Lúc download các bạn chọn platform là Linux và CPU là ARM EABI (32bit) nhé.</p>
+<p>Về phần cài đặt các bạn có thể tham khảo tại trang này của blog mình, mục 3, 4 và 5</p>
+<p>./../../../vpn-server-gia-re-voi-digital-ocean/index.html</p>
+<p>Mình chỉ mới test kết nối VPN với 1 client thành công với cả L2TP và SoftEther VPN. CPU load rất thấp, rất là triển vọng :byebye:</p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="WX2hIIo"><p><a href="http://imgur.com/WX2hIIo">View post on imgur.com</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br />
+Lưu ý mở port cho phù hợp nhé các bạn, tất nhiên là cả trên modem và cả tường lửa trong linux</p>
+<p>Fedora 21 dùng systemctl và firewall-d nên mình note một vài rule như dưới các bạn có thể tham khảo</p>
+<blockquote><p>firewall-cmd &#8211;zone=public &#8211;add-port=443/tcp</p>
+<p>firewall-cmd &#8211;zone=public &#8211;add-port=500/udp</p>
+<p>firewall-cmd &#8211;zone=public &#8211;add-port=1701/udp</p>
+<p>firewall-cmd &#8211;zone=public &#8211;add-port=4500/udp</p></blockquote>
+<p>Port 443 cho SoftEtherVPN và các port còn lại cho L2TP</p>
+<p>NAT các port tương ứng trong modem.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&amp;linkname=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fraspberry-pi-2-model-b-softether-vpn-server%2F&#038;title=Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20SoftEther%20VPN%20Server" data-a2a-url="./../../../raspberry-pi-2-model-b-softether-vpn-server/index.html" data-a2a-title="Raspberry Pi 2 Model B – SoftEther VPN Server"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../raspberry-pi-2-model-b-softether-vpn-server/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

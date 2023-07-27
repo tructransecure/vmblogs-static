@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Citrix Director &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Sun, 16 Aug 2015 17:47:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Citrix Director &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Citrix Receiver và Citrix Director</title>
+		<link>./../../../citrix-receiver-va-citrix-director/index.html</link>
+					<comments>./../../../citrix-receiver-va-citrix-director/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Sun, 16 Aug 2015 17:47:34 +0000</pubDate>
+				<category><![CDATA[XenDesktop]]></category>
+		<category><![CDATA[Citrix Director]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1637</guid>
+
+					<description><![CDATA[Citrix Receiver và Citrix Director Như vậy là hệ thống XenDesktop đã hoàn thiện, giờ đây chúng ta có thể tiến hành kết nối đến hệ thống và tận hưởng thành quả Citrix Receiver Kết nối đến địa chỉ Storefront server và đăng nhập Danh sách các phần mềm đã thiết lập ở các bước <a class="more-link" href="./../../../citrix-receiver-va-citrix-director/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcitrix-receiver-va-citrix-director%2F&amp;linkname=Citrix%20Receiver%20v%C3%A0%20Citrix%20Director" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcitrix-receiver-va-citrix-director%2F&amp;linkname=Citrix%20Receiver%20v%C3%A0%20Citrix%20Director" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcitrix-receiver-va-citrix-director%2F&amp;linkname=Citrix%20Receiver%20v%C3%A0%20Citrix%20Director" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcitrix-receiver-va-citrix-director%2F&#038;title=Citrix%20Receiver%20v%C3%A0%20Citrix%20Director" data-a2a-url="./../../../citrix-receiver-va-citrix-director/index.html" data-a2a-title="Citrix Receiver và Citrix Director"></a></p><p><span style="color: #0000ff;"><strong>Citrix Receiver và Citrix Director</strong></span></p>
+<p>Như vậy là hệ thống XenDesktop đã hoàn thiện, giờ đây chúng ta có thể tiến hành kết nối đến hệ thống và tận hưởng thành quả</p>
+<p><strong>Citrix Receiver</strong></p>
+<p><a href="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.55.481.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1639" src="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.55.481-620x366.png" alt="Snap 2015-08-16 at 19.55.48" width="620" height="366" srcset="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.55.481-620x366.png 620w, ./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.55.481-920x542.png 920w, ./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.55.481.png 1172w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Kết nối đến địa chỉ Storefront server và đăng nhập</p>
+<p><a href="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.27.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1640" src="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.27-620x347.png" alt="Snap 2015-08-16 at 19.56.27" width="620" height="347" srcset="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.27-620x347.png 620w, ./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.27-920x515.png 920w, ./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.27.png 1172w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Danh sách các phần mềm đã thiết lập ở các bước trước</p>
+<p><a href="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.35.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1641" src="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.35-620x347.png" alt="Snap 2015-08-16 at 19.56.35" width="620" height="347" srcset="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.35-620x347.png 620w, ./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.35-920x515.png 920w, ./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.35.png 1172w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Server Desktop</p>
+<p><a href="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.48.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1642" src="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.48-620x347.png" alt="Snap 2015-08-16 at 19.56.48" width="620" height="347" srcset="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.48-620x347.png 620w, ./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.48-920x515.png 920w, ./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-19.56.48.png 1172w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Applications</p>
+<p><a href="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-20.32.27.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1643" src="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-20.32.27-620x370.png" alt="Snap 2015-08-16 at 20.32.27" width="620" height="370" srcset="./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-20.32.27-620x370.png 620w, ./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-20.32.27-920x549.png 920w, ./../../../wp-content/uploads/2015/08/Snap-2015-08-16-at-20.32.27.png 1553w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Giao diện cửa sổ Citrix Receiver kết nối đến Windows 7</p>
+<p><strong>Citrix Director</strong></p>
+<p>Citrix Director là môt công cụ hữu ích giúp cho việc giám sát hệ thống XenDesktop một cách hiệu quả, giúp người quản trị và vận hành có thể quản lý các kết nối, người dùng và tình trạng vận hành của hệ thống.</p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-1.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1644" src="./../../../wp-content/uploads/2015/08/Citrix-Director-1-620x366.png" alt="Citrix Director - 1" width="620" height="366" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-1-620x366.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-1-920x543.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-1.png 1172w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đăng nhập vào web Citrix Director</p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-2.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1645" src="./../../../wp-content/uploads/2015/08/Citrix-Director-2-620x377.png" alt="Citrix Director - 2" width="620" height="377" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-2-620x377.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-2-920x560.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-2.png 1349w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Giao diện Dashboard thể hiện các thông số chung của hệ thống</p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-3.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1646" src="./../../../wp-content/uploads/2015/08/Citrix-Director-3-620x377.png" alt="Citrix Director - 3" width="620" height="377" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-3-620x377.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-3-920x560.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-3.png 1349w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Các tab trong mục Trends thể hiện các thông tin khác nhau về hệ thống như số phiên kết nối, các kết nối lỗi, tốc độ login, mức độ sử dụng ứng dụng&#8230;</p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-4.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1647" src="./../../../wp-content/uploads/2015/08/Citrix-Director-4-620x377.png" alt="Citrix Director - 4" width="620" height="377" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-4-620x377.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-4-920x560.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-4.png 1349w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-5.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1648" src="./../../../wp-content/uploads/2015/08/Citrix-Director-5-620x377.png" alt="Citrix Director - 5" width="620" height="377" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-5-620x377.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-5-920x560.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-5.png 1349w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-6.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1649" src="./../../../wp-content/uploads/2015/08/Citrix-Director-6-620x377.png" alt="Citrix Director - 6" width="620" height="377" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-6-620x377.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-6-920x560.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-6.png 1349w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-7.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1650" src="./../../../wp-content/uploads/2015/08/Citrix-Director-7-620x377.png" alt="Citrix Director - 7" width="620" height="377" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-7-620x377.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-7-920x560.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-7.png 1349w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-8.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1651" src="./../../../wp-content/uploads/2015/08/Citrix-Director-8-620x377.png" alt="Citrix Director - 8" width="620" height="377" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-8-620x377.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-8-920x560.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-8.png 1349w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-9.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1652" src="./../../../wp-content/uploads/2015/08/Citrix-Director-9-620x377.png" alt="Citrix Director - 9" width="620" height="377" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-9-620x377.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-9-920x560.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-9.png 1349w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-10.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1653" src="./../../../wp-content/uploads/2015/08/Citrix-Director-10-620x377.png" alt="Citrix Director - 10" width="620" height="377" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-10-620x377.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-10-920x560.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-10.png 1349w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mục Filter lọc các thông tin như tất cả các máy, tất cả các phiên kết nối, &#8230;</p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-11.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1654" src="./../../../wp-content/uploads/2015/08/Citrix-Director-11-620x377.png" alt="Citrix Director - 11" width="620" height="377" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-11-620x377.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-11-920x560.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-11.png 1349w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-12.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1655" src="./../../../wp-content/uploads/2015/08/Citrix-Director-12-620x377.png" alt="Citrix Director - 12" width="620" height="377" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-12-620x377.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-12-920x560.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-12.png 1349w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Citrix Director cũng cho phép quản trị viên gửi tin nhắn thông báo đến các người dùng hoặc xem thao tác trên màn hình của người dùng</p>
+<p><a href="./../../../wp-content/uploads/2015/08/Citrix-Director-13.png" rel="lightbox[1637]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1656" src="./../../../wp-content/uploads/2015/08/Citrix-Director-13-620x377.png" alt="Citrix Director - 13" width="620" height="377" srcset="./../../../wp-content/uploads/2015/08/Citrix-Director-13-620x377.png 620w, ./../../../wp-content/uploads/2015/08/Citrix-Director-13-920x560.png 920w, ./../../../wp-content/uploads/2015/08/Citrix-Director-13.png 1349w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Hoàn tất</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcitrix-receiver-va-citrix-director%2F&amp;linkname=Citrix%20Receiver%20v%C3%A0%20Citrix%20Director" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcitrix-receiver-va-citrix-director%2F&amp;linkname=Citrix%20Receiver%20v%C3%A0%20Citrix%20Director" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcitrix-receiver-va-citrix-director%2F&amp;linkname=Citrix%20Receiver%20v%C3%A0%20Citrix%20Director" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcitrix-receiver-va-citrix-director%2F&#038;title=Citrix%20Receiver%20v%C3%A0%20Citrix%20Director" data-a2a-url="./../../../citrix-receiver-va-citrix-director/index.html" data-a2a-title="Citrix Receiver và Citrix Director"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../citrix-receiver-va-citrix-director/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

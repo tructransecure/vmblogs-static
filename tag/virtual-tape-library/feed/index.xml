@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Virtual Tape Library &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Wed, 23 Dec 2015 07:28:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Virtual Tape Library &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Cài đặt CentOS 6.7 và Virtual Tape Library</title>
+		<link>./../../../cai-dat-centos-6-7-va-virtual-tape-library/index.html</link>
+					<comments>./../../../cai-dat-centos-6-7-va-virtual-tape-library/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 23 Dec 2015 07:28:24 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Virtual Tape Library]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1862</guid>
+
+					<description><![CDATA[Cài đặt CentOS 6.7 và Virtual Tape Library Tape backup vẫn còn rất phổ biến ngày nay ở rất nhiều doanh nghiệp tuy nhiên để tiếp cận các thiết bị tape hoặc tape library dường như khó khăn cho rất nhiều người. Trong bài viết này mình sẽ hướng dẫn cài đặt Virtual Tape Library <a class="more-link" href="./../../../cai-dat-centos-6-7-va-virtual-tape-library/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-centos-6-7-va-virtual-tape-library%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20CentOS%206.7%20v%C3%A0%20Virtual%20Tape%20Library" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-centos-6-7-va-virtual-tape-library%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20CentOS%206.7%20v%C3%A0%20Virtual%20Tape%20Library" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-centos-6-7-va-virtual-tape-library%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20CentOS%206.7%20v%C3%A0%20Virtual%20Tape%20Library" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-centos-6-7-va-virtual-tape-library%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20CentOS%206.7%20v%C3%A0%20Virtual%20Tape%20Library" data-a2a-url="./../../../cai-dat-centos-6-7-va-virtual-tape-library/index.html" data-a2a-title="Cài đặt CentOS 6.7 và Virtual Tape Library"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt CentOS 6.7 và Virtual Tape Library</strong></span></p>
+<p>Tape backup vẫn còn rất phổ biến ngày nay ở rất nhiều doanh nghiệp tuy nhiên để tiếp cận các thiết bị tape hoặc tape library dường như khó khăn cho rất nhiều người. Trong bài viết này mình sẽ hướng dẫn cài đặt Virtual Tape Library trên hệ điều hành CentOS 6.7 Minimal.</p>
+<p>Để cài đặt các bạn cần download CentOS 6.7 Minimal và QuadStor VTL</p>
+<p>QuadStor VTL hỗ trợ rất nhiều hệ điều hành khác nhau như CentOS, Red Hat, SuSe, BSD&#8230;tuy nhiên giới hạn trong bài viết này mình sử dụng CentOS để hướng dẫn</p>
+<p>Để download CentOS các bạn có thể vào trang chủ hoặc link dưới để tải</p>
+<p><a href="http://mirrors.digipower.vn/centos/6.7/isos/x86_64/" target="_blank">http://mirrors.digipower.vn/centos/6.7/isos/x86_64/</a></p>
+<p>Bài viết này hướng đến tất cả các đối tượng bạn đọc với cách viết step by step để mọi người có thể theo dõi dễ dàng, tuy nhiên mọi người có thể bỏ qua các phần đã biết để hướng đến các mục trọng tâm</p>
+<p><strong>1 &#8211; Hướng dẫn cài đặt CentOS</strong></p>
+<p>Để cài đặt CentOS phục vụ cho việc cài đặt QuadStor VTL, các bạn có thể cài đặt lên máy vật lý hoặc máy ảo với cấu hình yêu cầu khoảng 4GB RAM, để sử dụng tính năng deduplication hiệu quả yêu cầu có nhiều RAM hơn trong hệ thống tuy nhiên đây là mô hình LAB nên 4GB hoặc thấp hơn vẫn chạy tốt</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.39.40.png"  rel="lightbox[1862] attachment wp-att-1863"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1863" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.39.40-620x465.png" alt="Snap 2015-12-23 at 10.39.40" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.39.40-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.39.40-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.39.40-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.39.40.png 641w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.40.39.png"  rel="lightbox[1862] attachment wp-att-1864"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1864" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.40.39-620x345.png" alt="Snap 2015-12-23 at 10.40.39" width="620" height="345" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.40.39-620x345.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.40.39.png 721w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.08.png"  rel="lightbox[1862] attachment wp-att-1865"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1865" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.08-620x465.png" alt="Snap 2015-12-23 at 10.41.08" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.08-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.08-768x576.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.08-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.08-780x586.png 780w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.08-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.08.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.23.png"  rel="lightbox[1862] attachment wp-att-1866"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1866" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.23-620x465.png" alt="Snap 2015-12-23 at 10.41.23" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.23-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.23-768x576.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.23-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.23-780x586.png 780w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.23-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.23.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.39.png"  rel="lightbox[1862] attachment wp-att-1867"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1867" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.39-620x465.png" alt="Snap 2015-12-23 at 10.41.39" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.39-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.39-768x576.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.39-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.39-780x586.png 780w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.39-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.39.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.55.png"  rel="lightbox[1862] attachment wp-att-1868"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1868" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.55-620x465.png" alt="Snap 2015-12-23 at 10.41.55" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.55-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.55-768x576.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.55-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.55-780x586.png 780w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.55-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.41.55.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.42.15.png"  rel="lightbox[1862] attachment wp-att-1869"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1869" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.42.15-620x465.png" alt="Snap 2015-12-23 at 10.42.15" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.42.15-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.42.15-768x576.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.42.15-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.42.15-780x586.png 780w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.42.15-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.42.15.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.36.png"  rel="lightbox[1862] attachment wp-att-1870"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1870" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.36-620x465.png" alt="Snap 2015-12-23 at 10.43.36" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.36-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.36-768x576.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.36-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.36-780x586.png 780w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.36-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.36.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.56.png"  rel="lightbox[1862] attachment wp-att-1871"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1871" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.56-620x465.png" alt="Snap 2015-12-23 at 10.43.56" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.56-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.56-768x576.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.56-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.56-780x586.png 780w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.56-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.43.56.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.17.png"  rel="lightbox[1862] attachment wp-att-1872"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1872" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.17-620x465.png" alt="Snap 2015-12-23 at 10.44.17" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.17-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.17-768x576.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.17-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.17-780x586.png 780w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.17-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.17.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.38.png"  rel="lightbox[1862] attachment wp-att-1873"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1873" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.38-620x465.png" alt="Snap 2015-12-23 at 10.44.38" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.38-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.38-768x576.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.38-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.38-780x586.png 780w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.38-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.38.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.58.png"  rel="lightbox[1862] attachment wp-att-1874"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1874" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.58-620x465.png" alt="Snap 2015-12-23 at 10.44.58" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.58-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.58-768x576.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.58-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.58-780x586.png 780w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.58-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.44.58.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.45.38.png"  rel="lightbox[1862] attachment wp-att-1875"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1875" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.45.38-620x465.png" alt="Snap 2015-12-23 at 10.45.38" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.45.38-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.45.38-768x576.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.45.38-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.45.38-780x586.png 780w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.45.38-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.45.38.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.59.38.png"  rel="lightbox[1862] attachment wp-att-1876"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1876" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.59.38-620x465.png" alt="Snap 2015-12-23 at 10.59.38" width="620" height="465" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.59.38-620x465.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.59.38-768x576.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.59.38-350x263.png 350w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.59.38-780x586.png 780w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.59.38-250x188.png 250w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-10.59.38.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-11.01.56.png"  rel="lightbox[1862] attachment wp-att-1877"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1877" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-11.01.56-620x345.png" alt="Snap 2015-12-23 at 11.01.56" width="620" height="345" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-11.01.56-620x345.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-11.01.56.png 721w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>2 &#8211; Cài đặt QuadStor VTL</strong></p>
+<p>Sau khi hoàn tất việc cài đặt CentOS, chúng ta tiến hành cài đặt QuadStor VTL, tuy nhiên trước khi cài đặt QuadStor chúng ta cần chuẩn bị một số bước</p>
+<p>Cập nhật CentOS</p>
+<blockquote><p>yum update -y</p></blockquote>
+<p>Cài đặt một số công cụ hệ thống</p>
+<blockquote><p>yum install epel wget htop nano -y</p></blockquote>
+<p>Cấu hình tường lửa iptables</p>
+<p>QuadStor VTL được cấu hình thông qua web nên chúng ta cần mở các port 80, 443 và mở port 3260 cho giao thức iSCSI</p>
+<blockquote><p>nano /etc/sysconfig/iptables</p></blockquote>
+<blockquote><p># Firewall configuration written by system-config-firewall<br />
+# Manual customization of this file is not recommended.<br />
+*filter<br />
+:INPUT ACCEPT [0:0]<br />
+:FORWARD ACCEPT [0:0]<br />
+:OUTPUT ACCEPT [0:0]<br />
+-A INPUT -m state &#8211;state ESTABLISHED,RELATED -j ACCEPT<br />
+-A INPUT -p icmp -j ACCEPT<br />
+-A INPUT -i lo -j ACCEPT<br />
+-A INPUT -m state &#8211;state NEW -m tcp -p tcp &#8211;dport 22 -j ACCEPT<br />
+<span style="color: #0000ff;">-A INPUT -m state &#8211;state NEW -m tcp -p tcp &#8211;dport 80 -j ACCEPT</span><br />
+<span style="color: #0000ff;"> -A INPUT -m state &#8211;state NEW -m tcp -p tcp &#8211;dport 443 -j ACCEPT</span><br />
+<span style="color: #0000ff;"> -A INPUT -m state &#8211;state NEW -m tcp -p tcp &#8211;dport 3260 -j ACCEPT</span><br />
+-A INPUT -j REJECT &#8211;reject-with icmp-host-prohibited<br />
+-A FORWARD -j REJECT &#8211;reject-with icmp-host-prohibited<br />
+COMMIT</p></blockquote>
+<p>Save tập tin lại và restart iptables</p>
+<blockquote><p>service iptables restart</p></blockquote>
+<p>Tắt SELinux (không khuyên)</p>
+<p>SELinux là một tính năng bảo mật của CentOS/RedHat giúp hệ thống an toàn hơn tuy nhiên SElinux sẽ gây phiền toái nếu không được cấu hình chính xác, do đó trong bài này mình sẽ tắt SELinux</p>
+<blockquote><p>nano /etc/selinux/config</p></blockquote>
+<blockquote><p>SELINUX=disabled</p></blockquote>
+<p>Save file đã cấu hình</p>
+<p>Tắt dịch vụ postfix và cấu hình postfix không chạy lúc khởi động</p>
+<blockquote><p>service postfix stop</p></blockquote>
+<blockquote><p>chkconfig postfix off</p></blockquote>
+<p>Khởi động lại server CentOS</p>
+<blockquote><p>reboot</p></blockquote>
+<p>Cài đặt các thành phần cần thiết cho QuadStor VTL</p>
+<blockquote><p>yum install gcc httpd perl kernel-devel sg3_utils -y</p></blockquote>
+<blockquote><p>yum update -y</p></blockquote>
+<p>Tải và cài đặt QuadStor VTL</p>
+<blockquote><p>cd /opt</p></blockquote>
+<blockquote><p>wget http://www.quadstor.com/vtlextdownloads/quadstor-vtl-ext-2.4.51-rhel6.x86_64.rpm</p></blockquote>
+<blockquote><p>rpm -ivh quadstor-vtl-ext-2.4.51-rhel6.x86_64.rpm</p></blockquote>
+<p>Khởi động dịch vụ httpd</p>
+<blockquote><p>service httpd start</p></blockquote>
+<blockquote><p>chkconfig httpd on</p></blockquote>
+<blockquote><p>chkconfig quadstorvtl on</p></blockquote>
+<p>Khởi động lại máy chủ CentOS<br />
+reboot</p>
+<p>Sau khi khởi động lại chúng ta có giao diện web như bên dưới</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-11.55.49.png"  rel="lightbox[1862] attachment wp-att-1878"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1878" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-11.55.49-620x332.png" alt="Snap 2015-12-23 at 11.55.49" width="620" height="332" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-11.55.49-620x332.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-11.55.49-768x411.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-11.55.49-920x493.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-11.55.49.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Cấu hình RAID trên CentOS (tùy chọn)</strong></p>
+<p>QuadStor VTL có thể làm việc trực tiếp với HDD gắn trên CentOS hoặc RAID, trong bài hướng dẫn này mình sẽ hướng dẫn cấu hình RAID0 2 HDD</p>
+<p>Để liệt kê các ổ cứng có trong máy chúng ta chạy lệnh</p>
+<blockquote><p>fdisk -l</p></blockquote>
+<p>Disk<strong> /dev/sdb</strong>: 53.7 GB, 53687091200 bytes<br />
+255 heads, 63 sectors/track, 6527 cylinders<br />
+Units = cylinders of 16065 * 512 = 8225280 bytes<br />
+Sector size (logical/physical): 512 bytes / 512 bytes<br />
+I/O size (minimum/optimal): 512 bytes / 512 bytes<br />
+Disk identifier: 0x00000000</p>
+<p>Disk <strong>/dev/sdc</strong>: 53.7 GB, 53687091200 bytes<br />
+255 heads, 63 sectors/track, 6527 cylinders<br />
+Units = cylinders of 16065 * 512 = 8225280 bytes<br />
+Sector size (logical/physical): 512 bytes / 512 bytes<br />
+I/O size (minimum/optimal): 512 bytes / 512 bytes<br />
+Disk identifier: 0x00000000</p>
+<p>Trước khi tạo RAID, cần tạo phân vùng cho 2 ổ cứng sdb và sdc</p>
+<blockquote><p>fdisk /dev/sdb</p></blockquote>
+<p>Device contains neither a valid DOS partition table, nor Sun, SGI or OSF disklabel<br />
+Building a new DOS disklabel with disk identifier 0x7653b52d.<br />
+Changes will remain in memory only, until you decide to write them.<br />
+After that, of course, the previous content won&#8217;t be recoverable.</p>
+<p>Warning: invalid flag 0x0000 of partition table 4 will be corrected by w(rite)</p>
+<p>WARNING: DOS-compatible mode is deprecated. It&#8217;s strongly recommended to<br />
+switch off the mode (command &#8216;c&#8217;) and change display units to<br />
+sectors (command &#8216;u&#8217;).</p>
+<p>Command (m for help): n<br />
+Command action<br />
+e extended<br />
+p primary partition (1-4)<br />
+p<br />
+Partition number (1-4): 1<br />
+First cylinder (1-6527, default 1):<br />
+Using default value 1<br />
+Last cylinder, +cylinders or +size{K,M,G} (1-6527, default 6527):<br />
+Using default value 6527</p>
+<p>Command (m for help): w<br />
+The partition table has been altered!</p>
+<p>Calling ioctl() to re-read partition table.<br />
+Syncing disks.</p>
+<p>Tương tự cho /dev/sdc</p>
+<p>Cấu hình RAID 0 từ 2 phân vùng mới tạo</p>
+<blockquote><p>mdadm &#8211;create /dev/md0 &#8211;level=0 &#8211;raid-devices=2 /dev/sdb1 /dev/sdc1</p></blockquote>
+<p>Sau khi hoàn tất việc tạo RAID, kiểm tra phần physical storage sẽ hiển thị thông tin RAID như ảnh dưới</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.23.32.png"  rel="lightbox[1862] attachment wp-att-1879"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1879" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.23.32-620x332.png" alt="Snap 2015-12-23 at 12.23.32" width="620" height="332" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.23.32-620x332.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.23.32-768x411.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.23.32-920x493.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.23.32.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>3 &#8211; Cấu hình Storage Pool</strong></p>
+<p>Do QuadStor giả lập các thiết bị tape cần nơi lưu trữ do đó để có thể vận hành chúng ta cần phải cấu hình Storage Pool làm nơi chứa dữ liệu.</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.53.10.png"  rel="lightbox[1862] attachment wp-att-1880"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1880" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.53.10-620x145.png" alt="Snap 2015-12-23 at 12.53.10" width="620" height="145" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.53.10-620x145.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.53.10-768x180.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.53.10-920x215.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.53.10.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click mục Storage Pools và click nút Add Pool</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.54.13.png"  rel="lightbox[1862] attachment wp-att-1881"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1881" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.54.13-620x270.png" alt="Snap 2015-12-23 at 12.54.13" width="620" height="270" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.54.13-620x270.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.54.13-768x334.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.54.13-920x400.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.54.13.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên pool, check chọn các chức năng cần bật và click Submit</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.54.56.png"  rel="lightbox[1862] attachment wp-att-1882"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1882" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.54.56-620x136.png" alt="Snap 2015-12-23 at 12.54.56" width="620" height="136" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.54.56-620x136.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.54.56-768x169.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.54.56-920x203.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.54.56.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mục Storage Pools thể hiện thông tin Storage Pool vừa tạo</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.55.24.png"  rel="lightbox[1862] attachment wp-att-1883"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1883" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.55.24-620x232.png" alt="Snap 2015-12-23 at 12.55.24" width="620" height="232" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.55.24-620x232.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.55.24-768x288.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.55.24-920x345.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.55.24.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Quay trở lại mục Physical Storage, click Add để thêm đĩa cứng vào Storage Pool</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.56.08.png"  rel="lightbox[1862] attachment wp-att-1884"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1884" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.56.08-620x119.png" alt="Snap 2015-12-23 at 12.56.08" width="620" height="119" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.56.08-620x119.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.56.08-768x147.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.56.08-920x177.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.56.08.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn Storage Pool và click Submit</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.57.51.png"  rel="lightbox[1862] attachment wp-att-1885"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1885" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.57.51-620x232.png" alt="Snap 2015-12-23 at 12.57.51" width="620" height="232" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.57.51-620x232.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.57.51-768x287.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.57.51-920x344.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.57.51.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Phần Physical Storage thể hiện các thông tin sau khi đã add vào Storage Pool</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.58.22.png"  rel="lightbox[1862] attachment wp-att-1886"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1886" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.58.22-620x133.png" alt="Snap 2015-12-23 at 12.58.22" width="620" height="133" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.58.22-620x133.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.58.22-768x165.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.58.22-920x198.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-12.58.22.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Và mục Storage Pool sau khi đã add ổ cứng.</p>
+<p><strong>4 &#8211; Cấu hình Virtual Tape Library</strong></p>
+<p>QuadStor hỗ trợ giả lập rất nhiều Tape Library của các hãng như HP, IBM, Quantum&#8230;Việc lựa chọn tùy thuộc vào sở thích cá nhân. Ở bài viết này mình sử dụng Quantum Scalar i500 và Scalar i2000. Việc cài đặt driver cho các tape library này cũng khá dễ dàng và nhanh chóng</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.00.08.png"  rel="lightbox[1862] attachment wp-att-1887"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1887" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.00.08-620x114.png" alt="Snap 2015-12-23 at 13.00.08" width="620" height="114" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.00.08-620x114.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.00.08-768x141.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.00.08-920x169.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.00.08.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để add tape library, click chọn mục Tape Libraries và click Add VTL</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.01.21.png"  rel="lightbox[1862] attachment wp-att-1888"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1888" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.01.21-620x263.png" alt="Snap 2015-12-23 at 13.01.21" width="620" height="263" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.01.21-620x263.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.01.21-768x326.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.01.21-920x391.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.01.21.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên cho VTL, chọn nhà sản xuất và model tape library cũng như các tham số liên quan.</p>
+<p>Ở đây mình chọn ADIC/Quantum Scalar i2000 và Ultrium6<br />
+1 VDrive<br />
+20 slot tape<br />
+0 port Import/Export tape</p>
+<p>click Submit</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.01.48.png"  rel="lightbox[1862] attachment wp-att-1889"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1889" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.01.48-620x200.png" alt="Snap 2015-12-23 at 13.01.48" width="620" height="200" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.01.48-620x200.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.01.48-768x248.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.01.48-920x297.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.01.48.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Review lại thông tin và click Add VTL để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.02.35.png"  rel="lightbox[1862] attachment wp-att-1890"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1890" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.02.35-620x332.png" alt="Snap 2015-12-23 at 13.02.35" width="620" height="332" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.02.35-620x332.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.02.35-768x411.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.02.35-920x493.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.02.35.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để có thể sử dụng chúng ta cần add tape, ở đây là vCartridge</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.03.40.png"  rel="lightbox[1862] attachment wp-att-1891"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1891" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.03.40-620x197.png" alt="Snap 2015-12-23 at 13.03.40" width="620" height="197" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.03.40-620x197.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.03.40-768x243.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.03.40-920x292.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.03.40.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn Storage Pool, số lượng tape (vCartridge) và thiết lập nhãn (label)</p>
+<p>Submit</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.04.19.png"  rel="lightbox[1862] attachment wp-att-1892"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1892" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.04.19-620x332.png" alt="Snap 2015-12-23 at 13.04.19" width="620" height="332" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.04.19-620x332.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.04.19-768x411.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.04.19-920x493.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.04.19.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Hoàn tất</p>
+<p><a href="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.06.11.png"  rel="lightbox[1862] attachment wp-att-1893"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1893" src="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.06.11-620x134.png" alt="Snap 2015-12-23 at 13.06.11" width="620" height="134" srcset="./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.06.11-620x134.png 620w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.06.11-768x165.png 768w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.06.11-920x198.png 920w, ./../../../wp-content/uploads/2015/12/Snap-2015-12-23-at-13.06.11.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thao tác tương tự để add các tape library khác</p>
+<p>Trong ảnh mình tạo sẵn 2 tape library để cho các phần mềm backup kết nối.</p>
+<p>Trong phần tới mình sẽ hướng dẫn cách thức kết nối, cài đặt driver, thiết lập các phần mềm backup như Symantec Backup Exec 2014 và Veeam Backup &amp; Replication 8 hoạt động với virtual tape library</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-centos-6-7-va-virtual-tape-library%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20CentOS%206.7%20v%C3%A0%20Virtual%20Tape%20Library" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-centos-6-7-va-virtual-tape-library%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20CentOS%206.7%20v%C3%A0%20Virtual%20Tape%20Library" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-centos-6-7-va-virtual-tape-library%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20CentOS%206.7%20v%C3%A0%20Virtual%20Tape%20Library" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-centos-6-7-va-virtual-tape-library%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20CentOS%206.7%20v%C3%A0%20Virtual%20Tape%20Library" data-a2a-url="./../../../cai-dat-centos-6-7-va-virtual-tape-library/index.html" data-a2a-title="Cài đặt CentOS 6.7 và Virtual Tape Library"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-centos-6-7-va-virtual-tape-library/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Systems Manager &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Wed, 17 Jun 2015 01:37:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Systems Manager &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Quản lý thiết bị di động từ xa với Meraki Systems Manager</title>
+		<link>./../../../quan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager/index.html</link>
+					<comments>./../../../quan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 11 Feb 2015 02:52:25 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Meraki]]></category>
+		<category><![CDATA[Systems Manager]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1084</guid>
+
+					<description><![CDATA[Quản lý thiết bị di động từ xa với Meraki Systems Manager Xin chào, hôm nay mình giới thiệu tới các bạn một công cụ giúp quản lý thiết bị di động từ xa đó là Meraki Systems Manager Standard (Cisco). Với Systems Manager, bạn có thể dễ dàng quản lý các thiết bị di <a class="more-link" href="./../../../quan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fquan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager%2F&amp;linkname=Qu%E1%BA%A3n%20l%C3%BD%20thi%E1%BA%BFt%20b%E1%BB%8B%20di%20%C4%91%E1%BB%99ng%20t%E1%BB%AB%20xa%20v%E1%BB%9Bi%20Meraki%20Systems%20Manager" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fquan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager%2F&amp;linkname=Qu%E1%BA%A3n%20l%C3%BD%20thi%E1%BA%BFt%20b%E1%BB%8B%20di%20%C4%91%E1%BB%99ng%20t%E1%BB%AB%20xa%20v%E1%BB%9Bi%20Meraki%20Systems%20Manager" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fquan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager%2F&amp;linkname=Qu%E1%BA%A3n%20l%C3%BD%20thi%E1%BA%BFt%20b%E1%BB%8B%20di%20%C4%91%E1%BB%99ng%20t%E1%BB%AB%20xa%20v%E1%BB%9Bi%20Meraki%20Systems%20Manager" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fquan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager%2F&#038;title=Qu%E1%BA%A3n%20l%C3%BD%20thi%E1%BA%BFt%20b%E1%BB%8B%20di%20%C4%91%E1%BB%99ng%20t%E1%BB%AB%20xa%20v%E1%BB%9Bi%20Meraki%20Systems%20Manager" data-a2a-url="./../../../quan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager/index.html" data-a2a-title="Quản lý thiết bị di động từ xa với Meraki Systems Manager"></a></p><p><span style="color: #0000ff;"><strong>Quản lý thiết bị di động từ xa với Meraki Systems Manager</strong></span></p>
+<p>Xin chào, hôm nay mình giới thiệu tới các bạn một công cụ giúp quản lý thiết bị di động từ xa đó là Meraki Systems Manager Standard (Cisco).</p>
+<p>Với Systems Manager, bạn có thể dễ dàng quản lý các thiết bị di động của mình một cách dễ dàng ở bất kỳ đâu, khóa thiết bị từ xa, xóa dữ liệu điện thoại, xác định vị trí thiết bị di động&#8230;</p>
+<ul>
+<li>Quản lý tập trung: Với Systems Manager, bạn dễ dàng quản lý và theo dõi các thiết bị di động ở bất kỳ nơi nào trên thế giới.</li>
+<li>Thiết lập cấu hình mạng: bạn cũng có thể dễ dàng thiết lập và phân phối cấu hình mạng, VPN, Wifi, và các thiết lập bảo mật tới thiết bị di động.</li>
+<li>Chức năng định vị thiết bị di động giúp theo dõi vị trí thiết bị thời gian thực thông qua GPS, Wifi và địa chỉ IP.</li>
+<li>Phân phối ứng dụng: Phân phối ứng dụng tự động mà không cần phải cài đặt thủ công ở từng thiết bị.</li>
+<li>Hỗ trợ từ xa: Hỗ trợ remote desktop, tắt và mở máy, chụp ảnh màn hình các thiết bị chạy Windows và Mac.</li>
+<li>Ngăn chặn sử dụng thiết bị hoặc dữ liệu: Systems Manager cung cấp tùy chọn thiết lập policy, cho phép hoặc không cho phép sử dụng ứng dụng, thiết bị hoặc dữ liệu hoặc nội dung số nào đó.</li>
+<li>&#8230;</li>
+</ul>
+<p>Để tìm hiểu đầy đủ thông tin các bạn có thể truy cập địa chỉ dưới:</p>
+<p><a title="Meraki Systems Manager Features" href="https://meraki.cisco.com/products/systems-manager#features" target="_blank">https://meraki.cisco.com/products/systems-manager#features</a></p>
+<p>Hiện tại Meraki Systems Manager hỗ trợ các nền tảng sau:</p>
+<ul>
+<li>IOS</li>
+<li>Windows</li>
+<li>Mac</li>
+<li>ChomeOS</li>
+<li>Android</li>
+</ul>
+<p>Meraki có hai phiên bản, một miễn phí và một trả phí, các bạn có thể tìm hiểu bảng so sánh tính năng ở link dưới. Trong bài này mình giới thiệu phiên bản miễn phí của Systems Manager.</p>
+<p><a title="Edition Comparison" href="https://meraki.cisco.com/products/systems-manager#compare" target="_blank">https://meraki.cisco.com/products/systems-manager#compare</a></p>
+<p><a href="./../../../wp-content/uploads/2015/02/Meraki-Comparison.png" rel="lightbox[1084]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1088" src="./../../../wp-content/uploads/2015/02/Meraki-Comparison-620x945.png" alt="Meraki-Comparison" width="620" height="945" srcset="./../../../wp-content/uploads/2015/02/Meraki-Comparison-620x945.png 620w, ./../../../wp-content/uploads/2015/02/Meraki-Comparison.png 764w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để đăng ký sử dụng, các bạn vào link dưới để đăng ký</p>
+<p><a title="Register" href="https://meraki.cisco.com/form/systems-manager-signup" target="_blank">https://meraki.cisco.com/form/systems-manager-signup</a></p>
+<p>Việc đăng ký tương đối đơn giản, các bạn chỉ cần nhập đầy đủ thông tin yêu cầu và chọn Start now để đăng ký.</p>
+<p><a href="./../../../wp-content/uploads/2015/02/Meraki-Registration.png" rel="lightbox[1084]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1089" src="./../../../wp-content/uploads/2015/02/Meraki-Registration-620x321.png" alt="Meraki-Registration" width="620" height="321" srcset="./../../../wp-content/uploads/2015/02/Meraki-Registration-620x321.png 620w, ./../../../wp-content/uploads/2015/02/Meraki-Registration-920x477.png 920w, ./../../../wp-content/uploads/2015/02/Meraki-Registration.png 1192w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đã hoàn tất đăng ký và đăng nhập bạn sẽ thấy giao diện Dashboard như hình dưới.</p>
+<p>Trong ảnh là mình đã thêm các thiết bị vào danh sách.</p>
+<p><a href="./../../../wp-content/uploads/2015/02/Meraki-Dashboard.png" rel="lightbox[1084]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1090" src="./../../../wp-content/uploads/2015/02/Meraki-Dashboard-620x357.png" alt="Meraki-Dashboard" width="620" height="357" srcset="./../../../wp-content/uploads/2015/02/Meraki-Dashboard-620x357.png 620w, ./../../../wp-content/uploads/2015/02/Meraki-Dashboard-920x530.png 920w, ./../../../wp-content/uploads/2015/02/Meraki-Dashboard.png 1223w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Cài đặt Meraki Systems Manager cho thiết bị Android</strong></p>
+<p>Cài đặt cho Android, các bạn mở Play Store, tìm ứng dụng Meraki System Manager để cài đặt hoặc có thể quét mã QR code trong lúc chọn Android ở phần Add device của Meraki.</p>
+<p>Sau khi cài đặt Meraki System Manager, các bạn nhập dãy mã 10 số mà Meraki cung cấp để đồng bộ thiết bị và server.</p>
+<p>Việc quản lý có thể tham khảo sơ qua ở video dưới đây.</p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/VmNNPZrdm2A?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><strong>Cài đặt Meraki để quản lý các thiết bị di động cho Android</strong></p>
+<p>Ngoài việc đăng nhập vào Dashboard ở trang web, Meraki cũng có hỗ trợ một công cụ giúp quản lý trực tiếp từ thiết bị Android. Các bạn có thể cài đặt ứng dụng Meraki trong Google Play Store để bắt đầu sử dụng.</p>
+<p><a title="Meraki" href="https://play.google.com/store/apps/details?id=com.meraki.Dashboard" target="_blank">https://play.google.com/store/apps/details?id=com.meraki.Dashboard</a></p>
+<p><strong>Cài đặt Meraki System Manager cho các thiết bị IOS</strong></p>
+<p>Để cài đặt Meraki cho các thiết bị IOS (iPhone, iPad) các bạn có thể tham khảo video dưới đây.</p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/8IEA74lZBLU?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><strong>Cài đặt Meraki System Manager cho Windows và OS X</strong></p>
+<p>Việc cài đặt Meraki Systems Manager cho các thiết bị Windows và OS X rất đơn giản, các bạn chọn Add Device và chọn Windows hoặc OS X, tải Agent về và cài đặt, mọi thứ sẽ được tự động đồng bộ với Meraki server.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fquan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager%2F&amp;linkname=Qu%E1%BA%A3n%20l%C3%BD%20thi%E1%BA%BFt%20b%E1%BB%8B%20di%20%C4%91%E1%BB%99ng%20t%E1%BB%AB%20xa%20v%E1%BB%9Bi%20Meraki%20Systems%20Manager" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fquan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager%2F&amp;linkname=Qu%E1%BA%A3n%20l%C3%BD%20thi%E1%BA%BFt%20b%E1%BB%8B%20di%20%C4%91%E1%BB%99ng%20t%E1%BB%AB%20xa%20v%E1%BB%9Bi%20Meraki%20Systems%20Manager" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fquan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager%2F&amp;linkname=Qu%E1%BA%A3n%20l%C3%BD%20thi%E1%BA%BFt%20b%E1%BB%8B%20di%20%C4%91%E1%BB%99ng%20t%E1%BB%AB%20xa%20v%E1%BB%9Bi%20Meraki%20Systems%20Manager" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fquan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager%2F&#038;title=Qu%E1%BA%A3n%20l%C3%BD%20thi%E1%BA%BFt%20b%E1%BB%8B%20di%20%C4%91%E1%BB%99ng%20t%E1%BB%AB%20xa%20v%E1%BB%9Bi%20Meraki%20Systems%20Manager" data-a2a-url="./../../../quan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager/index.html" data-a2a-title="Quản lý thiết bị di động từ xa với Meraki Systems Manager"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../quan-ly-thiet-bi-di-dong-tu-xa-voi-meraki-systems-manager/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

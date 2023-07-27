@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>XenApp &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Thu, 08 Jan 2015 08:07:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>XenApp &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Làm việc với máy chủ Storefront và HTML5</title>
+		<link>./../../../lam-viec-voi-may-chu-store-front-va-html5/index.html</link>
+					<comments>./../../../lam-viec-voi-may-chu-store-front-va-html5/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 10 Sep 2014 07:28:54 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Citrix Receiver]]></category>
+		<category><![CDATA[XenApp]]></category>
+		<category><![CDATA[StoreFront]]></category>
+		<category><![CDATA[XenApp 6.5]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=296</guid>
+
+					<description><![CDATA[Bước 6 &#8211; Làm việc với máy chủ Storefront và HTML5 Trong bước này chúng ta sẽ tiến hành cài đặt, cấu hình máy chủ Storefront và cấu hình máy chủ XenApp để sử dụng Receiver for HTML5 Note: Máy chủ Storefront phải join domain mới sử dụng được Mở port TCP 8008 trên máy chủ XenApp <a class="more-link" href="./../../../lam-viec-voi-may-chu-store-front-va-html5/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Flam-viec-voi-may-chu-store-front-va-html5%2F&amp;linkname=L%C3%A0m%20vi%E1%BB%87c%20v%E1%BB%9Bi%20m%C3%A1y%20ch%E1%BB%A7%20Storefront%20v%C3%A0%20HTML5" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Flam-viec-voi-may-chu-store-front-va-html5%2F&amp;linkname=L%C3%A0m%20vi%E1%BB%87c%20v%E1%BB%9Bi%20m%C3%A1y%20ch%E1%BB%A7%20Storefront%20v%C3%A0%20HTML5" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Flam-viec-voi-may-chu-store-front-va-html5%2F&amp;linkname=L%C3%A0m%20vi%E1%BB%87c%20v%E1%BB%9Bi%20m%C3%A1y%20ch%E1%BB%A7%20Storefront%20v%C3%A0%20HTML5" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Flam-viec-voi-may-chu-store-front-va-html5%2F&#038;title=L%C3%A0m%20vi%E1%BB%87c%20v%E1%BB%9Bi%20m%C3%A1y%20ch%E1%BB%A7%20Storefront%20v%C3%A0%20HTML5" data-a2a-url="./../../../lam-viec-voi-may-chu-store-front-va-html5/index.html" data-a2a-title="Làm việc với máy chủ Storefront và HTML5"></a></p><p><span style="color: #0000ff;"><strong>Bước 6 &#8211; Làm việc với máy chủ Storefront và HTML5</strong></span></p>
+<p>Trong bước này chúng ta sẽ tiến hành cài đặt, cấu hình máy chủ Storefront và cấu hình máy chủ XenApp để sử dụng Receiver for HTML5</p>
+<p><strong><span style="color: #ff0000;">Note:</span></strong></p>
+<ul style="list-style-type: square;">
+<li>Máy chủ Storefront phải join domain mới sử dụng được</li>
+<li>Mở port TCP 8008 trên máy chủ XenApp để Storefront có thể kết nối</li>
+</ul>
+<p>&nbsp;</p>
+<p><b>Cài đặt máy chủ Storefront</b></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-1.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-297" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-1-620x524.png" alt="XenApp-StoreFront-Installation-1" width="620" height="524" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-1-620x524.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-1.png 651w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chấp nhận thỏa thuận sử dụng và click <b>Next</b></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-2.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-298" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-2-620x524.png" alt="XenApp-StoreFront-Installation-2" width="620" height="524" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-2-620x524.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-2.png 651w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Next để tiếp tục, IIS sẽ được tự động cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-3.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-299" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-3-620x524.png" alt="XenApp-StoreFront-Installation-3" width="620" height="524" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-3-620x524.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-3.png 651w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click Install để cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-4.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-300" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-4-620x524.png" alt="XenApp-StoreFront-Installation-4" width="620" height="524" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-4-620x524.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Installation-4.png 651w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Finish</strong> để hoàn tất cài đặt, trong phần tiếp theo chúng ta sẽ tiến hành cấu hình Storefront</p>
+<p><span style="color: #ff0000;"><strong>Cấu hình Storefront</strong></span></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-1.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-302" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-1-620x463.png" alt="XenApp-StoreFront-Configure-1" width="620" height="463" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-1-620x463.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-1.png 875w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mở cửa sổ Citrix Storefront và click <strong>Creae a new deployment</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-2.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-303" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-2-620x450.png" alt="XenApp-StoreFront-Configure-2" width="620" height="450" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-2-620x450.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-2.png 813w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>click Next để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-3.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-304" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-3-620x450.png" alt="XenApp-StoreFront-Configure-3" width="620" height="450" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-3-620x450.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-3.png 813w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-4.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-305" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-4-620x450.png" alt="XenApp-StoreFront-Configure-4" width="620" height="450" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-4-620x450.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-4.png 813w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên cho Store, trong bài này mình đặt là XenApp65, như đã nói ở phần trước, tên này có thể đặt theo nhiều cách khác nhau tùy theo cách thức quản lý. Nhìn chung là không có ràng buộc</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-5.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-306" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-5-620x450.png" alt="XenApp-StoreFront-Configure-5" width="620" height="450" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-5-620x450.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-5.png 813w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thêm máy chủ XenApp, trong bài này là xa65.vmblogs.vn</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-6.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-307" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-6-620x450.png" alt="XenApp-StoreFront-Configure-6" width="620" height="450" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-6-620x450.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-6.png 813w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Next</strong> để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-7.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-308" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-7-620x450.png" alt="XenApp-StoreFront-Configure-7" width="620" height="450" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-7-620x450.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-7.png 813w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Remote Access chọn None và click <strong>Create</strong> để tiến hành</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-8.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-309" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-8-620x450.png" alt="XenApp-StoreFront-Configure-8" width="620" height="450" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-8-620x450.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-8.png 813w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Finish</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-9.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-310" src="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-9-620x463.png" alt="XenApp-StoreFront-Configure-9" width="620" height="463" srcset="./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-9-620x463.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-StoreFront-Configure-9.png 875w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Làm theo các bước ở ảnh trên để Storefront cung cấp truy cập HTML5</p>
+<p>Như vậy là chúng ta đã hoàn thành việc cấu hình máy chủ Storefront. Tiếp theo chúng ta cần cấu hình máy chủ XenApp để có thể làm việc với Storefront</p>
+<p>&nbsp;</p>
+<p><span style="color: #ff0000;"><strong>Cấu hình máy chủ XenApp  cho phép sử dụng HTML5</strong></span></p>
+<p>Tải và cài đặt GroupPolicyManager 1.7 =&gt; Khởi động lại máy chủ XenApp</p>
+<p>Sau khi khởi động hoàn tất, mở Citrix AppCenter và chuyển đến Policy Setting mục Computer</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Modify-Allow-WebSocket-1.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-313" src="./../../../wp-content/uploads/2014/09/XenApp-Modify-Allow-WebSocket-1-620x458.png" alt="XenApp-Modify-Allow-WebSocket-1" width="620" height="458" srcset="./../../../wp-content/uploads/2014/09/XenApp-Modify-Allow-WebSocket-1-620x458.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Modify-Allow-WebSocket-1.png 899w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Modify-Allow-WebSocket-2.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-314" src="./../../../wp-content/uploads/2014/09/XenApp-Modify-Allow-WebSocket-2-620x465.png" alt="XenApp-Modify-Allow-WebSocket-2" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/XenApp-Modify-Allow-WebSocket-2-620x465.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Modify-Allow-WebSocket-2.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cấu hình các tham số như ảnh trên</p>
+<p><em>WebSocket connection =&gt; Allowed</em></p>
+<p><em>WebSocket port numer =&gt; 8008</em></p>
+<p>Click OK để hoàn tất</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="color: #ff0000;"><strong>Sử dụng Receiver for HTML5 ở máy con</strong></span></p>
+<p>Mọi thứ đã hoàn tất, giờ đây máy con có thể truy cập ứng dụng thông qua trình duyệt HTML5</p>
+<p>Đánh địa chỉ ip (hoặc hostname) Storefront vào thanh địa chỉ</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Login-Screen.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-319" src="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Login-Screen-620x445.png" alt="Receiver HTML5 Login Screen" width="620" height="445" srcset="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Login-Screen-620x445.png 620w, ./../../../wp-content/uploads/2014/09/Receiver-HTML5-Login-Screen-920x661.png 920w, ./../../../wp-content/uploads/2014/09/Receiver-HTML5-Login-Screen.png 1025w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Giao diện đăng nhập xuất hiện. Tiến hành đăng nhập</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Main-Screen.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-320" src="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Main-Screen-620x445.png" alt="Receiver HTML5 Main Screen" width="620" height="445" srcset="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Main-Screen-620x445.png 620w, ./../../../wp-content/uploads/2014/09/Receiver-HTML5-Main-Screen-920x661.png 920w, ./../../../wp-content/uploads/2014/09/Receiver-HTML5-Main-Screen.png 1025w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Khi đã đăng nhập thành công thì cửa sổ sẽ hiển thị các ứng dụng mà máy chủ XenApp đã cấp quyền sử dụng</p>
+<p>Mình mở thử một vài ứng dụng cho chạy trực tiếp trên trình duyệt</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Word.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-322" src="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Word-620x445.png" alt="Receiver HTML5 Word" width="620" height="445" srcset="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Word-620x445.png 620w, ./../../../wp-content/uploads/2014/09/Receiver-HTML5-Word-920x661.png 920w, ./../../../wp-content/uploads/2014/09/Receiver-HTML5-Word.png 1025w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Microsoft Word</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Excel.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-317" src="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Excel-620x445.png" alt="Receiver HTML5 Excel" width="620" height="445" srcset="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Excel-620x445.png 620w, ./../../../wp-content/uploads/2014/09/Receiver-HTML5-Excel-920x661.png 920w, ./../../../wp-content/uploads/2014/09/Receiver-HTML5-Excel.png 1025w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>MS Excel</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Receiver-HTMl5-Powerpoint.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-316" src="./../../../wp-content/uploads/2014/09/Receiver-HTMl5-Powerpoint-620x445.png" alt="Receiver HTMl5 Powerpoint" width="620" height="445" srcset="./../../../wp-content/uploads/2014/09/Receiver-HTMl5-Powerpoint-620x445.png 620w, ./../../../wp-content/uploads/2014/09/Receiver-HTMl5-Powerpoint-920x661.png 920w, ./../../../wp-content/uploads/2014/09/Receiver-HTMl5-Powerpoint.png 1025w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>MS Powerpoint</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Receiver-HTML5-IE.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-318" src="./../../../wp-content/uploads/2014/09/Receiver-HTML5-IE-620x445.png" alt="Receiver HTML5 IE" width="620" height="445" srcset="./../../../wp-content/uploads/2014/09/Receiver-HTML5-IE-620x445.png 620w, ./../../../wp-content/uploads/2014/09/Receiver-HTML5-IE-920x661.png 920w, ./../../../wp-content/uploads/2014/09/Receiver-HTML5-IE.png 1025w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Internet Explorer</p>
+<p><a href="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Published-Desktop.png" rel="lightbox[296]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-321" src="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Published-Desktop-620x445.png" alt="Receiver HTML5 Published Desktop" width="620" height="445" srcset="./../../../wp-content/uploads/2014/09/Receiver-HTML5-Published-Desktop-620x445.png 620w, ./../../../wp-content/uploads/2014/09/Receiver-HTML5-Published-Desktop-920x661.png 920w, ./../../../wp-content/uploads/2014/09/Receiver-HTML5-Published-Desktop.png 1025w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Và Desktop đầy đủ</p>
+<p>&nbsp;</p>
+<p>Việc truy cập ứng dụng thông qua HTML5 tuy hiệu suất không được tốt như thông qua Citrix Receiver tuy nhiên lại cực kỳ linh hoạt, giúp cho các thiết bị không cài được hoặc không thuận tiện để cài Citrix Receiver có thể sử dụng</p>
+<p>Ngoài ra Citrix Receiver cũng hỗ trợ hầu như là tất cả các nền tảng thiết bị</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Flam-viec-voi-may-chu-store-front-va-html5%2F&amp;linkname=L%C3%A0m%20vi%E1%BB%87c%20v%E1%BB%9Bi%20m%C3%A1y%20ch%E1%BB%A7%20Storefront%20v%C3%A0%20HTML5" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Flam-viec-voi-may-chu-store-front-va-html5%2F&amp;linkname=L%C3%A0m%20vi%E1%BB%87c%20v%E1%BB%9Bi%20m%C3%A1y%20ch%E1%BB%A7%20Storefront%20v%C3%A0%20HTML5" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Flam-viec-voi-may-chu-store-front-va-html5%2F&amp;linkname=L%C3%A0m%20vi%E1%BB%87c%20v%E1%BB%9Bi%20m%C3%A1y%20ch%E1%BB%A7%20Storefront%20v%C3%A0%20HTML5" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Flam-viec-voi-may-chu-store-front-va-html5%2F&#038;title=L%C3%A0m%20vi%E1%BB%87c%20v%E1%BB%9Bi%20m%C3%A1y%20ch%E1%BB%A7%20Storefront%20v%C3%A0%20HTML5" data-a2a-url="./../../../lam-viec-voi-may-chu-store-front-va-html5/index.html" data-a2a-title="Làm việc với máy chủ Storefront và HTML5"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../lam-viec-voi-may-chu-store-front-va-html5/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Publish ứng dụng XenApp</title>
+		<link>./../../../publish-ung-dung-xenapp/index.html</link>
+					<comments>./../../../publish-ung-dung-xenapp/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 10 Sep 2014 07:01:07 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[XenApp]]></category>
+		<category><![CDATA[Publish Application]]></category>
+		<category><![CDATA[XenApp 6.5]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=272</guid>
+
+					<description><![CDATA[Bước 5 &#8211; Publish ứng dụng XenApp This post shows how to publish application and entire server desktop Trong bài này chúng ta sẽ tiến hành publish (phát hành) ứng dụng cho người sử dụng Phần 1 &#8211; Publish ứng dụng Có một số ứng dụng mình đã cài đăt sẵn, nếu các bạn chưa <a class="more-link" href="./../../../publish-ung-dung-xenapp/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fpublish-ung-dung-xenapp%2F&amp;linkname=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fpublish-ung-dung-xenapp%2F&amp;linkname=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fpublish-ung-dung-xenapp%2F&amp;linkname=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fpublish-ung-dung-xenapp%2F&#038;title=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" data-a2a-url="./../../../publish-ung-dung-xenapp/index.html" data-a2a-title="Publish ứng dụng XenApp"></a></p><p><span style="color: #0000ff;"><strong>Bước 5 &#8211; Publish ứng dụng XenApp</strong></span></p>
+<p>This post shows how to publish application and entire server desktop</p>
+<p>Trong bài này chúng ta sẽ tiến hành publish (phát hành) ứng dụng cho người sử dụng</p>
+<p><span style="color: #ff0000;"><strong>Phần 1 &#8211; Publish ứng dụng</strong></span></p>
+<p>Có một số ứng dụng mình đã cài đăt sẵn, nếu các bạn chưa cài ứng dụng thì có thể cài thêm hoặc thao tác tương tự để phát hành ứng dụng có sẵn của Windows (Windows Server 2008 R2)</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-1.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-273" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-1-620x458.png" alt="XenApp-PublishApp-1" width="620" height="458" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-1-620x458.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-1.png 899w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để cho dễ quản lý, mình tạo một thư mục đặt tên Published App để chứa các ứng dụng publish cho người dùng</p>
+<p>Chọn thư mục đã tạo và click <strong>Publish Application</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-2.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-274" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-2-620x547.png" alt="XenApp-PublishApp-2" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-2-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-2.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cửa sổ Welcome xuất hiện. Click <strong>Next</strong> để tiếp tục</p>
+<p>Có thể chọn <strong>Skip this screen in the future</strong> để bỏ qua cửa sổ này trong lần tới</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-3.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-275" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-3-620x547.png" alt="XenApp-PublishApp-3" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-3-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-3.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên cho ứng dụng và mô tả (nếu có) và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-4.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-276" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-4-620x547.png" alt="XenApp-PublishApp-4" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-4-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-4.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn loại ứng dụng, có 3 kiểu là Server desktop (full desktop), Content (tập tin hoặc thư mục) và Application (ứng dụng)</p>
+<p>Trong bài này mình chọn <strong>Application</strong> và <strong>Accessed from a server</strong> và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-5.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-277" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-5-620x547.png" alt="XenApp-PublishApp-5" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-5-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-5.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trỏ tới thư mục chứ tập tin ứng dụng và click <strong>Next</strong> để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-6.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-278" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-6-620x547.png" alt="XenApp-PublishApp-6" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-6-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-6.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thêm máy chủ chạy ứng dụng vào danh sách và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-7.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-279" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-7-620x547.png" alt="XenApp-PublishApp-7" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-7-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-7.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cấp quyền cho user được phép sử dụng ứng dụng. Về user có thể là user local (tài khoản có sẵn của máy chủ XenApp, user domain hoặc Anonymous (không cần đăng nhập)</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-8.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-280" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-8-620x547.png" alt="XenApp-PublishApp-8" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-8-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-8.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thay đổi icon ứng dụng nếu muốn và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-9.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-281" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-9-620x547.png" alt="XenApp-PublishApp-9" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-9-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-9.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Config <strong>advanced settings</strong> if you want and <strong>Finish</strong></p>
+<p>Cấu hình thiết lập nâng cao với <strong>Advanced Settings</strong> nếu có nhu cầu và click <strong>Finish</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-10.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-282" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-10-620x458.png" alt="XenApp-PublishApp-10" width="620" height="458" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-10-620x458.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-10.png 899w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Lặp lại các bước trên cho các ứng dụng khác</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="color: #ff0000;"><strong>Part 2 &#8211; Publish Desktop</strong></span></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-1.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-283" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-1-620x547.png" alt="XenApp-PublishDesktop-1" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-1-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-1.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cửa sổ Welcome =&gt; <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-2.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-284" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-2-620x547.png" alt="XenApp-PublishDesktop-2" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-2-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-2.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên cho published desktop và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-3.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-285" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-3-620x547.png" alt="XenApp-PublishDesktop-3" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-3-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-3.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn <strong>Server Desktop</strong> và <strong>Next</strong> để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-4.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-286" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-4-620x547.png" alt="XenApp-PublishDesktop-4" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-4-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-4.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thêm server cho phép chạy publish desktop vào danh sách</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-5.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-287" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-5-620x547.png" alt="XenApp-PublishDesktop-5" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-5-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-5.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cấp quyền cho các user được phép truy cập, tương tự như phần Publish Application, user có thể là user local hoặc user domain hoặc cho phép Anonymous</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-6.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-288" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-6-620x547.png" alt="XenApp-PublishDesktop-6" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-6-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-6.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đổi icon nếu muốn và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-7.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-289" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-7-620x547.png" alt="XenApp-PublishDesktop-7" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-7-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-7.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Hoàn tất</p>
+<p>Như vậy về cơ bản chúng ta đã hoàn thành cấu hình XenApp 6.5</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fpublish-ung-dung-xenapp%2F&amp;linkname=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fpublish-ung-dung-xenapp%2F&amp;linkname=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fpublish-ung-dung-xenapp%2F&amp;linkname=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fpublish-ung-dung-xenapp%2F&#038;title=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" data-a2a-url="./../../../publish-ung-dung-xenapp/index.html" data-a2a-title="Publish ứng dụng XenApp"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../publish-ung-dung-xenapp/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cấu hình XenApp 6.5 (tiếp theo)</title>
+		<link>./../../../cau-hinh-xenpp-6-5-tiep-theo/index.html</link>
+					<comments>./../../../cau-hinh-xenpp-6-5-tiep-theo/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 10 Sep 2014 06:37:39 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[XenApp]]></category>
+		<category><![CDATA[XenApp 6.5]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=257</guid>
+
+					<description><![CDATA[Bước 4 – Cấu hình XenApp 6.5 (tiếp theo) Trong bước này chúng ta tiếp tục cấu hình XenApp. Sau khi hoàn tất bước 3, chúng ta mở Citrix AppCenter và xuất hiện hộp thoại như bên dưới &#160; Giao diện chào mừng, click Next để tiếp tục Chọn XenApp và click Next &#160; Thêm máy chủ XenApp <a class="more-link" href="./../../../cau-hinh-xenpp-6-5-tiep-theo/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcau-hinh-xenpp-6-5-tiep-theo%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5%20%28ti%E1%BA%BFp%20theo%29" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcau-hinh-xenpp-6-5-tiep-theo%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5%20%28ti%E1%BA%BFp%20theo%29" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcau-hinh-xenpp-6-5-tiep-theo%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5%20%28ti%E1%BA%BFp%20theo%29" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcau-hinh-xenpp-6-5-tiep-theo%2F&#038;title=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5%20%28ti%E1%BA%BFp%20theo%29" data-a2a-url="./../../../cau-hinh-xenpp-6-5-tiep-theo/index.html" data-a2a-title="Cấu hình XenApp 6.5 (tiếp theo)"></a></p><p><strong><span style="color: #0000ff;">Bước 4 – Cấu hình XenApp 6.5 (tiếp theo)</span></strong></p>
+<p>Trong bước này chúng ta tiếp tục cấu hình XenApp.</p>
+<p>Sau khi hoàn tất bước 3, chúng ta mở Citrix AppCenter và xuất hiện hộp thoại như bên dưới</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Init-1.png" rel="lightbox[257]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-258" src="./../../../wp-content/uploads/2014/09/XenApp-Init-1-620x547.png" alt="XenApp-Init-1" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-Init-1-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Init-1.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>&nbsp;</p>
+<p>Giao diện chào mừng, click Next để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Init-2.png" rel="lightbox[257]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-259" src="./../../../wp-content/uploads/2014/09/XenApp-Init-2-620x547.png" alt="XenApp-Init-2" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-Init-2-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Init-2.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn <strong>XenApp</strong> và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Init-3.png" rel="lightbox[257]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-260" src="./../../../wp-content/uploads/2014/09/XenApp-Init-3-620x547.png" alt="XenApp-Init-3" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-Init-3-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Init-3.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>&nbsp;</p>
+<p>Thêm máy chủ XenApp vào danh sách, trong bài này là XA65</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Init-4.png" rel="lightbox[257]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-261" src="./../../../wp-content/uploads/2014/09/XenApp-Init-4-620x547.png" alt="XenApp-Init-4" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-Init-4-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Init-4.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Init-5.png" rel="lightbox[257]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-262" src="./../../../wp-content/uploads/2014/09/XenApp-Init-5-620x547.png" alt="XenApp-Init-5" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-Init-5-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Init-5.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Và <strong>Finish</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Init-6.png" rel="lightbox[257]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-263" src="./../../../wp-content/uploads/2014/09/XenApp-Init-6-620x458.png" alt="XenApp-Init-6" width="620" height="458" srcset="./../../../wp-content/uploads/2014/09/XenApp-Init-6-620x458.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Init-6.png 899w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Giao diện cửa sổ<strong> AppCenter</strong></p>
+<p>Trong phần tiếp theo chúng ta sẽ bắt đầu publish (phát hành) ứng dụng cho người sử dụng</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcau-hinh-xenpp-6-5-tiep-theo%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5%20%28ti%E1%BA%BFp%20theo%29" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcau-hinh-xenpp-6-5-tiep-theo%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5%20%28ti%E1%BA%BFp%20theo%29" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcau-hinh-xenpp-6-5-tiep-theo%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5%20%28ti%E1%BA%BFp%20theo%29" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcau-hinh-xenpp-6-5-tiep-theo%2F&#038;title=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5%20%28ti%E1%BA%BFp%20theo%29" data-a2a-url="./../../../cau-hinh-xenpp-6-5-tiep-theo/index.html" data-a2a-title="Cấu hình XenApp 6.5 (tiếp theo)"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cau-hinh-xenpp-6-5-tiep-theo/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cấu hình XenApp 6.5</title>
+		<link>./../../../cau-hinh-xenapp-6-5/index.html</link>
+					<comments>./../../../cau-hinh-xenapp-6-5/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 09 Sep 2014 15:07:04 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[XenApp]]></category>
+		<category><![CDATA[XenApp 6.5]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=212</guid>
+
+					<description><![CDATA[Bước 3 &#8211; Cấu hình XenApp 6.5 Trong bước này chúng ta sẽ tiến hành cấu hình XenApp 6.5 sau khi đã hoàn tất cài đặt ở bước 2 Phần 1: Thiết lập kết nối License server Click specify licensing Nhập địa chỉ license server (địa chỉ IP hoặc FQDN) và port (mặc định 27000) và <a class="more-link" href="./../../../cau-hinh-xenapp-6-5/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcau-hinh-xenapp-6-5%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcau-hinh-xenapp-6-5%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcau-hinh-xenapp-6-5%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcau-hinh-xenapp-6-5%2F&#038;title=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5" data-a2a-url="./../../../cau-hinh-xenapp-6-5/index.html" data-a2a-title="Cấu hình XenApp 6.5"></a></p><p><span style="color: #0000ff;"><strong>Bước 3 &#8211; Cấu hình XenApp 6.5</strong></span></p>
+<p>Trong bước này chúng ta sẽ tiến hành cấu hình XenApp 6.5 sau khi đã hoàn tất cài đặt ở bước 2</p>
+<p><strong>Phần 1: Thiết lập kết nối License server</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-1.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="size-medium wp-image-213 alignleft" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-1-620x441.png" alt="XenApp-Configure-1" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-1-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-1.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>specify licensing</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-2.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-214" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-2-620x441.png" alt="XenApp-Configure-2" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-2-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-2.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhập địa chỉ license server (địa chỉ IP hoặc FQDN) và port (mặc định 27000) và click <strong>Test Connection</strong> để kiểm tra</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-3.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-215" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-3-620x441.png" alt="XenApp-Configure-3" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-3-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-3.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi nhập chính xác thì một cửa sổ hiện ra cho chúng ta lựa chọn loại license phù hợp. Citrix gợi ý bằng dấu * để giúp lựa chọn dễ dàng hơn.</p>
+<p>Sau khi chọn xong click <strong>Apply</strong> để lưu thông tin</p>
+<p>&nbsp;</p>
+<p><strong>Phần 2 &#8211; Tạo XenApp Farm</strong></p>
+<p>Farm bao gồm 1 hoặc nhiều máy chủ XenApp để phục vụ cho người sử dụng, do mô hình nhỏ nên mình chỉ có 1 máy chủ trong farm, trong các hệ thống lớn có thể tới hàng nghìn máy chủ trong 1 hoặc nhiều farm hỗ trợ nhiều phần mềm khác nhau. Ví dụ farm chạy ứng dụng kế toán còn farm khác chạy ứng dụng văn phòng hoặc đồ họa.</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-4.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-216" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-4-620x441.png" alt="XenApp-Configure-4" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-4-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-4.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Configure </strong>để tiến hành tạo farm</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-5.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-217" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-5-620x441.png" alt="XenApp-Configure-5" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-5-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-5.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Create a new server farm</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-6.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-218" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-6-620x441.png" alt="XenApp-Configure-6" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-6-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-6.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên farm và nhập tài khoản administrator và click <strong>Next</strong></p>
+<p><span style="text-decoration: underline;"><strong>Note</strong></span>: tên farm có thể là vị trí địa lý (ví dụ Hà Nội, TpHCM, &#8230;) hoặc chức năng của farm (ví dụ VanPhong, Ketoan, Thietke&#8230;) Nhìn chung tùy theo yêu cầu mà đặt tên farm sao cho phù hợp. Trong lab này do chỉ có 1 máy chủ cho 1 farm nên mình đặt đại khái là XenApp65</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-7.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-219" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-7-620x441.png" alt="XenApp-Configure-7" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-7-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-7.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Click<strong> New Database</strong> và click <strong>next</strong>. Trong bài này chúng ta sử dụng SQL Server Express cho XenApp, trong các hệ thống lớn hơn người ta sử dụng SQL server bản đầy đủ</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-8.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="size-medium wp-image-220 alignleft" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-8.png" alt="XenApp-Configure-8" width="430" height="277" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Nhập tài khoản đăng nhập cho SQL server và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-9.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-221" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-9-620x441.png" alt="XenApp-Configure-9" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-9-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-9.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-10.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-222" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-10-620x441.png" alt="XenApp-Configure-10" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-10-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-10.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-11.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-223" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-11-620x441.png" alt="XenApp-Configure-11" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-11-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-11.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Apply </strong>để bắt đầu cấu hình XenApp farm</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-12.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-224" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-12-620x441.png" alt="XenApp-Configure-12" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-12-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-12.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-13.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-225" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-13-620x441.png" alt="XenApp-Configure-13" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-13-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-13.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Click Finish để hoàn tất. Sau khi hoàn tất chúng ta cần phải khởi động máy chủ lại để tiếp tục bước tiếp theo</p>
+<p>&nbsp;</p>
+<p><strong>Phần 3 &#8211; Cấu hình Web Interface</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-14.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-226" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-14-620x441.png" alt="XenApp-Configure-14" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-14-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-14.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>&nbsp;</p>
+<p>Click <strong>Configure</strong> để tiến hành cấu hình<strong> Web Interface</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-15.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-227" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-15-620x441.png" alt="XenApp-Configure-15" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-15-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-15.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>&nbsp;</p>
+<p>Chọn <strong>XenApp Web Sites</strong> và chọn <strong>Create Site</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-16.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-228" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-16-620x441.png" alt="XenApp-Configure-16" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-16-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-16.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>&nbsp;</p>
+<p>Đặt tên cho XenApp site, nếu bạn không cần đổi thì để mặc định và click <strong>Next</strong></p>
+<p>Chọn <strong>Set as the default page for the IIS site</strong> để thiết lập XenApp làm website mặc định cho IIS</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-17.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-229" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-17.png" alt="XenApp-Configure-17" width="601" height="485" /></a></p>
+<p>Click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-18.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-230" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-18.png" alt="XenApp-Configure-18" width="601" height="485" /></a></p>
+<p>Và <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-19.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-231" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-19.png" alt="XenApp-Configure-19" width="601" height="485" /></a></p>
+<p><strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-20.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-232" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-20.png" alt="XenApp-Configure-20" width="601" height="485" /></a></p>
+<p>&nbsp;</p>
+<p>Ở bước này cần thêm XenApp server vào farm, do mình cài mọi thứ chung 1 server nên sử dụng localhost hoặc IP hoặc FQDN. Click Next</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-21.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-233" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-21.png" alt="XenApp-Configure-21" width="571" height="484" /></a></p>
+<p>&nbsp;</p>
+<p>Lựa chọn các phương pháp chứng thực tài khoản. Có thể chọn tùy theo hình thức sử dụng.</p>
+<p>Chế độ Anonymous cho phép người dùng truy cập các ứng dụng XenApp mà không cần phải có tài khoản đăng nhập</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-22.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-234" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-22.png" alt="XenApp-Configure-22" width="571" height="484" /></a></p>
+<p>&nbsp;</p>
+<p>Cho phép tất cả các domain đăng nhập hoặc giới hạn danh sách domain có thể đăng nhập. Mình để mặc định và Next</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-23.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-235" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-23.png" alt="XenApp-Configure-23" width="571" height="484" /></a></p>
+<p>Chọn <strong>Login Screen Appearance</strong> và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-24.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-236" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-24.png" alt="XenApp-Configure-24" width="571" height="484" /></a></p>
+<p><strong>Next</strong></p>
+<p>Ở bài này mình thiết lập cho người dùng truy cập trưc tiếp phần mềm từ máy chủ do đó chọn Online, XenApp cũng có tùy chọn cho phép tải phần mềm về máy để sử dụng. Hoặc sử dụng 2 chế độ cùng lúc</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-25.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-237" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-25.png" alt="XenApp-Configure-25" width="571" height="484" /></a></p>
+<p>Click <strong>Finish </strong> để hoàn thành cấu hình XenApp Website</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-26.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-238" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-26.png" alt="XenApp-Configure-26" width="571" height="484" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Cấu hình XenApp service site</strong></p>
+<p>XenApp website cho phép người dùng truy cập thông qua trình duyệt web thì XenApp service site cho phép người dùng kết nối máy chủ XenApp trực tiếp thông qua Citrix Receiver. Bước tiếp theo sẽ hướng dẫn thiết lập XenApp service site</p>
+<p>Chọn <strong>XenApp service sites</strong> và click <strong>Create Site</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-27.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-239" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-27-620x441.png" alt="XenApp-Configure-27" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-27-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-27.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>&nbsp;</p>
+<p>Đặt tên và click <strong>Next</strong> để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-28.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-240" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-28.png" alt="XenApp-Configure-28" width="601" height="485" /></a></p>
+<p><strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-29.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-241" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-29.png" alt="XenApp-Configure-29" width="601" height="485" /></a></p>
+<p><strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-30.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-242" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-30.png" alt="XenApp-Configure-30" width="601" height="485" /></a></p>
+<p>Thêm máy chủ XenApp và danh sách và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-31.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-243" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-31.png" alt="XenApp-Configure-31" width="571" height="484" /></a></p>
+<p>Click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-32.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-244" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-32.png" alt="XenApp-Configure-32" width="571" height="484" /></a></p>
+<p>Click <strong>Finish </strong>to complete configure XenApp service site</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-33.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-245" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-33.png" alt="XenApp-Configure-33" width="571" height="484" /></a></p>
+<p>Hoàn tất !!!!!!</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-34.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-246" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-34-620x441.png" alt="XenApp-Configure-34" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-34-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-34.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Configure-35.png" rel="lightbox[212]"><img decoding="async" loading="lazy" class="alignleft size-medium wp-image-247" src="./../../../wp-content/uploads/2014/09/XenApp-Configure-35-620x441.png" alt="XenApp-Configure-35" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Configure-35-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Configure-35.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: left;"> Khi người dùng truy cập địa chỉ XenApp thông qua trình duyệt web sẽ hiển thị giao diện đăng nhập như ảnh trên</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcau-hinh-xenapp-6-5%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcau-hinh-xenapp-6-5%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcau-hinh-xenapp-6-5%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcau-hinh-xenapp-6-5%2F&#038;title=C%E1%BA%A5u%20h%C3%ACnh%20XenApp%206.5" data-a2a-url="./../../../cau-hinh-xenapp-6-5/index.html" data-a2a-title="Cấu hình XenApp 6.5"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cau-hinh-xenapp-6-5/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt XenApp 6.5 và các tính năng liên quan</title>
+		<link>./../../../cai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan/index.html</link>
+					<comments>./../../../cai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 09 Sep 2014 09:26:10 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[XenApp]]></category>
+		<category><![CDATA[XenApp 6.5]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=191</guid>
+
+					<description><![CDATA[Bước 2 &#8211; Cài đặt XenApp 6.5 và các tính năng liên quan Trong bước 2 chúng ta sẽ tiếp tục cài đặt XenApp 6.5 và các thành phần cần thiết để sử dụng Chèn đĩa cài đặt XenApp 6.5 và tiến hành cài đặt Chọn Install XenApp Server Một hộp thoại thông báo yêu cầu cài .Net <a class="more-link" href="./../../../cai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5%20v%C3%A0%20c%C3%A1c%20t%C3%ADnh%20n%C4%83ng%20li%C3%AAn%20quan" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5%20v%C3%A0%20c%C3%A1c%20t%C3%ADnh%20n%C4%83ng%20li%C3%AAn%20quan" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5%20v%C3%A0%20c%C3%A1c%20t%C3%ADnh%20n%C4%83ng%20li%C3%AAn%20quan" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5%20v%C3%A0%20c%C3%A1c%20t%C3%ADnh%20n%C4%83ng%20li%C3%AAn%20quan" data-a2a-url="./../../../cai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan/index.html" data-a2a-title="Cài đặt XenApp 6.5 và các tính năng liên quan"></a></p><p><span style="color: #0000ff;"><strong>Bước 2 &#8211; Cài đặt XenApp 6.5 và các tính năng liên quan</strong></span></p>
+<p>Trong bước 2 chúng ta sẽ tiếp tục cài đặt XenApp 6.5 và các thành phần cần thiết để sử dụng</p>
+<p>Chèn đĩa cài đặt XenApp 6.5 và tiến hành cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-1.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-192 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-1-620x522.png" alt="XenApp-Install-1" width="620" height="522" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-1-620x522.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-1.png 622w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn <strong>Install XenApp Server</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-2.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-193 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-2.png" alt="XenApp-Install-2" width="418" height="146" /></a></p>
+<p>Một hộp thoại thông báo yêu cầu cài .Net Framework 3.5. Chọn OK để tiến hành cài đặt. Citrix sẽ tự động cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-3.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-194 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-3-620x441.png" alt="XenApp-Install-3" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-3-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-3.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Add server roles</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-4.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-195 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-4-620x524.png" alt="XenApp-Install-4" width="620" height="524" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-4-620x524.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-4.png 651w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn phiên bản tương ứng với bản quyền bạn có. Trong series này mình sử dụng phiên bản <strong>Platinium Edition</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-5.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-196 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-5-620x524.png" alt="XenApp-Install-5" width="620" height="524" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-5-620x524.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-5.png 651w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Accept <b>License Agreement </b>và click <strong>Next </strong>để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-6.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-197 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-6-620x524.png" alt="XenApp-Install-6" width="620" height="524" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-6-620x524.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-6.png 651w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Lựa chọn các Role để cài đặt. Trong bài lab này mình chọn server này làm <strong>XenApp</strong> và <strong>Web Interface.</strong> License server không chọn do đã cài đặt ở bước 1 trên máy chủ Active Directory.</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-7.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-198 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-7-620x443.png" alt="XenApp-Install-7" width="620" height="443" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-7-620x443.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-7.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: left;">Đánh dấu chọn các tính năng phụ như ảnh trên và click <strong>Next </strong>để tiếp tục</p>
+<p style="text-align: left;"><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-8.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-199" src="./../../../wp-content/uploads/2014/09/XenApp-Install-8-620x443.png" alt="XenApp-Install-8" width="620" height="443" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-8-620x443.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-8.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: left;">Click <strong>Next</strong> để chuyển sang bước tiếp theo</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-9.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-200 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-9-620x443.png" alt="XenApp-Install-9" width="620" height="443" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-9-620x443.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-9.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Install </strong>để tiến hành cài đặt XenApp</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-10.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-201 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-10-620x443.png" alt="XenApp-Install-10" width="620" height="443" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-10-620x443.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-10.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Finish</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-11.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-202 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-11-620x443.png" alt="XenApp-Install-11" width="620" height="443" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-11-620x443.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-11.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trước khi tiếp tục XenApp yêu cầu khởi động lại máy chủ. Nhấn <strong>Reboot</strong> để khởi động lại.</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-12.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-203 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-12-620x441.png" alt="XenApp-Install-12" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-12-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-12.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>After reboot, click <strong>Resume Install </strong>to continue setup</p>
+<p>Sau khi khởi động lại hoàn tất, giao diện cài đặt tự động bật lên. click <strong>Resume Install </strong>để tiếp tục cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-13.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-204 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-13-620x524.png" alt="XenApp-Install-13" width="620" height="524" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-13-620x524.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-13.png 651w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Install</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-14.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-205 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-14-620x441.png" alt="XenApp-Install-14" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-14-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-14.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Install-15.png" rel="lightbox[191]"><img decoding="async" loading="lazy" class="size-medium wp-image-206 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Install-15-620x441.png" alt="XenApp-Install-15" width="620" height="441" srcset="./../../../wp-content/uploads/2014/09/XenApp-Install-15-620x441.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Install-15.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Click <strong>Finish </strong>to complete installing XenApp and Role. Next step I&#8217;ll show how to configure XenApp 6.5</p>
+<p>Click Finish để hoàn tất cài đặt XenApp và các thành phần. Như bạn cũng thấy việc cài đặt XenApp tương đối dễ dàng và nhanh chóng, XenApp cài đặt mọi thứ tự động, đơn giản hóa tối đa việc cài đặt. Trong bài tới mình sẽ hướng dẫn thiết lập các cấu hình XenApp</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5%20v%C3%A0%20c%C3%A1c%20t%C3%ADnh%20n%C4%83ng%20li%C3%AAn%20quan" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5%20v%C3%A0%20c%C3%A1c%20t%C3%ADnh%20n%C4%83ng%20li%C3%AAn%20quan" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5%20v%C3%A0%20c%C3%A1c%20t%C3%ADnh%20n%C4%83ng%20li%C3%AAn%20quan" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5%20v%C3%A0%20c%C3%A1c%20t%C3%ADnh%20n%C4%83ng%20li%C3%AAn%20quan" data-a2a-url="./../../../cai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan/index.html" data-a2a-title="Cài đặt XenApp 6.5 và các tính năng liên quan"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt và cấu hình Citrix License server</title>
+		<link>./../../../cai-dat-va-cau-hinh-citrix-license-server/index.html</link>
+					<comments>./../../../cai-dat-va-cau-hinh-citrix-license-server/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 09 Sep 2014 08:54:07 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[XenApp]]></category>
+		<category><![CDATA[License server]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=170</guid>
+
+					<description><![CDATA[Bước 1: Cài đặt và cấu hình Citrix License server Trong bước đầu tiên này chúng ta sẽ tiến hành cài đặt và cấu hình Citrix License server. License server là thành phần bắt buộc để sử dụng XenApp hoặc các phần mềm khác của Citrix Bạn có thể cài đặt Citrix License server từ <a class="more-link" href="./../../../cai-dat-va-cau-hinh-citrix-license-server/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-va-cau-hinh-citrix-license-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20Citrix%20License%20server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-va-cau-hinh-citrix-license-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20Citrix%20License%20server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-va-cau-hinh-citrix-license-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20Citrix%20License%20server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-va-cau-hinh-citrix-license-server%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20Citrix%20License%20server" data-a2a-url="./../../../cai-dat-va-cau-hinh-citrix-license-server/index.html" data-a2a-title="Cài đặt và cấu hình Citrix License server"></a></p><p><span style="color: #0000ff;"><strong>Bước 1: Cài đặt và cấu hình Citrix License server</strong></span></p>
+<p>Trong bước đầu tiên này chúng ta sẽ tiến hành cài đặt và cấu hình Citrix License server. License server là thành phần bắt buộc để sử dụng XenApp hoặc các phần mềm khác của Citrix</p>
+<p>Bạn có thể cài đặt Citrix License server từ đĩa cài đặt XenApp 6.5 hoặc có thể tải từ website của Citrix qua đường link</p>
+<p>download.citrix.com</p>
+<p><strong>Cài đặt license server</strong></p>
+<p>Chèn đĩa cài đặt XenApp 6.5</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-1.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-medium wp-image-178 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-1-620x522.png" alt="XenApp-Lic-Install-1" width="620" height="522" srcset="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-1-620x522.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-1.png 622w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span id="more-170"></span></p>
+<p>Chọn <strong>M</strong><strong>anually install components</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-2.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-medium wp-image-179 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-2-620x522.png" alt="XenApp-Lic-Install-2" width="620" height="522" srcset="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-2-620x522.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-2.png 622w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn<strong> Common Components</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-3.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-medium wp-image-180 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-3-620x522.png" alt="XenApp-Lic-Install-3" width="620" height="522" srcset="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-3-620x522.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-3.png 622w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn <strong>Citrix Licensing</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-4.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-full wp-image-181 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-4.png" alt="XenApp-Lic-Install-4" width="500" height="386" /></a></p>
+<p>Accept <strong>License Agreement</strong> và click <strong>Next </strong>để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-5.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-full wp-image-182 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-5.png" alt="XenApp-Lic-Install-5" width="500" height="386" /></a></p>
+<p style="text-align: left;">Click <strong>Install </strong>để cài đặt</p>
+<p style="text-align: left;"><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-6.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-full wp-image-183" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Install-6.png" alt="XenApp-Lic-Install-6" width="500" height="386" /></a></p>
+<p style="text-align: left;">Click <strong>Finish </strong>để hoàn tất quá trình cài đặt và chuyển sang bước cấu hình license server</p>
+<p style="text-align: left;"><strong>Cấu hình Citrix License server</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-1.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-full wp-image-171 alignnone" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-1.png" alt="XenApp-Lic-Config-1" width="451" height="494" /></a></p>
+<p style="text-align: left;">Hộp thoạ<strong>i License server configuration tool</strong> xuất hiện. Nhập mật khẩu cho tài khoản admin và nhấn <strong>OK</strong></p>
+<p style="text-align: left;"><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-2.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-medium wp-image-172" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-2-620x443.png" alt="XenApp-Lic-Config-2" width="620" height="443" srcset="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-2-620x443.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-2.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: left;">Mở <strong>Citrix License Administration Console</strong> (web Interface). Nhập username và mật khẩu.</p>
+<p style="text-align: left;"><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-3.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-medium wp-image-173" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-3-620x443.png" alt="XenApp-Lic-Config-3" width="620" height="443" srcset="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-3-620x443.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-3.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: left;">Giao diện System Information xuất hiện sau khi đăng nhập thành công</p>
+<p style="text-align: left;"><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-4.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-medium wp-image-174" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-4-620x443.png" alt="XenApp-Lic-Config-4" width="620" height="443" srcset="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-4-620x443.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-4.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: left;">Click <strong>Vendor Daemon Configuration </strong>và click <strong>Import License</strong></p>
+<p style="text-align: left;"><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-5.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-medium wp-image-175" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-5-620x443.png" alt="XenApp-Lic-Config-5" width="620" height="443" srcset="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-5-620x443.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-5.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: left;">Truy cập đến tập tin license và click <strong>Import License</strong></p>
+<p style="text-align: left;"><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-6.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-medium wp-image-176" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-6-620x426.png" alt="XenApp-Lic-Config-6" width="620" height="426" srcset="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-6-620x426.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-6.png 676w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: left;">Sau khi hoàn thành import license, khởi động lại service <strong>Citrix Licensing</strong></p>
+<p style="text-align: left;"><a href="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-7.png" rel="lightbox[170]"><img decoding="async" loading="lazy" class="size-medium wp-image-177" src="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-7-620x443.png" alt="XenApp-Lic-Config-7" width="620" height="443" srcset="./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-7-620x443.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-Lic-Config-7.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: left;">Dashboard thể hiện <strong>Concurrent License</strong></p>
+<p style="text-align: left;"><strong>Note</strong>: Citrix cho phép đăng ký giấy phép XenApp phiên bản Developer cho XenApp 6.0 (phiên bản cho phép 1 người dùng đồng thời). Các bạn có thể tham khảo <a title="Citirx XenApp Developer License" href="https://www.google.com.vn/webhp?sourceid=chrome-instant&amp;rlz=1C1PRFE_enVN604VN605&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=citrix%20xenapp%20developer%20license" target="_blank">link này</a>. Hoặc đăng ký tài khoản Citrix và đăng ký dùng thử 3 tháng các phần mềm của hãng.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-va-cau-hinh-citrix-license-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20Citrix%20License%20server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-va-cau-hinh-citrix-license-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20Citrix%20License%20server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-va-cau-hinh-citrix-license-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20Citrix%20License%20server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-va-cau-hinh-citrix-license-server%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20c%E1%BA%A5u%20h%C3%ACnh%20Citrix%20License%20server" data-a2a-url="./../../../cai-dat-va-cau-hinh-citrix-license-server/index.html" data-a2a-title="Cài đặt và cấu hình Citrix License server"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-va-cau-hinh-citrix-license-server/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hướng dẫn cài đặt XenApp 6.5</title>
+		<link>./../../../huong-dan-cai-dat-xenapp-6-5/index.html</link>
+					<comments>./../../../huong-dan-cai-dat-xenapp-6-5/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 09 Sep 2014 08:29:08 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[XenApp]]></category>
+		<category><![CDATA[XenApp 6.5]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=168</guid>
+
+					<description><![CDATA[Hướng dẫn cài đặt XenApp 6.5 Hôm nay mình sẽ hướng dẫn cài đặt Citrix Xenapp 6.5 thông qua một số bước cơ bản. Trong bài hướng dẫn này mình thực hiện trên máy ảo với quy mô tương đối đơn giản. Tất nhiên thông qua quy mô đơn giản thì phần nào đó sẽ <a class="more-link" href="./../../../huong-dan-cai-dat-xenapp-6-5/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhuong-dan-cai-dat-xenapp-6-5%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20c%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhuong-dan-cai-dat-xenapp-6-5%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20c%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhuong-dan-cai-dat-xenapp-6-5%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20c%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhuong-dan-cai-dat-xenapp-6-5%2F&#038;title=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20c%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5" data-a2a-url="./../../../huong-dan-cai-dat-xenapp-6-5/index.html" data-a2a-title="Hướng dẫn cài đặt XenApp 6.5"></a></p><p><span style="color: #0000ff;"><strong>Hướng dẫn cài đặt XenApp 6.5</strong></span></p>
+<p>Hôm nay mình sẽ hướng dẫn cài đặt Citrix Xenapp 6.5 thông qua một số bước cơ bản. Trong bài hướng dẫn này mình thực hiện trên máy ảo với quy mô tương đối đơn giản. Tất nhiên thông qua quy mô đơn giản thì phần nào đó sẽ giúp bạn hình dung ra được một hệ thống lớn nó sẽ như thế nào.</p>
+<p>Mình sẽ cần một vài máy như bên dưới.</p>
+<p>1/ Active Directory server mình chạy kèm luôn Citrix License Server (ở hệ thống lớn người ta khuyên nên dành riêng một máy chủ cho License server, hoặc thậm chí là nhiều hơn nếu hệ thống cực lớn)</p>
+<p>2/ XenApp Server: Mình cho toàn bộ các chức năng của XenApp 6.5 chạy trên server này do quy mô lab nhỏ, ở hệ thống lớn người ta sẽ cài đặt riêng từng chức năng cho từng máy chủ (hoặc nhiều máy chủ)</p>
+<p>3/ Storefront server: máy chủ trung gian cho phép người sử dụng kết nối đến XenApp server thông qua trình duyệt HTML5 (hướng đến các thiết bị di động như máy tính bảng, điện thoại hoặc laptop không tiện cài đặt Citrix Receiver)</p>
+<p>Thông tin LAB:</p>
+<p><span style="text-decoration: underline;">Active Directory server</span></p>
+<p>Tên máy: dc.vmblogs.vn</p>
+<p>Địa chỉ IP: 172.16.1.15/24</p>
+<p><span style="text-decoration: underline;">XenApp server</span></p>
+<p>Tên máy: xa65.vmblogs.vn</p>
+<p>Địa chỉ IP: 172.16.1.16/24</p>
+<p><span style="text-decoration: underline;">Storefront server</span> (Receiver for HTML5)</p>
+<p>Tên máy: storefront.vmblogs.vn</p>
+<p>Địa chỉ IP: 172.16.1.17/24</p>
+<p>Lưu ý là hệ thống này dành cho mục đích thử nghiệm, không phải là thiết lập cho một hệ thống chạy production. Đọc tài liệu yêu cầu hệ thống từ website Citrix để có các thông tin cần thiết</p>
+<p>Do lượng thông tin tương đối nhiều nên mình chia nhỏ thành các phần cho tiện theo dõi nội dung như bên dưới</p>
+<p><span style="color: #ff0000;"><strong>Download link</strong></span> https://www.fshare.vn/folder/Y6PRFI2FOWAD</p>
+<p><a title="Cài đặt và cấu hình License Server" href="./../../../cai-dat-va-cau-hinh-citrix-license-server/index.html" target="_blank">Bước 1 &#8211; Cài đặt và cấu hình License server</a></p>
+<p><a title="Cai đặt XenApp 6.5 và các thành phần" href="./../../../cai-dat-xenapp-6-5-va-cac-tinh-nang-lien-quan/index.html" target="_blank">Bước 2 &#8211; Cài đặt XenApp 6.5 và các tính năng liên quan</a></p>
+<p><a title="Cấu hình XenApp 6.5" href="./../../../cau-hinh-xenapp-6-5/index.html" target="_blank">Bước 3 &#8211; Cấu hình XenApp 6.5</a></p>
+<p><a title="Cấu hình XenApp 6.5 (tiếp theo)" href="./../../../cau-hinh-xenpp-6-5-tiep-theo/index.html" target="_blank">Bước 4 &#8211; Cấu hình XenApp 6.5 (tiếp theo)</a></p>
+<p><a title="Publish ứng dụng XenApp" href="./../../../publish-ung-dung-xenapp/index.html" target="_blank">Bước 5 &#8211; Publish ứng dụng XenApp</a></p>
+<p><a title="Làm việc với máy chủ Storefront và HTML5" href="./../../../lam-viec-voi-may-chu-store-front-va-html5/index.html" target="_blank">Bước 6 &#8211; Làm việc với máy chủ Storefront và HTML5</a></p>
+<p>Bước 7 &#8211; Thiết lập môi trường người dùng tương tự Windows 7</p>
+<p>Bước 8 &#8211; Quản lý profile người dùng với UPM (User profile management)</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhuong-dan-cai-dat-xenapp-6-5%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20c%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhuong-dan-cai-dat-xenapp-6-5%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20c%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhuong-dan-cai-dat-xenapp-6-5%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20c%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhuong-dan-cai-dat-xenapp-6-5%2F&#038;title=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20c%C3%A0i%20%C4%91%E1%BA%B7t%20XenApp%206.5" data-a2a-url="./../../../huong-dan-cai-dat-xenapp-6-5/index.html" data-a2a-title="Hướng dẫn cài đặt XenApp 6.5"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../huong-dan-cai-dat-xenapp-6-5/feed/index.html</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XenApp 6.5 &#8211; Internet Explorer trên Ubuntu Linux</title>
+		<link>./../../../xenapp-6-5-internet-explorer-ubuntu-linux/index.html</link>
+					<comments>./../../../xenapp-6-5-internet-explorer-ubuntu-linux/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 03 Sep 2014 06:31:11 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Citrix Receiver]]></category>
+		<category><![CDATA[XenApp]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[XenApp 6.5]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=119</guid>
+
+					<description><![CDATA[XenApp 6.5 &#8211; Internet Explorer trên Ubuntu Linux Chạy Internet Explorer trên hệ điều hành Ubuntu Linux thông qua phần mềm Citrix Receiver]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fxenapp-6-5-internet-explorer-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20Internet%20Explorer%20tr%C3%AAn%20Ubuntu%20Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fxenapp-6-5-internet-explorer-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20Internet%20Explorer%20tr%C3%AAn%20Ubuntu%20Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fxenapp-6-5-internet-explorer-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20Internet%20Explorer%20tr%C3%AAn%20Ubuntu%20Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fxenapp-6-5-internet-explorer-ubuntu-linux%2F&#038;title=XenApp%206.5%20%E2%80%93%20Internet%20Explorer%20tr%C3%AAn%20Ubuntu%20Linux" data-a2a-url="./../../../xenapp-6-5-internet-explorer-ubuntu-linux/index.html" data-a2a-title="XenApp 6.5 – Internet Explorer trên Ubuntu Linux"></a></p><p><span style="color: #0000ff;"><strong>XenApp 6.5 &#8211; Internet Explorer trên Ubuntu Linux</strong></span></p>
+<p>Chạy Internet Explorer trên hệ điều hành Ubuntu Linux thông qua phần mềm Citrix Receiver</p>
+<p><object width="480" height="360"><param name="movie" value="//www.youtube.com/v/hgmD7IDXvFs?version=3&amp;hl=en_US" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed src="//www.youtube.com/v/hgmD7IDXvFs?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="480" height="360" allowscriptaccess="always" allowfullscreen="allowfullscreen" /></object></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fxenapp-6-5-internet-explorer-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20Internet%20Explorer%20tr%C3%AAn%20Ubuntu%20Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fxenapp-6-5-internet-explorer-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20Internet%20Explorer%20tr%C3%AAn%20Ubuntu%20Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fxenapp-6-5-internet-explorer-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20Internet%20Explorer%20tr%C3%AAn%20Ubuntu%20Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fxenapp-6-5-internet-explorer-ubuntu-linux%2F&#038;title=XenApp%206.5%20%E2%80%93%20Internet%20Explorer%20tr%C3%AAn%20Ubuntu%20Linux" data-a2a-url="./../../../xenapp-6-5-internet-explorer-ubuntu-linux/index.html" data-a2a-title="XenApp 6.5 – Internet Explorer trên Ubuntu Linux"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../xenapp-6-5-internet-explorer-ubuntu-linux/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XenApp 6.5 &#8211; RedTurbinDemo trên Ubuntu Linux</title>
+		<link>./../../../xenapp-6-5-redturbin-demo-ubuntu-linux/index.html</link>
+					<comments>./../../../xenapp-6-5-redturbin-demo-ubuntu-linux/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 03 Sep 2014 06:28:38 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Citrix Receiver]]></category>
+		<category><![CDATA[XenApp]]></category>
+		<category><![CDATA[OpenGL]]></category>
+		<category><![CDATA[RedTurbin Demo]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=115</guid>
+
+					<description><![CDATA[XenApp 6.5 &#8211; RedTurbinDemo trên Ubuntu Linux Chạy ứng dụng RedTurbinDemo để kiểm tra đồ họa OpenGL trên hệ điều hành Ubuntu Linux thông qua phần mềm Citrix Receiver]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fxenapp-6-5-redturbin-demo-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20RedTurbinDemo%20tr%C3%AAn%20Ubuntu%20Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fxenapp-6-5-redturbin-demo-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20RedTurbinDemo%20tr%C3%AAn%20Ubuntu%20Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fxenapp-6-5-redturbin-demo-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20RedTurbinDemo%20tr%C3%AAn%20Ubuntu%20Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fxenapp-6-5-redturbin-demo-ubuntu-linux%2F&#038;title=XenApp%206.5%20%E2%80%93%20RedTurbinDemo%20tr%C3%AAn%20Ubuntu%20Linux" data-a2a-url="./../../../xenapp-6-5-redturbin-demo-ubuntu-linux/index.html" data-a2a-title="XenApp 6.5 – RedTurbinDemo trên Ubuntu Linux"></a></p><p><span style="color: #0000ff;"><strong>XenApp 6.5 &#8211; RedTurbinDemo trên Ubuntu Linux</strong></span></p>
+<p>Chạy ứng dụng RedTurbinDemo để kiểm tra đồ họa OpenGL trên hệ điều hành Ubuntu Linux thông qua phần mềm Citrix Receiver</p>
+<p><object width="480" height="360"><param name="movie" value="//www.youtube.com/v/bVcaRO_1OgY?version=3&amp;hl=en_US" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed src="//www.youtube.com/v/bVcaRO_1OgY?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="480" height="360" allowscriptaccess="always" allowfullscreen="allowfullscreen" /></object></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fxenapp-6-5-redturbin-demo-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20RedTurbinDemo%20tr%C3%AAn%20Ubuntu%20Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fxenapp-6-5-redturbin-demo-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20RedTurbinDemo%20tr%C3%AAn%20Ubuntu%20Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fxenapp-6-5-redturbin-demo-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20RedTurbinDemo%20tr%C3%AAn%20Ubuntu%20Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fxenapp-6-5-redturbin-demo-ubuntu-linux%2F&#038;title=XenApp%206.5%20%E2%80%93%20RedTurbinDemo%20tr%C3%AAn%20Ubuntu%20Linux" data-a2a-url="./../../../xenapp-6-5-redturbin-demo-ubuntu-linux/index.html" data-a2a-title="XenApp 6.5 – RedTurbinDemo trên Ubuntu Linux"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../xenapp-6-5-redturbin-demo-ubuntu-linux/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XenApp 6.5 &#8211; Google Earth trên Ubuntu Linux</title>
+		<link>./../../../xenapp-6-5-google-earth-ubuntu-linux/index.html</link>
+					<comments>./../../../xenapp-6-5-google-earth-ubuntu-linux/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 03 Sep 2014 06:26:46 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Citrix Receiver]]></category>
+		<category><![CDATA[XenApp]]></category>
+		<category><![CDATA[Google Earth]]></category>
+		<category><![CDATA[OpenGL]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[XenApp 6.5]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=113</guid>
+
+					<description><![CDATA[XenApp 6.5 &#8211; Google Earth trên Ubuntu Linux Chạy Google Earth và các phần mềm đồ họa trên hệ điều hành Ubuntu Linux thông qua phần mềm Citrix Receiver]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fxenapp-6-5-google-earth-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20Google%20Earth%20tr%C3%AAn%20Ubuntu%20Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fxenapp-6-5-google-earth-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20Google%20Earth%20tr%C3%AAn%20Ubuntu%20Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fxenapp-6-5-google-earth-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20Google%20Earth%20tr%C3%AAn%20Ubuntu%20Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fxenapp-6-5-google-earth-ubuntu-linux%2F&#038;title=XenApp%206.5%20%E2%80%93%20Google%20Earth%20tr%C3%AAn%20Ubuntu%20Linux" data-a2a-url="./../../../xenapp-6-5-google-earth-ubuntu-linux/index.html" data-a2a-title="XenApp 6.5 – Google Earth trên Ubuntu Linux"></a></p><p><span style="color: #0000ff;"><strong>XenApp 6.5 &#8211; Google Earth trên Ubuntu Linux</strong></span></p>
+<p>Chạy Google Earth và các phần mềm đồ họa trên hệ điều hành Ubuntu Linux thông qua phần mềm Citrix Receiver</p>
+<p><object width="480" height="360"><param name="movie" value="//www.youtube.com/v/2KgzbLN21_0?version=3&amp;hl=en_US" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed src="//www.youtube.com/v/2KgzbLN21_0?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="480" height="360" allowscriptaccess="always" allowfullscreen="allowfullscreen" /></object></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fxenapp-6-5-google-earth-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20Google%20Earth%20tr%C3%AAn%20Ubuntu%20Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fxenapp-6-5-google-earth-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20Google%20Earth%20tr%C3%AAn%20Ubuntu%20Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fxenapp-6-5-google-earth-ubuntu-linux%2F&amp;linkname=XenApp%206.5%20%E2%80%93%20Google%20Earth%20tr%C3%AAn%20Ubuntu%20Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fxenapp-6-5-google-earth-ubuntu-linux%2F&#038;title=XenApp%206.5%20%E2%80%93%20Google%20Earth%20tr%C3%AAn%20Ubuntu%20Linux" data-a2a-url="./../../../xenapp-6-5-google-earth-ubuntu-linux/index.html" data-a2a-title="XenApp 6.5 – Google Earth trên Ubuntu Linux"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../xenapp-6-5-google-earth-ubuntu-linux/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Windows Server Next &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 08:04:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Windows Server Next &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>What&#8217;s New in the Windows Server Next Preview</title>
+		<link>./../../../whats-new-windows-server-next-preview/index.html</link>
+					<comments>./../../../whats-new-windows-server-next-preview/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 02 Oct 2014 03:22:47 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Windows Server Next]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=427</guid>
+
+					<description><![CDATA[What&#8217;s New in the Windows Server Next Preview &#160; In addition to making Windows 10 available today as a Technical Preview, Microsoft is also making the next version of Windows Server available for download, installation, and testing. As I noted in an earlier article, Windows Server, along with Windows 10 represent really early development and <a class="more-link" href="./../../../whats-new-windows-server-next-preview/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fwhats-new-windows-server-next-preview%2F&amp;linkname=What%E2%80%99s%20New%20in%20the%20Windows%20Server%20Next%20Preview" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fwhats-new-windows-server-next-preview%2F&amp;linkname=What%E2%80%99s%20New%20in%20the%20Windows%20Server%20Next%20Preview" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fwhats-new-windows-server-next-preview%2F&amp;linkname=What%E2%80%99s%20New%20in%20the%20Windows%20Server%20Next%20Preview" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fwhats-new-windows-server-next-preview%2F&#038;title=What%E2%80%99s%20New%20in%20the%20Windows%20Server%20Next%20Preview" data-a2a-url="./../../../whats-new-windows-server-next-preview/index.html" data-a2a-title="What’s New in the Windows Server Next Preview"></a></p><h1 class="page-title">What&#8217;s New in the Windows Server Next Preview</h1>
+<p>&nbsp;</p>
+<p>In addition to making <a href="http://windowsitpro.com/windows-10/features-test-windows-10-technical-preview">Windows 10</a> available today as a Technical Preview, <a href="http://windowsitpro.com/windows-server/technical-previews-next-windows-server-and-system-center-release-today-too">Microsoft is also making the next version of Windows Server</a> available for download, installation, and testing.</p>
+<p>As I noted in an earlier article, Windows Server, along with Windows 10 represent really early development and every feature may not work. This is truly beta software, so please don&#8217;t expect to run it in a production environment.</p>
+<p>To get a good feel for Microsoft&#8217;s direction for the next version of Windows Server, they are providing a list of technologies available to watch for when testing. They are:</p>
+<ul>
+<li><strong>Active Directory Federation Services (ADFS)</strong>: New features that enable configuration of ADFS to authenticate users stored in Lightweight Directory Access Protocol (LDAP) directories.</li>
+<li>Remote Desktop Services: Improvements based on customer requests. We added support for OpenGL and OpenCL applications, and added MultiPoint Services as a new role in Windows Server.</li>
+<li><strong>Storage quality of service</strong>: Update enables users to create storage QoS policies on a Scale-Out File Server and assign them to one or more virtual disks on Hyper-V virtual machines. Storage Replica is a new feature that enables synchronous replication between servers for disaster recovery, as well as stretching of a failover cluster for high availability.</li>
+<li><strong>A Hyper-V or Scale-out File Server failover cluster</strong>: Can now easily be upgraded without any downtime or need to build a new cluster with nodes that are running Windows Server Technical Preview.</li>
+<li><strong>Web Application Proxy</strong>: Now supports pre-authentication for applications using the HTTP Basic protocol, wildcards in external URLS of applications, redirection from HTTP to HTTPS, use of pass-through authentication with HTTP applications, publishing of Remote Desktop Gateway apps, a new debug log, propagation of client IP addresses to backend applications, and improvements to the Administrator console.</li>
+<li><strong>Windows PowerShell 5.0</strong>: Includes new features, including support for developing with classes, and new security features that extend its use, improve its usability, and allow users to control and manage Windows-based environments more easily and comprehensively.</li>
+<li><strong>Networking</strong>: New feature that enables Routing Encapsulation (GRE) for the Windows Server Gateway. In addition, the DNS Server role includes enhanced logging and a new policy based feature for DNS response management.</li>
+</ul>
+<p>Windows Server vNext (as some are calling it) is available for download from MSDN and includes Windows Server Standard, Windows Server Datacenter, and Hyper-V Server.</p>
+<p>Additionally, you&#8217;ll want to download the Remote Server Administration Tools for Windows 10 if you intend on testing both Windows 10 and the technical preview bits for Windows Server. You can find those tools at the Microsoft Download Center here:<a href="http://www.microsoft.com/en-us/download/details.aspx?id=44280" target="_blank">Remote Server Administration Tools for Windows 10 Technical Preview</a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fwhats-new-windows-server-next-preview%2F&amp;linkname=What%E2%80%99s%20New%20in%20the%20Windows%20Server%20Next%20Preview" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fwhats-new-windows-server-next-preview%2F&amp;linkname=What%E2%80%99s%20New%20in%20the%20Windows%20Server%20Next%20Preview" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fwhats-new-windows-server-next-preview%2F&amp;linkname=What%E2%80%99s%20New%20in%20the%20Windows%20Server%20Next%20Preview" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fwhats-new-windows-server-next-preview%2F&#038;title=What%E2%80%99s%20New%20in%20the%20Windows%20Server%20Next%20Preview" data-a2a-url="./../../../whats-new-windows-server-next-preview/index.html" data-a2a-title="What’s New in the Windows Server Next Preview"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../whats-new-windows-server-next-preview/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

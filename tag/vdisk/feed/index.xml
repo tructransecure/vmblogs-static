@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>vDisk &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Fri, 12 Jun 2015 06:50:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>vDisk &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Sử dụng vDisk cho toàn bộ máy con khác</title>
+		<link>./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/index.html</link>
+					<comments>./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2015 06:50:04 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[Provisioning Services]]></category>
+		<category><![CDATA[vDisk]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1289</guid>
+
+					<description><![CDATA[Sử dụng vDisk cho toàn bộ máy con khác Ở phần trước chúng ta đã thực hiện chuyển đổi HDD máy con (Target device) thành vDisk, chỉ còn một vài bước ngắn nữa thôi là hoàn tất 1 &#8211; Cấu hình vDisk &#38; Auto Add vDisk có 2 trạng thái là Private và Standard. Để <a class="more-link" href="./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&amp;linkname=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&amp;linkname=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&amp;linkname=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&#038;title=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" data-a2a-url="./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/index.html" data-a2a-title="Sử dụng vDisk cho toàn bộ máy con khác"></a></p><p><span style="color: #0000ff;"><strong>Sử dụng vDisk cho toàn bộ máy con khác</strong></span></p>
+<p>Ở phần trước chúng ta đã thực hiện chuyển đổi HDD máy con (Target device) thành vDisk, chỉ còn một vài bước ngắn nữa thôi là hoàn tất</p>
+<p><strong>1 &#8211; Cấu hình vDisk &amp; Auto Add</strong></p>
+<p>vDisk có 2 trạng thái là Private và Standard. Để sử dụng vDisk làm đĩa boot cho nhiều máy chúng ta cần chuyển vDisk về Standard và chọn các chế độ Cache phù hợp với yêu cầu. Ở chế dộ Standard, vDisk ở tình trạng Read-only, tức không thể thay đổi. Ở chế độ private, vDisk được gán với một máy client nào đó để tiến hành khởi động và cập nhật hoặc cài đặt phần mềm.</p>
+<p>Auto Add tự động thêm máy con vào Collection nhằm giảm thời gian cần thiết để cấu hình</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-1.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1290" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-1-620x329.png" alt="Configure-vDisk-AutoAdd-Wizard-1" width="620" height="329" srcset="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-1-620x329.png 620w, ./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-1-920x488.png 920w, ./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-1.png 1277w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mở Provisioning Services =&gt; Sites =&gt; Sitename =&gt; vDisk Pool</p>
+<p>Chọn vDisk, chuột phải và chọn <span style="text-decoration: underline;">Properties</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-2.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1291" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-2-620x330.png" alt="Configure-vDisk-AutoAdd-Wizard-2" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-2-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-2-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-2.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Như đã giải thích ở trên, chọn chế độ sử dụng cho vDisk là Standard hoặc Private</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-3.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1292" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-3.png" alt="Configure-vDisk-AutoAdd-Wizard-3" width="422" height="110" /></a></p>
+<p>Phần cache có nhiều tùy chọn</p>
+<p><span style="text-decoration: underline;">Cache on device hard drive:</span> Lưu file caching trên ổ cứng gắn trên máy client, do giảm ghi trên server nên sẽ tối ưu tốt tốc độ sử dụng, tuy nhiên chi phí sẽ tăng</p>
+<p><span style="text-decoration: underline;">Cache on device hard drive persisted:</span> Tương tự như trên tuy nhiên các tập tin caching sẽ không bị mất đi trong các quá trình khởi động máy. Chỉ áp dụng cho Windows 7 trở đi</p>
+<p><span style="text-decoration: underline;">Cache on device RAM:</span> Tốc độ tuyệt vời do RAM có tốc độ nhanh hơn nhiều so với ổ cứng. Tuy nhiên có nhược điểm là nếu RAM bị đầy sẽ gây treo máy hoặc lỗi màn hình xanh</p>
+<p><span style="text-decoration: underline;">Cache on device RAM with overflow on hard disk:</span> Kết hợp giữa giải pháp cache trên RAM và ổ cứng ở trên. Đây là giải pháp mới nhất được giới thiệu từ phiên bản 7.1 với nhiều cải tiến. Nhiều đánh giá được thực hiện so sánh loại cache này thậm chí còn tốt và tốc độ cao hơn nhiều so với cache trên RAM, và đặc biệt là cực kỳ ổn định</p>
+<p><span style="text-decoration: underline;">Cache on server:</span> đây là loại có tốc độ kém nhất trong các loại, thường dùng để test là chủ yếu. Ở Việt Nam các tiệm Net cũng sử dụng loại này, tuy nhiên cache được lưu trên ổ đĩa SSD tốc độ tốt hơn một chút so với lưu trên HDD</p>
+<p><span style="text-decoration: underline;">Cache on server persisted:</span> không bị mất đi trong quá trình khởi động lại máy con</p>
+<p>Các chuyên gia khuyên nên sử dụng loại Cache on device RAM with overflow on hard disk vì tốc độ cũng như sự ổn định</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-4.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1293" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-4.png" alt="Configure-vDisk-AutoAdd-Wizard-4" width="476" height="605" /></a></p>
+<p>Cấu hình tính năng Auto Add</p>
+<p>Chuột phải vào Collection =&gt; <span style="text-decoration: underline;">Auto Add Wizard</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-5.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1294" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-5.png" alt="Configure-vDisk-AutoAdd-Wizard-5" width="515" height="408" /></a></p>
+<p><span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-6.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1295" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-6.png" alt="Configure-vDisk-AutoAdd-Wizard-6" width="515" height="408" /></a></p>
+<p>Check chọn <span style="text-decoration: underline;">Enable Auto-Add</span></p>
+<p><span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-7.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1296" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-7.png" alt="Configure-vDisk-AutoAdd-Wizard-7" width="515" height="408" /></a></p>
+<p>Chọn site =&gt; <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-8.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1297" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-8.png" alt="Configure-vDisk-AutoAdd-Wizard-8" width="515" height="408" /></a></p>
+<p>Chọn Collection =&gt; <span style="text-decoration: underline;">Next</span></p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-9.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1298" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-9.png" alt="Configure-vDisk-AutoAdd-Wizard-9" width="515" height="408" /></a></p>
+<p>Chọn template</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-10.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1299" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-10.png" alt="Configure-vDisk-AutoAdd-Wizard-10" width="515" height="408" /></a></p>
+<p>Chọn Auto naming để PVS tự động gán tên máy tính</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-11.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1300" src="./../../../wp-content/uploads/2015/06/Configure-vDisk-AutoAdd-Wizard-11.png" alt="Configure-vDisk-AutoAdd-Wizard-11" width="515" height="408" /></a></p>
+<p>Hoàn tất</p>
+<p><strong>2 &#8211; Khởi động các máy khác từ vDisk</strong></p>
+<p>Khởi động các máy con khác boot từ card mạng, màn hình sẽ báo lỗi không tìm thấy OS boot file</p>
+<p>Chúng ta cần chỉnh một chút trên server</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-1.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1301" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-1-620x320.png" alt="Boot-Other-Computer-1" width="620" height="320" srcset="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-1-620x320.png 620w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-1-920x474.png 920w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-1.png 1269w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trên máy chủ PVS, vào phần collection chúng ta thấy có vài máy đã được tự động thêm vào</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-2.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1302" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-2-620x287.png" alt="Boot-Other-Computer-2" width="620" height="287" srcset="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-2-620x287.png 620w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-2-920x426.png 920w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-2.png 1040w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chuột phải vào từng máy, chọn Properties</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-3.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1303" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-3.png" alt="Boot-Other-Computer-3" width="494" height="434" /></a></p>
+<p>Ở mục boot from chúng ta chọn vDisk</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-4.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1304" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-4.png" alt="Boot-Other-Computer-4" width="494" height="434" /></a></p>
+<p>Ở phần vDisk có thể chọn 1 hoặc nhiều vDisk, nếu có nhiều vDisk sẽ hiển thị lựa chọn lúc khởi động</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-5.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1305" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-5.png" alt="Boot-Other-Computer-5" width="494" height="434" /></a></p>
+<p>Tùy chỉnh yêu cầu nhập username và mật khẩu trước khi khởi động vào vDisk</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-6.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1306" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-6-620x84.png" alt="Boot-Other-Computer-6" width="620" height="84" srcset="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-6-620x84.png 620w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-6-920x125.png 920w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-6.png 1037w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Kiểm tra lại các máy hiển thị vDisk ở phần Disk</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-7.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1307" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-7-620x330.png" alt="Boot-Other-Computer-7" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-7-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-7-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-7.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tiến hành khởi động lại các máy boot từ card mạng, trong ảnh là các máy đang kết nối và sử dụng vDisk, vDisk hiển thị trạng thái khóa với 3 connection</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-8.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1308" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-8-620x330.png" alt="Boot-Other-Computer-8" width="620" height="330" srcset="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-8-620x330.png 620w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-8-920x489.png 920w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-8.png 1281w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Kiểm tra trong phần Collection thì các máy đã khởi động thành công</p>
+<p><a href="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-9.png" rel="lightbox[1289]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1309" src="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-9-620x213.png" alt="Boot-Other-Computer-9" width="620" height="213" srcset="./../../../wp-content/uploads/2015/06/Boot-Other-Computer-9-620x213.png 620w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-9-920x316.png 920w, ./../../../wp-content/uploads/2015/06/Boot-Other-Computer-9.png 1280w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Từ PVS Console có thể tắt máy, khởi động hoặc khởi động lại các máy con. Khởi động máy sử dụng chức năng WOL (Wake on LAN)</p>
+<p>Ngoài ra có thể gửi tin nhắn đến 1 hoặc nhiều máy.</p>
+<p><strong>Đến đây về cơ bản chúng ta đã có một hệ thống bootrom sử dụng Citrix Provisioning Services hoàn chỉnh. Còn một vài tính năng nâng cao khác đang chờ bạn khám phá</strong></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&amp;linkname=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&amp;linkname=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&amp;linkname=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fsu-dung-vdisk-cho-toan-bo-may-con-khac%2F&#038;title=S%E1%BB%AD%20d%E1%BB%A5ng%20vDisk%20cho%20to%C3%A0n%20b%E1%BB%99%20m%C3%A1y%20con%20kh%C3%A1c" data-a2a-url="./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/index.html" data-a2a-title="Sử dụng vDisk cho toàn bộ máy con khác"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../su-dung-vdisk-cho-toan-bo-may-con-khac/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

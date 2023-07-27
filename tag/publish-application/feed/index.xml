@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Publish Application &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 07:59:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Publish Application &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Publish ứng dụng XenApp</title>
+		<link>./../../../publish-ung-dung-xenapp/index.html</link>
+					<comments>./../../../publish-ung-dung-xenapp/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 10 Sep 2014 07:01:07 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[XenApp]]></category>
+		<category><![CDATA[Publish Application]]></category>
+		<category><![CDATA[XenApp 6.5]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=272</guid>
+
+					<description><![CDATA[Bước 5 &#8211; Publish ứng dụng XenApp This post shows how to publish application and entire server desktop Trong bài này chúng ta sẽ tiến hành publish (phát hành) ứng dụng cho người sử dụng Phần 1 &#8211; Publish ứng dụng Có một số ứng dụng mình đã cài đăt sẵn, nếu các bạn chưa <a class="more-link" href="./../../../publish-ung-dung-xenapp/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fpublish-ung-dung-xenapp%2F&amp;linkname=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fpublish-ung-dung-xenapp%2F&amp;linkname=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fpublish-ung-dung-xenapp%2F&amp;linkname=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fpublish-ung-dung-xenapp%2F&#038;title=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" data-a2a-url="./../../../publish-ung-dung-xenapp/index.html" data-a2a-title="Publish ứng dụng XenApp"></a></p><p><span style="color: #0000ff;"><strong>Bước 5 &#8211; Publish ứng dụng XenApp</strong></span></p>
+<p>This post shows how to publish application and entire server desktop</p>
+<p>Trong bài này chúng ta sẽ tiến hành publish (phát hành) ứng dụng cho người sử dụng</p>
+<p><span style="color: #ff0000;"><strong>Phần 1 &#8211; Publish ứng dụng</strong></span></p>
+<p>Có một số ứng dụng mình đã cài đăt sẵn, nếu các bạn chưa cài ứng dụng thì có thể cài thêm hoặc thao tác tương tự để phát hành ứng dụng có sẵn của Windows (Windows Server 2008 R2)</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-1.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-273" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-1-620x458.png" alt="XenApp-PublishApp-1" width="620" height="458" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-1-620x458.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-1.png 899w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để cho dễ quản lý, mình tạo một thư mục đặt tên Published App để chứa các ứng dụng publish cho người dùng</p>
+<p>Chọn thư mục đã tạo và click <strong>Publish Application</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-2.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-274" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-2-620x547.png" alt="XenApp-PublishApp-2" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-2-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-2.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cửa sổ Welcome xuất hiện. Click <strong>Next</strong> để tiếp tục</p>
+<p>Có thể chọn <strong>Skip this screen in the future</strong> để bỏ qua cửa sổ này trong lần tới</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-3.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-275" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-3-620x547.png" alt="XenApp-PublishApp-3" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-3-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-3.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên cho ứng dụng và mô tả (nếu có) và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-4.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-276" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-4-620x547.png" alt="XenApp-PublishApp-4" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-4-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-4.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn loại ứng dụng, có 3 kiểu là Server desktop (full desktop), Content (tập tin hoặc thư mục) và Application (ứng dụng)</p>
+<p>Trong bài này mình chọn <strong>Application</strong> và <strong>Accessed from a server</strong> và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-5.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-277" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-5-620x547.png" alt="XenApp-PublishApp-5" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-5-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-5.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trỏ tới thư mục chứ tập tin ứng dụng và click <strong>Next</strong> để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-6.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-278" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-6-620x547.png" alt="XenApp-PublishApp-6" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-6-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-6.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thêm máy chủ chạy ứng dụng vào danh sách và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-7.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-279" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-7-620x547.png" alt="XenApp-PublishApp-7" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-7-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-7.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cấp quyền cho user được phép sử dụng ứng dụng. Về user có thể là user local (tài khoản có sẵn của máy chủ XenApp, user domain hoặc Anonymous (không cần đăng nhập)</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-8.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-280" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-8-620x547.png" alt="XenApp-PublishApp-8" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-8-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-8.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thay đổi icon ứng dụng nếu muốn và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-9.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-281" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-9-620x547.png" alt="XenApp-PublishApp-9" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-9-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-9.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Config <strong>advanced settings</strong> if you want and <strong>Finish</strong></p>
+<p>Cấu hình thiết lập nâng cao với <strong>Advanced Settings</strong> nếu có nhu cầu và click <strong>Finish</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-10.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-282" src="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-10-620x458.png" alt="XenApp-PublishApp-10" width="620" height="458" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishApp-10-620x458.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishApp-10.png 899w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Lặp lại các bước trên cho các ứng dụng khác</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="color: #ff0000;"><strong>Part 2 &#8211; Publish Desktop</strong></span></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-1.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-283" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-1-620x547.png" alt="XenApp-PublishDesktop-1" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-1-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-1.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cửa sổ Welcome =&gt; <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-2.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-284" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-2-620x547.png" alt="XenApp-PublishDesktop-2" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-2-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-2.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đặt tên cho published desktop và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-3.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-285" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-3-620x547.png" alt="XenApp-PublishDesktop-3" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-3-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-3.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn <strong>Server Desktop</strong> và <strong>Next</strong> để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-4.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-286" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-4-620x547.png" alt="XenApp-PublishDesktop-4" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-4-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-4.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thêm server cho phép chạy publish desktop vào danh sách</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-5.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-287" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-5-620x547.png" alt="XenApp-PublishDesktop-5" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-5-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-5.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cấp quyền cho các user được phép truy cập, tương tự như phần Publish Application, user có thể là user local hoặc user domain hoặc cho phép Anonymous</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-6.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-288" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-6-620x547.png" alt="XenApp-PublishDesktop-6" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-6-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-6.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đổi icon nếu muốn và click <strong>Next</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-7.png" rel="lightbox[272]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-289" src="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-7-620x547.png" alt="XenApp-PublishDesktop-7" width="620" height="547" srcset="./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-7-620x547.png 620w, ./../../../wp-content/uploads/2014/09/XenApp-PublishDesktop-7.png 681w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Hoàn tất</p>
+<p>Như vậy về cơ bản chúng ta đã hoàn thành cấu hình XenApp 6.5</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fpublish-ung-dung-xenapp%2F&amp;linkname=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fpublish-ung-dung-xenapp%2F&amp;linkname=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fpublish-ung-dung-xenapp%2F&amp;linkname=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fpublish-ung-dung-xenapp%2F&#038;title=Publish%20%E1%BB%A9ng%20d%E1%BB%A5ng%20XenApp" data-a2a-url="./../../../publish-ung-dung-xenapp/index.html" data-a2a-title="Publish ứng dụng XenApp"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../publish-ung-dung-xenapp/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

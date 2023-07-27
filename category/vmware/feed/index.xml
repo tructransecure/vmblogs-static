@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>VMWare &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 18 Aug 2015 04:09:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>VMWare &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Web GUI cho VMware ESXi</title>
+		<link>./../../../web-gui-cho-vmware-esxi/index.html</link>
+					<comments>./../../../web-gui-cho-vmware-esxi/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 18 Aug 2015 04:09:23 +0000</pubDate>
+				<category><![CDATA[VMWare]]></category>
+		<category><![CDATA[VMware ESXi]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1667</guid>
+
+					<description><![CDATA[Web GUI cho VMware ESXi ESXi có lẽ đã quá nổi tiếng nên cũng không quảng cáo nhiều thêm tuy nhiên trước giờ để vận hành thì cần phải cài đặt vSphere Client chỉ chạy trên Windows, đây cũng là một trở ngại rất lớn cho các quản trị viên sử dụng Linux hoặc Mac <a class="more-link" href="./../../../web-gui-cho-vmware-esxi/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fweb-gui-cho-vmware-esxi%2F&amp;linkname=Web%20GUI%20cho%20VMware%20ESXi" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fweb-gui-cho-vmware-esxi%2F&amp;linkname=Web%20GUI%20cho%20VMware%20ESXi" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fweb-gui-cho-vmware-esxi%2F&amp;linkname=Web%20GUI%20cho%20VMware%20ESXi" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fweb-gui-cho-vmware-esxi%2F&#038;title=Web%20GUI%20cho%20VMware%20ESXi" data-a2a-url="./../../../web-gui-cho-vmware-esxi/index.html" data-a2a-title="Web GUI cho VMware ESXi"></a></p><p><span style="color: #0000ff;"><strong>Web GUI cho VMware ESXi</strong></span></p>
+<p>ESXi có lẽ đã quá nổi tiếng nên cũng không quảng cáo nhiều thêm tuy nhiên trước giờ để vận hành thì cần phải cài đặt vSphere Client chỉ chạy trên Windows, đây cũng là một trở ngại rất lớn cho các quản trị viên sử dụng Linux hoặc Mac OS X.</p>
+<p>Trở ngại này sẽ sớm được giải quyết với ESXi Embedded Host Client</p>
+<p>Các bạn có thể tham khảo tại website bên dưới</p>
+<p><a href="https://labs.vmware.com/flings/esxi-embedded-host-client" target="_blank">https://labs.vmware.com/flings/esxi-embedded-host-client</a></p>
+<p><strong>Tính năng</strong></p>
+<ul>
+<li>VM operations (Power on, off, reset, suspend, etc).</li>
+<li>Creating a new VM, from scratch or from OVF/OVA (limited OVA support)</li>
+<li>Configuring NTP on a host</li>
+<li>Displaying summaries, events, tasks and notifications/alerts</li>
+<li>Providing a console to VMs</li>
+<li>Configuring host networking</li>
+<li>Configuring host advanced settings</li>
+<li>Configuring host services</li>
+</ul>
+<p><strong>Cài đặt</strong></p>
+<p>Bạn cần bật SSH cho ESXi và upload file cài đặt (tải ở link phía trên) vào datastore<br />
+Việc cài đặt tương đối dễ dàng, chỉ vài lệnh là xong</p>
+<p><a href="./../../../wp-content/uploads/2015/08/SSH-1.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1675" src="./../../../wp-content/uploads/2015/08/SSH-1-620x130.png" alt="SSH - 1" width="620" height="130" srcset="./../../../wp-content/uploads/2015/08/SSH-1-620x130.png 620w, ./../../../wp-content/uploads/2015/08/SSH-1-920x192.png 920w, ./../../../wp-content/uploads/2015/08/SSH-1.png 1139w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><em><span style="text-decoration: underline;">esxcli software vib install /vmfs/volumes/vmstore/esxui-2976804.vib</span></em></p>
+<p><a href="./../../../wp-content/uploads/2015/08/SSH-2.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1676" src="./../../../wp-content/uploads/2015/08/SSH-2-620x376.png" alt="SSH - 2" width="620" height="376" srcset="./../../../wp-content/uploads/2015/08/SSH-2-620x376.png 620w, ./../../../wp-content/uploads/2015/08/SSH-2-920x558.png 920w, ./../../../wp-content/uploads/2015/08/SSH-2.png 1140w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><em><span style="text-decoration: underline;">esxcli software vib list</span></em></p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-1.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1668" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-1-620x345.png" alt="ESXi Web GUI  - 1" width="620" height="345" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-1-620x345.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-1-920x512.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-1.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đã cài đặt các bạn có thể truy cập theo <span style="text-decoration: underline;"><em>http://esxi-server-ip/ui</em></span></p>
+<p>Đăng nhập với username + password của ESXi</p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-2.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1669" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-2-620x400.png" alt="ESXi Web GUI  - 2" width="620" height="400" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-2-620x400.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-2-920x593.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-2.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Dashboard thể hiện các thông tin chung</p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-3.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1670" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-3-620x400.png" alt="ESXi Web GUI  - 3" width="620" height="400" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-3-620x400.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-3-920x594.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-3.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Storage</p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-4.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1671" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-4-620x401.png" alt="ESXi Web GUI  - 4" width="620" height="401" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-4-620x401.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-4-920x595.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-4.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Network</p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-5.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1672" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-5-620x401.png" alt="ESXi Web GUI  - 5" width="620" height="401" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-5-620x401.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-5-920x595.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-5.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Monitor</p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-6.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1673" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-6-620x402.png" alt="ESXi Web GUI  - 6" width="620" height="402" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-6-620x402.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-6-920x596.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-6.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tạo máy ảo</p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-7.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1674" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-7-620x402.png" alt="ESXi Web GUI  - 7" width="620" height="402" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-7-620x402.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-7-920x596.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-7.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Quản lý máy ảo</p>
+<p>Mặc dù còn thiếu nhiều tính năng nhưng có lẽ đây là hướng đi hợp lý cho VMware vì không phải ai cũng sử dụng vSphere. Ngoài ra Web-client của vSphere chạy trên nền flash nên tốc độ chậm không được nhanh như bản này</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fweb-gui-cho-vmware-esxi%2F&amp;linkname=Web%20GUI%20cho%20VMware%20ESXi" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fweb-gui-cho-vmware-esxi%2F&amp;linkname=Web%20GUI%20cho%20VMware%20ESXi" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fweb-gui-cho-vmware-esxi%2F&amp;linkname=Web%20GUI%20cho%20VMware%20ESXi" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fweb-gui-cho-vmware-esxi%2F&#038;title=Web%20GUI%20cho%20VMware%20ESXi" data-a2a-url="./../../../web-gui-cho-vmware-esxi/index.html" data-a2a-title="Web GUI cho VMware ESXi"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../web-gui-cho-vmware-esxi/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>VMware OS Optimization Tool</title>
+		<link>./../../../vmware-os-optimization-tool/index.html</link>
+					<comments>./../../../vmware-os-optimization-tool/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 23 Sep 2014 05:48:05 +0000</pubDate>
+				<category><![CDATA[Tools]]></category>
+		<category><![CDATA[VMWare]]></category>
+		<category><![CDATA[OS Optimization]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=369</guid>
+
+					<description><![CDATA[Summary The VMware OS Optimization Tool helps optimize Windows 7/8/2008/2012 systems for use with VMware Horizon View. The optimization tool includes customizable templates to enable or disable Windows system services and features, per VMware recommendations and best practices, across multiple systems. Since most Windows system services are enabled by default, the optimization tool can be <a class="more-link" href="./../../../vmware-os-optimization-tool/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fvmware-os-optimization-tool%2F&amp;linkname=VMware%20OS%20Optimization%20Tool" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fvmware-os-optimization-tool%2F&amp;linkname=VMware%20OS%20Optimization%20Tool" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fvmware-os-optimization-tool%2F&amp;linkname=VMware%20OS%20Optimization%20Tool" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fvmware-os-optimization-tool%2F&#038;title=VMware%20OS%20Optimization%20Tool" data-a2a-url="./../../../vmware-os-optimization-tool/index.html" data-a2a-title="VMware OS Optimization Tool"></a></p><h3>Summary</h3>
+<p>The VMware OS Optimization Tool helps optimize Windows 7/8/2008/2012 systems for use with VMware Horizon View. The optimization tool includes customizable templates to enable or disable Windows system services and features, per VMware recommendations and best practices, across multiple systems. Since most Windows system services are enabled by default, the optimization tool can be used to easily disable unnecessary services and features to improve performance.</p>
+<p>You can perform the following actions using the VMware OS Optimization Tool:</p>
+<ul>
+<li>Local Analyze/Optimize</li>
+<li>Rempte Analyze/Optimize</li>
+<li>Optimization History</li>
+<li>Managing Templates</li>
+</ul>
+<p><strong>New for version 2014!</strong></p>
+<ul>
+<li>Updated templates for Windows 7/8 – based on VMware’s OS Optimization Guide</li>
+<li>New templates for Windows 2008/2012 RDSH servers for use as a desktop</li>
+<li>Single portal EXE design for ease of deployment and distribution</li>
+<li>Combination of Remote and Local tools into one tool</li>
+<li>Better template management, with built in and user-definable templates</li>
+<li>Results report export feature.</li>
+</ul>
+<p>Various bug fixes, usability enhancements, and GUI layout updates.</p>
+<p>&nbsp;</p>
+<p><img decoding="async" src="http://labs.vmware.com/wp-content/uploads/2013/07/screenshot-1Mediu.png" alt="VMWare OS Optimization Tool 2014" /></p>
+<p><a title="Download" href="http://download3.vmware.com/software/vmw-tools/osoptimization/OSOptimizationTool2014.zip" target="_blank"><strong>Download</strong></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fvmware-os-optimization-tool%2F&amp;linkname=VMware%20OS%20Optimization%20Tool" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fvmware-os-optimization-tool%2F&amp;linkname=VMware%20OS%20Optimization%20Tool" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fvmware-os-optimization-tool%2F&amp;linkname=VMware%20OS%20Optimization%20Tool" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fvmware-os-optimization-tool%2F&#038;title=VMware%20OS%20Optimization%20Tool" data-a2a-url="./../../../vmware-os-optimization-tool/index.html" data-a2a-title="VMware OS Optimization Tool"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../vmware-os-optimization-tool/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt VMware ESXi cho server không hỗ trợ GPT</title>
+		<link>./../../../cai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt/index.html</link>
+					<comments>./../../../cai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 04 Sep 2014 06:25:20 +0000</pubDate>
+				<category><![CDATA[VMWare]]></category>
+		<category><![CDATA[VSphere]]></category>
+		<category><![CDATA[ESXi]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=154</guid>
+
+					<description><![CDATA[Cài đặt VMware ESXi cho server không hỗ trợ GPT Mặc định VMware ESXi 5.5 tự động phân vùng HDD là chuẩn GPT, điều này làm cho các máy chủ đời cũ không boot được do không hỗ trợ phân vùng GPT. Hướng dẫn ngắn dưới đây hướng dẫn cài đặt VMware ESXi cho các <a class="more-link" href="./../../../cai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" data-a2a-url="./../../../cai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt/index.html" data-a2a-title="Cài đặt VMware ESXi cho server không hỗ trợ GPT"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt VMware ESXi cho server không hỗ trợ GPT</strong></span></p>
+<p>Mặc định VMware ESXi 5.5 tự động phân vùng HDD là chuẩn GPT, điều này làm cho các máy chủ đời cũ không boot được do không hỗ trợ phân vùng GPT. Hướng dẫn ngắn dưới đây hướng dẫn cài đặt VMware ESXi cho các server không hỗ trợ chuẩn phân vùng GPT</p>
+<p>Khởi động từ đĩa CD cài đặt ESXi 5.5</p>
+<p><a href="./../../../wp-content/uploads/2014/09/VMware1.png" rel="lightbox[154]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-155" src="./../../../wp-content/uploads/2014/09/VMware1-620x465.png" alt="VMware1" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/VMware1-620x465.png 620w, ./../../../wp-content/uploads/2014/09/VMware1.png 666w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhấn phím Shift + O (không phải số 0) để sửa tùy chọn boot</p>
+<p><a href="./../../../wp-content/uploads/2014/09/VMware2.png" rel="lightbox[154]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-156" src="./../../../wp-content/uploads/2014/09/VMware2-620x465.png" alt="VMware2" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/VMware2-620x465.png 620w, ./../../../wp-content/uploads/2014/09/VMware2.png 666w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đánh chữ <strong>runweasel formatwithmbr </strong>và nhấn Enter để tiến hành cài đặt như bình thường, lúc này đĩa cài sẽ phân vùng HDD theo chuẩn định dạng MBR.</p>
+<p>Chúc các bạn thành công</p>
+<p>&nbsp;</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" data-a2a-url="./../../../cai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt/index.html" data-a2a-title="Cài đặt VMware ESXi cho server không hỗ trợ GPT"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

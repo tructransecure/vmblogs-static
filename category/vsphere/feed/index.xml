@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>VSphere &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 07:56:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>VSphere &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Cài đặt VMware ESXi cho server không hỗ trợ GPT</title>
+		<link>./../../../cai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt/index.html</link>
+					<comments>./../../../cai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 04 Sep 2014 06:25:20 +0000</pubDate>
+				<category><![CDATA[VMWare]]></category>
+		<category><![CDATA[VSphere]]></category>
+		<category><![CDATA[ESXi]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=154</guid>
+
+					<description><![CDATA[Cài đặt VMware ESXi cho server không hỗ trợ GPT Mặc định VMware ESXi 5.5 tự động phân vùng HDD là chuẩn GPT, điều này làm cho các máy chủ đời cũ không boot được do không hỗ trợ phân vùng GPT. Hướng dẫn ngắn dưới đây hướng dẫn cài đặt VMware ESXi cho các <a class="more-link" href="./../../../cai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" data-a2a-url="./../../../cai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt/index.html" data-a2a-title="Cài đặt VMware ESXi cho server không hỗ trợ GPT"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt VMware ESXi cho server không hỗ trợ GPT</strong></span></p>
+<p>Mặc định VMware ESXi 5.5 tự động phân vùng HDD là chuẩn GPT, điều này làm cho các máy chủ đời cũ không boot được do không hỗ trợ phân vùng GPT. Hướng dẫn ngắn dưới đây hướng dẫn cài đặt VMware ESXi cho các server không hỗ trợ chuẩn phân vùng GPT</p>
+<p>Khởi động từ đĩa CD cài đặt ESXi 5.5</p>
+<p><a href="./../../../wp-content/uploads/2014/09/VMware1.png" rel="lightbox[154]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-155" src="./../../../wp-content/uploads/2014/09/VMware1-620x465.png" alt="VMware1" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/VMware1-620x465.png 620w, ./../../../wp-content/uploads/2014/09/VMware1.png 666w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhấn phím Shift + O (không phải số 0) để sửa tùy chọn boot</p>
+<p><a href="./../../../wp-content/uploads/2014/09/VMware2.png" rel="lightbox[154]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-156" src="./../../../wp-content/uploads/2014/09/VMware2-620x465.png" alt="VMware2" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/VMware2-620x465.png 620w, ./../../../wp-content/uploads/2014/09/VMware2.png 666w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đánh chữ <strong>runweasel formatwithmbr </strong>và nhấn Enter để tiến hành cài đặt như bình thường, lúc này đĩa cài sẽ phân vùng HDD theo chuẩn định dạng MBR.</p>
+<p>Chúc các bạn thành công</p>
+<p>&nbsp;</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20VMware%20ESXi%20cho%20server%20kh%C3%B4ng%20h%E1%BB%97%20tr%E1%BB%A3%20GPT" data-a2a-url="./../../../cai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt/index.html" data-a2a-title="Cài đặt VMware ESXi cho server không hỗ trợ GPT"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-vmware-esxi-cho-server-khong-ho-tro-gpt/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

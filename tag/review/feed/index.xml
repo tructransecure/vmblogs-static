@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Review &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Mon, 09 Mar 2015 08:31:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Review &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Review Raspberry Pi 2 Model B &#8211; Nhỏ con đa tài</title>
+		<link>./../../../review-raspberry-pi-2-model-b-nho-con-da-tai/index.html</link>
+					<comments>./../../../review-raspberry-pi-2-model-b-nho-con-da-tai/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 03 Mar 2015 01:31:13 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Raspberry Pi 2 Model B]]></category>
+		<category><![CDATA[Review]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1093</guid>
+
+					<description><![CDATA[Review Raspberry Pi 2 Model B &#8211; Nhỏ con đa tài Xin chào các bạn, lâu lắm rồi không review món gì nên tay chân hơi bị ngứa ngáy. Nhân dịp Raspberry Pi 2 Model B ra đời và cũng đang có nhu cầu vọc nên mình mua 1 em về vọc tiện thể review <a class="more-link" href="./../../../review-raspberry-pi-2-model-b-nho-con-da-tai/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&#038;title=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" data-a2a-url="./../../../review-raspberry-pi-2-model-b-nho-con-da-tai/index.html" data-a2a-title="Review Raspberry Pi 2 Model B – Nhỏ con đa tài"></a></p><p><span style="color: #0000ff;"><strong>Review Raspberry Pi 2 Model B &#8211; Nhỏ con đa tài</strong></span></p>
+<p>Xin chào các bạn, lâu lắm rồi không review món gì nên tay chân hơi bị ngứa ngáy. Nhân dịp Raspberry Pi 2 Model B ra đời và cũng đang có nhu cầu vọc nên mình mua 1 em về vọc tiện thể review cho anh em.</p>
+<p>Sở dĩ mình nói nhỏ con đa tài là mặc dù nhỏ nhắn xinh xinh nhưng Raspberry Pi nó vẫn là một máy tính thực thụ và được sử dụng trong rất nhiều mục đích khác nhau. Trong bài này mình chỉ dùng nó làm một vài thứ mà mình thích, còn các thứ khác các bạn có thể tìm hiểu trên Wiki và Forum của Raspberry nhé.</p>
+<p><b>Giới thiệu một chút về Raspberry Pi 2 Model B</b></p>
+<p><img decoding="async" src="http://i.telegraph.co.uk/multimedia/archive/03184/pi2modb_angle1_web_3184559b.jpg" alt="" border="0" /></p>
+<p>Dưới đây mình sẽ gọi Pi và Pi2 cho gọn nhé.</p>
+<p>Ra đời năm 2012 và cho đến giờ Pi đã có được 5 mẫu (4 mẫu với thế hệ 1 và 1 mẫu thế hệ 2) và từ khi ra đời Pi đã bán được khoảng 5 triệu cái, một con số khá là ấn tượng.</p>
+<p>Thế hệ 2 ra đời được kỳ vọng là một cú hích lớn khi chuyển nền tảng hệ thống sang ARMv7 thay vì ARMv6 như thế hệ đầu tiên. ARMv7 tương thích tốt hơn với các hệ điều hành so với ARMv6.</p>
+<p><span style="text-decoration: underline;">Phần cứng Pi 2</span></p>
+<ul>
+<li>SoC Broadcom BCM2836 quad-core 900MHz</li>
+<li>1GB RAM</li>
+<li>4 USB ports</li>
+<li>40 GPIO pins</li>
+<li>Full HDMI port</li>
+<li>Ethernet port</li>
+<li>Combined 3.5mm audio jack and composite video</li>
+<li>Camera interface (CSI)</li>
+<li>Display interface (DSI)</li>
+<li>Micro SD card slot</li>
+<li>VideoCore IV 3D graphics core</li>
+</ul>
+<p>Chính phần cứng mới làm cho mình hứng thú về con Pi 2 này, mặc dù nhà đang dùng con Rockchip RK3188 (quadcore Cortex A9 1.5GHz)</p>
+<p>Về việc chuẩn bị tương đối dễ, chỉ việc chọn một hệ điều hành mình thích và ghi ra thẻ MicroSD và cắm điện xài. Điều này làm cho Pi được yêu thích vì sự linh hoạt thay vì có sao xài vậy như các Android box.</p>
+<p>Mình có upload sẵn một vài OS, bạn nào có nhu cầu thì tải về dùng đỡ kiếm mệt.</p>
+<p>Fedora for Pi2<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FKYWEX7Z359IL" target="_blank">https://www.fshare.vn/file/KYWEX7Z359IL</a></p>
+<p>Ubuntu Linaro for Pi2<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FWDSOSK72DENQ" target="_blank">https://www.fshare.vn/file/WDSOSK72DENQ</a></p>
+<p>OSMC for Pi2 (RaspBMC)<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FY7QUTAM39PI5" target="_blank">https://www.fshare.vn/file/Y7QUTAM39PI5</a></p>
+<p>Raspbian for Pi2<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FZU2DH2KF3X4J" target="_blank">https://www.fshare.vn/file/ZU2DH2KF3X4J</a></p>
+<p>Rpi Thin client for Pi2<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FK6TE8NA96TD1" target="_blank">https://www.fshare.vn/file/K6TE8NA96TD1</a></p>
+<p>Snappy Ubuntu for Pi2<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FEAWJPNU4MJL1" target="_blank">https://www.fshare.vn/file/EAWJPNU4MJL1</a></p>
+<p>XBian Media Center for Pi2<br />
+<a href="http://vozforums.com/redirect/index.php?link=https%3A%2F%2Fwww.fshare.vn%2Ffile%2FDP8POW85SBTW" target="_blank">https://www.fshare.vn/file/DP8POW85SBTW</a></p>
+<p>Để ghi các file img bạn cần tải phần mềm <a href="http://vozforums.com/redirect/index.php?link=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fwin32diskimager%2F" target="_blank">Win32 Disk Imager</a> để ghi ra thẻ MicroSD</p>
+<p>Vì là dài kỳ nên mình xin dành 5-6 post để post dần dần, các bạn có review khác thì mình cũng xin post link lên post 1 cho mọi người dễ tham khảo nhé.</p>
+<p><strong>Các mục review</strong></p>
+<p><span style="color: #0000ff;"><strong>1 &#8211; <a title="Rpi2 - Su dung chung" href="./../../../review-raspberry-pi-2-model-b-su-dung-chung/index.html" target="_blank">Review Raspberry Pi 2 Model B – Sử dụng chung</a></strong></span></p>
+<p><span style="color: #0000ff;"><strong>2 &#8211; <a title="Rpi2 - Media Center" href="./../../../raspberry-pi-2-model-b-media-center/index.html" target="_blank">Raspberry Pi 2 Model B – Media Center</a></strong></span></p>
+<p><span style="color: #0000ff;"><strong>3 &#8211; <a title="Rpi2 Thin client" href="./../../../raspberry-pi-2-model-b-thin-client/index.html" target="_blank">Raspberry Pi 2 Model B – Thin client</a></strong></span></p>
+<p><span style="color: #0000ff;"><strong>4 &#8211; <a title="Rpi2 - Web Server" href="./../../../raspberry-pi-2-model-b-web-server/index.html" target="_blank">Raspberry Pi 2 Model B – Web Server</a></strong></span></p>
+<p><span style="color: #0000ff;"><strong>5 &#8211; <a title="SoftEther VPN Server" href="./../../../raspberry-pi-2-model-b-softether-vpn-server/index.html" target="_blank">Raspberry Pi 2 Model B – SoftEther VPN Server</a></strong></span></p>
+<p><span style="color: #0000ff;"><strong>6 &#8211; <a title="Cai dat No-IP" href="./../../../raspberry-pi-2-mode-b-cai-dat-noip/index.html" target="_blank">Raspberry Pi 2 Mode B – Cài đặt NoIP</a></strong></span></p>
+<p><a title="Raspberry Pi 2 with OpenMediaVault" href="./../../../raspberry-pi-2-model-b-nas-openmediavault/index.html" target="_blank"><strong><span style="color: #3366ff;">7 &#8211; Raspberry Pi 2 Model B – NAS OpenMediaVault</span></strong></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&amp;linkname=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Freview-raspberry-pi-2-model-b-nho-con-da-tai%2F&#038;title=Review%20Raspberry%20Pi%202%20Model%20B%20%E2%80%93%20Nh%E1%BB%8F%20con%20%C4%91a%20t%C3%A0i" data-a2a-url="./../../../review-raspberry-pi-2-model-b-nho-con-da-tai/index.html" data-a2a-title="Review Raspberry Pi 2 Model B – Nhỏ con đa tài"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../review-raspberry-pi-2-model-b-nho-con-da-tai/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

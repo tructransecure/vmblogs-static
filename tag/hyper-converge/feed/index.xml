@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hyper-Converge &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Thu, 30 Jul 2015 17:54:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Hyper-Converge &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Nutanix Community Edition</title>
+		<link>./../../../nutanix-community-edition/index.html</link>
+					<comments>./../../../nutanix-community-edition/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 30 Jul 2015 17:54:15 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Hyper-Converge]]></category>
+		<category><![CDATA[Nutanix]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1436</guid>
+
+					<description><![CDATA[Nutanix Community Edition Gần đây Nutanix quyết định phát hành phiên bản Community Edition của NOS, một hệ điều hành của hãng là nền tảng của hệ thống trung tâm dữ liệu dạng hyper-converge. Mình quyết định đăng ký dùng thử bởi Nutanix là một ngôi sao mới trong làng công nghệ hiện nay. Nutanix <a class="more-link" href="./../../../nutanix-community-edition/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fnutanix-community-edition%2F&amp;linkname=Nutanix%20Community%20Edition" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fnutanix-community-edition%2F&amp;linkname=Nutanix%20Community%20Edition" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fnutanix-community-edition%2F&amp;linkname=Nutanix%20Community%20Edition" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fnutanix-community-edition%2F&#038;title=Nutanix%20Community%20Edition" data-a2a-url="./../../../nutanix-community-edition/index.html" data-a2a-title="Nutanix Community Edition"></a></p><p><span style="color: #0000ff;"><strong>Nutanix Community Edition</strong></span></p>
+<p>Gần đây Nutanix quyết định phát hành phiên bản Community Edition của NOS, một hệ điều hành của hãng là nền tảng của hệ thống trung tâm dữ liệu dạng hyper-converge. Mình quyết định đăng ký dùng thử bởi Nutanix là một ngôi sao mới trong làng công nghệ hiện nay.</p>
+<p>Nutanix Community Edition hoàn toàn miễn phí giúp người dùng tiếp cận được với công nghệ của Nutanix trên phần cứng sẵn có của mình trước khi quyết định đầu tư.</p>
+<p>Nutanix CE hỗ trợ tạo cluster tối đa 4 máy chủ. Có thể tạo cluster 1, 3 hoặc 4 máy chủ tùy theo ý thích.</p>
+<p><strong>Yêu cầu phần cứng</strong></p>
+<ul>
+<li>Số node 1, 3 hoặc 4</li>
+<li>CPU: Intel tối thiểu 4 nhân, hỗ trợ vt-x</li>
+<li>RAM: tối thiểu 16GB</li>
+<li>Lưu trữ: RAID 0 (LSI HBA) hoặc AHCI</li>
+<li>Hot tier (phần lưu trữ tốc độ cao) tối thiểu 200GB SSD</li>
+<li>Cold tier (phần lưu trữ tốc độ thấp) tối thiểu 500GB HDD</li>
+<li>NIC: sử dụng card mạng Intel</li>
+</ul>
+<p>Yêu cầu trên là yêu cầu phần cứng cho mỗi node, CPU cũng đã có người chỉnh sửa để có thể chạy trên CPU AMD, tuy nhiên trường hợp này chắc ít.</p>
+<p>HDD tối đa cho từng node là 4 HDD. Ngoài ra trên máy mình test card mạng Broadcom vẫn chạy tốt</p>
+<p>Việc cài đặt tương đối đơn giản, chỉ việc tải bộ cài từ Nutanix về, dùng Rufus ghi ra USB (chế độ DD) và boot từ USB</p>
+<p>Việc cài đặt tương đối nhanh chóng và dễ dàng, sau khi boot từ USB, chương trình cài đặt sẽ cấu hình KVM và cài Nutanix Control VM vào phần lưu trữ nhanh (tức SSD) ở mỗi node. Từ lúc này trở đi hệ điều hành NOS sẽ lưu trên USB và Nutanix Control VM (CVM) sẽ lưu trên SSD. Bạn phải cắm USB để khởi động cho mỗi node</p>
+<p>Dưới đây là một vài hình ảnh quản trị từ giao diện web PRISM</p>
+<p><a href="./../../../wp-content/uploads/2015/07/0-Nutanix-Home.png" rel="lightbox[1436]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1438" src="./../../../wp-content/uploads/2015/07/0-Nutanix-Home-620x330.png" alt="0-Nutanix-Home" width="620" height="330" srcset="./../../../wp-content/uploads/2015/07/0-Nutanix-Home-620x330.png 620w, ./../../../wp-content/uploads/2015/07/0-Nutanix-Home-920x489.png 920w, ./../../../wp-content/uploads/2015/07/0-Nutanix-Home.png 1334w" sizes="(max-width: 620px) 100vw, 620px" /></a>Home &#8211; thể hiện các thông tin chung của hệ thống</p>
+<p><a href="./../../../wp-content/uploads/2015/07/1-Nutanix-Health.png" rel="lightbox[1436]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1439" src="./../../../wp-content/uploads/2015/07/1-Nutanix-Health-620x330.png" alt="1-Nutanix-Health" width="620" height="330" srcset="./../../../wp-content/uploads/2015/07/1-Nutanix-Health-620x330.png 620w, ./../../../wp-content/uploads/2015/07/1-Nutanix-Health-920x490.png 920w, ./../../../wp-content/uploads/2015/07/1-Nutanix-Health.png 1334w" sizes="(max-width: 620px) 100vw, 620px" /></a>Health &#8211; Tình trạng vận hành của hệ thống</p>
+<p><a href="./../../../wp-content/uploads/2015/07/2-Nutanix-VM1.png" rel="lightbox[1436]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1440" src="./../../../wp-content/uploads/2015/07/2-Nutanix-VM1-620x348.png" alt="2-Nutanix-VM1" width="620" height="348" srcset="./../../../wp-content/uploads/2015/07/2-Nutanix-VM1-620x348.png 620w, ./../../../wp-content/uploads/2015/07/2-Nutanix-VM1-920x517.png 920w, ./../../../wp-content/uploads/2015/07/2-Nutanix-VM1.png 1334w" sizes="(max-width: 620px) 100vw, 620px" /></a>VM &#8211; Phần quản lý máy ảo</p>
+<p><a href="./../../../wp-content/uploads/2015/07/2-Nutanix-VM2.png" rel="lightbox[1436]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1441" src="./../../../wp-content/uploads/2015/07/2-Nutanix-VM2-620x348.png" alt="2-Nutanix-VM2" width="620" height="348" srcset="./../../../wp-content/uploads/2015/07/2-Nutanix-VM2-620x348.png 620w, ./../../../wp-content/uploads/2015/07/2-Nutanix-VM2-920x516.png 920w, ./../../../wp-content/uploads/2015/07/2-Nutanix-VM2.png 1334w" sizes="(max-width: 620px) 100vw, 620px" /></a>VM &#8211; Table &#8211; Chi tiết phần quản lý máy ảo</p>
+<p><a href="./../../../wp-content/uploads/2015/07/3-Nutanix-Storage1.png" rel="lightbox[1436]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1442" src="./../../../wp-content/uploads/2015/07/3-Nutanix-Storage1-620x348.png" alt="3-Nutanix-Storage1" width="620" height="348" srcset="./../../../wp-content/uploads/2015/07/3-Nutanix-Storage1-620x348.png 620w, ./../../../wp-content/uploads/2015/07/3-Nutanix-Storage1-920x517.png 920w, ./../../../wp-content/uploads/2015/07/3-Nutanix-Storage1.png 1334w" sizes="(max-width: 620px) 100vw, 620px" /></a>Storage &#8211; Thông tin chung về thiết bị lưu trữ</p>
+<p><a href="./../../../wp-content/uploads/2015/07/3-Nutanix-Storage2.png" rel="lightbox[1436]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1443" src="./../../../wp-content/uploads/2015/07/3-Nutanix-Storage2-620x346.png" alt="3-Nutanix-Storage2" width="620" height="346" srcset="./../../../wp-content/uploads/2015/07/3-Nutanix-Storage2-620x346.png 620w, ./../../../wp-content/uploads/2015/07/3-Nutanix-Storage2-920x514.png 920w, ./../../../wp-content/uploads/2015/07/3-Nutanix-Storage2.png 1334w" sizes="(max-width: 620px) 100vw, 620px" /></a>Storage &#8211; Diagram &#8211; Biểu đồ thông tin về các thiết bị lưu trữ</p>
+<p><a href="./../../../wp-content/uploads/2015/07/3-Nutanix-Storage3.png" rel="lightbox[1436]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1444" src="./../../../wp-content/uploads/2015/07/3-Nutanix-Storage3-620x348.png" alt="3-Nutanix-Storage3" width="620" height="348" srcset="./../../../wp-content/uploads/2015/07/3-Nutanix-Storage3-620x348.png 620w, ./../../../wp-content/uploads/2015/07/3-Nutanix-Storage3-920x517.png 920w, ./../../../wp-content/uploads/2015/07/3-Nutanix-Storage3.png 1334w" sizes="(max-width: 620px) 100vw, 620px" /></a>Storage &#8211; Table &#8211; Chi tiết về các thiết bị lưu trữ</p>
+<p><a href="./../../../wp-content/uploads/2015/07/4-Nutanix-Hardware1.png" rel="lightbox[1436]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1445" src="./../../../wp-content/uploads/2015/07/4-Nutanix-Hardware1-620x348.png" alt="4-Nutanix-Hardware1" width="620" height="348" srcset="./../../../wp-content/uploads/2015/07/4-Nutanix-Hardware1-620x348.png 620w, ./../../../wp-content/uploads/2015/07/4-Nutanix-Hardware1-920x516.png 920w, ./../../../wp-content/uploads/2015/07/4-Nutanix-Hardware1.png 1334w" sizes="(max-width: 620px) 100vw, 620px" /></a>Hardware &#8211; Thông tin phần cứng</p>
+<p><a href="./../../../wp-content/uploads/2015/07/4-Nutanix-Hardware2.png" rel="lightbox[1436]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1446" src="./../../../wp-content/uploads/2015/07/4-Nutanix-Hardware2-620x348.png" alt="4-Nutanix-Hardware2" width="620" height="348" srcset="./../../../wp-content/uploads/2015/07/4-Nutanix-Hardware2-620x348.png 620w, ./../../../wp-content/uploads/2015/07/4-Nutanix-Hardware2-920x516.png 920w, ./../../../wp-content/uploads/2015/07/4-Nutanix-Hardware2.png 1334w" sizes="(max-width: 620px) 100vw, 620px" /></a>Hardware &#8211; Table &#8211; Thông tin chi tiết phần cứng</p>
+<p><a href="./../../../wp-content/uploads/2015/07/5-Nutanix-Analysis.png" rel="lightbox[1436]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1447" src="./../../../wp-content/uploads/2015/07/5-Nutanix-Analysis-620x349.png" alt="5-Nutanix-Analysis" width="620" height="349" srcset="./../../../wp-content/uploads/2015/07/5-Nutanix-Analysis-620x349.png 620w, ./../../../wp-content/uploads/2015/07/5-Nutanix-Analysis-920x517.png 920w, ./../../../wp-content/uploads/2015/07/5-Nutanix-Analysis.png 1334w" sizes="(max-width: 620px) 100vw, 620px" /></a>Analysis &#8211; Phân tích vận hành hệ thống</p>
+<p><a href="./../../../wp-content/uploads/2015/07/6-Nutanix-Alert.png" rel="lightbox[1436]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1448" src="./../../../wp-content/uploads/2015/07/6-Nutanix-Alert-620x348.png" alt="6-Nutanix-Alert" width="620" height="348" srcset="./../../../wp-content/uploads/2015/07/6-Nutanix-Alert-620x348.png 620w, ./../../../wp-content/uploads/2015/07/6-Nutanix-Alert-920x517.png 920w, ./../../../wp-content/uploads/2015/07/6-Nutanix-Alert.png 1334w" sizes="(max-width: 620px) 100vw, 620px" /></a>Alert/Event &#8211; Các cảnh báo hệ thống và các bản ghi các sự kiện hệ thống</p>
+<p>Để tham gia thử nghiệm beta, các bạn có thể đăng ký tại website dưới đây</p>
+<p><a href="http://www.nutanix.com/products/community-edition/" target="_blank">http://www.nutanix.com/products/community-edition/</a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fnutanix-community-edition%2F&amp;linkname=Nutanix%20Community%20Edition" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fnutanix-community-edition%2F&amp;linkname=Nutanix%20Community%20Edition" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fnutanix-community-edition%2F&amp;linkname=Nutanix%20Community%20Edition" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fnutanix-community-edition%2F&#038;title=Nutanix%20Community%20Edition" data-a2a-url="./../../../nutanix-community-edition/index.html" data-a2a-title="Nutanix Community Edition"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../nutanix-community-edition/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

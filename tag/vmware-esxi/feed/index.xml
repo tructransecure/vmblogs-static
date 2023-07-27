@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>VMware ESXi &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 18 Aug 2015 04:09:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>VMware ESXi &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Web GUI cho VMware ESXi</title>
+		<link>./../../../web-gui-cho-vmware-esxi/index.html</link>
+					<comments>./../../../web-gui-cho-vmware-esxi/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 18 Aug 2015 04:09:23 +0000</pubDate>
+				<category><![CDATA[VMWare]]></category>
+		<category><![CDATA[VMware ESXi]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1667</guid>
+
+					<description><![CDATA[Web GUI cho VMware ESXi ESXi có lẽ đã quá nổi tiếng nên cũng không quảng cáo nhiều thêm tuy nhiên trước giờ để vận hành thì cần phải cài đặt vSphere Client chỉ chạy trên Windows, đây cũng là một trở ngại rất lớn cho các quản trị viên sử dụng Linux hoặc Mac <a class="more-link" href="./../../../web-gui-cho-vmware-esxi/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fweb-gui-cho-vmware-esxi%2F&amp;linkname=Web%20GUI%20cho%20VMware%20ESXi" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fweb-gui-cho-vmware-esxi%2F&amp;linkname=Web%20GUI%20cho%20VMware%20ESXi" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fweb-gui-cho-vmware-esxi%2F&amp;linkname=Web%20GUI%20cho%20VMware%20ESXi" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fweb-gui-cho-vmware-esxi%2F&#038;title=Web%20GUI%20cho%20VMware%20ESXi" data-a2a-url="./../../../web-gui-cho-vmware-esxi/index.html" data-a2a-title="Web GUI cho VMware ESXi"></a></p><p><span style="color: #0000ff;"><strong>Web GUI cho VMware ESXi</strong></span></p>
+<p>ESXi có lẽ đã quá nổi tiếng nên cũng không quảng cáo nhiều thêm tuy nhiên trước giờ để vận hành thì cần phải cài đặt vSphere Client chỉ chạy trên Windows, đây cũng là một trở ngại rất lớn cho các quản trị viên sử dụng Linux hoặc Mac OS X.</p>
+<p>Trở ngại này sẽ sớm được giải quyết với ESXi Embedded Host Client</p>
+<p>Các bạn có thể tham khảo tại website bên dưới</p>
+<p><a href="https://labs.vmware.com/flings/esxi-embedded-host-client" target="_blank">https://labs.vmware.com/flings/esxi-embedded-host-client</a></p>
+<p><strong>Tính năng</strong></p>
+<ul>
+<li>VM operations (Power on, off, reset, suspend, etc).</li>
+<li>Creating a new VM, from scratch or from OVF/OVA (limited OVA support)</li>
+<li>Configuring NTP on a host</li>
+<li>Displaying summaries, events, tasks and notifications/alerts</li>
+<li>Providing a console to VMs</li>
+<li>Configuring host networking</li>
+<li>Configuring host advanced settings</li>
+<li>Configuring host services</li>
+</ul>
+<p><strong>Cài đặt</strong></p>
+<p>Bạn cần bật SSH cho ESXi và upload file cài đặt (tải ở link phía trên) vào datastore<br />
+Việc cài đặt tương đối dễ dàng, chỉ vài lệnh là xong</p>
+<p><a href="./../../../wp-content/uploads/2015/08/SSH-1.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1675" src="./../../../wp-content/uploads/2015/08/SSH-1-620x130.png" alt="SSH - 1" width="620" height="130" srcset="./../../../wp-content/uploads/2015/08/SSH-1-620x130.png 620w, ./../../../wp-content/uploads/2015/08/SSH-1-920x192.png 920w, ./../../../wp-content/uploads/2015/08/SSH-1.png 1139w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><em><span style="text-decoration: underline;">esxcli software vib install /vmfs/volumes/vmstore/esxui-2976804.vib</span></em></p>
+<p><a href="./../../../wp-content/uploads/2015/08/SSH-2.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1676" src="./../../../wp-content/uploads/2015/08/SSH-2-620x376.png" alt="SSH - 2" width="620" height="376" srcset="./../../../wp-content/uploads/2015/08/SSH-2-620x376.png 620w, ./../../../wp-content/uploads/2015/08/SSH-2-920x558.png 920w, ./../../../wp-content/uploads/2015/08/SSH-2.png 1140w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><em><span style="text-decoration: underline;">esxcli software vib list</span></em></p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-1.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1668" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-1-620x345.png" alt="ESXi Web GUI  - 1" width="620" height="345" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-1-620x345.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-1-920x512.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-1.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đã cài đặt các bạn có thể truy cập theo <span style="text-decoration: underline;"><em>http://esxi-server-ip/ui</em></span></p>
+<p>Đăng nhập với username + password của ESXi</p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-2.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1669" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-2-620x400.png" alt="ESXi Web GUI  - 2" width="620" height="400" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-2-620x400.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-2-920x593.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-2.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Dashboard thể hiện các thông tin chung</p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-3.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1670" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-3-620x400.png" alt="ESXi Web GUI  - 3" width="620" height="400" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-3-620x400.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-3-920x594.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-3.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Storage</p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-4.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1671" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-4-620x401.png" alt="ESXi Web GUI  - 4" width="620" height="401" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-4-620x401.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-4-920x595.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-4.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Network</p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-5.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1672" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-5-620x401.png" alt="ESXi Web GUI  - 5" width="620" height="401" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-5-620x401.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-5-920x595.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-5.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Monitor</p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-6.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1673" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-6-620x402.png" alt="ESXi Web GUI  - 6" width="620" height="402" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-6-620x402.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-6-920x596.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-6.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tạo máy ảo</p>
+<p><a href="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-7.png" rel="lightbox[1667]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1674" src="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-7-620x402.png" alt="ESXi Web GUI  - 7" width="620" height="402" srcset="./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-7-620x402.png 620w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-7-920x596.png 920w, ./../../../wp-content/uploads/2015/08/ESXi-Web-GUI-7.png 1351w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Quản lý máy ảo</p>
+<p>Mặc dù còn thiếu nhiều tính năng nhưng có lẽ đây là hướng đi hợp lý cho VMware vì không phải ai cũng sử dụng vSphere. Ngoài ra Web-client của vSphere chạy trên nền flash nên tốc độ chậm không được nhanh như bản này</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fweb-gui-cho-vmware-esxi%2F&amp;linkname=Web%20GUI%20cho%20VMware%20ESXi" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fweb-gui-cho-vmware-esxi%2F&amp;linkname=Web%20GUI%20cho%20VMware%20ESXi" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fweb-gui-cho-vmware-esxi%2F&amp;linkname=Web%20GUI%20cho%20VMware%20ESXi" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fweb-gui-cho-vmware-esxi%2F&#038;title=Web%20GUI%20cho%20VMware%20ESXi" data-a2a-url="./../../../web-gui-cho-vmware-esxi/index.html" data-a2a-title="Web GUI cho VMware ESXi"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../web-gui-cho-vmware-esxi/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

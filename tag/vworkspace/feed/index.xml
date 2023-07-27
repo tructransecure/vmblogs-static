@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>vWorkspace &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 08:03:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>vWorkspace &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Quest vWorkSpace Desktop Optimizer</title>
+		<link>./../../../quest-vworkspace-desktop-optimizer/index.html</link>
+					<comments>./../../../quest-vworkspace-desktop-optimizer/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 23 Sep 2014 05:56:55 +0000</pubDate>
+				<category><![CDATA[Tools]]></category>
+		<category><![CDATA[vWorkspace]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=371</guid>
+
+					<description><![CDATA[Quest has released a new tool called the vWorkspace Desktop Optimizer. The tool contains Quests knowledge on how to optimize a Virtual Desktop, and although it is especially written for vWorkspace its also applicable to Citrix XenDesktop and VMware View. The tool contains a list of 40 optimization settings stored in an XML which can <a class="more-link" href="./../../../quest-vworkspace-desktop-optimizer/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&amp;linkname=Quest%20vWorkSpace%20Desktop%20Optimizer" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&amp;linkname=Quest%20vWorkSpace%20Desktop%20Optimizer" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&amp;linkname=Quest%20vWorkSpace%20Desktop%20Optimizer" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&#038;title=Quest%20vWorkSpace%20Desktop%20Optimizer" data-a2a-url="./../../../quest-vworkspace-desktop-optimizer/index.html" data-a2a-title="Quest vWorkSpace Desktop Optimizer"></a></p><p>Quest has released a new tool called the vWorkspace Desktop Optimizer. The tool contains Quests knowledge on how to optimize a Virtual Desktop, and although it is especially written for vWorkspace its also applicable to Citrix XenDesktop and VMware View.</p>
+<p>The tool contains a list of 40 optimization settings stored in an XML which can be enabled or disabled using either a GUI interface or using the command line.</p>
+<p>Quests own tests using the tools showed a 90% IOPS optimization, 43% less disk space used and RAM savings up to 10% compared to a out of the box Windows 7 Enterprise installation.</p>
+<p><img decoding="async" src="http://virtualization.info/en/files/2011/09/clip_image0017.png" alt="Quest OS Optimization Tool" /></p>
+<p><a title="Download" href="http://bit.ly/VDIopt" target="_blank"><strong>Download</strong></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&amp;linkname=Quest%20vWorkSpace%20Desktop%20Optimizer" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&amp;linkname=Quest%20vWorkSpace%20Desktop%20Optimizer" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&amp;linkname=Quest%20vWorkSpace%20Desktop%20Optimizer" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fquest-vworkspace-desktop-optimizer%2F&#038;title=Quest%20vWorkSpace%20Desktop%20Optimizer" data-a2a-url="./../../../quest-vworkspace-desktop-optimizer/index.html" data-a2a-title="Quest vWorkSpace Desktop Optimizer"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../quest-vworkspace-desktop-optimizer/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

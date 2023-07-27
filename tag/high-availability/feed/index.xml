@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>High Availability &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Thu, 13 Aug 2015 02:11:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>High Availability &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Video guide &#8211; Citrix XenServer High Availability</title>
+		<link>./../../../video-guide-citrix-xenserver-high-availability/index.html</link>
+					<comments>./../../../video-guide-citrix-xenserver-high-availability/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Fri, 31 Jul 2015 01:05:18 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[High Availability]]></category>
+		<category><![CDATA[XenServer]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1450</guid>
+
+					<description><![CDATA[Video guide &#8211; Citrix XenServer High Availability Để vận hành hệ thống Citrix XenServer High Availability, chúng ta cần xây dựng 1 LAB bao gồm Active Directory server Shared storage (iSCSI Target server, CIFS hoặc NFS) 2+ XenServer Dưới đây là các video hướng dẫn Cài đặt XenServer Cài đặt XenCenter Làm việc với XenServer <a class="more-link" href="./../../../video-guide-citrix-xenserver-high-availability/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&amp;linkname=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&amp;linkname=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&amp;linkname=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&#038;title=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" data-a2a-url="./../../../video-guide-citrix-xenserver-high-availability/index.html" data-a2a-title="Video guide – Citrix XenServer High Availability"></a></p><p><span style="color: #0000ff;"><strong>Video guide &#8211; Citrix XenServer High Availability</strong></span></p>
+<p>Để vận hành hệ thống Citrix XenServer High Availability, chúng ta cần xây dựng 1 LAB bao gồm</p>
+<ul>
+<li>Active Directory server</li>
+<li>Shared storage (iSCSI Target server, CIFS hoặc NFS)</li>
+<li>2+ XenServer</li>
+</ul>
+<p><strong>Dưới đây là các video hướng dẫn</strong></p>
+<p><span style="text-decoration: underline;">Cài đặt XenServer</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/cjvy2jmmah8?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">Cài đặt XenCenter</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/xCLLd6or8b0?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">Làm việc với XenServer Pool</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/bgrEGh5znk0?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">XenServer High Availability phần 1</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/ycc6YCjjNno?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">XenServer High Availability phần 2</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/b7_GASFsv2A?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">Cài đặt Microsoft iSCSI Target server</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/zRkXIekAFhc?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">Cài đặt CentOS vào XenServer</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/ygWVm2Z4Wl8?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">Cài đặt Windows 7 vào XenServer</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/jJfDXsGwjRQ?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><span style="text-decoration: underline;">Phân quyền XenServer tích hợp với Active Directory</span></p>
+<p><iframe loading="lazy" width="780" height="439" src="https://www.youtube.com/embed/jnK4xvYPwCI?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&amp;linkname=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&amp;linkname=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&amp;linkname=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fvideo-guide-citrix-xenserver-high-availability%2F&#038;title=Video%20guide%20%E2%80%93%20Citrix%20XenServer%20High%20Availability" data-a2a-url="./../../../video-guide-citrix-xenserver-high-availability/index.html" data-a2a-title="Video guide – Citrix XenServer High Availability"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../video-guide-citrix-xenserver-high-availability/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

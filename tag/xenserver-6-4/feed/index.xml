@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>XenServer 6.4 &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 07:55:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>XenServer 6.4 &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Cài đặt XenServer 64 Beta</title>
+		<link>./../../../cai-dat-xenserver-6-4-beta/index.html</link>
+					<comments>./../../../cai-dat-xenserver-6-4-beta/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 03 Sep 2014 08:06:38 +0000</pubDate>
+				<category><![CDATA[Citrix]]></category>
+		<category><![CDATA[XenServer]]></category>
+		<category><![CDATA[XenServer 6.4]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=123</guid>
+
+					<description><![CDATA[Cài đặt XenServer 64 Beta &#160;]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-xenserver-6-4-beta%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%2064%20Beta" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-xenserver-6-4-beta%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%2064%20Beta" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-xenserver-6-4-beta%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%2064%20Beta" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-xenserver-6-4-beta%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%2064%20Beta" data-a2a-url="./../../../cai-dat-xenserver-6-4-beta/index.html" data-a2a-title="Cài đặt XenServer 64 Beta"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt XenServer 64 Beta</strong></span></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer1.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-124" src="./../../../wp-content/uploads/2014/09/XenServer1-620x465.png" alt="XenServer1" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/XenServer1-620x465.png 620w, ./../../../wp-content/uploads/2014/09/XenServer1.png 640w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer2.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-125" src="./../../../wp-content/uploads/2014/09/XenServer2-620x344.png" alt="XenServer2" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer2-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer2.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span id="more-123"></span></p>
+<p>&nbsp;</p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer3.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-126" src="./../../../wp-content/uploads/2014/09/XenServer3-620x344.png" alt="XenServer3" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer3-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer3.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer4.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-127" src="./../../../wp-content/uploads/2014/09/XenServer4-620x344.png" alt="XenServer4" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer4-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer4.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer5.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-128" src="./../../../wp-content/uploads/2014/09/XenServer5-620x344.png" alt="XenServer5" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer5-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer5.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer6.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-129" src="./../../../wp-content/uploads/2014/09/XenServer6-620x344.png" alt="XenServer6" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer6-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer6.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer7.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-130" src="./../../../wp-content/uploads/2014/09/XenServer7-620x344.png" alt="XenServer7" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer7-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer7.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer8.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-131" src="./../../../wp-content/uploads/2014/09/XenServer8-620x344.png" alt="XenServer8" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer8-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer8.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer9.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-132" src="./../../../wp-content/uploads/2014/09/XenServer9-620x344.png" alt="XenServer9" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer9-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer9.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer10.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-133" src="./../../../wp-content/uploads/2014/09/XenServer10-620x344.png" alt="XenServer10" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer10-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer10.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer11.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-134" src="./../../../wp-content/uploads/2014/09/XenServer11-620x344.png" alt="XenServer11" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer11-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer11.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer12.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-135" src="./../../../wp-content/uploads/2014/09/XenServer12-620x344.png" alt="XenServer12" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer12-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer12.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer13.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-136" src="./../../../wp-content/uploads/2014/09/XenServer13-620x344.png" alt="XenServer13" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer13-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer13.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer14.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-137" src="./../../../wp-content/uploads/2014/09/XenServer14-620x344.png" alt="XenServer14" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer14-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer14.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer15.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-138" src="./../../../wp-content/uploads/2014/09/XenServer15-620x344.png" alt="XenServer15" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer15-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer15.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer16.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-139" src="./../../../wp-content/uploads/2014/09/XenServer16-620x344.png" alt="XenServer16" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer16-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer16.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer17.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-140" src="./../../../wp-content/uploads/2014/09/XenServer17-620x344.png" alt="XenServer17" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer17-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer17.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer18.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-141" src="./../../../wp-content/uploads/2014/09/XenServer18-620x344.png" alt="XenServer18" width="620" height="344" srcset="./../../../wp-content/uploads/2014/09/XenServer18-620x344.png 620w, ./../../../wp-content/uploads/2014/09/XenServer18.png 720w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/XenServer19.png" rel="lightbox[123]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-142" src="./../../../wp-content/uploads/2014/09/XenServer19-620x465.png" alt="XenServer19" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/XenServer19-620x465.png 620w, ./../../../wp-content/uploads/2014/09/XenServer19.png 640w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-xenserver-6-4-beta%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%2064%20Beta" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-xenserver-6-4-beta%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%2064%20Beta" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-xenserver-6-4-beta%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%2064%20Beta" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-xenserver-6-4-beta%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20XenServer%2064%20Beta" data-a2a-url="./../../../cai-dat-xenserver-6-4-beta/index.html" data-a2a-title="Cài đặt XenServer 64 Beta"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-xenserver-6-4-beta/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

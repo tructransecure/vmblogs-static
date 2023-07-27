@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Sophos XG Firewall Port Forwarding	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Thu, 30 Jun 2016 15:04:19 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<item>
+		<title>
+		By: Dinh To		</title>
+		<link>./../index.html#comment-85</link>
+
+		<dc:creator><![CDATA[Dinh To]]></dc:creator>
+		<pubDate>Thu, 30 Jun 2016 15:04:19 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=2098#comment-85</guid>
+
+					<description><![CDATA[Chào Anh,
+
+Tình cờ mình biết được trang Web của Anh. Đọc những bài viết của Anh thật sự rất chi tiết và hữu ích.
+Chúc Anh luôn thành công, có thật nhiều niềm vui, sức khỏe và có nhiều bài viết hay, hữu ích cho cộng đồng.
+
+Dinh To]]></description>
+			<content:encoded><![CDATA[<p>Chào Anh,</p>
+<p>Tình cờ mình biết được trang Web của Anh. Đọc những bài viết của Anh thật sự rất chi tiết và hữu ích.<br />
+Chúc Anh luôn thành công, có thật nhiều niềm vui, sức khỏe và có nhiều bài viết hay, hữu ích cho cộng đồng.</p>
+<p>Dinh To</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

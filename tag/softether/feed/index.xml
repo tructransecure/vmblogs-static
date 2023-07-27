@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SoftEther &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Wed, 17 Jun 2015 01:39:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>SoftEther &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Setup SoftEther VPN Client</title>
+		<link>./../../../setup-softether-vpn-client/index.html</link>
+					<comments>./../../../setup-softether-vpn-client/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2014 15:24:08 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[SoftEther]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=999</guid>
+
+					<description><![CDATA[Setup SoftEther VPN Client SoftEther sử dụng giao thức SSL VPN hoạt động trên port 443. Dưới đây là hướng dẫn cài đặt và cấu hình kết nối tới VPN server. Trước tiên bạn cần truy cập vào địa chỉ http://www.softether-download.com/en.aspx để tải phần mềm VPN Client cho Windows. Cài đặt phần mềm VPN Client <a class="more-link" href="./../../../setup-softether-vpn-client/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fsetup-softether-vpn-client%2F&amp;linkname=Setup%20SoftEther%20VPN%20Client" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fsetup-softether-vpn-client%2F&amp;linkname=Setup%20SoftEther%20VPN%20Client" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fsetup-softether-vpn-client%2F&amp;linkname=Setup%20SoftEther%20VPN%20Client" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fsetup-softether-vpn-client%2F&#038;title=Setup%20SoftEther%20VPN%20Client" data-a2a-url="./../../../setup-softether-vpn-client/index.html" data-a2a-title="Setup SoftEther VPN Client"></a></p><p><span style="color: #0000ff;"><strong>Setup SoftEther VPN Client</strong></span></p>
+<p>SoftEther sử dụng giao thức SSL VPN hoạt động trên port 443. Dưới đây là hướng dẫn cài đặt và cấu hình kết nối tới VPN server.</p>
+<p>Trước tiên bạn cần truy cập vào địa chỉ <a title="Download SoftEther" href="http://www.softether-download.com/en.aspx" target="_blank">http://www.softether-download.com/en.aspx</a> để tải phần mềm VPN Client cho Windows.</p>
+<p><strong>Cài đặt phần mềm VPN Client</strong></p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-1.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1003" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-1-620x447.png" alt="SoftEther-Client-Install-1" width="620" height="447" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-1-620x447.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-1.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Next để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-2.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1004" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-2-620x447.png" alt="SoftEther-Client-Install-2" width="620" height="447" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-2-620x447.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-2.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đồng ý thỏa thuận bản quyền</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-3.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1005" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-3-620x447.png" alt="SoftEther-Client-Install-3" width="620" height="447" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-3-620x447.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-3.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-4.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1006" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-4-620x447.png" alt="SoftEther-Client-Install-4" width="620" height="447" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-4-620x447.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-4.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-5.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1007" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-5-620x447.png" alt="SoftEther-Client-Install-5" width="620" height="447" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-5-620x447.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-5.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Next</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-6.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1008" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-6-620x447.png" alt="SoftEther-Client-Install-6" width="620" height="447" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-6-620x447.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-6.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Finish để toàn tất và mở VPN Client Manager</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-7.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1009" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-7-620x447.png" alt="SoftEther-Client-Install-7" width="620" height="447" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-7-620x447.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Install-7.png 629w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Cấu hình VPN Client</strong></p>
+<p>Nhấp đúp chuột vào mục Add VPN Connection và chọm Yes để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-1.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1011" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-1-620x465.png" alt="SoftEther-Client-Config-1" width="620" height="465" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-1-620x465.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-1.png 801w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhập tên cho card mạng ảo VPN</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-2.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1012" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-2.png" alt="SoftEther-Client-Config-2" width="446" height="202" /></a></p>
+<p>Chuyển giao diện sử dụng sang đơn giản. Tools =&gt; Switch Operation Mode</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-3.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1013" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-3-620x465.png" alt="SoftEther-Client-Config-3" width="620" height="465" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-3-620x465.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-3.png 799w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn Easy Mode. Bạn cũng có thể đặt mật khẩu để khóa các thông tin thiết lập nếu muốn</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-4.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1014" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-4.png" alt="SoftEther-Client-Config-4" width="502" height="538" /></a></p>
+<p>Chuột phải vào khoảng trống và chọn New VPN connection setting&#8230;</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-5.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1015" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-5.png" alt="SoftEther-Client-Config-5" width="548" height="582" /></a></p>
+<ul>
+<li>Nhập tên kết nối VPN</li>
+<li>Hostname: tên miền máy chủ VPN hoặc địa chỉ IP</li>
+<li>Check ô Disable NAT-T</li>
+<li>Check Always verify server certificate để luôn kiểm tra chứng chỉ certificate server có hợp lệ hay không</li>
+<li>Nhập tên tài khoản truy cập và mật khẩu</li>
+</ul>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-6.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1016" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-6-620x463.png" alt="SoftEther-Client-Config-6" width="620" height="463" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-6-620x463.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-6.png 796w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<ul>
+<li>Encrypt VPN connection with SSL =&gt; luôn sử dụng mã hóa SSL cho kết nối VPN</li>
+<li>Use Data Compression =&gt; bật tính năng nén dữ liệu</li>
+</ul>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-7.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1017" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-7-620x463.png" alt="SoftEther-Client-Config-7" width="620" height="463" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-7-620x463.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-7.png 796w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Quay lại giao diện ban đầu, click nút Start VPN Connection để bắt đầu kết nối VPN</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-8.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1018" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-8.png" alt="SoftEther-Client-Config-8" width="544" height="421" /></a></p>
+<p>Cảnh báo về chứng chỉ số hiện ra, chọn Resume the connection để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-9.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1019" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-9.png" alt="SoftEther-Client-Config-9" width="446" height="481" /></a></p>
+<p>Tùy chọn tự động trust chứng chỉ số, lần kết nối sau sẽ không báo nữa trừ khi có sự thay đổi chứng chỉ số trên máy chủ VPN</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-10.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1020" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-10.png" alt="SoftEther-Client-Config-10" width="488" height="430" /></a></p>
+<p>Kết nối thành công</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-11.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1021" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-11.png" alt="SoftEther-Client-Config-11" width="544" height="421" /></a></p>
+<p>Mọi truy cập đã được tự động chuyển đến VPN server đặt tại Singapore</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-12.png" rel="lightbox[999]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-1022" src="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-12-620x326.png" alt="SoftEther-Client-Config-12" width="620" height="326" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-12-620x326.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-12-920x484.png 920w, ./../../../wp-content/uploads/2014/12/SoftEther-Client-Config-12.png 1218w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fsetup-softether-vpn-client%2F&amp;linkname=Setup%20SoftEther%20VPN%20Client" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fsetup-softether-vpn-client%2F&amp;linkname=Setup%20SoftEther%20VPN%20Client" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fsetup-softether-vpn-client%2F&amp;linkname=Setup%20SoftEther%20VPN%20Client" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fsetup-softether-vpn-client%2F&#038;title=Setup%20SoftEther%20VPN%20Client" data-a2a-url="./../../../setup-softether-vpn-client/index.html" data-a2a-title="Setup SoftEther VPN Client"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../setup-softether-vpn-client/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cấu hình VirtualHUB</title>
+		<link>./../../../cau-hinh-virtualhub/index.html</link>
+					<comments>./../../../cau-hinh-virtualhub/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2014 09:48:38 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[SoftEther]]></category>
+		<category><![CDATA[VirtualHUB]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=980</guid>
+
+					<description><![CDATA[Cấu hình VirtualHUB Trong bài này chúng ta sẽ tiếp tục phần cấu hình VirtualHUB Group Đầu tiên chúng ta tạo group, việc tạo group là tùy chọn tuy nhiên tạo group và gán tài khoản vào group sẽ dễ quản lý hơn, tất nhiên sử dụng chung thiết lập cho tất cả tài khoản <a class="more-link" href="./../../../cau-hinh-virtualhub/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcau-hinh-virtualhub%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcau-hinh-virtualhub%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcau-hinh-virtualhub%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcau-hinh-virtualhub%2F&#038;title=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" data-a2a-url="./../../../cau-hinh-virtualhub/index.html" data-a2a-title="Cấu hình VirtualHUB"></a></p><p><span style="color: #0000ff;"><strong>Cấu hình VirtualHUB</strong></span></p>
+<p>Trong bài này chúng ta sẽ tiếp tục phần cấu hình VirtualHUB</p>
+<p><strong>Group</strong></p>
+<p>Đầu tiên chúng ta tạo group, việc tạo group là tùy chọn tuy nhiên tạo group và gán tài khoản vào group sẽ dễ quản lý hơn, tất nhiên sử dụng chung thiết lập cho tất cả tài khoản<br />
+<a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-1.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class=" size-full wp-image-983 alignleft" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-1.png" alt="VirtualHUB-Group-1" width="592" height="449" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-2.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class=" size-medium wp-image-984 aligncenter" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-2.png" alt="VirtualHUB-Group-2" width="432" height="473" /></a></p>
+<p>Cấu hình chính sách bảo mật cho group, có rất nhiều tuỳ chọn nhưng mình chỉ bật vài tùy chọn như sau:</p>
+<ul>
+<li>Allow Access: Cho phép nhóm được phép truy cập VPN</li>
+<li>Disallow DHCP Server Operation (IPv4): không cho phép người dùng hoạt động như một DHCP server</li>
+<li>Deny IP Address Duplication: không cho phép trùng địa chỉ IP</li>
+<li>Deny operation as TCP/IP server: tương tự DHCP server trên</li>
+<li>Max TCP connection: cho phép tối đa 32 kết nối cho mỗi user</li>
+<li>Maximum number of multiple Login: cho phép tối đa bao nhiêu thiết bị cho mỗi tài khoản.</li>
+</ul>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-3.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-985" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-3-620x420.png" alt="VirtualHUB-Group-3" width="620" height="420" srcset="./../../../wp-content/uploads/2014/12/VirtualHUB-Group-3-620x420.png 620w, ./../../../wp-content/uploads/2014/12/VirtualHUB-Group-3.png 795w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>User:</strong></p>
+<p>Tạo user</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-User-1.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-986" src="./../../../wp-content/uploads/2014/12/SoftEther-User-1-620x346.png" alt="SoftEther-User-1" width="620" height="346" srcset="./../../../wp-content/uploads/2014/12/SoftEther-User-1-620x346.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-User-1.png 802w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tên truy cập và mật khẩu</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-User-2.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-987" src="./../../../wp-content/uploads/2014/12/SoftEther-User-2-620x428.png" alt="SoftEther-User-2" width="620" height="428" srcset="./../../../wp-content/uploads/2014/12/SoftEther-User-2-620x428.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-User-2.png 803w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cấu hình các chính sách truy cập với Access list:</p>
+<p>Ví dụ cho phép user này truy cập web nhưng không cho phép download torrent&#8230;</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Access-Lists.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-988" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Access-Lists-620x396.png" alt="VirtualHUB-Access-Lists" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/VirtualHUB-Access-Lists-620x396.png 620w, ./../../../wp-content/uploads/2014/12/VirtualHUB-Access-Lists.png 796w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Máy chủ chứng thực, mặc định SoftEther chứng thực user trên database có sẵn, tuy nhiên SoftEther cũng hỗ trợ chứng thực thông qua một máy chủ RADIUS khác.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Authentication-Server.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-989" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Authentication-Server.png" alt="VirtualHUB-Authentication-Server" width="502" height="512" srcset="./../../../wp-content/uploads/2014/12/VirtualHUB-Authentication-Server.png 502w, ./../../../wp-content/uploads/2014/12/VirtualHUB-Authentication-Server-53x53.png 53w" sizes="(max-width: 502px) 100vw, 502px" /></a></p>
+<p>Cấu hình lưu tập tin log. Như ảnh dưới mình cấu hình cho VPN server không lưu log truy cập.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Log.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-990" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Log.png" alt="VirtualHUB-Log" width="495" height="610" /></a></p>
+<p>Cấu hình các tham số của VirtualHUB</p>
+<p>Mật khẩu<br />
+Giới hạn số kết nối VPN<br />
+Cấu hình lời chào<br />
+&#8230;</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-Properties.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-991" src="./../../../wp-content/uploads/2014/12/VirtualHUB-Properties-620x429.png" alt="VirtualHUB-Properties" width="620" height="429" srcset="./../../../wp-content/uploads/2014/12/VirtualHUB-Properties-620x429.png 620w, ./../../../wp-content/uploads/2014/12/VirtualHUB-Properties.png 761w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>SecureNAT</strong></p>
+<p>Như đã nói ở phần trước do chúng ta đang sử dụng VPS nên không sử dụng chức năng Local-Bridge được, do đó chúng ta cần dùng SecureNAT</p>
+<p>Enable SecureNAT</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-1.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-992" src="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-1-620x497.png" alt="VirtualHUB-SecureNAT-1" width="620" height="497" srcset="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-1-620x497.png 620w, ./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-1.png 628w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn Yes</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-2.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-993" src="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-2.png" alt="VirtualHUB-SecureNAT-2" width="418" height="400" /></a></p>
+<p>Cấu hình SecureNAT</p>
+<p>Thiết lập các tham số mạng cũng như dải IP VPN Server cấp cho thiết bị kết nối VPN. Để mặc định</p>
+<p><a href="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-3.png" rel="lightbox[980]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-994" src="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-3-620x431.png" alt="VirtualHUB-SecureNAT-3" width="620" height="431" srcset="./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-3-620x431.png 620w, ./../../../wp-content/uploads/2014/12/VirtualHUB-SecureNAT-3.png 740w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Như vậy là phần cấu hình máy chủ VPN Server đã hoàn tất, công việc còn lại chỉ là thiết lập kết nối VPN từ thiết bị.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcau-hinh-virtualhub%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcau-hinh-virtualhub%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcau-hinh-virtualhub%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcau-hinh-virtualhub%2F&#038;title=C%E1%BA%A5u%20h%C3%ACnh%20VirtualHUB" data-a2a-url="./../../../cau-hinh-virtualhub/index.html" data-a2a-title="Cấu hình VirtualHUB"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cau-hinh-virtualhub/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cấu hình SoftEther VPN Server</title>
+		<link>./../../../cau-hinh-softether-vpn-server/index.html</link>
+					<comments>./../../../cau-hinh-softether-vpn-server/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2014 09:12:47 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[SoftEther]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=954</guid>
+
+					<description><![CDATA[Cấu hình SoftEther VPN Server Trong phần rồi chúng ta đã hoàn tất cài đặt SoftEther VPN Server, chặng đường khó khăn đã qua và công việc của bạn đã đạt được khoảng 60%. Trong bài này chúng ta sẽ tiếp tục cấu hình SoftEther VPN Server. SoftEther cho Linux có thể cấu hình qua <a class="more-link" href="./../../../cau-hinh-softether-vpn-server/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcau-hinh-softether-vpn-server%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20SoftEther%20VPN%20Server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcau-hinh-softether-vpn-server%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20SoftEther%20VPN%20Server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcau-hinh-softether-vpn-server%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20SoftEther%20VPN%20Server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcau-hinh-softether-vpn-server%2F&#038;title=C%E1%BA%A5u%20h%C3%ACnh%20SoftEther%20VPN%20Server" data-a2a-url="./../../../cau-hinh-softether-vpn-server/index.html" data-a2a-title="Cấu hình SoftEther VPN Server"></a></p><p style="text-align: justify;"><span style="color: #0000ff;"><strong>Cấu hình SoftEther VPN Server</strong></span></p>
+<p style="text-align: justify;">Trong phần rồi chúng ta đã hoàn tất cài đặt SoftEther VPN Server, chặng đường khó khăn đã qua và công việc của bạn đã đạt được khoảng 60%.</p>
+<p style="text-align: justify;">Trong bài này chúng ta sẽ tiếp tục cấu hình SoftEther VPN Server.</p>
+<p style="text-align: justify;">SoftEther cho Linux có thể cấu hình qua hoàn toàn bằng dòng lệnh, tuy nhiên hãng cũng cung cấp một công cụ giúp việc cấu hình đơn giản hơn rất nhiều thông qua giao diện đồ họa.</p>
+<p style="text-align: justify;">Tương tự như phần trước, chúng ta truy cập website <a title="SoftEther Download" href="http://www.softether-download.com/en.aspx" target="_blank">http://www.softether-download.com/en.aspx</a> để tải phần mềm quản lý</p>
+<p style="text-align: justify;">SoftEther VPN Server Manager for Windows. Các bạn tải và cài đặt hoặc sử dụng bản portable tùy ý.</p>
+<p style="text-align: justify;">Trước khi tiến hành chúng ta cần mở các port cần thiết trên server tương ứng cho VPN</p>
+<p style="text-align: justify;">Trong bài này mình sử dụng L2TP/IPSec, SSL VPN nên mình mở các port sau</p>
+<p style="text-align: justify;">TCP 443</p>
+<p style="text-align: justify;">UDP 500, UDP 1701 và UDP 4500</p>
+<p style="text-align: justify;"><strong>Kết nối VPN Server</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-1.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="size-full wp-image-955" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-1.png" alt="SoftEther-Manager-1" width="488" height="568" /></a></p>
+<p style="text-align: justify;">Nhập địa chỉ VPN server, địa chỉ IP hoặc tên miền (nếu có)</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-2.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="size-medium wp-image-956" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-2-620x393.png" alt="SoftEther-Manager-2" width="620" height="393" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Manager-2-620x393.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Manager-2.png 768w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: justify;">Tạo mật khẩu quản trị cho VPN Server</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-3.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="size-medium wp-image-957" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-3.png" alt="SoftEther-Manager-3" width="445" height="194" /></a></p>
+<p style="text-align: justify;">Chọn Remote Access VPN Server =&gt; click Next</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-4.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="size-medium wp-image-958" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-4-620x450.png" alt="SoftEther-Manager-4" width="620" height="450" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Manager-4-620x450.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Manager-4.png 793w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-5.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="size-medium wp-image-959" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-5.png" alt="SoftEther-Manager-5" width="390" height="153" /></a></p>
+<p style="text-align: justify;">Đặt tên cho VirtualHUB, trong phần tới sẽ nói rõ về VirtualHUB này</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-6.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="size-medium wp-image-960" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-6.png" alt="SoftEther-Manager-6" width="408" height="178" /></a></p>
+<p style="text-align: justify;">Tính năng Dynamic DNS được bật sẵn. Do VPS có IP tĩnh nên cũng không cần thiết lắm, có thể tắt sau</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-7.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="size-medium wp-image-961" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-7-620x447.png" alt="SoftEther-Manager-7" width="620" height="447" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Manager-7-620x447.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Manager-7.png 733w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: justify;">Bật VPN L2TP/IPSec và nhập preshare-key (lưu lại key này để sử dụng sau này)</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-8.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="size-medium wp-image-962" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-8-620x469.png" alt="SoftEther-Manager-8" width="620" height="469" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Manager-8-620x469.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Manager-8.png 747w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: justify;">VPN Azure Cloud, không cần lắm, disable và tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-9.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="size-medium wp-image-963" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-9-620x498.png" alt="SoftEther-Manager-9" width="620" height="498" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Manager-9-620x498.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Manager-9.png 726w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p style="text-align: justify;">Không chọn gì cả và Close</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-10.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="size-medium wp-image-964" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-10.png" alt="SoftEther-Manager-10" width="587" height="557" /></a></p>
+<p style="text-align: justify;">Đây là giao diện quản lý VPN Server Manager.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-11.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="size-medium wp-image-965" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-11-620x462.png" alt="SoftEther-Manager-11" width="620" height="462" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Manager-11-620x462.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Manager-11.png 775w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Làm quen giao diện SoftEther Manager</strong></p>
+<p>Local-Bridge Settings. Không cần quan tâm lắm tới mục này vì chúng ta không sử dụng, sắp tới sẽ cấu hình SecureNAT để sử dụng.</p>
+<p>Local-Bridge dùng máy chủ DHCP có sẵn trong hệ thống để cấp IP cho thiết bị, tuy nhiên chúng ta đang sử dụng VPS nên không dùng.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-12-LocalBridge-Setings.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-970" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-12-LocalBridge-Setings-620x569.png" alt="SoftEther-Manager-12-LocalBridge-Setings" width="620" height="569" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Manager-12-LocalBridge-Setings-620x569.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Manager-12-LocalBridge-Setings.png 649w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Dynamic DNS, hữu dụng cho những ai sử dụng IP động, trong bài đang làm việc với VPS và IP tĩnh nên cũng không cần, disable theo hướng dẫn.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-13-DynamicDNS.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-971" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-13-DynamicDNS-620x447.png" alt="SoftEther-Manager-13-DynamicDNS" width="620" height="447" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Manager-13-DynamicDNS-620x447.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Manager-13-DynamicDNS.png 733w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>SSTP và OpenVPN. Trong bài này mình không đề cập đến OpenVPN vì khó thiết lập. Còn SSTP đòi hỏi chứng chỉ certificate của máy chủ phải được các hãng tên tuổi (GlobalSign, Comodo, Verisign, Thawte&#8230;) chứng thực client mới có thể kết nối</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-14-OpenVPN-SSTP.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-972" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-14-OpenVPN-SSTP-620x499.png" alt="SoftEther-Manager-14-OpenVPN-SSTP" width="620" height="499" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Manager-14-OpenVPN-SSTP-620x499.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Manager-14-OpenVPN-SSTP.png 754w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thông tin phiên bản phần mềm và các thông tin hệ thống</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-15-About.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-973" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-15-About.png" alt="SoftEther-Manager-15-About" width="593" height="464" /></a></p>
+<p>Trạng thái hoạt động của máy chủ VPN</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-16-Server-Status.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-974" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-16-Server-Status.png" alt="SoftEther-Manager-16-Server-Status" width="593" height="464" /></a></p>
+<p>Tập tin cấu hình, có thể xuất ra file txt để lưu lại cho các lần cài đặt sau cũng như chỉnh sửa các thông số. Trong ảnh tô đen khu vực cho phép tắt tính năng Dynamic DNS</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-17-Edit-Config-File.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-975" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-17-Edit-Config-File-620x529.png" alt="SoftEther-Manager-17-Edit-Config-File" width="620" height="529" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Manager-17-Edit-Config-File-620x529.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Manager-17-Edit-Config-File.png 677w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mục Encryption cho phép chúng ta tạo ra chứng chỉ số self-sign hoặc nhập vào chứng chỉ số mua từ CA như đã nói trên.</p>
+<p>Thay đổi thuật toán mã hóa. Trong ảnh là DHE-RSA-AES256-SHA</p>
+<p><a href="./../../../wp-content/uploads/2014/12/SoftEther-Manager-18-Encryption-Network.png" rel="lightbox[954]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-976" src="./../../../wp-content/uploads/2014/12/SoftEther-Manager-18-Encryption-Network-620x436.png" alt="SoftEther-Manager-18-Encryption-Network" width="620" height="436" srcset="./../../../wp-content/uploads/2014/12/SoftEther-Manager-18-Encryption-Network-620x436.png 620w, ./../../../wp-content/uploads/2014/12/SoftEther-Manager-18-Encryption-Network.png 817w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcau-hinh-softether-vpn-server%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20SoftEther%20VPN%20Server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcau-hinh-softether-vpn-server%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20SoftEther%20VPN%20Server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcau-hinh-softether-vpn-server%2F&amp;linkname=C%E1%BA%A5u%20h%C3%ACnh%20SoftEther%20VPN%20Server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcau-hinh-softether-vpn-server%2F&#038;title=C%E1%BA%A5u%20h%C3%ACnh%20SoftEther%20VPN%20Server" data-a2a-url="./../../../cau-hinh-softether-vpn-server/index.html" data-a2a-title="Cấu hình SoftEther VPN Server"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cau-hinh-softether-vpn-server/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cài đặt SoftEther VPN Server</title>
+		<link>./../../../cai-dat-softether-vpn-server/index.html</link>
+					<comments>./../../../cai-dat-softether-vpn-server/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2014 07:24:15 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[SoftEther]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=945</guid>
+
+					<description><![CDATA[Cài đặt SoftEther VPN Server Sau khi các bạn đã tạo droplet (máy chủ ảo) cũng như đã cập nhật cũng như cấu hình bảo mật. Công việc tiếp theo là bắt đầu cài đặt làm vpn server. Phần mềm vpn server mình hướng dẫn trong bài này là Softether, một phần mềm mã nguồn <a class="more-link" href="./../../../cai-dat-softether-vpn-server/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-softether-vpn-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20SoftEther%20VPN%20Server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-softether-vpn-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20SoftEther%20VPN%20Server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-softether-vpn-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20SoftEther%20VPN%20Server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-softether-vpn-server%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20SoftEther%20VPN%20Server" data-a2a-url="./../../../cai-dat-softether-vpn-server/index.html" data-a2a-title="Cài đặt SoftEther VPN Server"></a></p><p><span style="color: #0000ff;"><strong>Cài đặt SoftEther VPN Server</strong></span></p>
+<p>Sau khi các bạn đã tạo droplet (máy chủ ảo) cũng như đã cập nhật cũng như cấu hình bảo mật. Công việc tiếp theo là bắt đầu cài đặt làm vpn server.</p>
+<p>Phần mềm vpn server mình hướng dẫn trong bài này là Softether, một phần mềm mã nguồn mở của Nhật với tính năng cực kỳ phong phú, hỗ trợ gần như toàn bộ các giao thức kết nối VPN như SSL VPN, SSTP VPN, L2TP/IPSec, OpenVPN&#8230;</p>
+<p>Các bạn có thể tham khảo thêm về SoftEther<a title="SoftEther" href="http://www.softether.org/" target="_blank"> tại đây</a></p>
+<p>Để thuận tiện cho việc cài đặt mình trỏ tên miền vpn.vmblogs.vn vào địa chỉ droplet chúng ta đã tạo. Tên miền quốc tế giá hàng năm cũng chỉ khoảng 10$, rất rẻ nhưng hiệu quả mang lại rất nhiều.</p>
+<p>Trước khi cài đặt bạn cần tải file cài đặt về máy. Truy cập địa chỉ <a title="SoftEther Download" href="http://www.softether-download.com/en.aspx " target="_blank">http://www.softether-download.com/en.aspx </a></p>
+<p>SoftEther hỗ trợ đa nền tảng do đó bạn cần phải chọn đúng file cài cho hệ thống của mình. Ở bài này là SoftEther VPN Server cho Linux 64bit Intel/AMD</p>
+<p><strong>Yêu cầu hệ thống:</strong></p>
+<p><span style="text-decoration: underline;">Hệ điều hành</span></p>
+<p>CentOS, RedHat hoặc Fedora. Ubuntu cũng được nhưng khuyên dùng các hệ điều hành kia.</p>
+<p><span style="text-decoration: underline;">Thư viện yêu cầu:</span></p>
+<ul>
+<li>gcc software</li>
+<li>binutils software</li>
+<li>tar, gzip or other software for extracting package files</li>
+<li>chkconfig system utility</li>
+<li>cat, cp or other basic file operation utility</li>
+<li>EUC-JP, UTF-8 or other code page table for use in a Japanese language</li>
+<li>environment</li>
+<li>libc (glibc) library</li>
+<li>zlib library</li>
+<li>openssl library</li>
+<li>readline library</li>
+<li>ncurses library</li>
+<li>pthread library</li>
+</ul>
+<p><span style="text-decoration: underline;">Cài đặt thư viện theo yêu cầu</span></p>
+<blockquote><p><span style="color: #800080;">yum install gcc binutils tar gzip chkconfig cat cp libc glibc zlip openssl readline ncurses pthread</span></p></blockquote>
+<p><span style="text-decoration: underline;">Tải và giải nén SoftEther VPN Server:</span></p>
+<blockquote><p><span style="color: #800080;">wget http://www.softether-download.com/files/softether/v4.12-9514-beta-2014.11.17-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.12-9514-beta-2014.11.17-linux-x64-64bit.tar.gz</span></p></blockquote>
+<p>&nbsp;</p>
+<blockquote><p><span style="color: #800080;">tar -xzvf softether-vpnserver-v4.12-9514-beta-2014.11.17-linux-x64-64bit.tar.gz</span></p></blockquote>
+<p>&nbsp;</p>
+<p><strong>Tiến hành cài đặt SoftEther VPN Server</strong></p>
+<p>Chuyển vào thư mục đã giải nén</p>
+<blockquote><p><span style="color: #800080;">[root@vpn opt]# cd vpnserver</span></p></blockquote>
+<p>Chạy lệnh make</p>
+<blockquote><p><span style="color: #800080;">[root@vpn vpnserver]# make</span></p></blockquote>
+<p>Chọn 1 để đồng ý thỏa thuận bản quyền</p>
+<p>Tiếp tục chọn 1</p>
+<p>Và 1 thêm một lần nữa</p>
+<p>Hoàn tất cài đặt</p>
+<p>Để bật khởi động SoftEther VPN server gõ lệnh</p>
+<blockquote><p><span style="color: #800080;">[root@vpn vpnserver]# ./vpnserver start</span></p>
+<p><span style="color: #800080;">The SoftEther VPN Server service has been started.</span></p></blockquote>
+<p>&nbsp;</p>
+<p><strong>Cấu hình SoftEther chạy tự động khi khởi động</strong></p>
+<p>Để cấu hình cho SoftEther chạy tự động khi khởi động thao tác một số bước dưới đây</p>
+<blockquote><p><span style="color: #800080;">[root@vpn vpnserver]# cd /etc/init.d</span></p>
+<p>&nbsp;</p></blockquote>
+<blockquote><p><span style="color: #800080;">[root@vpn init.d]# touch vpnserver</span></p>
+<p>&nbsp;</p>
+<p><span style="color: #800080;">[root@vpn init.d]# nano vpnserver</span></p></blockquote>
+<p>Dán nội dung bên dưới vào, lưu ý phần tô đỏ là đường dẫn cài đặt vpnserver. Trong bài này mình cài ở đường dẫn /opt/vpnserver/vpnserver. Nếu các bạn cài ở đường dẫn khác thì phải đánh cho đúng.</p>
+<blockquote><p><span style="color: #800080;">#!/bin/sh</span><br />
+<span style="color: #800080;"> # chkconfig: 2345 99 01</span><br />
+<span style="color: #800080;"> # description: SoftEther VPN Server</span><br />
+<span style="color: #800080;"> DAEMON=<span style="color: #ff0000;">/opt/vpnserver/vpnserver</span></span><br />
+<span style="color: #800080;"> LOCK=/var/lock/subsys/vpnserver</span><br />
+<span style="color: #800080;"> test -x $DAEMON || exit 0</span><br />
+<span style="color: #800080;"> case &#8220;$1&#8221; in</span><br />
+<span style="color: #800080;"> start)</span><br />
+<span style="color: #800080;"> $DAEMON start</span><br />
+<span style="color: #800080;"> touch $LOCK</span><br />
+<span style="color: #800080;"> ;;</span><br />
+<span style="color: #800080;"> stop)</span><br />
+<span style="color: #800080;"> $DAEMON stop</span><br />
+<span style="color: #800080;"> rm $LOCK</span><br />
+<span style="color: #800080;"> ;;</span><br />
+<span style="color: #800080;"> restart)</span><br />
+<span style="color: #800080;"> $DAEMON stop</span><br />
+<span style="color: #800080;"> sleep 3</span><br />
+<span style="color: #800080;"> $DAEMON start</span><br />
+<span style="color: #800080;"> ;;</span><br />
+<span style="color: #800080;"> *)</span><br />
+<span style="color: #800080;"> echo &#8220;Usage: $0 {start|stop|restart}&#8221;</span><br />
+<span style="color: #800080;"> exit 1</span><br />
+<span style="color: #800080;"> esac</span><br />
+<span style="color: #800080;"> exit 0</span></p></blockquote>
+<p>Điều chỉnh quyền cho file chạy vpnserver</p>
+<blockquote><p><span style="color: #800080;">[root@vpn vpnserver]# chmod 755 /etc/init.d/vpnserver</span></p></blockquote>
+<p>Thêm dịch vụ (deamon) vpnserver vào danh sách khởi động cùng hệ thống</p>
+<blockquote><p><span style="color: #800080;">[root@vpn vpnserver]# chkconfig &#8211;add vpnserver</span></p></blockquote>
+<p>Cuối cùng là dòng lệnh để dừng hoặc khởi động vpnserver</p>
+<blockquote><p><span style="color: #800080;">[root@vpn vpnserver]# /etc/init.d/vpnserver stop</span></p>
+<p><span style="color: #800080;">[root@vpn vpnserver]# /etc/init.d/vpnserver start</span></p></blockquote>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-softether-vpn-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20SoftEther%20VPN%20Server" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-softether-vpn-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20SoftEther%20VPN%20Server" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-softether-vpn-server%2F&amp;linkname=C%C3%A0i%20%C4%91%E1%BA%B7t%20SoftEther%20VPN%20Server" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-softether-vpn-server%2F&#038;title=C%C3%A0i%20%C4%91%E1%BA%B7t%20SoftEther%20VPN%20Server" data-a2a-url="./../../../cai-dat-softether-vpn-server/index.html" data-a2a-title="Cài đặt SoftEther VPN Server"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-softether-vpn-server/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>VPN Server giá rẻ với Digital Ocean</title>
+		<link>./../../../vpn-server-gia-re-voi-digital-ocean/index.html</link>
+					<comments>./../../../vpn-server-gia-re-voi-digital-ocean/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2014 04:33:15 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Digital Ocean]]></category>
+		<category><![CDATA[SoftEther]]></category>
+		<category><![CDATA[VPN]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=923</guid>
+
+					<description><![CDATA[Hướng dẫn xây dựng VPN Server giá rẻ với Digital Ocean Giới thiệu về VPN: VPN là chữ viết tắt của Virtual Private Network, là một dạng kết nối mạng bảo mật thông qua đường truyền Internet, sử dụng VPN, mọi dữ liệu gởi nhận đều được mã hóa giúp bạn sử dụng mạng một <a class="more-link" href="./../../../vpn-server-gia-re-voi-digital-ocean/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&amp;linkname=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&amp;linkname=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&amp;linkname=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&#038;title=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" data-a2a-url="./../../../vpn-server-gia-re-voi-digital-ocean/index.html" data-a2a-title="VPN Server giá rẻ với Digital Ocean"></a></p><p><span style="color: #0000ff;"><strong>Hướng dẫn xây dựng VPN Server giá rẻ với Digital Ocean</strong></span></p>
+<p><span style="color: #800080;">Giới thiệu về VPN:</span></p>
+<p>VPN là chữ viết tắt của Virtual Private Network, là một dạng kết nối mạng bảo mật thông qua đường truyền Internet, sử dụng VPN, mọi dữ liệu gởi nhận đều được mã hóa giúp bạn sử dụng mạng một cách an toàn, tránh nguy cơ rò rỉ, thất thoát hoặc bị sửa đổi dữ liệu.</p>
+<p><span style="color: #800080;">Lợi ích của việc sử dụng VPN:</span></p>
+<p>Các dịch vụ VPN ngày nay cung cấp rất nhiều các tính năng khác ngoài việc mã hóa dữ liệu trên đường truyền, sử dụng dịch vụ VPN bạn sẽ nhận được:</p>
+<ul>
+<li>Truy cập nội dung bị khóa: Một số dịch vụ khóa nội dung theo vùng địa lý, sử dụng VPN giúp bạn có thể dễ dàng truy cập các nội dung như vậy</li>
+<li>Giảm nguy cơ bị tấn công bởi hacker: Với việc mã hóa đường truyền, VPN hạn chế các thông tin tài khoản, ngân hàng, thông tin cá nhân&#8230;bị hacker đánh cắp</li>
+<li>Lướt web riêng tư: Với việc ẩn đi vùng địa lý và địa chỉ IP, bạn hạn chế được việc bị theo dõi sử dụng thông tin cá nhân tối đa.</li>
+<li>Sử dụng Wifi công cộng an toàn: Wifi công cộng thường không an toàn, VPN giúp truy cập mạng an toàn ở những nơi như vậy</li>
+<li>&#8230;</li>
+</ul>
+<p>Ngày nay nhiều dịch vụ cung cấp VPN cho người sử dụng với giá cả dao động từ miễn phí đến hàng chục $ một tháng.</p>
+<p>Tuy nhiên thông thường bạn sẽ bị giới hạn như lưu lượng, băng thông, hoặc số phiên sử dụng cùng lúc. Thường các dịch vụ sẽ giới hạn chỉ cho phép sử dụng 2 hoặc 3 thiết bị cùng lúc.</p>
+<p>Tham khảo thêm thông tin <a title="BestVPN" href="https://www.bestvpn.com/" target="_blank">tại đây</a></p>
+<p><span style="color: #800080;">Giới thiệu Digital Ocean:</span></p>
+<p>Digital Ocean cung cấp dịch vụ cloud server với chất lượng tương đối tốt và giá thành rẻ. Mình cũng có trải nghiệm sử dụng tương đối tốt khi chọn Digital Ocean.</p>
+<p>Thông tin tham khảo tại <a title="Digital Ocean" href="https://www.digitalocean.com/" target="_blank">https://www.digitalocean.com/</a></p>
+<p>Trong bài này mình sẽ hướng dẫn chi tiết cách xây dựng VPN server với Digital Ocean cho gói rẻ nhất 5$/tháng</p>
+<p>Vậy tại sao không dùng dịch vụ của các nhà cung cấp?</p>
+<p>Bạn tự xây dựng dịch vụ cho riêng bạn, tự quản lý và tất nhiên là bạn có thể chia sẻ cho nhiều người dùng. Với 5$/tháng mình nghĩ một VPN server cho 10-15 người dùng tương đối tốt. Và tất nhiên không có bất kỳ giới hạn nào nếu so sánh với dịch vụ.</p>
+<p><span style="color: #3366ff;">1/ <a style="color: #3366ff;" title="Đăng ký Digital Ocean" href="./../../../dang-ky-digital-ocean-va-tao-may-chu-ao/index.html" target="_blank">Đăng ký Digital Ocean và tạo máy chủ ảo</a></span></p>
+<p><span style="color: #3366ff;">2/ <a style="color: #3366ff;" title="Bảo mật VPS Linux" href="./../../../bao-mat-vps-linux/index.html" target="_blank">Bảo mật máy chủ ảo CentOS</a></span></p>
+<ul>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Bảo mật SSH" href="./../../../bao-mat-ssh/index.html" target="_blank">Bảo mật SSH</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Bảo mật tường lửa với Advanced Policy Firewall" href="./../../../bao-mat-tuong-lua-voi-apf/index.html" target="_blank">Bảo mật tường lửa với APF (Advanced Policy Firewall)</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Block brute-force attach with BFD" href="./../../../chong-tan-cong-brute-force-voi-bfd/index.html" target="_blank">Chống tấn công brute-force với BFD (Brute Force Detection)</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Block virus with ClamAV" href="./../../../cai-dat-clamav-antivirus-cho-centos/index.html" target="_blank">Phòng ngừa virus với ClamAV</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Block rootkit with RKHunter" href="./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/index.html" target="_blank">Phòng ngừa rootkit với RKHunter</a></span></li>
+</ul>
+<p><span style="color: #3366ff;">3/ <a style="color: #3366ff;" title="Cài đặt SoftEther VPN Server" href="./../../../cai-dat-softether-vpn-server/index.html" target="_blank">Cài đặt SoftEther VPN Server</a></span></p>
+<p><span style="color: #3366ff;">4/ Cấu hình SoftEther VPN Server</span></p>
+<ul>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Cấu hình SoftEther VPN Server" href="./../../../cau-hinh-softether-vpn-server/index.html" target="_blank">Cấu hình SoftEther VPN Server</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Cấu hình VirtualHUB" href="./../../../cau-hinh-virtualhub/index.html" target="_blank">Cấu hình VirtualHUB</a></span></li>
+</ul>
+<p><span style="color: #3366ff;">5/ Cấu hình kết nối VPN cho thiết bị</span></p>
+<ul>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Setup SSTP VPN cho Windows" href="./../../../setup-sstp-vpn-cho-windows/index.html" rel="bookmark">Setup SSTP VPN cho Windows</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Permalink to Setup L2TP/IPSec VPN cho Windows" href="./../../../setup-l2tp-ipsec-vpn-cho-windows/index.html" rel="bookmark">Setup L2TP/IPSec VPN cho Windows</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Permalink to Setup L2TP/IPSec VPN cho Mac" href="./../../../setup-l2tp-ipsec-vpn-cho-mac/index.html" rel="bookmark">Setup L2TP/IPSec VPN cho Mac</a></span></li>
+<li><span style="color: #3366ff;"><a style="color: #3366ff;" title="Setup SoftEther VPN Client" href="./../../../setup-softether-vpn-client/index.html" target="_blank">Setup SoftEther VPN Client</a></span></li>
+<li><span style="color: #3366ff;">Hướng dẫn thiết lập VPN cho thiết bị di động <a style="color: #3366ff;" title="VPN WP 8.1" href="http://www.windowsphone.com/en-us/how-to/wp8/connectivity/use-a-vpn-connection" target="_blank">Windows Phone</a>, <a style="color: #3366ff;" title="VPN Android" href="http://www.vpngate.net/en/howto_l2tp.aspx#android" target="_blank">Android</a>, <a style="color: #3366ff;" title="Apple IOS" href="http://www.vpngate.net/en/howto_l2tp.aspx#ios" target="_blank">Apple IOS</a></span></li>
+</ul>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&amp;linkname=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&amp;linkname=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&amp;linkname=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fvpn-server-gia-re-voi-digital-ocean%2F&#038;title=VPN%20Server%20gi%C3%A1%20r%E1%BA%BB%20v%E1%BB%9Bi%20Digital%20Ocean" data-a2a-url="./../../../vpn-server-gia-re-voi-digital-ocean/index.html" data-a2a-title="VPN Server giá rẻ với Digital Ocean"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../vpn-server-gia-re-voi-digital-ocean/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

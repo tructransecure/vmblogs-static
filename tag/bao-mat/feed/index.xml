@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>bảo mật &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Wed, 17 Jun 2015 01:34:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>bảo mật &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Bảo mật VPS với Dome9 Lite Cloud</title>
+		<link>./../../../bao-mat-vps-voi-dome9-lite-cloud/index.html</link>
+					<comments>./../../../bao-mat-vps-voi-dome9-lite-cloud/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 18 Dec 2014 08:26:25 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[bảo mật]]></category>
+		<category><![CDATA[Dome9 Lite Cloud]]></category>
+		<category><![CDATA[VPS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=828</guid>
+
+					<description><![CDATA[Bảo mật VPS với Dome9 Lite Cloud Bảo mật server luôn là một vấn đề đau đầu với các quản trị viên và quản lý tường lửa, truy cập là một trong số đó. Ngày càng nhiều công cụ ra đời để đơn giản hóa việc quản trị tường lửa và Dome9 là một trong <a class="more-link" href="./../../../bao-mat-vps-voi-dome9-lite-cloud/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" data-a2a-url="./../../../bao-mat-vps-voi-dome9-lite-cloud/index.html" data-a2a-title="Bảo mật VPS với Dome9 Lite Cloud"></a></p><p><span style="color: #0000ff;"><strong>Bảo mật VPS với Dome9 Lite Cloud</strong></span></p>
+<p>Bảo mật server luôn là một vấn đề đau đầu với các quản trị viên và quản lý tường lửa, truy cập là một trong số đó.</p>
+<p>Ngày càng nhiều công cụ ra đời để đơn giản hóa việc quản trị tường lửa và Dome9 là một trong số đó. Với việc sử dụng Dome9, bạn có thể dễ dàng quản lý, thiết lập bảo mật cho server của mình từ trình duyệt web trực quan.</p>
+<p>Để tìm hiểu thêm có thể truy cập tại địa chỉ <a title="Dome9" href="www.dome9.com" target="_blank">www.dome9.com</a></p>
+<p>Trong bài viết này mình hướng dẫn sử dụng dịch vụ miễn phí của hãng để bảo mật server, tất nhiên tính năng sẽ bị giới hạn so với dịch vụ trả tiền.</p>
+<p><strong>Dome9 Lite Cloud</strong></p>
+<ul>
+<li>Hỗ trợ đến 5 máy chủ (ảo/vật lý)</li>
+<li>Hỗ trợ cả Windows và Linux</li>
+<li>1 quản trị viên</li>
+<li>Lưu log 1 ngày</li>
+<li>Các tính năng cơ bản.</li>
+</ul>
+<p>Việc đăng ký Dome9 tương đối dễ dàng, bạn có thể <a title="Register Dome9 Lite Cloud" href="https://secure.dome9.com/Account/Register?code=litecloud" target="_blank">click vào đây</a> để truy cập trang đăng ký.</p>
+<p>Sau khi đăng ký thành công và đăng nhập thì Dome9 sẽ chuyển đến cửa sổ giao diện như hình dưới, tương đối trực quan.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-1.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-833" src="./../../../wp-content/uploads/2014/12/Dome9-Security-1-620x369.png" alt="Dome9-Security-1" width="620" height="369" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-1-620x369.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-1-920x548.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-1.png 1223w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Add AWS (Amazon Web Service)</span> account các bạn có thể add tài khoản AWS của mình, mình ko có account này nên thôi.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-2.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-834" src="./../../../wp-content/uploads/2014/12/Dome9-Security-2-620x357.png" alt="Dome9-Security-2" width="620" height="357" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-2-620x357.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-2-920x530.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-2.png 1223w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Install new agent</span></p>
+<p>Giúp cài đặt Agent cho server Windows hoặc Linux. Chọn vào hình tương ứng</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-3.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-835" src="./../../../wp-content/uploads/2014/12/Dome9-Security-3-620x353.png" alt="Dome9-Security-3" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-3-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-3-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-3.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">AWS Account</span></p>
+<p>Quản lý tài khoản AWS và các nhóm bảo mật tương ứng.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-4.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-836" src="./../../../wp-content/uploads/2014/12/Dome9-Security-4-620x353.png" alt="Dome9-Security-4" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-4-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-4-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-4.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Servers:</span></p>
+<p>Thể hiện các server đã cài đặt Dome9 Agent.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-5.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-837" src="./../../../wp-content/uploads/2014/12/Dome9-Security-5-620x353.png" alt="Dome9-Security-5" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-5-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-5-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-5.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Security Group:</span></p>
+<p>Tại đây bạn có thể thiết lập các dịch vụ được phép truy cập trên server (cả inbound và outbound) cũng như thiết lập logging.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-6.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-838" src="./../../../wp-content/uploads/2014/12/Dome9-Security-6-620x353.png" alt="Dome9-Security-6" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-6-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-6-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-6.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Users and Roles</span></p>
+<p>Cho phéo tạo người dùng tương ứng với các nhiệm vụ định sẵn. Do tài khoản Dome9 miễn phí chỉ cho dùng 1 tài khoản nên cũng chẳng có gì nhiều để nói ở đây.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-7.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-839" src="./../../../wp-content/uploads/2014/12/Dome9-Security-7-620x353.png" alt="Dome9-Security-7" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-7-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-7-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-7.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Emergency Policy:</span></p>
+<p>Thiết lập các chính sách khẩn cấp</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-8.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-840" src="./../../../wp-content/uploads/2014/12/Dome9-Security-8-620x357.png" alt="Dome9-Security-8" width="620" height="357" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-8-620x357.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-8-920x530.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-8.png 1223w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">IP Lists</span></p>
+<p>Cho phép tạo ra các danh sách IP định trước để cấu hình port trong mục Security Group</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-9.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-841" src="./../../../wp-content/uploads/2014/12/Dome9-Security-9-620x353.png" alt="Dome9-Security-9" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-9-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-9-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-9.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Blacklist:</span></p>
+<p>Danh sách các IP bị chặn</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-10.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-842" src="./../../../wp-content/uploads/2014/12/Dome9-Security-10-620x353.png" alt="Dome9-Security-10" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-10-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-10-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-10.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Audit Trail</span></p>
+<p>Thể hiện các mốc thời gian đăng nhập vào Dome9 Daskboard</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-11.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-843" src="./../../../wp-content/uploads/2014/12/Dome9-Security-11-620x353.png" alt="Dome9-Security-11" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-11-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-11-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-11.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Dynamic Access</span></p>
+<p>Cấu hình truy cập cho các dịch vụ tại server theo yêu cầu. VD ảnh dưới cho phép truy cập web toàn thời gian, SSH port 2200 theo yêu cầu từ các IP cố định đã thiết lập trước.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-12.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-844" src="./../../../wp-content/uploads/2014/12/Dome9-Security-12-620x353.png" alt="Dome9-Security-12" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-12-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-12-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-12.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Cài đặt Agent.</strong></p>
+<p>Agent có chức năng kết nối đến máy chủ Dome9 để tải các thiết lập tường lửa và áp dụng cho server. Việc cài đặt tương đối dễ dàng, chỉ chọn vào icon tương ứng (Windows hoặc Linux) sẽ có hướng dẫn cụ thể.</p>
+<p>VD ảnh dưới mình click chọn Linux, chọn Security Group và đặt tên cho server, Dome9 sẽ tạo 1 đường link cài đặt và mình sẽ dùng link đó để cài đặt trên server CentOS</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-1.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-845" src="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-1-620x357.png" alt="Dome9-Security-Agent-1" width="620" height="357" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-1-620x357.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-1-920x530.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-1.png 1223w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Cài đặt hoàn tất sẽ hiện ra như ảnh dưới</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-2.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-846" src="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-2-620x357.png" alt="Dome9-Security-Agent-2" width="620" height="357" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-2-620x357.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-2-920x530.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-2.png 1223w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi click Access server bạn sẽ được chuyển về giao diện Dynamic Access</p>
+<p><a href="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-3.png" rel="lightbox[828]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-847" src="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-3-620x353.png" alt="Dome9-Security-Agent-3" width="620" height="353" srcset="./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-3-620x353.png 620w, ./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-3-920x525.png 920w, ./../../../wp-content/uploads/2014/12/Dome9-Security-Agent-3.png 1235w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-vps-voi-dome9-lite-cloud%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20v%E1%BB%9Bi%20Dome9%20Lite%20Cloud" data-a2a-url="./../../../bao-mat-vps-voi-dome9-lite-cloud/index.html" data-a2a-title="Bảo mật VPS với Dome9 Lite Cloud"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../bao-mat-vps-voi-dome9-lite-cloud/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bảo mật tường lửa với APF (Advanced Policy Firewall)</title>
+		<link>./../../../bao-mat-tuong-lua-voi-apf/index.html</link>
+					<comments>./../../../bao-mat-tuong-lua-voi-apf/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 18 Dec 2014 06:07:56 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Advanced Policy Firewall]]></category>
+		<category><![CDATA[APF]]></category>
+		<category><![CDATA[bảo mật]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=799</guid>
+
+					<description><![CDATA[Bảo mật tường lửa với APF (Advanced Policy Firewall) Trong phần trước chúng ta đã nói về vấn đề bảo mật SSH, tuy nhiên chỉ một mình SSH thôi là không đủ, tường lửa cũng rất quan trọng. Tường lửa đóng vai trò lá chắn cho server của bạn tránh khỏi các cuộc tấn công <a class="more-link" href="./../../../bao-mat-tuong-lua-voi-apf/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-tuong-lua-voi-apf%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20t%C6%B0%E1%BB%9Dng%20l%E1%BB%ADa%20v%E1%BB%9Bi%20APF%20%28Advanced%20Policy%20Firewall%29" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-tuong-lua-voi-apf%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20t%C6%B0%E1%BB%9Dng%20l%E1%BB%ADa%20v%E1%BB%9Bi%20APF%20%28Advanced%20Policy%20Firewall%29" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-tuong-lua-voi-apf%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20t%C6%B0%E1%BB%9Dng%20l%E1%BB%ADa%20v%E1%BB%9Bi%20APF%20%28Advanced%20Policy%20Firewall%29" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-tuong-lua-voi-apf%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20t%C6%B0%E1%BB%9Dng%20l%E1%BB%ADa%20v%E1%BB%9Bi%20APF%20%28Advanced%20Policy%20Firewall%29" data-a2a-url="./../../../bao-mat-tuong-lua-voi-apf/index.html" data-a2a-title="Bảo mật tường lửa với APF (Advanced Policy Firewall)"></a></p><p><span style="color: #0000ff;"><strong>Bảo mật tường lửa với APF (Advanced Policy Firewall)</strong></span></p>
+<p>Trong phần trước chúng ta đã nói về vấn đề bảo mật SSH, tuy nhiên chỉ một mình SSH thôi là không đủ, tường lửa cũng rất quan trọng. Tường lửa đóng vai trò lá chắn cho server của bạn tránh khỏi các cuộc tấn công từ môi trường Internet.</p>
+<p>Trong bài này mình sẽ hướng dẫn sử dụng APF (Advanced Policy Firewall) làm tường lửa cho hệ thống VPS Linux (CentOS)</p>
+<p>APF theo như tên gọi đã thấy là một phần mềm chạy trên tường lửa mặc định của hệ thống (netfilter) và bổ sung các tính năng nâng cao để bảo vệ hệ thống.</p>
+<p>Để nắm rõ hơn về APF các bạn có thể truy cập website <a title="RFXN" href="http://www.rfxn.com/" target="_blank">http://www.rfxn.com/</a> để tìm hiểu về APF cũng như các công cụ khác.</p>
+<p><strong>Cài đặt và cấu hình:</strong></p>
+<p>Để cài đặt APF chúng ta tiến hành tải APF từ website trên dùng lệnh</p>
+<p style="padding-left: 30px;"><em>wget http://www.rfxn.com/downloads/apf-current.tar.gz</em></p>
+<p>trong đó wget là lệnh tải tập tin từ internet và http://www.rfxn.com/downloads/apf-current.tar.gz là đường dẫn của tập tin cần tải.</p>
+<p>Sau khi tải xong bạn gõ lệnh</p>
+<p style="padding-left: 30px;"><em>tar xzvf apf.current.tar.gz</em></p>
+<p>để tiến hành giải nén APF</p>
+<p><a href="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-1.png" rel="lightbox[799]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-802" src="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-1-620x396.png" alt="6-Secure-CentOS-VPS-APF-1" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-1-620x396.png 620w, ./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-1.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Truy cập vào thư mục vừa giải nén và chạy lệnh</p>
+<p style="padding-left: 30px;"><em>./install.sh</em></p>
+<p>để tiến hành cài đặt.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-2.png" rel="lightbox[799]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-803" src="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-2-620x396.png" alt="6-Secure-CentOS-VPS-APF-2" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-2-620x396.png 620w, ./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-2.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đã cài đặt xong chúng ta tiến hành cấu hình APF. Để cấu hình chúng ta chạy lệnh sau</p>
+<p style="padding-left: 30px;"><em>nano /etc/apf/conf.apf</em></p>
+<p>Dời con trỏ đến Reactive Address Blocking và thay đổi giá trị RAB thành 1</p>
+<p><span style="text-decoration: underline;">RAB=&#8221;1&#8243;</span></p>
+<p><a href="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-3.png" rel="lightbox[799]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-804" src="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-3-620x396.png" alt="6-Secure-CentOS-VPS-APF-3" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-3-620x396.png 620w, ./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-3.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tương tự trên thay đổi giá trị RAB_PSCAN_LEVEL sang giá trị mong muốn. Trong bài mình chọn giá trị bảo mật cao nhất là 3</p>
+<p><span style="text-decoration: underline;">RAB_PSCAN_LEVEL=&#8221;3&#8243;</span></p>
+<p><a href="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-4.png" rel="lightbox[799]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-805" src="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-4-620x396.png" alt="6-Secure-CentOS-VPS-APF-4" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-4-620x396.png 620w, ./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-4.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thay đổi giá trị IG_TCP_CPORTS: Tham số này cho phép bên ngoài có thể truy cập server qua port nào. Trong bài mình cấu hình tường lửa cho phép truy cập port 2200, 80, 443</p>
+<p><span style="text-decoration: underline;">IG_TCP_CPORTS=&#8221;2200,80,443&#8243;</span></p>
+<p>Tương tự cho các port UDP nếu có yêu cầu</p>
+<p><a href="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-5.png" rel="lightbox[799]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-806" src="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-5-620x396.png" alt="6-Secure-CentOS-VPS-APF-5" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-5-620x396.png 620w, ./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-5.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">EG_TCP_CPORTS:</span> thay đổi các port cho phép server truy cập ra bên ngoài</p>
+<p>Tương tự cho các port UDP</p>
+<p><a href="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-6.png" rel="lightbox[799]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-807" src="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-6-620x396.png" alt="6-Secure-CentOS-VPS-APF-6" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-6-620x396.png 620w, ./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-6.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thay đổi giá trị<br />
+<span style="text-decoration: underline;">DLIST_PHP=&#8221;1&#8243;</span></p>
+<p><a href="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-7.png" rel="lightbox[799]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-808" src="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-7-620x396.png" alt="6-Secure-CentOS-VPS-APF-7" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-7-620x396.png 620w, ./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-7.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">DLIST_SPAMHAUS=&#8221;1&#8243;</span></p>
+<p><a href="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-8.png" rel="lightbox[799]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-809" src="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-8-620x396.png" alt="6-Secure-CentOS-VPS-APF-8" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-8-620x396.png 620w, ./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-8.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">DLIST_DSHIELD=&#8221;1&#8243;</span></p>
+<p><a href="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-9.png" rel="lightbox[799]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-810" src="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-9-620x396.png" alt="6-Secure-CentOS-VPS-APF-9" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-9-620x396.png 620w, ./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-9.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đã thay đổi các giá trị như ý muốn, đến lúc cần cho phép APF chạy vĩnh viễn.</p>
+<p><span style="text-decoration: underline;">DEVEL_MODE=0</span></p>
+<p>Mặc định bằng 1 cho phép APF tự động tắt firewall sau mỗi 5 phút, do đó bạn có thể truy cập các dịch vụ nếu cấu hình sai thay vì bị chặn luôn.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-10.png" rel="lightbox[799]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-811" src="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-10-620x396.png" alt="6-Secure-CentOS-VPS-APF-10" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-10-620x396.png 620w, ./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-10.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Gõ lệnh</p>
+<p style="padding-left: 30px;"><em>apf -s</em></p>
+<p>để bắt đầu chạy Advanced Policy Firewall</p>
+<p><a href="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-11.png" rel="lightbox[799]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-812" src="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-11-620x396.png" alt="6-Secure-CentOS-VPS-APF-11" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-11-620x396.png 620w, ./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-11.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để APF tự động chạy khi server khởi động chúng ta gõ lệnh</p>
+<p style="padding-left: 30px;"><em>chkconfig apf on</em></p>
+<p><a href="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-12.png" rel="lightbox[799]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-813" src="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-12-620x396.png" alt="6-Secure-CentOS-VPS-APF-12" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-12-620x396.png 620w, ./../../../wp-content/uploads/2014/12/6-Secure-CentOS-VPS-APF-12.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-tuong-lua-voi-apf%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20t%C6%B0%E1%BB%9Dng%20l%E1%BB%ADa%20v%E1%BB%9Bi%20APF%20%28Advanced%20Policy%20Firewall%29" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-tuong-lua-voi-apf%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20t%C6%B0%E1%BB%9Dng%20l%E1%BB%ADa%20v%E1%BB%9Bi%20APF%20%28Advanced%20Policy%20Firewall%29" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-tuong-lua-voi-apf%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20t%C6%B0%E1%BB%9Dng%20l%E1%BB%ADa%20v%E1%BB%9Bi%20APF%20%28Advanced%20Policy%20Firewall%29" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-tuong-lua-voi-apf%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20t%C6%B0%E1%BB%9Dng%20l%E1%BB%ADa%20v%E1%BB%9Bi%20APF%20%28Advanced%20Policy%20Firewall%29" data-a2a-url="./../../../bao-mat-tuong-lua-voi-apf/index.html" data-a2a-title="Bảo mật tường lửa với APF (Advanced Policy Firewall)"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../bao-mat-tuong-lua-voi-apf/feed/index.html</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bảo mật SSH</title>
+		<link>./../../../bao-mat-ssh/index.html</link>
+					<comments>./../../../bao-mat-ssh/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 18 Dec 2014 05:31:40 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[bảo mật]]></category>
+		<category><![CDATA[SSH]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=780</guid>
+
+					<description><![CDATA[Bảo mật SSH Làm việc với server linux lẽ dĩ nhiên bạn phải thao tác qua dòng lệnh thông qua SSH (Secure shell). Cái tên nó đã bao gồm chữ secure &#8211; bảo mật tuy nhiên để có được bảo mật bạn phải cấu hình, tùy chỉnh lại, mặc định thì không bảo mật tí <a class="more-link" href="./../../../bao-mat-ssh/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-ssh%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-ssh%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-ssh%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-ssh%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" data-a2a-url="./../../../bao-mat-ssh/index.html" data-a2a-title="Bảo mật SSH"></a></p><p><span style="color: #0000ff;"><strong>Bảo mật SSH</strong></span></p>
+<p>Làm việc với server linux lẽ dĩ nhiên bạn phải thao tác qua dòng lệnh thông qua SSH (Secure shell). Cái tên nó đã bao gồm chữ secure &#8211; bảo mật tuy nhiên để có được bảo mật bạn phải cấu hình, tùy chỉnh lại, mặc định thì không bảo mật tí nào.</p>
+<p>Trước khi đến với phần tùy chỉnh SSH mình sẽ hướng dẫn trước các bước thủ tục.</p>
+<p><strong>Đổi mật khẩu root:</strong></p>
+<p>Khi các bạn mua VPS thì các hãng sẽ gởi email chứa tài khoản đăng nhập cho VPS, thường là root và một mật khẩu được tạo sẵn. Tốt nhất là bạn nên đổi mật khẩu lại sao cho vừa đảm bảo dễ nhớ và mức độ an toàn cao so với dãy ký tự chẳng có ý nghĩa gì.</p>
+<p>Một mật khẩu an toàn chứa nhiều (tốt nhất là dài hơn 10) ký tự bao gồm chữ in hoa, chữ thường, số và ký tự đặc biệt.</p>
+<p><a title="Tạo mật khẩu an toàn" href="https://www.google.com.vn/search?q=t%E1%BA%A1o+m%E1%BA%ADt+kh%E1%BA%A9u+an+to%C3%A0n&amp;oq=t%E1%BA%A1o+m%E1%BA%ADt+kh%E1%BA%A9u+an+to%C3%A0n&amp;aqs=chrome..69i57j0l5.6118j0j7&amp;sourceid=chrome&amp;es_sm=122&amp;ie=UTF-8" target="_blank">Tạo mật khẩu an toàn</a></p>
+<p>Để đổi mật khẩu root bạn cần đăng nhập ssh vào vps với tài khoản và mật khẩu được cấp</p>
+<p>Chạy lệnh</p>
+<p style="padding-left: 30px;"><em>passwd</em></p>
+<p>để tiến hành đổi mật khẩu tài khoản root</p>
+<p><a href="./../../../wp-content/uploads/2014/12/0-Secure-CentOS-VPS-Change-root-password.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-783" src="./../../../wp-content/uploads/2014/12/0-Secure-CentOS-VPS-Change-root-password-620x396.png" alt="0-Secure-CentOS-VPS-Change-root-password" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/0-Secure-CentOS-VPS-Change-root-password-620x396.png 620w, ./../../../wp-content/uploads/2014/12/0-Secure-CentOS-VPS-Change-root-password.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>VPS mới cài nên cũng chưa có công cụ gì, mình cài thêm 2 công cụ thường dùng là nano và wget</p>
+<p>nano giúp chỉnh sửa tập tin, chức năng tương tự vi/vim có sẵn nhưng sử dụng dễ dàng hơn</p>
+<p>wget giúp tải tập tin từ Internet về máy.</p>
+<p>Gõ lệnh</p>
+<p style="padding-left: 30px;"><em>yum install nano wget</em></p>
+<p>để tiến hành cài đặt. Ảnh dưới do mình đã cài đặt sẵn nên máy báo đã cài.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/1-Secure-CentOS-VPS-Install-Nano-WGET.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-784" src="./../../../wp-content/uploads/2014/12/1-Secure-CentOS-VPS-Install-Nano-WGET-620x396.png" alt="1-Secure-CentOS-VPS-Install-Nano-WGET" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/1-Secure-CentOS-VPS-Install-Nano-WGET-620x396.png 620w, ./../../../wp-content/uploads/2014/12/1-Secure-CentOS-VPS-Install-Nano-WGET.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Để server vận hành ổn định nhất thì chúng ta phải luôn luôn cập nhật các gói tin mới nhất.</p>
+<p>Gõ lệnh</p>
+<p style="padding-left: 30px;"><em>yum update</em></p>
+<p>để tiến hành cập nhật server</p>
+<p><a href="./../../../wp-content/uploads/2014/12/2-Secure-CentOS-VPS-Yum-Update.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-785" src="./../../../wp-content/uploads/2014/12/2-Secure-CentOS-VPS-Yum-Update-620x396.png" alt="2-Secure-CentOS-VPS-Yum-Update" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/2-Secure-CentOS-VPS-Yum-Update-620x396.png 620w, ./../../../wp-content/uploads/2014/12/2-Secure-CentOS-VPS-Yum-Update.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Tạo user:</strong></p>
+<p>Sau khi đã cập nhật xong chúng ta tiến hành tạo 1 tài khoản, tài khoản này đóng vai trò trung gian để kết nối SSH tới VPS linux trước khi sử dụng tài khoản root.</p>
+<p>Để tạo tài khoản gõ lệnh</p>
+<p style="padding-left: 30px;"><em>useradd taikhoanmuontao</em></p>
+<p>trong bài mình tạo tài khoản monitor</p>
+<p>và đổi mật khẩu cho tài khoản vừa tạo, gõ lệnh</p>
+<p style="padding-left: 30px;"><em>passwd taikhoandatao</em></p>
+<p><a href="./../../../wp-content/uploads/2014/12/3-Secure-CentOS-VPS-Add-new-user.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-786" src="./../../../wp-content/uploads/2014/12/3-Secure-CentOS-VPS-Add-new-user-620x396.png" alt="3-Secure-CentOS-VPS-Add new user" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/3-Secure-CentOS-VPS-Add-new-user-620x396.png 620w, ./../../../wp-content/uploads/2014/12/3-Secure-CentOS-VPS-Add-new-user.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Bảo mật SSH:</strong></p>
+<p>Sau khi hoàn tất các bước trên chúng ta tiến hành thiết lập bảo mật cho SSH</p>
+<p>Gõ lệnh</p>
+<p style="padding-left: 30px;"><em>nano /etc/ssh/sshd_config</em></p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-1.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-787" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-1-620x396.png" alt="4-Secure-CentOS-VPS-SSH-1" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-1-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-1.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">Đổi port SSH</span></p>
+<p>Port mặc định của SSH là 22, do là mặc định nên hacker sẽ quét dựa theo cổng này để tấn công brute-force, tất nhiên là họ có công cụ làm tự động, do vậy đổi port giúp giảm nguy cơ bị tấn công rất nhiều.</p>
+<p>Trong ảnh dưới mình bỏ chọn dấu # và sửa port mặc định 22 thành port 2200</p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-2.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-788" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-2-620x396.png" alt="4-Secure-CentOS-VPS-SSH-2" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-2-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-2.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span style="text-decoration: underline;">ListenAddress</span>: Nếu bạn muốn chỉ cho phép truy cập SSH từ một địa chỉ IP cố định nào đó thì có thể thay đổi giá trị này.</p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-3.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-789" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-3-620x396.png" alt="4-Secure-CentOS-VPS-SSH-3" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-3-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-3.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Thay đổi tham số SSH</p>
+<p>MaxAuthTries: cho phép tối đa bao nhiêu lần đăng nhập không thành công.<br />
+MaxSession: cho phép tối đa bao nhiêu phiên (session) truy nhập SSH</p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-4.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-790" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-4-620x396.png" alt="4-Secure-CentOS-VPS-SSH-4" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-4-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-4.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Không cho phép tài khoản root trực tiếp đăng nhập ssh</p>
+<p>Bỏ chọn dấu # đầu dòng và sửa giá trị <span style="text-decoration: underline;">PermitRootLogin</span> thành no</p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-5.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-791" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-5-620x396.png" alt="4-Secure-CentOS-VPS-SSH-5" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-5-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-5.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Bạn thêm tham số <span style="text-decoration: underline;">AllowUsers</span> để cho phép tài khoản nào có thể truy cập SSH</p>
+<p>Như ảnh dưới là cho phép tài khoản monitor (đã tạo ở bước trên) đăng nhập ssh</p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-6.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-792" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-6-620x396.png" alt="4-Secure-CentOS-VPS-SSH-6" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-6-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-6.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đã hoàn tất cấu hình các tham số SSH, chạy lệnh dưới để tải các tham số</p>
+<p style="padding-left: 30px;"><em>service sshd reload</em></p>
+<p><a href="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-7.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-793" src="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-7-620x396.png" alt="4-Secure-CentOS-VPS-SSH-7" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-7-620x396.png 620w, ./../../../wp-content/uploads/2014/12/4-Secure-CentOS-VPS-SSH-7.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Mặc định tường lửa (IPTABLES) cho phép ssh theo port 22, tuy nhiên do chúng ta đã đổi port 22 thành port khác, do đó cần cấu hình tường lửa để cho phép SSH theo port mới.</p>
+<p>Các bạn có thể truy cập đến thư mục /etc/sysconfig</p>
+<p>Và chỉnh sửa file iptables</p>
+<p style="padding-left: 30px;"><em>nano /etc/sysconfig/iptables</em></p>
+<p><a href="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-1.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-794" src="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-1-620x396.png" alt="5-Secure-CentOS-VPS-ConfigFirewall-1" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-1-620x396.png 620w, ./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-1.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sửa port 22 thành port đã đổi</p>
+<p>Ctrl + X để thoát và chọn Y (Yes) để lưu file</p>
+<p><a href="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-2.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-795" src="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-2-620x396.png" alt="5-Secure-CentOS-VPS-ConfigFirewall-2" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-2-620x396.png 620w, ./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-2.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chạy lệnh</p>
+<p style="padding-left: 30px;"><em>service iptables reload</em></p>
+<p>để tải lại các tham số mới</p>
+<p>và lệnh</p>
+<p style="padding-left: 30px;"><em>service iptables status</em></p>
+<p>để xem trạng thái hoạt động của firewall, các bạn có thể thấy port 2200 như mình đã cấu hình</p>
+<p><a href="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-3.png" rel="lightbox[780]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-796" src="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-3-620x396.png" alt="5-Secure-CentOS-VPS-ConfigFirewall-3" width="620" height="396" srcset="./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-3-620x396.png 620w, ./../../../wp-content/uploads/2014/12/5-Secure-CentOS-VPS-ConfigFirewall-3.png 724w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-ssh%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-ssh%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-ssh%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-ssh%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20SSH" data-a2a-url="./../../../bao-mat-ssh/index.html" data-a2a-title="Bảo mật SSH"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../bao-mat-ssh/feed/index.html</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bảo mật VPS Linux</title>
+		<link>./../../../bao-mat-vps-linux/index.html</link>
+					<comments>./../../../bao-mat-vps-linux/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Thu, 18 Dec 2014 04:54:46 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[bảo mật]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[VPS]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=774</guid>
+
+					<description><![CDATA[Bảo mật VPS Linux Chào các bạn, hiện nay rất nhiều công ty cung cấp cloud server giá thành rất rẻ như Linode, Digital Ocean, Rackspace&#8230;tuy nhiên có một trở ngại với mọi người là hầu hết các vps này đều chạy Linux (CentOS là chính). Theo nhiều đánh giá thì VPS chạy tốt và <a class="more-link" href="./../../../bao-mat-vps-linux/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-vps-linux%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" data-a2a-url="./../../../bao-mat-vps-linux/index.html" data-a2a-title="Bảo mật VPS Linux"></a></p><p>Bảo mật VPS Linux</p>
+<p>Chào các bạn, hiện nay rất nhiều công ty cung cấp cloud server giá thành rất rẻ như Linode, Digital Ocean, Rackspace&#8230;tuy nhiên có một trở ngại với mọi người là hầu hết các vps này đều chạy Linux (CentOS là chính).</p>
+<p>Theo nhiều đánh giá thì VPS chạy tốt và ổn định hơn so với sử dụng host share khi một server được chạy cho rất, rất nhiều website. Tất nhiên là website của bạn chạy 1 mình sẽ tốt hơn là chung chạ với nhiều người khác.</p>
+<p>Để làm việc với VPS Linux thì tất nhiên bạn phải tự trang bị cho mình một số kiến thức nhất định để có thể làm chủ được những gì mình mua. Việc cấu hình vps linux hiện có rất nhiều hướng dẫn trên mạng, chỉ cần Google 1 chút là ra rất nhiều hướng dẫn nên mình cũng không nói thêm. Trong bài post này mình chủ yếu tập trung đến vấn đề mà mọi người cực kỳ quan tâm &#8211; bảo mật.</p>
+<p>Nói về bảo mật là nói về một chủ đề rộng lớn, những gì được post ở đây cũng chỉ là nhỏ nhoi. Tuy nhiên nó cũng phần nào giúp bạn giảm bớt được nguy cơ tấn công. Mình quan niệm thế này, server của bạn chưa bị hack chỉ có thể do bạn may mắn chưa bị hacker nhòm ngó mà thôi, tuy nhiên không vì vậy mà không cần quan tâm đến bảo mật.</p>
+<ul>
+<li><a title="Bảo mật SSH" href="./../../../bao-mat-ssh/index.html" target="_blank">Bảo mật SSH</a></li>
+<li><a title="Bảo mật tường lửa với Advanced Policy Firewall" href="./../../../bao-mat-tuong-lua-voi-apf/index.html" target="_blank">Bảo mật tường lửa với APF (Advanced Policy Firewall)</a></li>
+<li><a title="Block brute-force attach with BFD" href="./../../../chong-tan-cong-brute-force-voi-bfd/index.html" target="_blank">Chống tấn công brute-force với BFD (Brute Force Detection)</a></li>
+<li><a title="Block virus with ClamAV" href="./../../../cai-dat-clamav-antivirus-cho-centos/index.html" target="_blank">Phòng ngừa virus với ClamAV</a></li>
+<li><a title="Block rootkit with RKHunter" href="./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/index.html" target="_blank">Phòng ngừa rootkit với RKHunter</a></li>
+<li>Phòng ngừa tấn công với Snort</li>
+</ul>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-vps-linux%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-vps-linux%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20VPS%20Linux" data-a2a-url="./../../../bao-mat-vps-linux/index.html" data-a2a-title="Bảo mật VPS Linux"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../bao-mat-vps-linux/feed/index.html</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bảo mật WordPress với 2 step verification – P2</title>
+		<link>./../../../bao-mat-wordpress-voi-2-step-verification-p2/index.html</link>
+					<comments>./../../../bao-mat-wordpress-voi-2-step-verification-p2/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Sat, 22 Nov 2014 03:29:35 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[2-step verification]]></category>
+		<category><![CDATA[bảo mật]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=587</guid>
+
+					<description><![CDATA[Bảo mật WordPress với 2 step verification – P2 Ở phần trước mình đã hướng dẫn cách đăng ký và tạo key tích hợp cho WordPress, ở bài này mình hướng dẫn tiếp tục phần còn lại. Đầu tiên đăng nhập admin WordPress và mở phần Plugins =&#62; Add new =&#62; Search Duo Security và <a class="more-link" href="./../../../bao-mat-wordpress-voi-2-step-verification-p2/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p2%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P2" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p2%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P2" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p2%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P2" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p2%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P2" data-a2a-url="./../../../bao-mat-wordpress-voi-2-step-verification-p2/index.html" data-a2a-title="Bảo mật WordPress với 2 step verification – P2"></a></p><p><span style="color: #0000ff;"><strong>Bảo mật WordPress với 2 step verification – P2</strong></span></p>
+<p>Ở phần trước mình đã hướng dẫn cách đăng ký và tạo key tích hợp cho WordPress, ở bài này mình hướng dẫn tiếp tục phần còn lại.</p>
+<p>Đầu tiên đăng nhập admin WordPress và mở phần Plugins =&gt; Add new =&gt; Search Duo Security và cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-1.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-589" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-1-620x360.png" alt="3-Install Duo Security WordPress-1" width="620" height="360" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-1-620x360.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-1-920x534.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-1-705x409.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-1.png 1060w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><span id="more-587"></span></p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-2.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-591" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-2-620x362.png" alt="3-Install Duo Security WordPress-2" width="620" height="362" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-2-620x362.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-2-920x537.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-2-705x411.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-2.png 1056w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi đã cài đặt thành công và đã active plugin, bạn nhất Settings ở mục Duo Two-Factor Authentication.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-3.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-592" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-3-620x361.png" alt="3-Install Duo Security WordPress-3" width="620" height="361" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-3-620x361.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-3-920x536.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-3-705x410.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-3.png 1062w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tại giao diện này, bạn dán các thông tin đã tạo được ở phần trước vào các ô trống</p>
+<ul>
+<li>Integration key</li>
+<li>Secret key</li>
+<li>API hostname</li>
+</ul>
+<p>Ngoài ra có thể chọn các loại tài khoản nào được kích hoạt Duo 2-step verification</p>
+<p>Mặc định là chọn hết, tuy nhiên ở đây mình chỉ chọn Administrator do site mình chỉ có 1 mình mình quản lý và cũng không yêu cầu 2-step verification cho người đăng ký.</p>
+<p>Mục Disable XML-RPC được kích hoạt sẵn nhằm nâng cao khả năng bảo mật.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-4.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-593" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-4-620x361.png" alt="3-Install Duo Security WordPress-4" width="620" height="361" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-4-620x361.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-4-920x536.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-4-705x411.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-4.png 1058w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-5.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-594" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-5-620x361.png" alt="3-Install Duo Security WordPress-5" width="620" height="361" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-5-620x361.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-5-920x536.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-5-705x410.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-5.png 1059w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Sau khi các bước trên hoàn tất, một màn hình mới hiện ra giúp thiết lập bảo mật 2 bước.</p>
+<p>Nhấn Start Setup để bắt đầu.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-6.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-595" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-6-620x360.png" alt="3-Install Duo Security WordPress-6" width="620" height="360" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-6-620x360.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-6-920x535.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-6-705x410.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-6.png 1060w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn loại thiết bị, Duo Security khuyên dùng điện thoại (thứ thường xuyên mang theo bên người), tuy nhiên nếu thích thì bạn cũng có thể sử dụng máy tính bảng. Ở đây mình chọn Mobile và tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-7.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-596" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-7-620x360.png" alt="3-Install Duo Security WordPress-7" width="620" height="360" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-7-620x360.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-7-920x535.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-7-705x410.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-7.png 1060w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nhập số điện thoại và tiếp tục. Nhớ là bạn phải nhập chính xác số điện thoại của bạn, không thì Duo Security gởi thông tin đến máy khác cũng như không</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-8.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-597" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-8-620x361.png" alt="3-Install Duo Security WordPress-8" width="620" height="361" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-8-620x361.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-8-920x536.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-8-705x410.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-8.png 1059w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Chọn nền tảng thiết bị đang dùng, ở đây mình chọn Windows Phone.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-9.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-598" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-9-620x361.png" alt="3-Install Duo Security WordPress-9" width="620" height="361" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-9-620x361.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-9-920x535.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-9-705x410.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-9.png 1061w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Xác nhận đã cài app trước khi tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-10.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-599" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-10-620x361.png" alt="3-Install Duo Security WordPress-10" width="620" height="361" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-10-620x361.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-10-920x536.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-10-705x410.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-10.png 1059w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Ở bước này Duo Security sẽ gởi mã push xuống điện thoại của bạn, tất nhiên là ứng dụng Duo Mobile đang được mở, bạn chấp nhận đăng nhập thì đoạn QR code sẽ hiện dấu check màu xanh</p>
+<p>Continue</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-11.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-600" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-11-620x360.png" alt="3-Install Duo Security WordPress-11" width="620" height="360" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-11-620x360.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-11-920x535.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-11-705x410.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-11.png 1062w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tới đây là đã hoàn thành thủ tục</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-12.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-601" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-12-620x361.png" alt="3-Install Duo Security WordPress-12" width="620" height="361" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-12-620x361.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-12-920x535.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-12-705x410.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-12.png 1063w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Đây là màn hình yêu cầu bởi Duo Secirity khi bạn đăng nhập tài khoản WordPress, bạn có thể chọn Push, passcode, gọi điện thoại hoặc gởi tin nhắn theo ý muốn.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-13.png" rel="lightbox[587]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-602" src="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-13-620x361.png" alt="3-Install Duo Security WordPress-13" width="620" height="361" srcset="./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-13-620x361.png 620w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-13-920x535.png 920w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-13-705x410.png 705w, ./../../../wp-content/uploads/2014/11/3-Install-Duo-Security-Wordpress-13.png 1061w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p2%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P2" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p2%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P2" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p2%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P2" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p2%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P2" data-a2a-url="./../../../bao-mat-wordpress-voi-2-step-verification-p2/index.html" data-a2a-title="Bảo mật WordPress với 2 step verification – P2"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../bao-mat-wordpress-voi-2-step-verification-p2/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bảo mật WordPress với 2 step verification &#8211; P1</title>
+		<link>./../../../bao-mat-wordpress-voi-2-step-verification-p1/index.html</link>
+					<comments>./../../../bao-mat-wordpress-voi-2-step-verification-p1/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Sat, 22 Nov 2014 03:27:41 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[2-step verification]]></category>
+		<category><![CDATA[bảo mật]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=578</guid>
+
+					<description><![CDATA[Bảo mật WordPress với 2 step verification &#8211; P1 Xin chào các bạn, trong bài này mình giới thiệu về cách tăng cường bảo mật cho quá trình đăng nhập WordPress bằng phương pháp bảo mật 2 lớp &#8211; 2 step verification. Bảo mật 2 lớp hiện tại được rất nhiều hãng đưa vào áp <a class="more-link" href="./../../../bao-mat-wordpress-voi-2-step-verification-p1/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p1%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P1" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p1%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P1" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p1%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P1" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p1%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P1" data-a2a-url="./../../../bao-mat-wordpress-voi-2-step-verification-p1/index.html" data-a2a-title="Bảo mật WordPress với 2 step verification – P1"></a></p><p><span style="color: #0000ff;"><strong>Bảo mật WordPress với 2 step verification &#8211; P1</strong></span></p>
+<p>Xin chào các bạn, trong bài này mình giới thiệu về cách tăng cường bảo mật cho quá trình đăng nhập WordPress bằng phương pháp bảo mật 2 lớp &#8211; 2 step verification.</p>
+<p>Bảo mật 2 lớp hiện tại được rất nhiều hãng đưa vào áp dụng nhằm tăng cường khả năng bảo mật cho người sử dụng. Bằng cách thêm vào một tầng bảo mật, cụ thể ở đây là người dùng nhận tin nhắn hoặc mã bảo mật được gửi trực tiếp đến điện thoại.</p>
+<p>Về thông tin thêm 2 step verification, các bạn có thể tham khảo tại địa chỉ</p>
+<p><a title="Wiki 2-step verification" href="http://en.wikipedia.org/wiki/Two-step_verification" target="_blank">http://en.wikipedia.org/wiki/Two-step_verification</a></p>
+<p>Về các hãng cung cấp thì hiện nay có rất nhiều chẳng hạn như Google với Google Authenticator, Duo Security &#8230;<span id="more-578"></span></p>
+<p>Trong bài này mình sẽ hướng dẫn mọi người sử dụng 2-step verification của Duo Security.</p>
+<p>Duo Security cung cấp 2-step verification miễn phí  10 người sử dụng cho 1 tài khoản, hỗ trợ hầu hết các nền tảng di động kể cả Windows Phone.</p>
+<p>Google Authenticator thì miễn phí nhưng lại không hỗ trợ Windows Phone. Mặc dù Windows Phone có phần mềm khác có chức năng tương tự nhưng mình đã thử và không login được, do thời gian không đồng bộ.</p>
+<p>Dưới đây là hướng dẫn cách đăng ký và tạo key với Duo Security</p>
+<p><strong>Tạo tài khoản</strong></p>
+<p>Bạn truy cập trang web <a title="DuoSecurity" href="https://www.duosecurity.com/" target="_blank">www.duosecurity.com</a> và click vào nút Sign up free để tiến hành đăng ký tài khoản</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-1.png" rel="lightbox[578]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-579" src="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-1-620x384.png" alt="1-Register Duo Security-1" width="620" height="384" srcset="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-1-620x384.png 620w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-1-920x570.png 920w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-1-705x437.png 705w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-1.png 1061w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-2.png" rel="lightbox[578]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-580" src="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-2-620x383.png" alt="1-Register Duo Security-2" width="620" height="383" srcset="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-2-620x383.png 620w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-2-920x568.png 920w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-2-705x435.png 705w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-2.png 1063w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Ở bước này, trước tiên bạn cần cài đặt app Duo Mobile. Nếu Android thì bạn mở PlayStore để tìm kiếm, nếu là IOS thì mở Appstore, còn Windows Phone thì mở Windows Phone Store</p>
+<p>Sau khi đã cài đặt thì ở app lên và quét mã QR core trên màn hình</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-3.png" rel="lightbox[578]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-581" src="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-3-620x384.png" alt="1-Register Duo Security-3" width="620" height="384" srcset="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-3-620x384.png 620w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-3-920x570.png 920w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-3-705x437.png 705w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-3.png 1063w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Ở bước này bạn phải nhập số điện thoại của bạn, nhớ là phải nhập đúng vì nhập sai thì sẽ không sử dụng được nhé.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-4.png" rel="lightbox[578]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-582" src="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-4-620x384.png" alt="1-Register Duo Security-4" width="620" height="384" srcset="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-4-620x384.png 620w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-4-920x570.png 920w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-4-705x437.png 705w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-4.png 1061w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Ở bước này bạn nhấn nút Duo Push hoặc Text me để kiểm tra thử</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-5.png" rel="lightbox[578]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-583" src="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-5-620x382.png" alt="1-Register Duo Security-5" width="620" height="382" srcset="./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-5-620x382.png 620w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-5-920x568.png 920w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-5-705x435.png 705w, ./../../../wp-content/uploads/2014/11/1-Register-Duo-Security-5.png 1062w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Nếu mọi thứ đều ổn thì bạn sẽ được chuyển đến giao diện thiết lập của Duo Security. Tại đây chúng ta sẽ tiến hành tạo key tích hợp cho WordPress.</p>
+<p>Integration type bạn chọn là WordPress</p>
+<p>Integration name bạn đặt tên bất kỳ, có thể là tên site của bạn.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Duo-Security-Intergration-1.png" rel="lightbox[578]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-584" src="./../../../wp-content/uploads/2014/11/2-Duo-Security-Intergration-1-620x362.png" alt="2-Duo Security Intergration-1" width="620" height="362" srcset="./../../../wp-content/uploads/2014/11/2-Duo-Security-Intergration-1-620x362.png 620w, ./../../../wp-content/uploads/2014/11/2-Duo-Security-Intergration-1-920x537.png 920w, ./../../../wp-content/uploads/2014/11/2-Duo-Security-Intergration-1-705x412.png 705w, ./../../../wp-content/uploads/2014/11/2-Duo-Security-Intergration-1.png 1059w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Duo Security sẽ tạo ra các thông số như trong hình dưới, 3 thông số này dùng để thiết lập Duo Security trong WordPress.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Duo-Security-Intergration-2.png" rel="lightbox[578]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-585" src="./../../../wp-content/uploads/2014/11/2-Duo-Security-Intergration-2-620x361.png" alt="2-Duo Security Intergration-2" width="620" height="361" srcset="./../../../wp-content/uploads/2014/11/2-Duo-Security-Intergration-2-620x361.png 620w, ./../../../wp-content/uploads/2014/11/2-Duo-Security-Intergration-2-920x536.png 920w, ./../../../wp-content/uploads/2014/11/2-Duo-Security-Intergration-2-705x411.png 705w, ./../../../wp-content/uploads/2014/11/2-Duo-Security-Intergration-2.png 1060w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trong bài tới mình sẽ hướng dẫn cách tích hợp Duo Security vào WordPress</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p1%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P1" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p1%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P1" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p1%2F&amp;linkname=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P1" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fbao-mat-wordpress-voi-2-step-verification-p1%2F&#038;title=B%E1%BA%A3o%20m%E1%BA%ADt%20WordPress%20v%E1%BB%9Bi%202%20step%20verification%20%E2%80%93%20P1" data-a2a-url="./../../../bao-mat-wordpress-voi-2-step-verification-p1/index.html" data-a2a-title="Bảo mật WordPress với 2 step verification – P1"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../bao-mat-wordpress-voi-2-step-verification-p1/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

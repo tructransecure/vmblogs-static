@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Parallels Plesk &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 08:08:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>Parallels Plesk &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Bài 5 &#8211; Cài đặt Parallels Plesk 12</title>
+		<link>./../../../cai-dat-parallels-plesk-12/index.html</link>
+					<comments>./../../../cai-dat-parallels-plesk-12/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 17 Nov 2014 15:03:20 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Parallels Plesk]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=503</guid>
+
+					<description><![CDATA[Bài 5 &#8211; Cài đặt Parallels Plesk 12 Các bước khó khăn đã qua, ở bước này tương đối đơn giản vì mọi thứ đều làm tự động, chúng ta có thể pha một ly cafe ngồi thưởng thức và thỉnh thoảng Enter khi trình cài đặt hỏi. Tải script cài đặt tự động Trước <a class="more-link" href="./../../../cai-dat-parallels-plesk-12/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-parallels-plesk-12%2F&amp;linkname=B%C3%A0i%205%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Parallels%20Plesk%2012" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-parallels-plesk-12%2F&amp;linkname=B%C3%A0i%205%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Parallels%20Plesk%2012" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-parallels-plesk-12%2F&amp;linkname=B%C3%A0i%205%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Parallels%20Plesk%2012" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-parallels-plesk-12%2F&#038;title=B%C3%A0i%205%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Parallels%20Plesk%2012" data-a2a-url="./../../../cai-dat-parallels-plesk-12/index.html" data-a2a-title="Bài 5 – Cài đặt Parallels Plesk 12"></a></p><p><span style="color: #0000ff;"><strong>Bài 5 &#8211; Cài đặt Parallels Plesk 12</strong></span></p>
+<p>Các bước khó khăn đã qua, ở bước này tương đối đơn giản vì mọi thứ đều làm tự động, chúng ta có thể pha một ly cafe ngồi thưởng thức và thỉnh thoảng Enter khi trình cài đặt hỏi.</p>
+<p><strong>Tải script cài đặt tự động</strong></p>
+<p>Trước khi cài đặt bắt đầu chúng ta cần phải download script cài đặt tự động về HDD.</p>
+<p>Tại bất kỳ thư mục nào (/opt chẳng hạn), bạn gõ lệnh</p>
+<blockquote><p>wget http://autoinstall.plesk.com/plesk-installer</p></blockquote>
+<p>để bắt đầu tải script cài đặt.</p>
+<p>Sau khi tải xong bạn gõ lệnh</p>
+<blockquote><p>chmod +x plesk-installer</p></blockquote>
+<p>để cấp quyền chạy cho script cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2014/11/1-Download-Installation-Script.png" rel="lightbox[503]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-505" src="./../../../wp-content/uploads/2014/11/1-Download-Installation-Script-620x414.png" alt="1-Download Installation Script" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/1-Download-Installation-Script-620x414.png 620w, ./../../../wp-content/uploads/2014/11/1-Download-Installation-Script-705x471.png 705w, ./../../../wp-content/uploads/2014/11/1-Download-Installation-Script.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Tiếp tục gõ lệnh</p>
+<blockquote><p>./plesk-installer</p></blockquote>
+<p>để bắt đầu cài đặt</p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Install-Plesk-1.png" rel="lightbox[503]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-506" src="./../../../wp-content/uploads/2014/11/2-Install-Plesk-1-620x414.png" alt="2-Install Plesk 1" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/2-Install-Plesk-1-620x414.png 620w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-1-705x471.png 705w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-1.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Các bước tiếp theo tương đối nhẹ nhàng và chỉ cần Enter để chọn Next</p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Install-Plesk-2.png" rel="lightbox[503]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-507" src="./../../../wp-content/uploads/2014/11/2-Install-Plesk-2-620x414.png" alt="2-Install Plesk 2" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/2-Install-Plesk-2-620x414.png 620w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-2-705x471.png 705w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-2.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Ở bước này, trình cài đặt có hỏi chuyển thư mục lưu bộ cài, bạn có thể thay đổi nếu muốn, nếu không thì Enter (Next) để tiếp tục</p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Install-Plesk-3.png" rel="lightbox[503]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-508" src="./../../../wp-content/uploads/2014/11/2-Install-Plesk-3-620x414.png" alt="2-Install Plesk 3" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/2-Install-Plesk-3-620x414.png 620w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-3-705x471.png 705w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-3.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Install-Plesk-4.png" rel="lightbox[503]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-509" src="./../../../wp-content/uploads/2014/11/2-Install-Plesk-4-620x414.png" alt="2-Install Plesk 4" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/2-Install-Plesk-4-620x414.png 620w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-4-705x471.png 705w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-4.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Install-Plesk-5.png" rel="lightbox[503]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-510" src="./../../../wp-content/uploads/2014/11/2-Install-Plesk-5-620x414.png" alt="2-Install Plesk 5" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/2-Install-Plesk-5-620x414.png 620w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-5-705x471.png 705w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-5.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Install-Plesk-6.png" rel="lightbox[503]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-511" src="./../../../wp-content/uploads/2014/11/2-Install-Plesk-6-620x414.png" alt="2-Install Plesk 6" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/2-Install-Plesk-6-620x414.png 620w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-6-705x471.png 705w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-6.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Install-Plesk-7.png" rel="lightbox[503]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-512" src="./../../../wp-content/uploads/2014/11/2-Install-Plesk-7-620x414.png" alt="2-Install Plesk 7" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/2-Install-Plesk-7-620x414.png 620w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-7-705x471.png 705w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-7.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Install-Plesk-8.png" rel="lightbox[503]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-513" src="./../../../wp-content/uploads/2014/11/2-Install-Plesk-8-620x414.png" alt="2-Install Plesk 8" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/2-Install-Plesk-8-620x414.png 620w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-8-705x471.png 705w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-8.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Install-Plesk-9.png" rel="lightbox[503]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-514" src="./../../../wp-content/uploads/2014/11/2-Install-Plesk-9-620x414.png" alt="2-Install Plesk 9" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/2-Install-Plesk-9-620x414.png 620w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-9-705x471.png 705w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-9.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Install-Plesk-10.png" rel="lightbox[503]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-515" src="./../../../wp-content/uploads/2014/11/2-Install-Plesk-10-620x414.png" alt="2-Install Plesk 10" width="620" height="414" srcset="./../../../wp-content/uploads/2014/11/2-Install-Plesk-10-620x414.png 620w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-10-705x471.png 705w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-10.png 900w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Trình cài đặt tự động làm toàn bộ mọi thứ cần thiết cho bạn. Tuỳ theo tốc độ mạng nhanh hay chậm và thời gian cài đặt ít hay nhiều. Nếu mọi thứ suôn sẻ bạn sẽ thấy như bên dưới.</p>
+<p><a href="./../../../wp-content/uploads/2014/11/2-Install-Plesk-11-Finish.png" rel="lightbox[503]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-516" src="./../../../wp-content/uploads/2014/11/2-Install-Plesk-11-Finish-620x81.png" alt="2-Install Plesk 11 - Finish" width="620" height="81" srcset="./../../../wp-content/uploads/2014/11/2-Install-Plesk-11-Finish-620x81.png 620w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-11-Finish-705x92.png 705w, ./../../../wp-content/uploads/2014/11/2-Install-Plesk-11-Finish.png 882w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p>Ở bài tiếp theo mình sẽ hướng dẫn mở port Google và trong máy ảo (2 nơi), thiết lập tên miền và bắt đầu quản trị Plesk Panel.</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fcai-dat-parallels-plesk-12%2F&amp;linkname=B%C3%A0i%205%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Parallels%20Plesk%2012" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fcai-dat-parallels-plesk-12%2F&amp;linkname=B%C3%A0i%205%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Parallels%20Plesk%2012" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fcai-dat-parallels-plesk-12%2F&amp;linkname=B%C3%A0i%205%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Parallels%20Plesk%2012" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fcai-dat-parallels-plesk-12%2F&#038;title=B%C3%A0i%205%20%E2%80%93%20C%C3%A0i%20%C4%91%E1%BA%B7t%20Parallels%20Plesk%2012" data-a2a-url="./../../../cai-dat-parallels-plesk-12/index.html" data-a2a-title="Bài 5 – Cài đặt Parallels Plesk 12"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../cai-dat-parallels-plesk-12/feed/index.html</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hướng dẫn xây dựng hosting với Parallels Plesk và Google Cloud Platform</title>
+		<link>./../../../huong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform/index.html</link>
+					<comments>./../../../huong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 17 Nov 2014 12:55:20 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Google Cloud Platform]]></category>
+		<category><![CDATA[Parallels Plesk]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=457</guid>
+
+					<description><![CDATA[Hướng dẫn xây dựng hosting với Parallels Plesk và Google Cloud Platform Xin chào các bạn. Chắc hẳn ở đây cũng đã có nhiều bạn sử dụng hosting để lưu trữ website, dĩ nhiên là ở góc độ người dùng cuối. Hôm nay mình xin giới thiệu một chút về hosting và làm việc ở <a class="more-link" href="./../../../huong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&#038;title=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" data-a2a-url="./../../../huong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform/index.html" data-a2a-title="Hướng dẫn xây dựng hosting với Parallels Plesk và Google Cloud Platform"></a></p><p><span style="color: #0000ff;"><strong>Hướng dẫn xây dựng hosting với Parallels Plesk và Google Cloud Platform</strong></span></p>
+<p>Xin chào các bạn. Chắc hẳn ở đây cũng đã có nhiều bạn sử dụng hosting để lưu trữ website, dĩ nhiên là ở góc độ người dùng cuối.</p>
+<p>Hôm nay mình xin giới thiệu một chút về hosting và làm việc ở góc độ một người quản trị.</p>
+<p>Để xây dựng dựng hosting người ta có thể sử dụng rất nhiều nền tảng khác nhau, tuy nhiên gói gọn trong chuỗi bài này mình sẽ không thể đề cập được hết.</p>
+<p>Nền tảng mình chọn để viết bài này là <strong>Parallels Plesk</strong> và <strong>Google Cloud Platform.</strong></p>
+<p>Cả 2 sản phẩm đều cho dùng thử miễn phí, giúp cho các bạn có thể xây dựng nền tảng cho riêng mình để học hỏi, nắm bắt kinh nghiệm và xử lý tình huống thực tiễn. Tất nhiên là không tốn tiền, tuy nhiên nếu bạn muốn tiếp tục thì đơn giản chỉ việc trả tiền, phí dịch vụ cũng vừa phải, không quá đắt.</p>
+<p>Nội dung trong chuỗi bài này bao gồm các bài</p>
+<p><a title="Đăng ký dùng thử Google Cloud Platform" href="./../../../dang-ky-dung-thu-google-cloud-platform/index.html" target="_blank">Bài 1 &#8211; Đăng ký dùng thử Google Cloud Platform</a><br />
+<a title="Bắt đầu với Google Cloud Platform" href="./../../../bat-dau-voi-google-cloud-platform/index.html" target="_blank">Bài 2 &#8211; Bắt đầu với Google Cloud Platform</a><br />
+<a title="Tạo máy ảo VPS" href="./../../../tao-moi-mot-instance-may-ao-vps/index.html" target="_blank">Bài 3 &#8211; Tạo máy ảo (VPS)</a><br />
+<a title="Truy cập máy ảo và các cài đặt đầu tiên" href="./../../../truy-cap-may-ao-va-cac-cai-dat-dau-tien/index.html" target="_blank">Bài 4 &#8211; Truy cập máy ảo và các cài đặt đầu tiên</a><br />
+<a title="Cài đặt Paralells Plesk 12" href="./../../../cai-dat-parallels-plesk-12/index.html" target="_blank">Bài 5 &#8211; Cài đặt Parallels Plesk 12</a><br />
+<a title="Mở port và cài đặt tên miền" href="./../../../mo-port-va-cai-dat-ten-mien/index.html" target="_blank">Bài 6 &#8211; Mở port và cài đặt tên miền</a><br />
+<a title="Cài đặt rkhunter diệt rootkit" href="./../../../cai-dat-rkhunter-diet-rootkit-cho-centos/index.html" target="_blank">Bài 7 &#8211; Cài đặt rkhunter, diệt rootkit cho CentOS</a><br />
+<a title="Cài đặt ClamAV antivirus cho CentOS" href="./../../../cai-dat-clamav-antivirus-cho-centos/index.html" target="_blank">Bài 8 &#8211; Cài đặt ClamAV antivirus cho Centos</a><br />
+<a title="Cài đặt APF và BFD" href="./../../../cai-dat-advanced-policy-firewall-brute-force-detection/index.html" target="_blank">Bài 9 &#8211; Cài đặt Advanced Policy Firewall &amp; Brute Force Detection</a><br />
+Bài 10 &#8211; Bảo mật SSH với 2 step verification</p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&amp;linkname=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fhuong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform%2F&#038;title=H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20x%C3%A2y%20d%E1%BB%B1ng%20hosting%20v%E1%BB%9Bi%20Parallels%20Plesk%20v%C3%A0%20Google%20Cloud%20Platform" data-a2a-url="./../../../huong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform/index.html" data-a2a-title="Hướng dẫn xây dựng hosting với Parallels Plesk và Google Cloud Platform"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../huong-dan-xay-dung-hosting-voi-parallels-plesk-va-google-cloud-platform/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

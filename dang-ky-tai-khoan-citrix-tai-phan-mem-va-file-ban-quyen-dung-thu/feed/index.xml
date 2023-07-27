@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Đăng ký tài khoản Citrix, tải phần mềm và file bản quyền dùng thử	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 20 Oct 2015 02:42:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<item>
+		<title>
+		By: Trung Truc Tran		</title>
+		<link>./../index.html#comment-73</link>
+
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 20 Oct 2015 02:42:42 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1182#comment-73</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../index.html#comment-71&quot;&gt;HieuDT&lt;/a&gt;.
+
+Dear bạn,
+
+Hết bản quyền dùng thử thì có 2 tùy chọn, hoặc mua license dùng luôn hoặc cài lại với license dùng thử khác.
+
+Ngoài ra có thể pm riêng mình :)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../index.html#comment-71">HieuDT</a>.</p>
+<p>Dear bạn,</p>
+<p>Hết bản quyền dùng thử thì có 2 tùy chọn, hoặc mua license dùng luôn hoặc cài lại với license dùng thử khác.</p>
+<p>Ngoài ra có thể pm riêng mình 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: HieuDT		</title>
+		<link>./../index.html#comment-71</link>
+
+		<dc:creator><![CDATA[HieuDT]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2015 06:13:54 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1182#comment-71</guid>
+
+					<description><![CDATA[Ko mua bản quyền có được ko bác ? Dùng thử hết hạn rồi phải làm sao :v]]></description>
+			<content:encoded><![CDATA[<p>Ko mua bản quyền có được ko bác ? Dùng thử hết hạn rồi phải làm sao :v</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Trung Truc Tran		</title>
+		<link>./../index.html#comment-48</link>
+
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 30 Jun 2015 02:17:33 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1182#comment-48</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../index.html#comment-46&quot;&gt;Vũ Việt&lt;/a&gt;.
+
+Bộ cài Citrix dung lượng rất lớn không tiện đưa lên mạng bạn ơi, Citrix cho phép email miễn phí đăng ký, bạn cố gắng đăng ký nhé. Mình dùng yahoomail và Gmail đều đăng ký được]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../index.html#comment-46">Vũ Việt</a>.</p>
+<p>Bộ cài Citrix dung lượng rất lớn không tiện đưa lên mạng bạn ơi, Citrix cho phép email miễn phí đăng ký, bạn cố gắng đăng ký nhé. Mình dùng yahoomail và Gmail đều đăng ký được</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vũ Việt		</title>
+		<link>./../index.html#comment-46</link>
+
+		<dc:creator><![CDATA[Vũ Việt]]></dc:creator>
+		<pubDate>Fri, 12 Jun 2015 12:07:31 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1182#comment-46</guid>
+
+					<description><![CDATA[Bạn làm ơn gửi cho mình bộ cài và license kèm theo hostname được không, mình không thể đăng ký được ở trang chủ của họ, cám ơn nhiều nhé
+likefilm72@gmail.com]]></description>
+			<content:encoded><![CDATA[<p>Bạn làm ơn gửi cho mình bộ cài và license kèm theo hostname được không, mình không thể đăng ký được ở trang chủ của họ, cám ơn nhiều nhé<br />
+<a href="mailto:likefilm72@gmail.com">likefilm72@gmail.com</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

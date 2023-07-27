@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments for VMBlogs	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 03 Jan 2017 08:55:17 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<item>
+		<title>
+		Comment on Hướng dẫn kích hoạt Microsoft Remote Desktop Licensing by Scout0001		</title>
+		<link>./../../huong-dan-kich-hoat-microsoft-remote-desktop-licensing/index.html#comment-86</link>
+
+		<dc:creator><![CDATA[Scout0001]]></dc:creator>
+		<pubDate>Tue, 03 Jan 2017 08:55:17 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1122#comment-86</guid>
+
+					<description><![CDATA[Các bạn có thể xem thêm tại video : https://www.youtube.com/watch?v=gdre4yaETXA]]></description>
+			<content:encoded><![CDATA[<p>Các bạn có thể xem thêm tại video : <a href="https://www.youtube.com/watch?v=gdre4yaETXA" rel="nofollow ugc">https://www.youtube.com/watch?v=gdre4yaETXA</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Sophos XG Firewall Port Forwarding by Dinh To		</title>
+		<link>./../../sophos-xg-firewall-port-forwarding/index.html#comment-85</link>
+
+		<dc:creator><![CDATA[Dinh To]]></dc:creator>
+		<pubDate>Thu, 30 Jun 2016 15:04:19 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=2098#comment-85</guid>
+
+					<description><![CDATA[Chào Anh,
+
+Tình cờ mình biết được trang Web của Anh. Đọc những bài viết của Anh thật sự rất chi tiết và hữu ích.
+Chúc Anh luôn thành công, có thật nhiều niềm vui, sức khỏe và có nhiều bài viết hay, hữu ích cho cộng đồng.
+
+Dinh To]]></description>
+			<content:encoded><![CDATA[<p>Chào Anh,</p>
+<p>Tình cờ mình biết được trang Web của Anh. Đọc những bài viết của Anh thật sự rất chi tiết và hữu ích.<br />
+Chúc Anh luôn thành công, có thật nhiều niềm vui, sức khỏe và có nhiều bài viết hay, hữu ích cho cộng đồng.</p>
+<p>Dinh To</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Deploy Windows 10 và Office 2013 với Microsoft Deployment Toolkit P1 by Trung Truc Tran		</title>
+		<link>./../../deploy-windows-10-va-office-2013-voi-microsoft-deployment-toolkit-p1/index.html#comment-84</link>
+
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Wed, 27 Apr 2016 01:06:15 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1702#comment-84</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../../deploy-windows-10-va-office-2013-voi-microsoft-deployment-toolkit-p1/index.html#comment-83&quot;&gt;phamthong&lt;/a&gt;.
+
+Hi bạn,
+
+Deploy software trong hệ thống Windows có rất nhiều cách, mình nêu một vài từ khóa bạn có thể tìm hiểu và nghiên cứu nhé.
+
+Domain GPO software deploy (msi)
+Microsoft Deployment Toolkit cũng có thể deploy software nếu biết viết một số script
+Deploy software bằng system center
+Ảo hóa ứng dụng với Citrix XenApp, RemoteApp, AppV, VMware ThinApp...
+
+Nhìn chung nếu tìm hiểu thì trong quá trình tìm kiếm sẽ ra được nhiều thứ hay ho liên quan.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../../deploy-windows-10-va-office-2013-voi-microsoft-deployment-toolkit-p1/index.html#comment-83">phamthong</a>.</p>
+<p>Hi bạn,</p>
+<p>Deploy software trong hệ thống Windows có rất nhiều cách, mình nêu một vài từ khóa bạn có thể tìm hiểu và nghiên cứu nhé.</p>
+<p>Domain GPO software deploy (msi)<br />
+Microsoft Deployment Toolkit cũng có thể deploy software nếu biết viết một số script<br />
+Deploy software bằng system center<br />
+Ảo hóa ứng dụng với Citrix XenApp, RemoteApp, AppV, VMware ThinApp&#8230;</p>
+<p>Nhìn chung nếu tìm hiểu thì trong quá trình tìm kiếm sẽ ra được nhiều thứ hay ho liên quan.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Deploy Windows 10 và Office 2013 với Microsoft Deployment Toolkit P1 by phamthong		</title>
+		<link>./../../deploy-windows-10-va-office-2013-voi-microsoft-deployment-toolkit-p1/index.html#comment-83</link>
+
+		<dc:creator><![CDATA[phamthong]]></dc:creator>
+		<pubDate>Mon, 25 Apr 2016 06:29:30 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1702#comment-83</guid>
+
+					<description><![CDATA[Mấy bài viết của bạn hay thật, mình đang học về MCSA bạn cho mình xin tài liệu về phần Deploy Software từ Server xuống Client dc ko. Server 2012 ấy.
+Cảm ơn bạn nhiều
+e-mail: phamthongdno@hotmail.com]]></description>
+			<content:encoded><![CDATA[<p>Mấy bài viết của bạn hay thật, mình đang học về MCSA bạn cho mình xin tài liệu về phần Deploy Software từ Server xuống Client dc ko. Server 2012 ấy.<br />
+Cảm ơn bạn nhiều<br />
+e-mail: <a href="mailto:phamthongdno@hotmail.com">phamthongdno@hotmail.com</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Đăng ký tài khoản Citrix, tải phần mềm và file bản quyền dùng thử by Trung Truc Tran		</title>
+		<link>./../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html#comment-73</link>
+
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 20 Oct 2015 02:42:42 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1182#comment-73</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html#comment-71&quot;&gt;HieuDT&lt;/a&gt;.
+
+Dear bạn,
+
+Hết bản quyền dùng thử thì có 2 tùy chọn, hoặc mua license dùng luôn hoặc cài lại với license dùng thử khác.
+
+Ngoài ra có thể pm riêng mình :)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html#comment-71">HieuDT</a>.</p>
+<p>Dear bạn,</p>
+<p>Hết bản quyền dùng thử thì có 2 tùy chọn, hoặc mua license dùng luôn hoặc cài lại với license dùng thử khác.</p>
+<p>Ngoài ra có thể pm riêng mình 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Đăng ký tài khoản Citrix, tải phần mềm và file bản quyền dùng thử by HieuDT		</title>
+		<link>./../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html#comment-71</link>
+
+		<dc:creator><![CDATA[HieuDT]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2015 06:13:54 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1182#comment-71</guid>
+
+					<description><![CDATA[Ko mua bản quyền có được ko bác ? Dùng thử hết hạn rồi phải làm sao :v]]></description>
+			<content:encoded><![CDATA[<p>Ko mua bản quyền có được ko bác ? Dùng thử hết hạn rồi phải làm sao :v</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Hướng dẫn cài đặt XenApp 6.5 by Trung Truc Tran		</title>
+		<link>./../../huong-dan-cai-dat-xenapp-6-5/index.html#comment-54</link>
+
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 28 Sep 2015 00:59:53 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=168#comment-54</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../../huong-dan-cai-dat-xenapp-6-5/index.html#comment-52&quot;&gt;Trần Đình Vinh&lt;/a&gt;.
+
+Hi bạn,
+
+Dạo này lu bu nhiều cái mới nên 2 món đó tạm thời gác lại, thực ra nó cũng chỉ là tính năng + thêm chứ phần chính hầu như đã viết hết rồi.
+Để bữa nào rảnh mình sẽ bổ sung lại]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../../huong-dan-cai-dat-xenapp-6-5/index.html#comment-52">Trần Đình Vinh</a>.</p>
+<p>Hi bạn,</p>
+<p>Dạo này lu bu nhiều cái mới nên 2 món đó tạm thời gác lại, thực ra nó cũng chỉ là tính năng + thêm chứ phần chính hầu như đã viết hết rồi.<br />
+Để bữa nào rảnh mình sẽ bổ sung lại</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Hướng dẫn cài đặt XenApp 6.5 by Trần Đình Vinh		</title>
+		<link>./../../huong-dan-cai-dat-xenapp-6-5/index.html#comment-52</link>
+
+		<dc:creator><![CDATA[Trần Đình Vinh]]></dc:creator>
+		<pubDate>Sat, 26 Sep 2015 02:58:45 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=168#comment-52</guid>
+
+					<description><![CDATA[Bài này bị bác chủ bỏ bẵng lâu quá, ko hoàn thiện đc nốt 2 phần cuối rồi :(]]></description>
+			<content:encoded><![CDATA[<p>Bài này bị bác chủ bỏ bẵng lâu quá, ko hoàn thiện đc nốt 2 phần cuối rồi 🙁</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on VPN Server giá rẻ với Digital Ocean by Joseph		</title>
+		<link>./../../vpn-server-gia-re-voi-digital-ocean/index.html#comment-49</link>
+
+		<dc:creator><![CDATA[Joseph]]></dc:creator>
+		<pubDate>Tue, 25 Aug 2015 09:56:59 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=923#comment-49</guid>
+
+					<description><![CDATA[Hey great blog as usual. I am new users in vpn community. I don&#039;t know anything about vpn comparison. But hardly try to get some knowledge by visiting their website and reviews. Do you have any idea where should I follow? But randomly I searched and found this vpn comparison site and trying to follow this. Here it is: http://www.vpncomparison.org/provider/expressvpn/
+
+Please check and let me know I am going to the right way.]]></description>
+			<content:encoded><![CDATA[<p>Hey great blog as usual. I am new users in vpn community. I don&#8217;t know anything about vpn comparison. But hardly try to get some knowledge by visiting their website and reviews. Do you have any idea where should I follow? But randomly I searched and found this vpn comparison site and trying to follow this. Here it is: <a href="http://www.vpncomparison.org/provider/expressvpn/" rel="nofollow ugc">http://www.vpncomparison.org/provider/expressvpn/</a></p>
+<p>Please check and let me know I am going to the right way.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Đăng ký tài khoản Citrix, tải phần mềm và file bản quyền dùng thử by Trung Truc Tran		</title>
+		<link>./../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html#comment-48</link>
+
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Tue, 30 Jun 2015 02:17:33 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1182#comment-48</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html#comment-46&quot;&gt;Vũ Việt&lt;/a&gt;.
+
+Bộ cài Citrix dung lượng rất lớn không tiện đưa lên mạng bạn ơi, Citrix cho phép email miễn phí đăng ký, bạn cố gắng đăng ký nhé. Mình dùng yahoomail và Gmail đều đăng ký được]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../../dang-ky-tai-khoan-citrix-tai-phan-mem-va-file-ban-quyen-dung-thu/index.html#comment-46">Vũ Việt</a>.</p>
+<p>Bộ cài Citrix dung lượng rất lớn không tiện đưa lên mạng bạn ơi, Citrix cho phép email miễn phí đăng ký, bạn cố gắng đăng ký nhé. Mình dùng yahoomail và Gmail đều đăng ký được</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

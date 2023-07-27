@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>DaRT 8.1 &#8211; VMBlogs</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Chia sẻ tri thức công nghệ</description>
+	<lastBuildDate>Tue, 30 Dec 2014 08:04:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2015/11/favicon.ico</url>
+	<title>DaRT 8.1 &#8211; VMBlogs</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Microsoft Diagnostics and Recovery Toolset 8.1</title>
+		<link>./../../../microsoft-diagnostics-recovery-toolset-8-1/index.html</link>
+					<comments>./../../../microsoft-diagnostics-recovery-toolset-8-1/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Trung Truc Tran]]></dc:creator>
+		<pubDate>Mon, 29 Sep 2014 07:51:26 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[DaRT 8.1]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=412</guid>
+
+					<description><![CDATA[Microsoft Diagnostics and Recovery Toolset (DaRT) 8.1 helps you troubleshoot and repair Windows-based computers. This includes those computers that cannot be started. DaRT 8.1 is a powerful set of tools that extend the Windows Recovery Environment (WinRE). By using DaRT, you can analyze an issue to determine its cause, for example, by inspecting the computer’s <a class="more-link" href="./../../../microsoft-diagnostics-recovery-toolset-8-1/index.html">Read More ...</a>]]></description>
+										<content:encoded><![CDATA[<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fmicrosoft-diagnostics-recovery-toolset-8-1%2F&amp;linkname=Microsoft%20Diagnostics%20and%20Recovery%20Toolset%208.1" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fmicrosoft-diagnostics-recovery-toolset-8-1%2F&amp;linkname=Microsoft%20Diagnostics%20and%20Recovery%20Toolset%208.1" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fmicrosoft-diagnostics-recovery-toolset-8-1%2F&amp;linkname=Microsoft%20Diagnostics%20and%20Recovery%20Toolset%208.1" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fmicrosoft-diagnostics-recovery-toolset-8-1%2F&#038;title=Microsoft%20Diagnostics%20and%20Recovery%20Toolset%208.1" data-a2a-url="./../../../microsoft-diagnostics-recovery-toolset-8-1/index.html" data-a2a-title="Microsoft Diagnostics and Recovery Toolset 8.1"></a></p><p>Microsoft Diagnostics and Recovery Toolset (DaRT) 8.1 helps you troubleshoot and repair Windows-based computers. This includes those computers that cannot be started. DaRT 8.1 is a powerful set of tools that extend the Windows Recovery Environment (WinRE). By using DaRT, you can analyze an issue to determine its cause, for example, by inspecting the computer’s event log or system registry. DaRT supports the recovery of basic hard disks that contain partitions, for example, primary partitions and logical drives, and supports the recovery of volumes.</p>
+<blockquote><p>DaRT does not support the recovery of dynamic disks.</p></blockquote>
+<p><span id="more-412"></span></p>
+<p>DaRT also provides tools to help you fix a problem as soon as you determine the cause. For example, you can use the tools in DaRT to disable a faulty device driver, remove hotfixes, restore deleted files, and scan the computer for malware even when you cannot or should not start the installed Windows operating system.</p>
+<p>DaRT can help you quickly recover computers that are running either 32-bit or 64-bit versions of Windows 8.1, typically in less time than it would take to reimage the computer.</p>
+<p>Functionality in DaRT lets you create a recovery image. The recovery image starts Windows Recovery Environment (Windows RE), from which you can start the Diagnostics and Recovery Toolset window and access the DaRT tools.</p>
+<p>Use the DaRT Recovery Image Wizard to create the DaRT recovery image. By default, the wizard creates an International Organization for Standardization (ISO) image file and a Windows Imaging Format (WIM) file and let you burn the image to a CD, DVD, or USB. You can deploy the image locally at end user’s computers, or you can deploy it from a remote network partition or a recovery partition on the local hard drive.</p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-1.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-379" src="./../../../wp-content/uploads/2014/09/DaRT-1-620x465.png" alt="DaRT - 1" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/DaRT-1-620x465.png 620w, ./../../../wp-content/uploads/2014/09/DaRT-1-920x690.png 920w, ./../../../wp-content/uploads/2014/09/DaRT-1-705x528.png 705w, ./../../../wp-content/uploads/2014/09/DaRT-1.png 1024w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-2.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-380" src="./../../../wp-content/uploads/2014/09/DaRT-2-620x465.png" alt="DaRT - 2" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/DaRT-2-620x465.png 620w, ./../../../wp-content/uploads/2014/09/DaRT-2-920x690.png 920w, ./../../../wp-content/uploads/2014/09/DaRT-2-705x528.png 705w, ./../../../wp-content/uploads/2014/09/DaRT-2.png 1024w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-3.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-381" src="./../../../wp-content/uploads/2014/09/DaRT-3-620x465.png" alt="DaRT - 3" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/DaRT-3-620x465.png 620w, ./../../../wp-content/uploads/2014/09/DaRT-3-920x690.png 920w, ./../../../wp-content/uploads/2014/09/DaRT-3-705x528.png 705w, ./../../../wp-content/uploads/2014/09/DaRT-3.png 1024w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-4.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-382" src="./../../../wp-content/uploads/2014/09/DaRT-4-620x465.png" alt="DaRT - 4" width="620" height="465" srcset="./../../../wp-content/uploads/2014/09/DaRT-4-620x465.png 620w, ./../../../wp-content/uploads/2014/09/DaRT-4-920x690.png 920w, ./../../../wp-content/uploads/2014/09/DaRT-4-705x528.png 705w, ./../../../wp-content/uploads/2014/09/DaRT-4.png 1024w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-5.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-383" src="./../../../wp-content/uploads/2014/09/DaRT-5-620x519.png" alt="DaRT - 5" width="620" height="519" srcset="./../../../wp-content/uploads/2014/09/DaRT-5-620x519.png 620w, ./../../../wp-content/uploads/2014/09/DaRT-5.png 642w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Let&#8217;s have a quick look about DaRT 8.1 feature !!!</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-6-Registry-Editor.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-384" src="./../../../wp-content/uploads/2014/09/DaRT-6-Registry-Editor-620x449.png" alt="DaRT - 6 - Registry Editor" width="620" height="449" srcset="./../../../wp-content/uploads/2014/09/DaRT-6-Registry-Editor-620x449.png 620w, ./../../../wp-content/uploads/2014/09/DaRT-6-Registry-Editor-705x511.png 705w, ./../../../wp-content/uploads/2014/09/DaRT-6-Registry-Editor.png 768w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Registry Editor</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-7-Locksmith-1.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-385" src="./../../../wp-content/uploads/2014/09/DaRT-7-Locksmith-1.png" alt="DaRT - 7 - Locksmith - 1" width="532" height="404" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-7-Locksmith-2.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-386" src="./../../../wp-content/uploads/2014/09/DaRT-7-Locksmith-2.png" alt="DaRT - 7 - Locksmith - 2" width="533" height="405" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-7-Locksmith-3.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-387" src="./../../../wp-content/uploads/2014/09/DaRT-7-Locksmith-3.png" alt="DaRT - 7 - Locksmith - 3" width="532" height="406" /></a></p>
+<p><strong>Locksmith for password recovery</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-8-File-Restore.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-388" src="./../../../wp-content/uploads/2014/09/DaRT-8-File-Restore-620x505.png" alt="DaRT - 8 - File Restore" width="620" height="505" srcset="./../../../wp-content/uploads/2014/09/DaRT-8-File-Restore-620x505.png 620w, ./../../../wp-content/uploads/2014/09/DaRT-8-File-Restore.png 699w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Recover deleted files</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-9-Disk-Commander-1.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-389" src="./../../../wp-content/uploads/2014/09/DaRT-9-Disk-Commander-1.png" alt="DaRT - 9 - Disk Commander - 1" width="579" height="416" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-9-Disk-Commander-2.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-390" src="./../../../wp-content/uploads/2014/09/DaRT-9-Disk-Commander-2.png" alt="DaRT - 9 - Disk Commander - 2" width="579" height="415" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-9-Disk-Commander-3.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-391" src="./../../../wp-content/uploads/2014/09/DaRT-9-Disk-Commander-3.png" alt="DaRT - 9 - Disk Commander - 3" width="578" height="415" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-9-Disk-Commander-4.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-392" src="./../../../wp-content/uploads/2014/09/DaRT-9-Disk-Commander-4.png" alt="DaRT - 9 - Disk Commander - 4" width="496" height="258" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-9-Disk-Commander-5.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-393" src="./../../../wp-content/uploads/2014/09/DaRT-9-Disk-Commander-5.png" alt="DaRT - 9 - Disk Commander - 5" width="575" height="412" /></a></p>
+<p><strong>Disk Commander</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-10-Disk-Wipe.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-394" src="./../../../wp-content/uploads/2014/09/DaRT-10-Disk-Wipe.png" alt="DaRT - 10 - Disk Wipe" width="420" height="399" /></a></p>
+<p><strong>Disk Wipe for wiping data securely</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-11-Computer-Management.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-395" src="./../../../wp-content/uploads/2014/09/DaRT-11-Computer-Management-620x451.png" alt="DaRT - 11 - Computer Management" width="620" height="451" srcset="./../../../wp-content/uploads/2014/09/DaRT-11-Computer-Management-620x451.png 620w, ./../../../wp-content/uploads/2014/09/DaRT-11-Computer-Management-705x512.png 705w, ./../../../wp-content/uploads/2014/09/DaRT-11-Computer-Management.png 767w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Computer management</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-12-Explorer.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-396" src="./../../../wp-content/uploads/2014/09/DaRT-12-Explorer-620x450.png" alt="DaRT - 12 - Explorer" width="620" height="450" srcset="./../../../wp-content/uploads/2014/09/DaRT-12-Explorer-620x450.png 620w, ./../../../wp-content/uploads/2014/09/DaRT-12-Explorer-705x511.png 705w, ./../../../wp-content/uploads/2014/09/DaRT-12-Explorer.png 766w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Explorer</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-13-Solution-Wizard-1.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-397" src="./../../../wp-content/uploads/2014/09/DaRT-13-Solution-Wizard-1.png" alt="DaRT - 13 - Solution Wizard - 1" width="533" height="403" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-13-Solution-Wizard-2.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-398" src="./../../../wp-content/uploads/2014/09/DaRT-13-Solution-Wizard-2.png" alt="DaRT - 13 - Solution Wizard - 2" width="534" height="404" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-13-Solution-Wizard-3.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-399" src="./../../../wp-content/uploads/2014/09/DaRT-13-Solution-Wizard-3.png" alt="DaRT - 13 - Solution Wizard - 3" width="532" height="403" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-13-Solution-Wizard-4.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-400" src="./../../../wp-content/uploads/2014/09/DaRT-13-Solution-Wizard-4.png" alt="DaRT - 13 - Solution Wizard - 4" width="533" height="403" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-13-Solution-Wizard-5.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-401" src="./../../../wp-content/uploads/2014/09/DaRT-13-Solution-Wizard-5.png" alt="DaRT - 13 - Solution Wizard - 5" width="534" height="404" /></a></p>
+<p><strong>Solution Wizard to find suitable tool.</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-14-TCPIP-Config.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-402" src="./../../../wp-content/uploads/2014/09/DaRT-14-TCPIP-Config.png" alt="DaRT - 14 - TCPIP Config" width="563" height="487" /></a></p>
+<p><strong>TCP/IP Config</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-15-Hotfix-Uninstall-1.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-403" src="./../../../wp-content/uploads/2014/09/DaRT-15-Hotfix-Uninstall-1.png" alt="DaRT - 15 - Hotfix Uninstall - 1" width="532" height="405" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-15-Hotfix-Uninstall-2.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-404" src="./../../../wp-content/uploads/2014/09/DaRT-15-Hotfix-Uninstall-2.png" alt="DaRT - 15 - Hotfix Uninstall - 2" width="531" height="404" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-15-Hotfix-Uninstall-3.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-405" src="./../../../wp-content/uploads/2014/09/DaRT-15-Hotfix-Uninstall-3.png" alt="DaRT - 15 - Hotfix Uninstall - 3" width="534" height="404" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-15-Hotfix-Uninstall-4.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-406" src="./../../../wp-content/uploads/2014/09/DaRT-15-Hotfix-Uninstall-4.png" alt="DaRT - 15 - Hotfix Uninstall - 4" width="535" height="401" /></a></p>
+<p><strong>Hotfix uninstaller</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-16-SFC-Scan-1.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-407" src="./../../../wp-content/uploads/2014/09/DaRT-16-SFC-Scan-1.png" alt="DaRT - 16 - SFC Scan - 1" width="533" height="406" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-16-SFC-Scan-2.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-408" src="./../../../wp-content/uploads/2014/09/DaRT-16-SFC-Scan-2.png" alt="DaRT - 16 - SFC Scan - 2" width="531" height="404" /></a></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-16-SFC-Scan-3.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-409" src="./../../../wp-content/uploads/2014/09/DaRT-16-SFC-Scan-3.png" alt="DaRT - 16 - SFC Scan - 3" width="534" height="404" /></a></p>
+<p><strong>SFC Scan to fix file system error.</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-17-File-Search.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-410" src="./../../../wp-content/uploads/2014/09/DaRT-17-File-Search-620x455.png" alt="DaRT - 17 - File Search" width="620" height="455" srcset="./../../../wp-content/uploads/2014/09/DaRT-17-File-Search-620x455.png 620w, ./../../../wp-content/uploads/2014/09/DaRT-17-File-Search-705x518.png 705w, ./../../../wp-content/uploads/2014/09/DaRT-17-File-Search.png 748w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>File search</strong></p>
+<p><a href="./../../../wp-content/uploads/2014/09/DaRT-18-Windows-Defender.png" rel="lightbox[412]"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-411" src="./../../../wp-content/uploads/2014/09/DaRT-18-Windows-Defender-620x435.png" alt="DaRT - 18 - Windows Defender" width="620" height="435" srcset="./../../../wp-content/uploads/2014/09/DaRT-18-Windows-Defender-620x435.png 620w, ./../../../wp-content/uploads/2014/09/DaRT-18-Windows-Defender-705x495.png 705w, ./../../../wp-content/uploads/2014/09/DaRT-18-Windows-Defender.png 793w" sizes="(max-width: 620px) 100vw, 620px" /></a></p>
+<p><strong>Windows Defender</strong></p>
+<p><span style="color: #ff0000;"><strong>Download link</strong></span></p>
+<p><a title="DaRT 8.1 x64" href="http://trustbank.vn/7Aq/DaRT_8.1_x64.iso" target="_blank">64bit</a></p>
+<p><a title="DaRT 8.1 x86" href="http://trustbank.vn/7Ar/DaRT_8.1_x86.iso" target="_blank">32bit</a></p>
+<p><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=.%2F%2Fmicrosoft-diagnostics-recovery-toolset-8-1%2F&amp;linkname=Microsoft%20Diagnostics%20and%20Recovery%20Toolset%208.1" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=.%2F%2Fmicrosoft-diagnostics-recovery-toolset-8-1%2F&amp;linkname=Microsoft%20Diagnostics%20and%20Recovery%20Toolset%208.1" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=.%2F%2Fmicrosoft-diagnostics-recovery-toolset-8-1%2F&amp;linkname=Microsoft%20Diagnostics%20and%20Recovery%20Toolset%208.1" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd a2a_counter addtoany_share_save addtoany_share" href="https://www.addtoany.com/share#url=.%2F%2Fmicrosoft-diagnostics-recovery-toolset-8-1%2F&#038;title=Microsoft%20Diagnostics%20and%20Recovery%20Toolset%208.1" data-a2a-url="./../../../microsoft-diagnostics-recovery-toolset-8-1/index.html" data-a2a-title="Microsoft Diagnostics and Recovery Toolset 8.1"></a></p>]]></content:encoded>
+					
+					<wfw:commentRss>./../../../microsoft-diagnostics-recovery-toolset-8-1/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
